@@ -1,0 +1,20 @@
+.logoRound {
+  display: flex;
+  align-items: center;
+  transition: transform 0.3s;
+}
+
+.logoRound:hover {
+  /* fill: #f4b652; */
+  transform: scale(1.2);
+}
+
+.logoWithText {
+  display: flex;
+  align-items: center;
+  transition: transform 0.3s;
+}
+
+.logoWithText:hover {
+  transform: scale(1.12);
+}
