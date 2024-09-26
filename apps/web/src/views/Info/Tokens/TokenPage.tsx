@@ -1,5 +1,5 @@
 /* eslint-disable no-nested-ternary */
-import { useTranslation } from '@pancakeswap/localization'
+import { useTranslation } from '@iguanadex/localization'
 import {
   Box,
   Breadcrumbs,
@@ -14,13 +14,13 @@ import {
   Text,
   Link as UIKitLink,
   useMatchBreakpoints,
-} from '@pancakeswap/uikit'
-import { NextLinkFromReactRouter } from '@pancakeswap/widgets-internal'
+} from '@iguanadex/uikit'
+import { NextLinkFromReactRouter } from '@iguanadex/widgets-internal'
 
 import useInfoUserSavedTokensAndPools from 'hooks/useInfoUserSavedTokensAndPoolsList'
 import { NextSeo } from 'next-seo'
 
-import truncateHash from '@pancakeswap/utils/truncateHash'
+import truncateHash from '@iguanadex/utils/truncateHash'
 import Page from 'components/Layout/Page'
 import { CHAIN_QUERY_NAME } from 'config/chains'
 import { ONE_HOUR_SECONDS } from 'config/constants/info'

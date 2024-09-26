@@ -1,5 +1,5 @@
-import { Token } from '@pancakeswap/sdk'
-import { ChainId } from '@pancakeswap/chains'
+import { ChainId } from '@iguanadex/chains'
+import { Token } from '@iguanadex/sdk'
 
 import { usdGasTokensByChain } from '../../constants'
 

@@ -1,4 +1,4 @@
-import { VAULTS_CONFIG_BY_CHAIN, VaultConfig } from '@pancakeswap/position-managers'
+import { VAULTS_CONFIG_BY_CHAIN, VaultConfig } from '@iguanadex/position-managers'
 import { useMemo } from 'react'
 
 import { useActiveChainId } from 'hooks/useActiveChainId'

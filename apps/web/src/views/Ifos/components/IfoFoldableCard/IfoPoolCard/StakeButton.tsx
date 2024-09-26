@@ -1,14 +1,14 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { isCakeVaultSupported, CAKE_VAULT_SUPPORTED_CHAINS } from '@pancakeswap/pools'
-import { SpaceProps } from 'styled-system'
+import { useTranslation } from '@iguanadex/localization'
+import { CAKE_VAULT_SUPPORTED_CHAINS, isCakeVaultSupported } from '@iguanadex/pools'
+import { Button, Flex, Text, useModalV2 } from '@iguanadex/uikit'
 import { useMemo } from 'react'
-import { Button, useModalV2, Flex, Text } from '@pancakeswap/uikit'
+import { SpaceProps } from 'styled-system'
 
 import { useActiveChainId } from 'hooks/useActiveChainId'
 
-import { NetworkSwitcherModal } from './NetworkSwitcherModal'
 import { useChainNames } from '../../../hooks/useChainNames'
 import { ICakeLogo } from '../../Icons'
+import { NetworkSwitcherModal } from './NetworkSwitcherModal'
 
 type Props = SpaceProps
 

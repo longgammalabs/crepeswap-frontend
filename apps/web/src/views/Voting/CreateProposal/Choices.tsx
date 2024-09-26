@@ -1,6 +1,6 @@
-import { Button, Card, CardBody, CardHeader, Heading } from '@pancakeswap/uikit'
+import { useTranslation } from '@iguanadex/localization'
+import { Button, Card, CardBody, CardHeader, Heading } from '@iguanadex/uikit'
 import uniqueId from 'lodash/uniqueId'
-import { useTranslation } from '@pancakeswap/localization'
 import Choice from './Choice'
 
 export interface ChoiceIdValue {

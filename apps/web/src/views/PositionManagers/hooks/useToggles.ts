@@ -1,6 +1,6 @@
+import { updateQuery } from '@iguanadex/utils/clientRouter'
 import { useRouter } from 'next/router'
 import { useCallback, useMemo } from 'react'
-import { updateQuery } from '@pancakeswap/utils/clientRouter'
 
 function toggleHookFactory(queryName: string) {
   return function useToggle(): [boolean, () => void] {

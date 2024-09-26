@@ -1,7 +1,7 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { Currency, CurrencyAmount, Percent } from '@pancakeswap/sdk'
-import { formatAmount } from '@pancakeswap/utils/formatFractions'
-import replaceBrowserHistory from '@pancakeswap/utils/replaceBrowserHistory'
+import { useTranslation } from '@iguanadex/localization'
+import { Currency, CurrencyAmount, Percent } from '@iguanadex/sdk'
+import { formatAmount } from '@iguanadex/utils/formatFractions'
+import replaceBrowserHistory from '@iguanadex/utils/replaceBrowserHistory'
 import { ReactNode, useCallback, useMemo } from 'react'
 
 import CurrencyInputPanel from 'components/CurrencyInputPanel'

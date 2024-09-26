@@ -1,5 +1,5 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { Box, Flex, Text, useMatchBreakpoints } from '@pancakeswap/uikit'
+import { useTranslation } from '@iguanadex/localization'
+import { Box, Flex, Text, useMatchBreakpoints } from '@iguanadex/uikit'
 import ConnectWalletButton from 'components/ConnectWalletButton'
 import { PANCAKE_ASSET_CDN } from 'config/constants/endpoints'
 import { keyframes, styled } from 'styled-components'

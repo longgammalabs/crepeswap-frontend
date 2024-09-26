@@ -2,13 +2,13 @@
   "name": "farms-api",
   "version": "0.0.0",
   "dependencies": {
-    "@pancakeswap/chains": "workspace:*",
-    "@pancakeswap/farms": "workspace:*",
-    "@pancakeswap/sdk": "workspace:*",
-    "@pancakeswap/swap-sdk-core": "workspace:*",
-    "@pancakeswap/tokens": "workspace:*",
-    "@pancakeswap/v3-sdk": "workspace:*",
-    "@pancakeswap/worker-utils": "workspace:*",
+    "@iguanadex/chains": "workspace:*",
+    "@iguanadex/farms": "workspace:*",
+    "@iguanadex/sdk": "workspace:*",
+    "@iguanadex/swap-sdk-core": "workspace:*",
+    "@iguanadex/tokens": "workspace:*",
+    "@iguanadex/v3-sdk": "workspace:*",
+    "@iguanadex/worker-utils": "workspace:*",
     "bignumber.js": "^9.0.0",
     "dayjs": "^1.11.10",
     "graphql-request": "5.0.0",
@@ -20,12 +20,12 @@
   },
   "devDependencies": {
     "@cloudflare/workers-types": "^3.10.0",
-    "@pancakeswap/tsconfig": "workspace:*",
+    "@iguanadex/tsconfig": "workspace:*",
     "@types/itty-router-extras": "^0.4.0",
     "@types/lodash": "^4.14.168",
     "wrangler": "2.20.2"
   },
-  "private": true,
+  "private": false,
   "scripts": {
     "dev": "wrangler dev",
     "deploy": "wrangler publish"

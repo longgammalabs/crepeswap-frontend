@@ -1,9 +1,9 @@
+import { ChevronDownIcon, Text } from '@iguanadex/uikit'
+import { Pool } from '@iguanadex/widgets-internal'
 import React from 'react'
 import { styled } from 'styled-components'
-import { Text, ChevronDownIcon } from '@pancakeswap/uikit'
-import { Pool } from '@pancakeswap/widgets-internal'
 
-import { useTranslation } from '@pancakeswap/localization'
+import { useTranslation } from '@iguanadex/localization'
 
 interface ExpandActionCellProps {
   expanded: boolean

@@ -1,6 +1,6 @@
-import { styled } from 'styled-components'
-import { AutoColumn } from '@pancakeswap/uikit'
+import { AutoColumn } from '@iguanadex/uikit'
 import { RowBetween } from 'components/Layout/Row'
+import { styled } from 'styled-components'
 
 const Grouping = styled(RowBetween)`
   width: 50%;

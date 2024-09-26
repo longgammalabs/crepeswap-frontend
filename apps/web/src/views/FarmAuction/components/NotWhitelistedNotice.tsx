@@ -1,5 +1,5 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { Box, Flex, HelpIcon, Message, Text } from '@pancakeswap/uikit'
+import { useTranslation } from '@iguanadex/localization'
+import { Box, Flex, HelpIcon, Message, Text } from '@iguanadex/uikit'
 import { Auction, ConnectedBidder } from 'config/constants/types'
 
 const NotWhitelistedNotice: React.FC<

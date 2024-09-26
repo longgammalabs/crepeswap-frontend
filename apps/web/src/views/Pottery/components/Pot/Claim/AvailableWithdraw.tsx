@@ -1,14 +1,14 @@
-import { useMemo } from 'react'
-import { useTranslation } from '@pancakeswap/localization'
-import { Flex, Box, Text, Balance } from '@pancakeswap/uikit'
-import { useCakePrice } from 'hooks/useCakePrice'
+import { useTranslation } from '@iguanadex/localization'
+import { Balance, Box, Flex, Text } from '@iguanadex/uikit'
+import { getBalanceNumber } from '@iguanadex/utils/formatBalance'
 import BigNumber from 'bignumber.js'
-import { getBalanceNumber } from '@pancakeswap/utils/formatBalance'
+import dayjs from 'dayjs'
+import { useCakePrice } from 'hooks/useCakePrice'
+import { useMemo } from 'react'
 import { PotteryWithdrawAbleData } from 'state/types'
+import { getDrawnDate } from 'views/Lottery/helpers'
 import WithdrawButton from 'views/Pottery/components/Pot/Claim/WithdrawButton'
 import { calculateCakeAmount } from 'views/Pottery/helpers'
-import { getDrawnDate } from 'views/Lottery/helpers'
-import dayjs from 'dayjs'
 
 interface AvailableWithdrawProps {
   withdrawData: PotteryWithdrawAbleData

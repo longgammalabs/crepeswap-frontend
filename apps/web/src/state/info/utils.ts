@@ -1,4 +1,4 @@
-import { ChainId } from '@pancakeswap/chains'
+import { ChainId } from '@iguanadex/chains'
 
 import { CHAIN_QUERY_NAME } from 'config/chains'
 
@@ -25,6 +25,8 @@ export function getChainName(chainId: ChainId) {
       return 'BSC'
     case ChainId.ETHEREUM:
       return 'ETH'
+    case ChainId.ETHERLINK:
+      return 'ETHERLINK'
     default:
       return 'BSC'
   }

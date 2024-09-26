@@ -1,7 +1,7 @@
-import { Currency } from '@pancakeswap/sdk'
+import { Currency } from '@iguanadex/sdk'
 
 import { Pool } from '../types'
-import { involvesCurrency, getOutputCurrency } from './pool'
+import { getOutputCurrency, involvesCurrency } from './pool'
 
 /**
  * Simple utility function to get the output of an array of Pools or Pairs

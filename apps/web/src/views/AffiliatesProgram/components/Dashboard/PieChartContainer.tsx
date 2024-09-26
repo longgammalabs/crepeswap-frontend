@@ -1,5 +1,5 @@
-import { Box } from '@pancakeswap/uikit'
-import { PieChart, Pie, Cell } from 'recharts'
+import { Box } from '@iguanadex/uikit'
+import { Cell, Pie, PieChart } from 'recharts'
 import { ChartInfo } from 'views/AffiliatesProgram/components/Dashboard/CommissionInfo'
 
 interface PieChartContainerProps {

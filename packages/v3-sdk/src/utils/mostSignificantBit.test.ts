@@ -1,5 +1,5 @@
-import { MaxUint256 } from '@pancakeswap/swap-sdk-core'
-import { describe, it, expect } from 'vitest'
+import { MaxUint256 } from '@iguanadex/swap-sdk-core'
+import { describe, expect, it } from 'vitest'
 import { ONE } from '../internalConstants'
 import { mostSignificantBit } from './mostSignificantBit'
 

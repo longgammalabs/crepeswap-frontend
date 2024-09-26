@@ -1,5 +1,5 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { Box, BoxProps, CalenderIcon, Card, Flex, Link, LocationIcon, OpenNewIcon, Text } from '@pancakeswap/uikit'
+import { useTranslation } from '@iguanadex/localization'
+import { Box, BoxProps, CalenderIcon, Card, Flex, Link, LocationIcon, OpenNewIcon, Text } from '@iguanadex/uikit'
 import { useState } from 'react'
 import { styled } from 'styled-components'
 import { HeightProps } from 'styled-system'

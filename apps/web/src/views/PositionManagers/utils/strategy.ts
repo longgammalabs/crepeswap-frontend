@@ -1,5 +1,5 @@
-import { TranslateFunction } from '@pancakeswap/localization'
-import { Strategy } from '@pancakeswap/position-managers'
+import { TranslateFunction } from '@iguanadex/localization'
+import { Strategy } from '@iguanadex/position-managers'
 
 export function getStrategyName(t: TranslateFunction, strategy: Strategy, allTokenName?: string) {
   switch (strategy) {

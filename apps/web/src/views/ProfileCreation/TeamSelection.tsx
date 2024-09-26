@@ -1,11 +1,11 @@
-import { useMemo } from 'react'
-import { Card, CardBody, CommunityIcon, Flex, Heading, Text } from '@pancakeswap/uikit'
+import { useTranslation } from '@iguanadex/localization'
+import { Card, CardBody, CommunityIcon, Flex, Heading, Text } from '@iguanadex/uikit'
 import { useQuery } from '@tanstack/react-query'
 import shuffle from 'lodash/shuffle'
+import { useMemo } from 'react'
 import { getTeams } from 'state/teams/helpers'
-import { useTranslation } from '@pancakeswap/localization'
-import SelectionCard from './SelectionCard'
 import NextStepButton from './NextStepButton'
+import SelectionCard from './SelectionCard'
 import useProfileCreation from './contexts/hook'
 
 const Team: React.FC<React.PropsWithChildren> = () => {

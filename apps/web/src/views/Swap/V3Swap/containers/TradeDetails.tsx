@@ -1,6 +1,6 @@
-import { TradeType } from '@pancakeswap/sdk'
-import { SmartRouter, SmartRouterTrade } from '@pancakeswap/smart-router'
-import { AutoColumn } from '@pancakeswap/uikit'
+import { TradeType } from '@iguanadex/sdk'
+import { SmartRouter, SmartRouterTrade } from '@iguanadex/smart-router'
+import { AutoColumn } from '@iguanadex/uikit'
 import useLastTruthy from 'hooks/useLast'
 import { memo, useMemo } from 'react'
 

@@ -1,7 +1,7 @@
-import { Token } from "@pancakeswap/sdk";
-import { tickToPrice } from "@pancakeswap/v3-sdk";
+import { Token } from "@iguanadex/sdk";
+import { tickToPrice } from "@iguanadex/v3-sdk";
 
-import { TickProcessed, TickDataRaw } from "./types";
+import { TickDataRaw, TickProcessed } from "./types";
 
 const PRICE_FIXED_DIGITS = 8;
 

@@ -1,6 +1,6 @@
+import { useTranslation } from '@iguanadex/localization'
+import { Flex, Text } from '@iguanadex/uikit'
 import BigNumber from 'bignumber.js'
-import { Flex, Text } from '@pancakeswap/uikit'
-import { useTranslation } from '@pancakeswap/localization'
 import { useConfig } from 'views/Predictions/context/ConfigProvider'
 import { formatBnb } from '../helpers'
 

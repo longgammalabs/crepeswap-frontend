@@ -1,15 +1,15 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { SpaceProps } from 'styled-system'
-import { ChainId, CurrencyAmount, Currency } from '@pancakeswap/sdk'
-import { Button, useModalV2, Loading } from '@pancakeswap/uikit'
+import { useTranslation } from '@iguanadex/localization'
+import { ChainId, Currency, CurrencyAmount } from '@iguanadex/sdk'
+import { Button, Loading, useModalV2 } from '@iguanadex/uikit'
 import { useCallback, useEffect, useState } from 'react'
+import { SpaceProps } from 'styled-system'
 
 import { useActiveChainId } from 'hooks/useActiveChainId'
 import { useSwitchNetwork } from 'hooks/useSwitchNetwork'
 
 // import { useChainNames } from '../../../hooks/useChainNames'
-import { useIfoSourceChain } from '../../../hooks/useIfoSourceChain'
 import { BRIDGE_STATE, useBridgeICake } from '../../../hooks/useBridgeICake'
+import { useIfoSourceChain } from '../../../hooks/useIfoSourceChain'
 import { BridgeICakeModal } from './BridgeICakeModal'
 
 type Props = {

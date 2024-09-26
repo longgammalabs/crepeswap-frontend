@@ -1,5 +1,6 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { ArrowDropDownIcon, ArrowDropUpIcon, Box, FlexGap, Text } from '@pancakeswap/uikit'
+import { useTranslation } from '@iguanadex/localization'
+import { ArrowDropDownIcon, ArrowDropUpIcon, Box, FlexGap, Text } from '@iguanadex/uikit'
+import { ASSET_CDN } from 'config/constants/endpoints'
 import Image from 'next/image'
 import { CHAIN_NAME_TO_CHAIN_ID } from 'views/Notifications/constants'
 import {
@@ -17,7 +18,7 @@ export const getNotificationPairlogo = (title: string, message: string) => {
   const chainId = CHAIN_NAME_TO_CHAIN_ID[chainName === 'polygon_zkevm.' ? 'polygon_zkevm' : chainName]
 
   const image1 = isAprNotification ? '/images/notifications/farms-scope.svg' : '/logo.png'
-  const image2 = `https://raw.githubusercontent.com/Iguana-DEX/assets/main/chains/${chainId}.png`
+  const image2 = `${ASSET_CDN}/chains/${chainId}.png`
 
   return { image1, image2 }
 }

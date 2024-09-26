@@ -9,12 +9,12 @@ import {
   VisibilityOff,
   VisibilityOn,
   useModal,
-} from '@pancakeswap/uikit'
-import { NextLinkFromReactRouter as ReactRouterLink } from '@pancakeswap/widgets-internal'
+} from '@iguanadex/uikit'
+import { NextLinkFromReactRouter as ReactRouterLink } from '@iguanadex/widgets-internal'
 
-import { useTranslation } from '@pancakeswap/localization'
-import { formatNumber } from '@pancakeswap/utils/formatBalance'
-import truncateHash from '@pancakeswap/utils/truncateHash'
+import { useTranslation } from '@iguanadex/localization'
+import { formatNumber } from '@iguanadex/utils/formatBalance'
+import truncateHash from '@iguanadex/utils/truncateHash'
 import { useDomainNameForAddress } from 'hooks/useDomain'
 import useGetUsernameWithVisibility from 'hooks/useUsernameWithVisibility'
 import { useMemo } from 'react'

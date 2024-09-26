@@ -1,4 +1,4 @@
-import type { ChainId } from '@pancakeswap/chains'
+import type { ChainId } from '@iguanadex/chains'
 import { useMemo } from 'react'
 
 const SUPPORTED_ONRAMP_TOKENS = ['ETH', 'DAI', 'USDT', 'USDC', 'BUSD', 'BNB', 'WBTC']

@@ -1,4 +1,4 @@
-import { ContextApi } from "@pancakeswap/localization";
+import { ContextApi } from "@iguanadex/localization";
 import { FooterLinkType } from "../../../components/Footer/types";
 
 export const footerLinks: (t: ContextApi["t"]) => FooterLinkType[] = (t) => [
@@ -15,12 +15,12 @@ export const footerLinks: (t: ContextApi["t"]) => FooterLinkType[] = (t) => [
       },
       {
         label: t("Brand Assets"),
-        href: "https://github.com/Iguana-DEX/assets/tree/main/iguana_brand_assets",
+        href: "https://github.com/IguanaDEX/assets/tree/main/iguana_brand_assets",
       },
-      {
-        label: t("IGN Token"),
-        href: "https://docs.iguanadex.com/iguanadex-on-mainnet/tokenomics",
-      },
+      // {
+      //   label: t("IGN Token"),
+      //   href: "https://docs.iguanadex.com/iguanadex-on-mainnet/tokenomics",
+      // },
       {
         label: t("Terms Of Service"),
         href: "https://iguanadex.com/terms-of-service",

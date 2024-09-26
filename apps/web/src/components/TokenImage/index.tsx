@@ -1,11 +1,11 @@
-import { ChainId } from '@pancakeswap/chains'
-import { Token } from '@pancakeswap/sdk'
+import { ChainId } from '@iguanadex/chains'
+import { Token } from '@iguanadex/sdk'
 import {
   ImageProps,
   TokenImage as UIKitTokenImage,
   TokenPairImage as UIKitTokenPairImage,
   TokenPairImageProps as UIKitTokenPairImageProps,
-} from '@pancakeswap/uikit'
+} from '@iguanadex/uikit'
 import { ASSET_CDN, PANCAKE_ASSET_CDN } from 'config/constants/endpoints'
 
 interface TokenPairImageProps extends Omit<UIKitTokenPairImageProps, 'primarySrc' | 'secondarySrc'> {

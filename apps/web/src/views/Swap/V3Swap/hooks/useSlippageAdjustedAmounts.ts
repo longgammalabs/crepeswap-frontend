@@ -1,6 +1,6 @@
-import { TradeType } from '@pancakeswap/sdk'
-import { SmartRouterTrade } from '@pancakeswap/smart-router'
-import { useUserSlippage } from '@pancakeswap/utils/user'
+import { TradeType } from '@iguanadex/sdk'
+import { SmartRouterTrade } from '@iguanadex/smart-router'
+import { useUserSlippage } from '@iguanadex/utils/user'
 import { useMemo } from 'react'
 import { computeSlippageAdjustedAmounts } from '../utils/exchange'
 

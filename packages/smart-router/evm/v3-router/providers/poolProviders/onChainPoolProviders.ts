@@ -1,8 +1,8 @@
-import { ChainId } from '@pancakeswap/chains'
-import { BigintIsh, Currency, CurrencyAmount, Percent, erc20ABI } from '@pancakeswap/sdk'
-import { deserializeToken } from '@pancakeswap/token-lists'
-import { DEPLOYER_ADDRESSES, FeeAmount, pancakeV3PoolABI, parseProtocolFees } from '@pancakeswap/v3-sdk'
-import { getStableSwapPools } from '@pancakeswap/stable-swap-sdk'
+import { ChainId } from '@iguanadex/chains'
+import { BigintIsh, Currency, CurrencyAmount, Percent, erc20ABI } from '@iguanadex/sdk'
+import { getStableSwapPools } from '@iguanadex/stable-swap-sdk'
+import { deserializeToken } from '@iguanadex/token-lists'
+import { DEPLOYER_ADDRESSES, FeeAmount, pancakeV3PoolABI, parseProtocolFees } from '@iguanadex/v3-sdk'
 import { Abi, ContractFunctionConfig } from 'viem'
 
 import { pancakePairABI } from '../../../abis/IPancakePair'

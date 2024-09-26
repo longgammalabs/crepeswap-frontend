@@ -1,5 +1,5 @@
+import { polygonZkEvmTestnetTokens } from '@iguanadex/tokens'
 import { getAddress } from 'viem'
-import { polygonZkEvmTestnetTokens } from '@pancakeswap/tokens'
 import { PoolCategory, SerializedPool } from '../../types'
 
 export const livePools: SerializedPool[] = [

@@ -1,5 +1,5 @@
-import { Flex, Text } from '@pancakeswap/uikit'
-import { useTranslation } from '@pancakeswap/localization'
+import { useTranslation } from '@iguanadex/localization'
+import { Flex, Text } from '@iguanadex/uikit'
 
 import { StyledPriceChart } from './styles'
 

@@ -1,4 +1,4 @@
-import { useTranslation } from '@pancakeswap/localization'
+import { useTranslation } from '@iguanadex/localization'
 import {
   ArrowBackIcon,
   ArrowForwardIcon,
@@ -11,7 +11,7 @@ import {
   Spinner,
   Text,
   useMatchBreakpoints,
-} from '@pancakeswap/uikit'
+} from '@iguanadex/uikit'
 import { useState } from 'react'
 import { styled } from 'styled-components'
 import { useFarmAuction } from '../hooks/useFarmAuction'

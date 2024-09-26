@@ -1,4 +1,4 @@
-import { Currency, CurrencyAmount, ERC20Token, Pair as V2Pair, Percent, Price, TradeType } from '@pancakeswap/sdk'
+import { Currency, CurrencyAmount, ERC20Token, Percent, Price, TradeType, Pair as V2Pair } from '@iguanadex/sdk'
 import { Address } from 'viem'
 
 import { RouteType } from './bestTrade'

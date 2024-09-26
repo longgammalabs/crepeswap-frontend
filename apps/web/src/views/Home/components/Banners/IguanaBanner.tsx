@@ -1,6 +1,6 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { Button, Flex, OpenNewIcon, Text, useMatchBreakpoints } from '@pancakeswap/uikit'
-import { NextLinkFromReactRouter } from '@pancakeswap/widgets-internal'
+import { useTranslation } from '@iguanadex/localization'
+import { Button, Flex, OpenNewIcon, Text, useMatchBreakpoints } from '@iguanadex/uikit'
+import { NextLinkFromReactRouter } from '@iguanadex/widgets-internal'
 import Image from 'next/legacy/image'
 import { memo } from 'react'
 import styled, { css } from 'styled-components'
@@ -154,7 +154,7 @@ const IguanaBanner = () => {
           <BGWrapper>
             <div style={{ borderRadius: '0px', overflow: 'hidden' }}>
               <Image
-                src="https://raw.githubusercontent.com/Iguana-DEX/assets/main/iguana_brand_assets/bg-header.webp"
+                src="https://raw.githubusercontent.com/IguanaDEX/assets/main/iguana_brand_assets/bg-header.webp"
                 alt="Background header"
                 layout="fill"
                 objectFit="cover"

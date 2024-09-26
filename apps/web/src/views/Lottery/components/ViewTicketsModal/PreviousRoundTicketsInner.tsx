@@ -1,4 +1,4 @@
-import { useTranslation } from '@pancakeswap/localization'
+import { useTranslation } from '@iguanadex/localization'
 import {
   Box,
   Button,
@@ -11,7 +11,7 @@ import {
   TooltipText,
   useModal,
   useTooltip,
-} from '@pancakeswap/uikit'
+} from '@iguanadex/uikit'
 import { LotteryTicket, LotteryTicketClaimData } from 'config/constants/types'
 import useTheme from 'hooks/useTheme'
 import orderBy from 'lodash/orderBy'

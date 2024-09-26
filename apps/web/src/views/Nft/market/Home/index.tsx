@@ -1,8 +1,8 @@
-import { Box, Button, Flex, Heading, LinkExternal, PageHeader, PageSection } from '@pancakeswap/uikit'
-import { NextLinkFromReactRouter } from '@pancakeswap/widgets-internal'
+import { Box, Button, Flex, Heading, LinkExternal, PageHeader, PageSection } from '@iguanadex/uikit'
+import { NextLinkFromReactRouter } from '@iguanadex/widgets-internal'
 import { styled } from 'styled-components'
 
-import { useTranslation } from '@pancakeswap/localization'
+import { useTranslation } from '@iguanadex/localization'
 import SectionsWithFoldableText from 'components/FoldableSection/SectionsWithFoldableText'
 import PageLoader from 'components/Loader/PageLoader'
 import useTheme from 'hooks/useTheme'
@@ -75,7 +75,7 @@ const Home = () => {
               {t('NFT Marketplace')}
             </Heading>
             <Heading scale="lg" color="text">
-              {t('Buy and Sell NFTs on BNB Smart Chain')}
+              {t('Buy and Sell NFTs on Etherlink')}
             </Heading>
             {account && (
               <Button as={NextLinkFromReactRouter} to={`/profile/${account.toLowerCase()}`} mt="32px">

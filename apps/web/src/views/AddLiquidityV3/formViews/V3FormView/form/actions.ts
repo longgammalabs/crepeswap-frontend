@@ -1,5 +1,5 @@
+import { Price, Token } from '@iguanadex/swap-sdk-core'
 import { createAction } from '@reduxjs/toolkit'
-import { Price, Token } from '@pancakeswap/swap-sdk-core'
 
 export enum Field {
   CURRENCY_A = 'CURRENCY_A',

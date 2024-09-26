@@ -1,5 +1,5 @@
-import { gql, GraphQLClient } from 'graphql-request'
 import BigNumber from 'bignumber.js'
+import { gql, GraphQLClient } from 'graphql-request'
 import { Block } from 'state/info/types'
 import { PoolData } from '../../types'
 import { get2DayChange } from '../../utils/data'
@@ -116,11 +116,12 @@ export async function fetchPoolDatas(
   try {
     const [block24, block48, blockWeek] = blocks ?? []
 
-    const data = await dataClient.request<PoolDataResponse>(POOLS_BULK(undefined, poolAddresses))
-
-    const data24 = await dataClient.request<PoolDataResponse>(POOLS_BULK(block24?.number, poolAddresses))
-    const data48 = await dataClient.request<PoolDataResponse>(POOLS_BULK(block48?.number, poolAddresses))
-    const dataWeek = await dataClient.request<PoolDataResponse>(POOLS_BULK(blockWeek?.number, poolAddresses))
+    const [data, data24, data48, dataWeek] = await Promise.all([
+      dataClient.request<PoolDataResponse>(POOLS_BULK(undefined, poolAddresses)),
+      dataClient.request<PoolDataResponse>(POOLS_BULK(block24?.number, poolAddresses)),
+      dataClient.request<PoolDataResponse>(POOLS_BULK(block48?.number, poolAddresses)),
+      dataClient.request<PoolDataResponse>(POOLS_BULK(blockWeek?.number, poolAddresses)),
+    ])
 
     // return early if not all data yet
 

@@ -1,4 +1,4 @@
-import { Percent } from '@pancakeswap/sdk'
+import { Percent } from '@iguanadex/sdk'
 
 import { lpTokenABI } from 'config/abi/lpTokenAbi'
 import { stableSwapABI } from 'config/abi/stableSwapAbi'

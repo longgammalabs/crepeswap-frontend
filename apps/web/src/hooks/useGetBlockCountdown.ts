@@ -1,4 +1,4 @@
-import { ChainId } from '@pancakeswap/chains'
+import { ChainId } from '@iguanadex/chains'
 import { BSC_BLOCK_TIME } from 'config'
 import { useEffect, useRef, useState } from 'react'
 import { publicClient } from 'utils/wagmi'

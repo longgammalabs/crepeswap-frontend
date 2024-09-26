@@ -10,12 +10,12 @@ import {
   useMatchBreakpoints,
   useModal,
   useTooltip,
-} from '@pancakeswap/uikit'
-import { Pool } from '@pancakeswap/widgets-internal'
+} from '@iguanadex/uikit'
+import { Pool } from '@iguanadex/widgets-internal'
 
-import { useTranslation } from '@pancakeswap/localization'
-import { MAX_LOCK_DURATION } from '@pancakeswap/pools'
-import { Token } from '@pancakeswap/sdk'
+import { useTranslation } from '@iguanadex/localization'
+import { MAX_LOCK_DURATION } from '@iguanadex/pools'
+import { Token } from '@iguanadex/sdk'
 import { useVaultApy } from 'hooks/useVaultApy'
 import { useVaultPoolByKey } from 'state/pools/hooks'
 import { DeserializedLockedVaultUser, VaultKey } from 'state/types'

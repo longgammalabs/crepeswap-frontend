@@ -1,5 +1,5 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { Box, Flex, Text } from '@pancakeswap/uikit'
+import { useTranslation } from '@iguanadex/localization'
+import { Box, Flex, Text } from '@iguanadex/uikit'
 import { memo } from 'react'
 import { useCheckIsUserAllowMigrate } from '../../hooks/useCheckIsUserAllowMigrate'
 import { useIsMigratedToVeCake } from '../../hooks/useIsMigratedToVeCake'

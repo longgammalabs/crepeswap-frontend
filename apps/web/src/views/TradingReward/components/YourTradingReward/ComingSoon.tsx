@@ -1,5 +1,5 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { Flex, Link, Text, TwitterIcon, BunnyPlaceholderIcon } from '@pancakeswap/uikit'
+import { useTranslation } from '@iguanadex/localization'
+import { BunnyPlaceholderIcon, Flex, Link, Text, TwitterIcon } from '@iguanadex/uikit'
 
 const ComingSoon = () => {
   const { t } = useTranslation()

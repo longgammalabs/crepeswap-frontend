@@ -1,11 +1,11 @@
-import { Card, CardBody, Flex, Spinner, WaitIcon, TooltipText, useTooltip, InfoIcon } from '@pancakeswap/uikit'
-import { useTranslation } from '@pancakeswap/localization'
-import { NodeRound } from 'state/types'
-import { BetPosition } from '@pancakeswap/prediction'
+import { useTranslation } from '@iguanadex/localization'
+import { BetPosition } from '@iguanadex/prediction'
+import { Card, CardBody, Flex, InfoIcon, Spinner, TooltipText, useTooltip, WaitIcon } from '@iguanadex/uikit'
 import useTheme from 'hooks/useTheme'
+import { NodeRound } from 'state/types'
 import { RoundResultBox } from '../RoundResult'
-import MultiplierArrow from './MultiplierArrow'
 import CardHeader, { getBorderBackground } from './CardHeader'
+import MultiplierArrow from './MultiplierArrow'
 
 interface CalculatingCardProps {
   round: NodeRound

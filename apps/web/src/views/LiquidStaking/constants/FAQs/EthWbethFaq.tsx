@@ -1,5 +1,5 @@
-import { Trans } from '@pancakeswap/localization'
-import { Link, LinkExternal } from '@pancakeswap/uikit'
+import { Trans } from '@iguanadex/localization'
+import { Link, LinkExternal } from '@iguanadex/uikit'
 
 export const EthWbethFaq = () => [
   {

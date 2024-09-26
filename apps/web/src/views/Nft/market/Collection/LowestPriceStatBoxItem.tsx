@@ -1,6 +1,6 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { getLeastMostPriceInCollection } from 'state/nftMarket/helpers'
+import { useTranslation } from '@iguanadex/localization'
 import { useQuery } from '@tanstack/react-query'
+import { getLeastMostPriceInCollection } from 'state/nftMarket/helpers'
 import { StatBoxItem, StatBoxItemProps } from '../components/StatBox'
 
 interface LowestPriceStatBoxItemProps extends Omit<StatBoxItemProps, 'title' | 'stat'> {

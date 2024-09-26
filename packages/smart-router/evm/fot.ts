@@ -1,5 +1,5 @@
-import { ChainId } from '@pancakeswap/chains'
-import { WNATIVE } from '@pancakeswap/sdk'
+import { ChainId } from '@iguanadex/chains'
+import { WNATIVE } from '@iguanadex/sdk'
 import { Address, PublicClient, getContract } from 'viem'
 import { feeOnTransferDetectorAbi } from './abis/FeeOnTransferDetector'
 

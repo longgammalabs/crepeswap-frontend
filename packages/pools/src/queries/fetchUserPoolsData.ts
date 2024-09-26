@@ -1,11 +1,11 @@
-import { ChainId } from '@pancakeswap/chains'
+import { ChainId } from '@iguanadex/chains'
 import BigNumber from 'bignumber.js'
-import uniq from 'lodash/uniq'
 import fromPairs from 'lodash/fromPairs'
-import { erc20ABI } from 'wagmi'
+import uniq from 'lodash/uniq'
 import { Address } from 'viem'
-import { getPoolsConfig } from '../constants'
+import { erc20ABI } from 'wagmi'
 import { sousChefABI } from '../abis/ISousChef'
+import { getPoolsConfig } from '../constants'
 import { OnChainProvider, SerializedPool } from '../types'
 
 // Pool 0, Cake / Cake is a different kind of contract (master chef)

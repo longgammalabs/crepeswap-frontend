@@ -1,4 +1,4 @@
-import { useTranslation } from "@pancakeswap/localization";
+import { useTranslation } from "@iguanadex/localization";
 import { Box, Message, Text } from "../../components";
 import { IfoMessageTextLink } from "./styleds";
 

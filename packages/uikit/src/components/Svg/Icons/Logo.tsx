@@ -4,7 +4,7 @@ import { SvgProps } from "../types";
 const Icon: React.FC<React.PropsWithChildren<SvgProps>> = (props) => {
   return (
     <img
-      src="https://raw.githubusercontent.com/Iguana-DEX/assets/main/iguana_brand_assets/icon.webp"
+      src="https://raw.githubusercontent.com/IguanaDEX/assets/main/iguana_brand_assets/icon.webp"
       alt="Iguana Icon"
       width={60}
       height={60}

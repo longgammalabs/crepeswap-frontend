@@ -1,8 +1,8 @@
 {
-  "name": "@pancakeswap/blog",
+  "name": "@iguanadex/blog",
   "version": "0.0.1",
   "sideEffects": false,
-  "private": true,
+  "private": false,
   "scripts": {
     "test": "vitest --run"
   },
@@ -12,7 +12,7 @@
     "lodash": "^4.17.21"
   },
   "devDependencies": {
-    "@pancakeswap/tsconfig": "workspace:*",
+    "@iguanadex/tsconfig": "workspace:*",
     "@types/lodash": "^4.14.168",
     "@types/qs": "^6.0.0"
   }

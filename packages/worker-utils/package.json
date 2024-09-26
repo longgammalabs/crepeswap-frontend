@@ -1,7 +1,7 @@
 {
-  "name": "@pancakeswap/worker-utils",
-  "version": "0.0.0",
-  "private": true,
+  "name": "@iguanadex/worker-utils",
+  "version": "0.0.1",
+  "private": false,
   "scripts": {
     "test": "vitest --run"
   }

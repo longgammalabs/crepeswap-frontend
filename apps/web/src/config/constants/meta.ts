@@ -1,12 +1,11 @@
-import { ContextApi } from '@pancakeswap/localization'
+import { ContextApi } from '@iguanadex/localization'
 import memoize from 'lodash/memoize'
-import { PANCAKE_ASSET_CDN } from './endpoints'
 import { PageMeta } from './types'
 
 export const DEFAULT_META: PageMeta = {
-  title: 'PancakeSwap',
-  description: 'Trade, earn, and own crypto on the all-in-one multichain DEX',
-  image: `${PANCAKE_ASSET_CDN}/web/og/hero.jpg`,
+  title: 'IguanaDEX',
+  description: 'One-stop decentralized trading',
+  image: `https://iguanadex.com/images/hero.jpg`,
 }
 
 interface PathList {
@@ -18,47 +17,47 @@ const getPathList = (t: ContextApi['t']): PathList => {
   return {
     paths: {
       '/': { title: t('Home') },
-      '/swap': { basePath: true, title: t('Exchange'), image: `${PANCAKE_ASSET_CDN}/web/og/swap.jpg` },
-      '/limit-orders': { basePath: true, title: t('Limit Orders'), image: `${PANCAKE_ASSET_CDN}/web/og/limit.jpg` },
-      '/add': { basePath: true, title: t('Add Liquidity'), image: `${PANCAKE_ASSET_CDN}/web/og/liquidity.jpg` },
-      '/remove': { basePath: true, title: t('Remove Liquidity'), image: `${PANCAKE_ASSET_CDN}/web/og/liquidity.jpg` },
-      '/liquidity': { title: t('Liquidity'), image: `${PANCAKE_ASSET_CDN}/web/og/liquidity.jpg` },
+      '/swap': { basePath: true, title: t('Exchange'), image: `https://iguanadex.com/images/hero.jpg` },
+      '/limit-orders': { basePath: true, title: t('Limit Orders'), image: `https://iguanadex.com/images/hero.jpg` },
+      '/add': { basePath: true, title: t('Add Liquidity'), image: `https://iguanadex.com/images/hero.jpg` },
+      '/remove': { basePath: true, title: t('Remove Liquidity'), image: `https://iguanadex.com/images/hero.jpg` },
+      '/liquidity': { title: t('Liquidity'), image: `https://iguanadex.com/images/hero.jpg` },
       '/find': { title: t('Import Pool') },
       '/competition': { title: t('Trading Battle') },
-      '/prediction': { title: t('Prediction'), image: `${PANCAKE_ASSET_CDN}/web/og/prediction.jpg` },
-      '/prediction/leaderboard': { title: t('Leaderboard'), image: `${PANCAKE_ASSET_CDN}/web/og/liquidity.jpg` },
-      '/farms': { title: t('Farms'), image: `${PANCAKE_ASSET_CDN}/web/og/farms.jpg` },
-      '/farms/auction': { title: t('Farm Auctions'), image: `${PANCAKE_ASSET_CDN}/web/og/liquidity.jpg` },
-      '/pools': { title: t('Pools'), image: `${PANCAKE_ASSET_CDN}/web/og/pools.jpg` },
-      '/lottery': { title: t('Lottery'), image: `${PANCAKE_ASSET_CDN}/web/og/lottery.jpg` },
-      '/ifo': { title: t('Initial Farm Offering'), image: `${PANCAKE_ASSET_CDN}/web/og/ifo.jpg` },
-      '/teams': { basePath: true, title: t('Leaderboard'), image: `${PANCAKE_ASSET_CDN}/web/og/teams.jpg` },
-      '/voting': { basePath: true, title: t('Voting'), image: `${PANCAKE_ASSET_CDN}/web/og/voting.jpg` },
-      '/voting/proposal': { title: t('Proposals'), image: `${PANCAKE_ASSET_CDN}/web/og/voting.jpg` },
-      '/voting/proposal/create': { title: t('Make a Proposal'), image: `${PANCAKE_ASSET_CDN}/web/og/voting.jpg` },
+      '/prediction': { title: t('Prediction'), image: `https://iguanadex.com/images/hero.jpg` },
+      '/prediction/leaderboard': { title: t('Leaderboard'), image: `https://iguanadex.com/images/hero.jpg` },
+      '/farms': { title: t('Farms'), image: `https://iguanadex.com/images/hero.jpg` },
+      '/farms/auction': { title: t('Farm Auctions'), image: `https://iguanadex.com/images/hero.jpg` },
+      '/pools': { title: t('Pools'), image: `https://iguanadex.com/images/hero.jpg` },
+      '/lottery': { title: t('Lottery'), image: `https://iguanadex.com/images/hero.jpg` },
+      '/ifo': { title: t('Initial Farm Offering'), image: `https://iguanadex.com/images/hero.jpg` },
+      '/teams': { basePath: true, title: t('Leaderboard'), image: `https://iguanadex.com/images/hero.jpg` },
+      '/voting': { basePath: true, title: t('Voting'), image: `https://iguanadex.com/images/hero.jpg` },
+      '/voting/proposal': { title: t('Proposals'), image: `https://iguanadex.com/images/hero.jpg` },
+      '/voting/proposal/create': { title: t('Make a Proposal'), image: `https://iguanadex.com/images/hero.jpg` },
       '/info': {
         title: `${t('Overview')} - ${t('Info')}`,
-        description: 'View statistics for Pancakeswap exchanges.',
-        image: `${PANCAKE_ASSET_CDN}/web/og/info.jpg`,
+        description: 'View IguanaDEX Volume/TVL stats.',
+        image: `https://iguanadex.com/images/hero.jpg`,
       },
       '/info/pairs': {
         title: `${t('Pairs')} - ${t('Info')}`,
-        description: 'View statistics for Pancakeswap exchanges.',
-        image: `${PANCAKE_ASSET_CDN}/web/og/info.jpg`,
+        description: 'View IguanaDEX Volume/TVL stats.',
+        image: `https://iguanadex.com/images/hero.jpg`,
       },
       '/info/tokens': {
         title: `${t('Tokens')} - ${t('Info')}`,
-        description: 'View statistics for Pancakeswap exchanges.',
-        image: `${PANCAKE_ASSET_CDN}/web/og/info.jpg`,
+        description: 'View IguanaDEX Volume/TVL stats.',
+        image: `https://iguanadex.com/images/hero.jpg`,
       },
-      '/nfts': { title: t('NFT Marketplace'), image: `${PANCAKE_ASSET_CDN}/web/og/nft.jpg` },
-      '/nfts/collections': { basePath: true, title: t('Collections'), image: `${PANCAKE_ASSET_CDN}/web/og/nft.jpg` },
-      '/nfts/activity': { title: t('Activity'), image: `${PANCAKE_ASSET_CDN}/web/og/nft.jpg` },
+      '/nfts': { title: t('NFT Marketplace'), image: `https://iguanadex.com/images/hero.jpg` },
+      '/nfts/collections': { basePath: true, title: t('Collections'), image: `https://iguanadex.com/images/hero.jpg` },
+      '/nfts/activity': { title: t('Activity'), image: `https://iguanadex.com/images/hero.jpg` },
       '/profile': { basePath: true, title: t('Profile') },
       '/pancake-squad': { basePath: true, title: t('Pancake Squad') },
-      '/pottery': { basePath: true, title: t('Pottery'), image: `${PANCAKE_ASSET_CDN}/web/og/pottery.jpg` },
+      '/pottery': { basePath: true, title: t('Pottery'), image: `https://iguanadex.com/images/hero.jpg` },
     },
-    defaultTitleSuffix: t('PancakeSwap'),
+    defaultTitleSuffix: t('IguanaDEX'),
   }
 }
 

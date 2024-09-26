@@ -1,10 +1,10 @@
-import { useRef, useState, useEffect, useCallback, Dispatch, SetStateAction } from 'react'
-import { useTranslation } from '@pancakeswap/localization'
-import { ColorType, createChart, IChartApi } from 'lightweight-charts'
-import { useTheme } from '@pancakeswap/hooks'
+import { useTheme } from '@iguanadex/hooks'
+import { useTranslation } from '@iguanadex/localization'
+import { baseColors, darkColors, lightColors } from '@iguanadex/uikit'
 import { CandleChartLoader } from 'components/ChartLoaders'
-import { baseColors, lightColors, darkColors } from '@pancakeswap/uikit'
 import dayjs from 'dayjs'
+import { ColorType, createChart, IChartApi } from 'lightweight-charts'
+import { Dispatch, SetStateAction, useCallback, useEffect, useRef, useState } from 'react'
 
 const CANDLE_CHART_HEIGHT = 250
 

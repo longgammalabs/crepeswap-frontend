@@ -1,12 +1,12 @@
-import { defineConfig } from 'tsup'
 import { exec } from 'child_process'
+import { defineConfig } from 'tsup'
 
 export default defineConfig((options) => ({
   entry: {
     index: './src/index.ts',
   },
   sourcemap: true,
-  noExternal: ['@pancakeswap/utils'],
+  noExternal: ['@iguanadex/utils'],
   skipNodeModulesBundle: true,
   format: ['esm', 'cjs'],
   dts: false,

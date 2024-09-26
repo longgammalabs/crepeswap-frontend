@@ -1,5 +1,5 @@
-import { ChainId } from '@pancakeswap/chains'
-import { TickMath } from '@pancakeswap/v3-sdk'
+import { ChainId } from '@iguanadex/chains'
+import { TickMath } from '@iguanadex/v3-sdk'
 import { useQuery } from '@tanstack/react-query'
 import { gql } from 'graphql-request'
 import { useActiveChainId } from 'hooks/useActiveChainId'

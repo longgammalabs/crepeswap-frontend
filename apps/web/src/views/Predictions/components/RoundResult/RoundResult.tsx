@@ -1,5 +1,5 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { BoxProps, Text } from '@pancakeswap/uikit'
+import { useTranslation } from '@iguanadex/localization'
+import { BoxProps, Text } from '@iguanadex/uikit'
 import { NodeRound } from 'state/types'
 import { getRoundPosition } from '../../helpers'
 import { LockPriceRow, PrizePoolRow, RoundPrice, RoundResultBox } from './styles'

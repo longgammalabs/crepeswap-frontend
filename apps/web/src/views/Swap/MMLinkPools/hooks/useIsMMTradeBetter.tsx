@@ -1,5 +1,5 @@
-import { Currency, Trade, TradeType, ZERO } from '@pancakeswap/sdk'
-import { SmartRouterTrade } from '@pancakeswap/smart-router'
+import { Currency, Trade, TradeType, ZERO } from '@iguanadex/sdk'
+import { SmartRouterTrade } from '@iguanadex/smart-router'
 import { useMemo } from 'react'
 import { Field } from 'state/swap/actions'
 

@@ -1,5 +1,5 @@
+import { Currency, Token } from '@iguanadex/swap-sdk-core'
 import { encodePacked, Hash } from 'viem'
-import { Currency, Token } from '@pancakeswap/swap-sdk-core'
 import { Pool } from '../entities/pool'
 import { Route } from '../entities/route'
 

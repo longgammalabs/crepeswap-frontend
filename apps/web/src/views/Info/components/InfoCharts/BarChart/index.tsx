@@ -1,11 +1,11 @@
-import { Dispatch, SetStateAction, useEffect, useMemo, useRef, useState } from 'react'
-import useTheme from 'hooks/useTheme'
-import { formatAmount } from 'utils/formatInfoNumbers'
+import { useTranslation } from '@iguanadex/localization'
+import { darkColors, lightColors } from '@iguanadex/uikit'
 import { BarChartLoader } from 'components/ChartLoaders'
-import { createChart, IChartApi } from 'lightweight-charts'
-import { useTranslation } from '@pancakeswap/localization'
 import dayjs from 'dayjs'
-import { lightColors, darkColors } from '@pancakeswap/uikit'
+import useTheme from 'hooks/useTheme'
+import { createChart, IChartApi } from 'lightweight-charts'
+import { Dispatch, SetStateAction, useEffect, useMemo, useRef, useState } from 'react'
+import { formatAmount } from 'utils/formatInfoNumbers'
 
 export type LineChartProps = {
   data: any[]

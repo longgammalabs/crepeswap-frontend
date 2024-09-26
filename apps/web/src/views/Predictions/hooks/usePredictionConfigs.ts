@@ -1,7 +1,7 @@
-import { getPredictionConfig } from '@pancakeswap/prediction'
+import { getPredictionConfig } from '@iguanadex/prediction'
 import { useQuery } from '@tanstack/react-query'
 
-import { ChainId } from '@pancakeswap/chains'
+import { ChainId } from '@iguanadex/chains'
 import { useActiveChainId } from 'hooks/useActiveChainId'
 
 export function usePredictionConfigs(pickedChainId?: ChainId) {

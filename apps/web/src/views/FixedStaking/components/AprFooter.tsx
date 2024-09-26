@@ -1,9 +1,9 @@
-import { Flex, StarCircle, Text } from '@pancakeswap/uikit'
-import { Token } from '@pancakeswap/swap-sdk-core'
+import { Token } from '@iguanadex/swap-sdk-core'
+import { Flex, StarCircle, Text } from '@iguanadex/uikit'
 
-import { FixedStakingCalculator } from './FixedStakingCalculator'
 import { useFixedStakeAPR } from '../hooks/useFixedStakeAPR'
 import { FixedStakingPool } from '../type'
+import { FixedStakingCalculator } from './FixedStakingCalculator'
 
 export function AprFooter({
   lockPeriod,

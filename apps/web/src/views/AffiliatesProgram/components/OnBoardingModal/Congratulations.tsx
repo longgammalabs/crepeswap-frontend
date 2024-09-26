@@ -1,8 +1,8 @@
-import { useState } from 'react'
-import { Flex, Text, Button, Link, ModalV2 } from '@pancakeswap/uikit'
-import { useTranslation } from '@pancakeswap/localization'
+import { useTranslation } from '@iguanadex/localization'
+import { Button, Flex, Link, ModalV2, Text } from '@iguanadex/uikit'
 import USCitizenConfirmModal from 'components/Modal/USCitizenConfirmModal'
-import { useUserNotUsCitizenAcknowledgement, IdType } from 'hooks/useUserIsUsCitizenAcknowledgement'
+import { IdType, useUserNotUsCitizenAcknowledgement } from 'hooks/useUserIsUsCitizenAcknowledgement'
+import { useState } from 'react'
 
 const Congratulations = () => {
   const { t } = useTranslation()

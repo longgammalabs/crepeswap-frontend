@@ -4,36 +4,36 @@
 
 ### Patch Changes
 
-- @pancakeswap/hooks@0.0.25
-- @pancakeswap/localization@6.0.3
+- @iguanadex/hooks@0.0.25
+- @iguanadex/localization@6.0.3
 
 ## 0.65.5
 
 ### Patch Changes
 
-- @pancakeswap/hooks@0.0.24
-- @pancakeswap/localization@6.0.2
+- @iguanadex/hooks@0.0.24
+- @iguanadex/localization@6.0.2
 
 ## 0.65.4
 
 ### Patch Changes
 
-- @pancakeswap/hooks@0.0.23
-- @pancakeswap/localization@6.0.1
+- @iguanadex/hooks@0.0.23
+- @iguanadex/localization@6.0.1
 
 ## 0.65.3
 
 ### Patch Changes
 
-- @pancakeswap/hooks@0.0.22
-- @pancakeswap/localization@6.0.0
+- @iguanadex/hooks@0.0.22
+- @iguanadex/localization@6.0.0
 
 ## 0.65.2
 
 ### Patch Changes
 
-- @pancakeswap/hooks@0.0.21
-- @pancakeswap/localization@5.0.8
+- @iguanadex/hooks@0.0.21
+- @iguanadex/localization@5.0.8
 
 ## 0.65.1
 
@@ -52,15 +52,15 @@
 ### Patch Changes
 
 - Updated dependencies [f71904c26]
-  - @pancakeswap/localization@5.0.7
-  - @pancakeswap/hooks@0.0.20
+  - @iguanadex/localization@5.0.7
+  - @iguanadex/hooks@0.0.20
 
 ## 0.64.2
 
 ### Patch Changes
 
-- @pancakeswap/hooks@0.0.19
-- @pancakeswap/localization@5.0.6
+- @iguanadex/hooks@0.0.19
+- @iguanadex/localization@5.0.6
 
 ## 0.64.1
 
@@ -77,9 +77,9 @@
 ### Patch Changes
 
 - Updated dependencies [435a90ac2]
-  - @pancakeswap/sdk@5.6.0
-  - @pancakeswap/v3-sdk@3.5.0
-  - @pancakeswap/farms@1.0.18
+  - @iguanadex/sdk@5.6.0
+  - @iguanadex/v3-sdk@3.5.0
+  - @iguanadex/farms@1.0.18
 
 ## 0.63.7
 
@@ -87,9 +87,9 @@
 
 - 1831356d9: refactor: Move ChainsId usage from Sdk to Chains package
 - Updated dependencies [1831356d9]
-  - @pancakeswap/sdk@5.5.0
-  - @pancakeswap/v3-sdk@3.4.4
-  - @pancakeswap/farms@1.0.17
+  - @iguanadex/sdk@5.5.0
+  - @iguanadex/v3-sdk@3.4.4
+  - @iguanadex/farms@1.0.17
 
 ## 0.63.6
 
@@ -104,63 +104,63 @@
 - 2d7e1b3e2: Upgraded viem
 - Updated dependencies [2d7e1b3e2]
 - Updated dependencies [67d0780d1]
-  - @pancakeswap/sdk@5.4.2
-  - @pancakeswap/v3-sdk@3.4.3
-  - @pancakeswap/farms@1.0.16
-  - @pancakeswap/pools@4.0.11
-  - @pancakeswap/tokens@0.4.3
-  - @pancakeswap/hooks@0.0.18
-  - @pancakeswap/localization@5.0.5
-  - @pancakeswap/token-lists@0.0.8
+  - @iguanadex/sdk@5.4.2
+  - @iguanadex/v3-sdk@3.4.3
+  - @iguanadex/farms@1.0.16
+  - @iguanadex/pools@4.0.11
+  - @iguanadex/tokens@0.4.3
+  - @iguanadex/hooks@0.0.18
+  - @iguanadex/localization@5.0.5
+  - @iguanadex/token-lists@0.0.8
 
 ## 0.63.4
 
 ### Patch Changes
 
 - Updated dependencies [51b77c787]
-  - @pancakeswap/tokens@0.4.2
-  - @pancakeswap/farms@1.0.15
-  - @pancakeswap/pools@4.0.10
-  - @pancakeswap/v3-sdk@3.4.2
-  - @pancakeswap/hooks@0.0.17
-  - @pancakeswap/localization@5.0.4
-  - @pancakeswap/token-lists@0.0.8
+  - @iguanadex/tokens@0.4.2
+  - @iguanadex/farms@1.0.15
+  - @iguanadex/pools@4.0.10
+  - @iguanadex/v3-sdk@3.4.2
+  - @iguanadex/hooks@0.0.17
+  - @iguanadex/localization@5.0.4
+  - @iguanadex/token-lists@0.0.8
 
 ## 0.63.3
 
 ### Patch Changes
 
-- @pancakeswap/farms@1.0.14
-- @pancakeswap/hooks@0.0.16
-- @pancakeswap/localization@5.0.3
-- @pancakeswap/pools@4.0.9
-- @pancakeswap/token-lists@0.0.8
-- @pancakeswap/tokens@0.4.1
-- @pancakeswap/v3-sdk@3.4.1
+- @iguanadex/farms@1.0.14
+- @iguanadex/hooks@0.0.16
+- @iguanadex/localization@5.0.3
+- @iguanadex/pools@4.0.9
+- @iguanadex/token-lists@0.0.8
+- @iguanadex/tokens@0.4.1
+- @iguanadex/v3-sdk@3.4.1
 
 ## 0.63.2
 
 ### Patch Changes
 
 - Updated dependencies [0641cc6ed]
-  - @pancakeswap/pools@4.0.9
-  - @pancakeswap/farms@1.0.13
-  - @pancakeswap/hooks@0.0.15
-  - @pancakeswap/localization@5.0.2
-  - @pancakeswap/token-lists@0.0.8
-  - @pancakeswap/tokens@0.4.1
-  - @pancakeswap/v3-sdk@3.4.1
+  - @iguanadex/pools@4.0.9
+  - @iguanadex/farms@1.0.13
+  - @iguanadex/hooks@0.0.15
+  - @iguanadex/localization@5.0.2
+  - @iguanadex/token-lists@0.0.8
+  - @iguanadex/tokens@0.4.1
+  - @iguanadex/v3-sdk@3.4.1
 
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
-## [0.63.1](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/compare/@pancakeswap/uikit@0.63.0...@pancakeswap/uikit@0.63.1) (2022-01-16)
+## [0.63.1](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/compare/@iguanadex/uikit@0.63.0...@iguanadex/uikit@0.63.1) (2022-01-16)
 
 ### Bug Fixes
 
 - **uikit:** Types styled system missing with devdep ([#384](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/issues/384)) ([078f101](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/commit/078f101b67cdc09b5f62e4a4fc45655eaf15733a))
 
-# [0.63.0](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/compare/@pancakeswap/uikit@0.62.0...@pancakeswap/uikit@0.63.0) (2022-01-16)
+# [0.63.0](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/compare/@iguanadex/uikit@0.62.0...@iguanadex/uikit@0.63.0) (2022-01-16)
 
 ### Bug Fixes
 
@@ -173,7 +173,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 - **uikit:** Support SSR ([#370](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/issues/370)) ([7edd367](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/commit/7edd367c45210e52bdc1523dbeff940c56e0719a))
 - **uikit:** Update Logo Icon ([#350](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/issues/350)) ([c5fde4a](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/commit/c5fde4ab695e5a16461cc21634eb4e8be11cc7c9))
 
-# [0.62.0](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/compare/@pancakeswap/uikit@0.61.0...@pancakeswap/uikit@0.62.0) (2021-12-30)
+# [0.62.0](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/compare/@iguanadex/uikit@0.61.0...@iguanadex/uikit@0.62.0) (2021-12-30)
 
 ### Features
 
@@ -183,7 +183,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 - **uikit:** Remove backdrop filter ([#367](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/issues/367)) ([4d66e7e](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/commit/4d66e7ed433c534bb403e4856ad0617834217cbd))
 
-# [0.61.0](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/compare/@pancakeswap/uikit@0.60.0...@pancakeswap/uikit@0.61.0) (2021-12-17)
+# [0.61.0](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/compare/@iguanadex/uikit@0.60.0...@iguanadex/uikit@0.61.0) (2021-12-17)
 
 ### Bug Fixes
 
@@ -194,7 +194,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 - **uikit:** Add MessageText for Message ([#361](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/issues/361)) ([ccee124](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/commit/ccee12441aa191610fec27bccfd27a78e8ea52c1))
 - **uikit:** Add SmartContract and Swap icon ([#359](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/issues/359)) ([8cd5a68](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/commit/8cd5a68245cf51f93206b47e7761bbe92ef29c74))
 
-# [0.60.0](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/compare/@pancakeswap/uikit@0.59.0...@pancakeswap/uikit@0.60.0) (2021-12-09)
+# [0.60.0](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/compare/@iguanadex/uikit@0.59.0...@iguanadex/uikit@0.60.0) (2021-12-09)
 
 ### Bug Fixes
 
@@ -204,7 +204,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 - **uikit:** Add ProgressBar for compose use ([#356](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/issues/356)) ([0ba9872](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/commit/0ba9872b32405e00c2e9612ba3d77fb38563208e))
 
-# [0.59.0](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/compare/@pancakeswap/uikit@0.58.1...@pancakeswap/uikit@0.59.0) (2021-12-01)
+# [0.59.0](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/compare/@iguanadex/uikit@0.58.1...@iguanadex/uikit@0.59.0) (2021-12-01)
 
 ### Bug Fixes
 
@@ -214,19 +214,19 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 - **uikit:** Improve BottomDrawer and Overlay ([#345](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/issues/345)) ([9fe7f9d](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/commit/9fe7f9d9cbd0dafd738090d8d0c86385cb04464c))
 
-## [0.58.1](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/compare/@pancakeswap/uikit@0.58.0...@pancakeswap/uikit@0.58.1) (2021-11-29)
+## [0.58.1](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/compare/@iguanadex/uikit@0.58.0...@iguanadex/uikit@0.58.1) (2021-11-29)
 
 ### Bug Fixes
 
 - **uikit:** BottomNav clickoutside ([#344](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/issues/344)) ([d8ba475](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/commit/d8ba475b88c03a1ba64685818d77c55e3911f3c6))
 
-# [0.58.0](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/compare/@pancakeswap/uikit@0.57.0...@pancakeswap/uikit@0.58.0) (2021-11-24)
+# [0.58.0](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/compare/@iguanadex/uikit@0.57.0...@iguanadex/uikit@0.58.0) (2021-11-24)
 
 ### Features
 
 - **uikit:** Add discord icon and link ([#341](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/issues/341)) ([59a9394](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/commit/59a9394f80666c83ae2b35829ebe6e8f84399e95))
 
-# [0.57.0](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/compare/@pancakeswap/uikit@0.56.3...@pancakeswap/uikit@0.57.0) (2021-11-24)
+# [0.57.0](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/compare/@iguanadex/uikit@0.56.3...@iguanadex/uikit@0.57.0) (2021-11-24)
 
 ### Bug Fixes
 
@@ -236,7 +236,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 - BottomDrawer ([#340](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/issues/340)) ([7a7071e](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/commit/7a7071e633007638d424ddb16d6d429cde75f998))
 
-## [0.56.3](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/compare/@pancakeswap/uikit@0.56.1...@pancakeswap/uikit@0.56.3) (2021-11-22)
+## [0.56.3](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/compare/@iguanadex/uikit@0.56.1...@iguanadex/uikit@0.56.3) (2021-11-22)
 
 ### Bug Fixes
 
@@ -244,7 +244,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 - **uikit:** Mobile overlay regression ([#332](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/issues/332)) ([a8be97e](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/commit/a8be97ec6dc6d88f3fb7561ce248103d6a8ac733))
 - **uikit:** Show active border on SubMenu when hover ([#333](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/issues/333)) ([c2b4d51](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/commit/c2b4d515a4a904563d497c59953d5d9d848567a8))
 
-## [0.56.2](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/compare/@pancakeswap/uikit@0.56.1...@pancakeswap/uikit@0.56.2) (2021-11-22)
+## [0.56.2](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/compare/@iguanadex/uikit@0.56.1...@iguanadex/uikit@0.56.2) (2021-11-22)
 
 ### Bug Fixes
 
@@ -252,13 +252,13 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 - **uikit:** Mobile overlay regression ([#332](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/issues/332)) ([a8be97e](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/commit/a8be97ec6dc6d88f3fb7561ce248103d6a8ac733))
 - **uikit:** Show active border on SubMenu when hover ([#333](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/issues/333)) ([c2b4d51](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/commit/c2b4d515a4a904563d497c59953d5d9d848567a8))
 
-## [0.56.1](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/compare/@pancakeswap/uikit@0.57.0...@pancakeswap/uikit@0.56.1) (2021-11-16)
+## [0.56.1](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/compare/@iguanadex/uikit@0.57.0...@iguanadex/uikit@0.56.1) (2021-11-16)
 
 ### Reverts
 
 - Revert "chore(release): Publish" ([3ba958f](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/commit/3ba958f79d3dd8ab0fbdf55ee8addc328b2f6a6b))
 
-# [0.56.0](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/compare/@pancakeswap/uikit@0.55.0...@pancakeswap/uikit@0.56.0) (2021-10-28)
+# [0.56.0](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/compare/@iguanadex/uikit@0.55.0...@iguanadex/uikit@0.56.0) (2021-10-28)
 
 ### Bug Fixes
 
@@ -272,32 +272,32 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 - **icons:** Add expand and shrink icons ([#299](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/issues/299)) ([4d4ecd3](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/commit/4d4ecd303c603a6388f10ea9419d27561b26901c))
 - **menu:** Add mobile sub menu entry with icon ([#307](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/issues/307)) ([817a6bd](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/commit/817a6bdb463e931fad3652648e9d120b2957542c))
 
-# [0.55.0](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/compare/@pancakeswap/uikit@0.54.5...@pancakeswap/uikit@0.55.0) (2021-10-04)
+# [0.55.0](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/compare/@iguanadex/uikit@0.54.5...@iguanadex/uikit@0.55.0) (2021-10-04)
 
 ### Features
 
 - **bottom nav:** Fix ios bottom nav issue on specifics browsers ([#293](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/issues/293)) ([8beb5cc](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/commit/8beb5ccd6581b4804f7f6bf1edae16d3278206cb))
 
-## [0.54.5](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/compare/@pancakeswap/uikit@0.54.4...@pancakeswap/uikit@0.54.5) (2021-09-28)
+## [0.54.5](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/compare/@iguanadex/uikit@0.54.4...@iguanadex/uikit@0.54.5) (2021-09-28)
 
 ### Bug Fixes
 
 - **Menu:** Hide menu bar only when scrolled enough ([#292](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/issues/292)) ([8cbab63](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/commit/8cbab63addfd77d2ce5823d63571b8ec19aad042))
 - DarkMode flag and Stepper issue ([#291](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/issues/291)) ([7c248b7](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/commit/7c248b7031b8a0c6d8173e5eb64dac76df235226))
 
-## [0.54.4](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/compare/@pancakeswap/uikit@0.54.3...@pancakeswap/uikit@0.54.4) (2021-09-20)
+## [0.54.4](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/compare/@iguanadex/uikit@0.54.3...@iguanadex/uikit@0.54.4) (2021-09-20)
 
 ### Bug Fixes
 
 - **menu:** Submenu types ([#288](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/issues/288)) ([c16e0e3](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/commit/c16e0e323e2309471728e158e39511174ab44931))
 
-## [0.54.3](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/compare/@pancakeswap/uikit@0.54.2...@pancakeswap/uikit@0.54.3) (2021-09-17)
+## [0.54.3](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/compare/@iguanadex/uikit@0.54.2...@iguanadex/uikit@0.54.3) (2021-09-17)
 
 ### Bug Fixes
 
 - **uikit:** DropdownMenu ([#280](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/issues/280)) ([f8f8b56](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/commit/f8f8b56c42f53d66186e16bc8150de04c8c49d08))
 
-## [0.54.2](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/compare/@pancakeswap/uikit@0.54.1...@pancakeswap/uikit@0.54.2) (2021-09-17)
+## [0.54.2](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/compare/@iguanadex/uikit@0.54.1...@iguanadex/uikit@0.54.2) (2021-09-17)
 
 ### Bug Fixes
 
@@ -305,14 +305,14 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 - **menu:** Apply margin to BodyWrapper ([#284](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/issues/284)) ([651c856](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/commit/651c856f4e5796620129ae0f94efee83f2e8db70))
 - **menu:** Increase timeout on touch devices ([#283](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/issues/283)) ([2262017](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/commit/2262017150a239c9632cf55f5758d6d381af7da5))
 
-## [0.54.1](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/compare/@pancakeswap/uikit@0.54.0...@pancakeswap/uikit@0.54.1) (2021-09-16)
+## [0.54.1](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/compare/@iguanadex/uikit@0.54.0...@iguanadex/uikit@0.54.1) (2021-09-16)
 
 ### Bug Fixes
 
 - **footer links:** Add rel attribute ([#278](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/issues/278)) ([c35e027](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/commit/c35e027d2cf22133b238a4d75039c2dedb6b498e))
 - **uikit:** BottomNav ([#279](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/issues/279)) ([5d75877](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/commit/5d7587739fa09d1745467ffe6807d7ade1dfc42d))
 
-# [0.54.0](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/compare/@pancakeswap/uikit@0.53.0...@pancakeswap/uikit@0.54.0) (2021-09-14)
+# [0.54.0](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/compare/@iguanadex/uikit@0.53.0...@iguanadex/uikit@0.54.0) (2021-09-14)
 
 ### Bug Fixes
 
@@ -322,19 +322,19 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 - **timeline:** Add timeline component ([#276](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/issues/276)) ([a4346dd](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/commit/a4346ddce39ed3d28e83ff05492194d53e7a321f))
 
-# [0.53.0](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/compare/@pancakeswap/uikit@0.52.0...@pancakeswap/uikit@0.53.0) (2021-09-14)
+# [0.53.0](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/compare/@iguanadex/uikit@0.52.0...@iguanadex/uikit@0.53.0) (2021-09-14)
 
 ### Features
 
 - **menu rework:** Menu rework adjustments ([#275](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/issues/275)) ([894a2d4](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/commit/894a2d4f71a2d83493dc4dbe6f5706ef21eaaa44))
 
-# [0.52.0](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/compare/@pancakeswap/uikit@0.51.0...@pancakeswap/uikit@0.52.0) (2021-09-13)
+# [0.52.0](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/compare/@iguanadex/uikit@0.51.0...@iguanadex/uikit@0.52.0) (2021-09-13)
 
 ### Features
 
 - **rework navigation:** Rework top and bottom navigation ([#263](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/issues/263)) ([67b4e53](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/commit/67b4e53d12d442cf596a969208b45097a0066534)), closes [#261](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/issues/261) [#264](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/issues/264) [#268](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/issues/268)
 
-# [0.51.0](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/compare/@pancakeswap/uikit@0.50.3...@pancakeswap/uikit@0.51.0) (2021-09-09)
+# [0.51.0](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/compare/@iguanadex/uikit@0.50.3...@iguanadex/uikit@0.51.0) (2021-09-09)
 
 ### Features
 
@@ -342,64 +342,64 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 - **uikit:** Button light variant ([#273](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/issues/273)) ([ac063c1](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/commit/ac063c11f1825f32ee2666036ad097b6f5189c9b))
 - **uikit:** TextField ([#272](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/issues/272)) ([8c68ce8](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/commit/8c68ce8a7518039fdc8fba082018271b92ca08df))
 
-## [0.50.3](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/compare/@pancakeswap/uikit@0.50.2...@pancakeswap/uikit@0.50.3) (2021-09-06)
+## [0.50.3](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/compare/@iguanadex/uikit@0.50.2...@iguanadex/uikit@0.50.3) (2021-09-06)
 
-**Note:** Version bump only for package @pancakeswap/uikit
+**Note:** Version bump only for package @iguanadex/uikit
 
-## [0.50.2](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/compare/@pancakeswap/uikit@0.50.1...@pancakeswap/uikit@0.50.2) (2021-09-06)
+## [0.50.2](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/compare/@iguanadex/uikit@0.50.1...@iguanadex/uikit@0.50.2) (2021-09-06)
 
 ### Bug Fixes
 
 - Link of cake price to swap page is broken ([#260](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/issues/260)) ([3f8e089](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/commit/3f8e0892a93975468b086758093e1a2ca5d6dd73))
 
-## [0.50.1](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/compare/@pancakeswap/uikit@0.50.0...@pancakeswap/uikit@0.50.1) (2021-08-31)
+## [0.50.1](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/compare/@iguanadex/uikit@0.50.0...@iguanadex/uikit@0.50.1) (2021-08-31)
 
-**Note:** Version bump only for package @pancakeswap/uikit
+**Note:** Version bump only for package @iguanadex/uikit
 
-# [0.50.0](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/compare/@pancakeswap/uikit@0.49.2...@pancakeswap/uikit@0.50.0) (2021-08-31)
+# [0.50.0](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/compare/@iguanadex/uikit@0.49.2...@iguanadex/uikit@0.50.0) (2021-08-31)
 
 ### Features
 
 - Translation support for connect and account modal ([#257](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/issues/257)) ([6d97f2e](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/commit/6d97f2eeba94d4373385f6a1ace6f9f837e8db31))
 
-## [0.49.2](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/compare/@pancakeswap/uikit@0.49.1...@pancakeswap/uikit@0.49.2) (2021-08-27)
+## [0.49.2](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/compare/@iguanadex/uikit@0.49.1...@iguanadex/uikit@0.49.2) (2021-08-27)
 
-**Note:** Version bump only for package @pancakeswap/uikit
+**Note:** Version bump only for package @iguanadex/uikit
 
-## [0.49.1](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/compare/@pancakeswap/uikit@0.49.0...@pancakeswap/uikit@0.49.1) (2021-08-20)
+## [0.49.1](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/compare/@iguanadex/uikit@0.49.0...@iguanadex/uikit@0.49.1) (2021-08-20)
 
 ### Bug Fixes
 
 - **uikit:** Menu breakpoint ([#247](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/issues/247)) ([4352c38](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/commit/4352c38731ea0101d7f16cccee9fed801c74af6f))
 
-# [0.49.0](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/compare/@pancakeswap/uikit@0.48.0...@pancakeswap/uikit@0.49.0) (2021-08-20)
+# [0.49.0](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/compare/@iguanadex/uikit@0.48.0...@iguanadex/uikit@0.49.0) (2021-08-20)
 
 ### Features
 
 - **uikit:** Add breakpoint helpers ([#246](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/issues/246)) ([ed34997](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/commit/ed34997a91a88f069fc019f3aeecbb101a864ce6))
 
-# [0.48.0](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/compare/@pancakeswap/uikit@0.47.0...@pancakeswap/uikit@0.48.0) (2021-08-19)
+# [0.48.0](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/compare/@iguanadex/uikit@0.47.0...@iguanadex/uikit@0.48.0) (2021-08-19)
 
 ### Features
 
 - **uikit:** New breakpoint ([#241](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/issues/241)) ([2262df1](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/commit/2262df11cffca2218fb1524a1f219ddf3be417e5))
 - **uikit-tags:** Add typography props ([#245](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/issues/245)) ([55ed86b](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/commit/55ed86ba48061e52cebe9bd92bb10fc22efebf4e))
 
-# [0.47.0](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/compare/@pancakeswap/uikit@0.46.2...@pancakeswap/uikit@0.47.0) (2021-08-12)
+# [0.47.0](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/compare/@iguanadex/uikit@0.46.2...@iguanadex/uikit@0.47.0) (2021-08-12)
 
 ### Features
 
 - **uikit:** Input Group ([#220](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/issues/220)) ([109f3de](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/commit/109f3de9c6167652bd84a1302ddae3008263498b))
 
-## [0.46.2](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/compare/@pancakeswap/uikit@0.46.1...@pancakeswap/uikit@0.46.2) (2021-08-11)
+## [0.46.2](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/compare/@iguanadex/uikit@0.46.1...@iguanadex/uikit@0.46.2) (2021-08-11)
 
-**Note:** Version bump only for package @pancakeswap/uikit
+**Note:** Version bump only for package @iguanadex/uikit
 
-## [0.46.1](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/compare/@pancakeswap/uikit@0.46.0...@pancakeswap/uikit@0.46.1) (2021-08-09)
+## [0.46.1](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/compare/@iguanadex/uikit@0.46.0...@iguanadex/uikit@0.46.1) (2021-08-09)
 
-**Note:** Version bump only for package @pancakeswap/uikit
+**Note:** Version bump only for package @iguanadex/uikit
 
-# [0.46.0](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/compare/@pancakeswap/uikit@0.45.0...@pancakeswap/uikit@0.46.0) (2021-08-09)
+# [0.46.0](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/compare/@iguanadex/uikit@0.45.0...@iguanadex/uikit@0.46.0) (2021-08-09)
 
 ### Bug Fixes
 
@@ -409,95 +409,95 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 - Update Card component ([#232](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/issues/232)) ([bf509c5](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/commit/bf509c578533f8e1cc37dd9ef8e830ec7e43c999))
 
-# [0.45.0](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/compare/@pancakeswap/uikit@0.44.1...@pancakeswap/uikit@0.45.0) (2021-08-06)
+# [0.45.0](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/compare/@iguanadex/uikit@0.44.1...@iguanadex/uikit@0.45.0) (2021-08-06)
 
 ### Features
 
 - **menu:** Add global settings to Menu Widget ([#224](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/issues/224)) ([6ac2200](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/commit/6ac220074777427d94e3cba78f09d2dadadce9f0))
 - **uikit:** Td & Th components ([#227](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/issues/227)) ([c7f4283](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/commit/c7f4283357532cdb03ae4a577253ed4a473e1eca))
 
-## [0.44.1](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/compare/@pancakeswap/uikit@0.44.0...@pancakeswap/uikit@0.44.1) (2021-08-05)
+## [0.44.1](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/compare/@iguanadex/uikit@0.44.0...@iguanadex/uikit@0.44.1) (2021-08-05)
 
-**Note:** Version bump only for package @pancakeswap/uikit
+**Note:** Version bump only for package @iguanadex/uikit
 
-# [0.44.0](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/compare/@pancakeswap/uikit@0.43.0...@pancakeswap/uikit@0.44.0) (2021-08-03)
+# [0.44.0](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/compare/@iguanadex/uikit@0.43.0...@iguanadex/uikit@0.44.0) (2021-08-03)
 
 ### Features
 
 - **uikit:** Table ([#221](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/issues/221)) ([6289718](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/commit/6289718e7980a5021c70fa016571c0fc36c46a4c))
 
-# [0.43.0](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/compare/@pancakeswap/uikit@0.42.1...@pancakeswap/uikit@0.43.0) (2021-08-02)
+# [0.43.0](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/compare/@iguanadex/uikit@0.42.1...@iguanadex/uikit@0.43.0) (2021-08-02)
 
 ### Features
 
 - Add medal colors ([#217](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/issues/217)) ([92d80f2](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/commit/92d80f2ae1e8e9aa02d1a56542566205553ce9d2))
 - SubMenu component ([#219](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/issues/219)) ([e3d6747](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/commit/e3d6747987243640eedabc407d19142d2230de34))
 
-## [0.42.1](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/compare/@pancakeswap/uikit@0.42.0...@pancakeswap/uikit@0.42.1) (2021-07-29)
+## [0.42.1](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/compare/@iguanadex/uikit@0.42.0...@iguanadex/uikit@0.42.1) (2021-07-29)
 
-**Note:** Version bump only for package @pancakeswap/uikit
+**Note:** Version bump only for package @iguanadex/uikit
 
-# [0.42.0](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/compare/@pancakeswap/uikit@0.41.0...@pancakeswap/uikit@0.42.0) (2021-07-28)
+# [0.42.0](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/compare/@iguanadex/uikit@0.41.0...@iguanadex/uikit@0.42.0) (2021-07-28)
 
 ### Features
 
 - **uikit-buttonmenu:** Full width ([#212](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/issues/212)) ([0fa2ff5](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/commit/0fa2ff5f209843f489f0f65c3b885361beec5014))
 
-# [0.41.0](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/compare/@pancakeswap/uikit@0.40.4...@pancakeswap/uikit@0.41.0) (2021-07-21)
+# [0.41.0](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/compare/@iguanadex/uikit@0.40.4...@iguanadex/uikit@0.41.0) (2021-07-21)
 
 ### Features
 
 - **uikit:** Wallet icons ([#206](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/issues/206)) ([7bff4b5](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/commit/7bff4b57a92ba6363187af429b26ef2dd2658830))
 
-## [0.40.4](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/compare/@pancakeswap/uikit@0.40.3...@pancakeswap/uikit@0.40.4) (2021-07-16)
+## [0.40.4](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/compare/@iguanadex/uikit@0.40.3...@iguanadex/uikit@0.40.4) (2021-07-16)
 
-**Note:** Version bump only for package @pancakeswap/uikit
+**Note:** Version bump only for package @iguanadex/uikit
 
-## [0.40.3](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/compare/@pancakeswap/uikit@0.40.2...@pancakeswap/uikit@0.40.3) (2021-07-15)
+## [0.40.3](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/compare/@iguanadex/uikit@0.40.2...@iguanadex/uikit@0.40.3) (2021-07-15)
 
 ### Bug Fixes
 
 - Increase ifo stepper connector height in mobile ([#195](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/issues/195)) ([5408d1c](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/commit/5408d1ca6099154d5385b0aaecf5015fdf8b4d20))
 
-## [0.40.2](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/compare/@pancakeswap/uikit@0.40.1...@pancakeswap/uikit@0.40.2) (2021-07-09)
+## [0.40.2](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/compare/@iguanadex/uikit@0.40.1...@iguanadex/uikit@0.40.2) (2021-07-09)
 
-**Note:** Version bump only for package @pancakeswap/uikit
+**Note:** Version bump only for package @iguanadex/uikit
 
-## [0.40.1](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/compare/@pancakeswap/uikit@0.40.0...@pancakeswap/uikit@0.40.1) (2021-07-09)
+## [0.40.1](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/compare/@iguanadex/uikit@0.40.0...@iguanadex/uikit@0.40.1) (2021-07-09)
 
-**Note:** Version bump only for package @pancakeswap/uikit
+**Note:** Version bump only for package @iguanadex/uikit
 
-# [0.40.0](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/compare/@pancakeswap/uikit@0.39.4...@pancakeswap/uikit@0.40.0) (2021-07-01)
+# [0.40.0](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/compare/@iguanadex/uikit@0.39.4...@iguanadex/uikit@0.40.0) (2021-07-01)
 
 ### Features
 
 - Reactive modals ([#183](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/issues/183)) ([7644124](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/commit/7644124b0205379019eba9aebcab30d163144fae))
 
-## [0.39.4](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/compare/@pancakeswap/uikit@0.39.3...@pancakeswap/uikit@0.39.4) (2021-06-30)
+## [0.39.4](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/compare/@iguanadex/uikit@0.39.3...@iguanadex/uikit@0.39.4) (2021-06-30)
 
-**Note:** Version bump only for package @pancakeswap/uikit
+**Note:** Version bump only for package @iguanadex/uikit
 
-## [0.39.3](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/compare/@pancakeswap/uikit@0.39.2...@pancakeswap/uikit@0.39.3) (2021-06-21)
+## [0.39.3](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/compare/@iguanadex/uikit@0.39.2...@iguanadex/uikit@0.39.3) (2021-06-21)
 
-**Note:** Version bump only for package @pancakeswap/uikit
+**Note:** Version bump only for package @iguanadex/uikit
 
-## [0.39.2](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/compare/@pancakeswap/uikit@0.39.1...@pancakeswap/uikit@0.39.2) (2021-06-18)
+## [0.39.2](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/compare/@iguanadex/uikit@0.39.1...@iguanadex/uikit@0.39.2) (2021-06-18)
 
-**Note:** Version bump only for package @pancakeswap/uikit
+**Note:** Version bump only for package @iguanadex/uikit
 
-## [0.39.1](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/compare/@pancakeswap/uikit@0.39.0...@pancakeswap/uikit@0.39.1) (2021-06-17)
+## [0.39.1](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/compare/@iguanadex/uikit@0.39.0...@iguanadex/uikit@0.39.1) (2021-06-17)
 
 ### Bug Fixes
 
 - (userblock) Check Props properties seperately to not cause rerender each time ([#151](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/issues/151)) ([e6f90d7](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/commit/e6f90d7b41a1b3a1d373560dd29e06f10c324639))
 
-# [0.39.0](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/compare/@pancakeswap/uikit@0.38.0...@pancakeswap/uikit@0.39.0) (2021-06-14)
+# [0.39.0](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/compare/@iguanadex/uikit@0.38.0...@iguanadex/uikit@0.39.0) (2021-06-14)
 
 ### Features
 
 - Menu variant without Connect button ([#155](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/issues/155)) ([84b6f68](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/commit/84b6f683693b426428c5445fc6891608e3943399))
 
-# [0.38.0](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/compare/@pancakeswap/uikit@0.37.1...@pancakeswap/uikit@0.38.0) (2021-06-11)
+# [0.38.0](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/compare/@iguanadex/uikit@0.37.1...@iguanadex/uikit@0.38.0) (2021-06-11)
 
 ### Bug Fixes
 
@@ -507,42 +507,42 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 - (connect) Change how to connect link with more accurate one ([#152](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/issues/152)) ([bfbe506](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/commit/bfbe506e63ef7a243d7425d07fb59c9da9d5a06b))
 
-## [0.37.1](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/compare/@pancakeswap/uikit@0.37.0...@pancakeswap/uikit@0.37.1) (2021-06-09)
+## [0.37.1](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/compare/@iguanadex/uikit@0.37.0...@iguanadex/uikit@0.37.1) (2021-06-09)
 
 ### Bug Fixes
 
 - (Menu) Footer is not visible completely when navigation bar is visible ([#138](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/issues/138)) ([fa6fc66](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/commit/fa6fc669091398de8c3cee156e3724006023a4a2))
 - Message component ([#150](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/issues/150)) ([90387d4](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/commit/90387d4cc5758763476d1d20c0a9b8d63588c689))
 
-# [0.37.0](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/compare/@pancakeswap/uikit@0.36.1...@pancakeswap/uikit@0.37.0) (2021-06-08)
+# [0.37.0](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/compare/@iguanadex/uikit@0.36.1...@iguanadex/uikit@0.37.0) (2021-06-08)
 
 ### Features
 
 - (BalanceInput) Add decimal check support ([#142](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/issues/142)) ([763e13f](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/commit/763e13f836ac2cbb8a3b1132d98854e07a492ced))
 
-## [0.36.1](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/compare/@pancakeswap/uikit@0.36.0...@pancakeswap/uikit@0.36.1) (2021-06-03)
+## [0.36.1](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/compare/@iguanadex/uikit@0.36.0...@iguanadex/uikit@0.36.1) (2021-06-03)
 
-**Note:** Version bump only for package @pancakeswap/uikit
+**Note:** Version bump only for package @iguanadex/uikit
 
-# [0.36.0](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/compare/@pancakeswap/uikit@0.35.0...@pancakeswap/uikit@0.36.0) (2021-05-31)
+# [0.36.0](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/compare/@iguanadex/uikit@0.35.0...@iguanadex/uikit@0.36.0) (2021-05-31)
 
 ### Features
 
 - Add a grid primitive ([#122](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/issues/122)) ([15e8aad](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/commit/15e8aad6bd87ed204a7ffcd14d434a009a0051ef))
 
-# [0.35.0](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/compare/@pancakeswap/uikit@0.34.0...@pancakeswap/uikit@0.35.0) (2021-05-27)
+# [0.35.0](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/compare/@iguanadex/uikit@0.34.0...@iguanadex/uikit@0.35.0) (2021-05-27)
 
 ### Features
 
 - Add text ellipsis ([#121](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/issues/121)) ([17d1bfa](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/commit/17d1bfadef5b8c78a2f7f8400e3942e5bb6a419a))
 
-# [0.34.0](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/compare/@pancakeswap/uikit@0.33.2...@pancakeswap/uikit@0.34.0) (2021-05-26)
+# [0.34.0](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/compare/@iguanadex/uikit@0.33.2...@iguanadex/uikit@0.34.0) (2021-05-26)
 
 ### Features
 
 - Message component ([#120](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/issues/120)) ([0584b7d](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/commit/0584b7d59dd84273c36f81b19077a1eca1fd0bee))
 
-## [0.33.2](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/compare/@pancakeswap/uikit@0.33.1...@pancakeswap/uikit@0.33.2) (2021-05-26)
+## [0.33.2](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/compare/@iguanadex/uikit@0.33.1...@iguanadex/uikit@0.33.2) (2021-05-26)
 
 ### Bug Fixes
 
@@ -550,13 +550,13 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 - Card radius ([#116](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/issues/116)) ([beb881a](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/commit/beb881a8829496a0949f1ae073e88759f131f801))
 - Change help link of connect modal to point connect ([#118](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/issues/118)) ([486e7d3](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/commit/486e7d375b8abaa9a4fabfc079c9872c2925c929))
 
-## [0.33.1](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/compare/@pancakeswap/uikit@0.33.0...@pancakeswap/uikit@0.33.1) (2021-05-25)
+## [0.33.1](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/compare/@iguanadex/uikit@0.33.0...@iguanadex/uikit@0.33.1) (2021-05-25)
 
 ### Bug Fixes
 
 - **menu:** Improved accessibility ([#109](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/issues/109)) ([eda619d](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/commit/eda619d18866f0cbd1958a16cdd2bede327bf485))
 
-# [0.33.0](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/compare/@pancakeswap/uikit@0.32.3...@pancakeswap/uikit@0.33.0) (2021-05-24)
+# [0.33.0](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/compare/@iguanadex/uikit@0.32.3...@iguanadex/uikit@0.33.0) (2021-05-24)
 
 ### Bug Fixes
 
@@ -569,21 +569,21 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 - **uikit:** Vote icon ([#111](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/issues/111)) ([1399814](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/commit/1399814b123ea6232c16aff231965112b63f3fa0))
 - **uikit/tag:** Warning variant ([#110](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/issues/110)) ([f4b9d87](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/commit/f4b9d87100c4d493728277d566fdf581d0fca6bd))
 
-## [0.32.3](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/compare/@pancakeswap/uikit@0.32.2...@pancakeswap/uikit@0.32.3) (2021-05-11)
+## [0.32.3](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/compare/@iguanadex/uikit@0.32.2...@iguanadex/uikit@0.32.3) (2021-05-11)
 
-**Note:** Version bump only for package @pancakeswap/uikit
+**Note:** Version bump only for package @iguanadex/uikit
 
-## [0.32.2](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/compare/@pancakeswap/uikit@0.32.1...@pancakeswap/uikit@0.32.2) (2021-05-11)
+## [0.32.2](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/compare/@iguanadex/uikit@0.32.1...@iguanadex/uikit@0.32.2) (2021-05-11)
 
 ### Bug Fixes
 
 - Dropdown colors ([#100](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/issues/100)) ([5d66f62](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/commit/5d66f62db5234bc8d59d836ba65713b79b5ecbbf))
 
-## [0.32.1](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/compare/@pancakeswap/uikit@0.32.0...@pancakeswap/uikit@0.32.1) (2021-05-11)
+## [0.32.1](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/compare/@iguanadex/uikit@0.32.0...@iguanadex/uikit@0.32.1) (2021-05-11)
 
-**Note:** Version bump only for package @pancakeswap/uikit
+**Note:** Version bump only for package @iguanadex/uikit
 
-# [0.32.0](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/compare/@pancakeswap/uikit@0.31.0...@pancakeswap/uikit@0.32.0) (2021-05-11)
+# [0.32.0](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/compare/@iguanadex/uikit@0.31.0...@iguanadex/uikit@0.32.0) (2021-05-11)
 
 ### Bug Fixes
 
@@ -593,7 +593,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 - **text:** Add styled system { layout } style to Text ([#96](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/issues/96)) ([2b619a1](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/commit/2b619a15f4806b1eb92d4cbd08a36984777038d1))
 
-# [0.31.0](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/compare/@pancakeswap/uikit@0.30.0...@pancakeswap/uikit@0.31.0) (2021-05-10)
+# [0.31.0](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/compare/@iguanadex/uikit@0.30.0...@iguanadex/uikit@0.31.0) (2021-05-10)
 
 ### Features
 

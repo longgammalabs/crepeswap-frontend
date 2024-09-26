@@ -1,6 +1,6 @@
-import { TranslateFunction, useTranslation } from "@pancakeswap/localization";
-import { HelpIcon, Skeleton, Text, TooltipRefs, useTooltip } from "@pancakeswap/uikit";
-import getTimePeriods from "@pancakeswap/utils/getTimePeriods";
+import { TranslateFunction, useTranslation } from "@iguanadex/localization";
+import { HelpIcon, Skeleton, Text, TooltipRefs, useTooltip } from "@iguanadex/uikit";
+import getTimePeriods from "@iguanadex/utils/getTimePeriods";
 import dayjs from "dayjs";
 import relativeTime from "dayjs/plugin/relativeTime";
 import { styled } from "styled-components";

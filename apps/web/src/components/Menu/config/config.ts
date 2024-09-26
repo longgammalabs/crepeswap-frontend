@@ -1,4 +1,4 @@
-import { ContextApi } from '@pancakeswap/localization'
+import { ContextApi } from '@iguanadex/localization'
 import {
   DropdownMenuItemType,
   DropdownMenuItems,
@@ -6,11 +6,9 @@ import {
   EarnIcon,
   MenuItemsType,
   MoreIcon,
-  ShoppingBasketFilledIcon,
-  ShoppingBasketIcon,
   SwapFillIcon,
   SwapIcon,
-} from '@pancakeswap/uikit'
+} from '@iguanadex/uikit'
 
 export type ConfigMenuDropDownItemsType = DropdownMenuItems & { hideSubNav?: boolean }
 export type ConfigMenuItemsType = Omit<MenuItemsType, 'items'> & { hideSubNav?: boolean; image?: string } & {
@@ -61,14 +59,14 @@ const config: (
       showItemsOnMobile: false,
       items: [],
     },
-    {
-      label: t('Buy'),
-      href: '/buy-crypto',
-      icon: ShoppingBasketIcon,
-      fillIcon: ShoppingBasketFilledIcon,
-      showItemsOnMobile: false,
-      items: [],
-    },
+    // {
+    //   label: t('Buy'),
+    //   href: '/buy-crypto',
+    //   icon: ShoppingBasketIcon,
+    //   fillIcon: ShoppingBasketFilledIcon,
+    //   showItemsOnMobile: false,
+    //   items: [],
+    // },
     // {
     //   label: t('Earn'),
     //   href: '/liquidity',
@@ -168,7 +166,7 @@ const config: (
     // },
     {
       label: '',
-      href: '/info',
+      href: '/more',
       icon: MoreIcon,
       hideSubNav: true,
       items: [
@@ -209,11 +207,6 @@ const config: (
         {
           type: DropdownMenuItemType.DIVIDER,
         },
-        // {
-        //   label: t('Blog'),
-        //   href: 'https://blog.pancakeswap.finance',
-        //   type: DropdownMenuItemType.EXTERNAL_LINK,
-        // },
         {
           label: t('Docs'),
           href: 'https://docs.iguanadex.com',

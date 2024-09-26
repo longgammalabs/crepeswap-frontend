@@ -1,20 +1,20 @@
 {
-  "name": "@pancakeswap/utils",
-  "version": "6.0.3",
+  "name": "@iguanadex/utils",
+  "version": "6.0.4",
   "scripts": {
     "test": "vitest --run"
   },
-  "private": true,
+  "private": false,
   "peerDependencies": {
-    "@pancakeswap/localization": "workspace:*",
+    "@iguanadex/localization": "workspace:*",
     "dayjs": "^1.11.10",
     "lodash": "^4.17.21",
     "styled-components": "^6.0.7",
     "viem": "1.19.11"
   },
   "devDependencies": {
-    "@pancakeswap/sdk": "workspace:*",
-    "@pancakeswap/swap-sdk-core": "workspace:*",
+    "@iguanadex/sdk": "workspace:*",
+    "@iguanadex/swap-sdk-core": "workspace:*",
     "@types/lodash": "^4.14.168",
     "bignumber.js": "^9.0.0",
     "jotai": "^2.4.3",
@@ -22,7 +22,7 @@
     "viem": "1.19.11"
   },
   "peerDependenciesMeta": {
-    "@pancakeswap/localization": {
+    "@iguanadex/localization": {
       "optional": true
     },
     "viem": {
@@ -30,7 +30,7 @@
     }
   },
   "dependencies": {
-    "@pancakeswap/chains": "workspace:*",
+    "@iguanadex/chains": "workspace:*",
     "url-parse": "^1.5.10"
   }
 }

@@ -1,4 +1,4 @@
-import { ChainId } from '@pancakeswap/chains'
+import { ChainId } from '@iguanadex/chains'
 import { Address } from 'viem'
 import { SupportedChainId } from './constants/supportedChains'
 import { ContractAddresses } from './type'
@@ -26,3 +26,8 @@ export const chainlinkOracleWBTC: Record<string, Address> = {
   [ChainId.ZKSYNC]: '0x',
   // [ChainId.ARBITRUM_ONE]: '0x6ce185860a4963106506C203335A2910413708e9',
 } as const satisfies ContractAddresses<SupportedChainId>
+
+export const chainlinkOracleXTZ: Record<string, Address> = {
+  [ChainId.ETHERLINK]: '0xe92c00BC72dD12e26E61212c04E8D93aa09624F2',
+  // [ChainId.ARBITRUM_ONE]: '0x',
+}

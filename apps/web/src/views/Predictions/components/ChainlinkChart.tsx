@@ -1,15 +1,6 @@
-import { useTranslation } from '@pancakeswap/localization'
-import {
-  Flex,
-  FlexGap,
-  FlexProps,
-  Text,
-  additionalColors,
-  baseColors,
-  darkColors,
-  lightColors,
-} from '@pancakeswap/uikit'
-import { formatBigIntToFixed } from '@pancakeswap/utils/formatBalance'
+import { useTranslation } from '@iguanadex/localization'
+import { Flex, FlexGap, FlexProps, Text, additionalColors, baseColors, darkColors, lightColors } from '@iguanadex/uikit'
+import { formatBigIntToFixed } from '@iguanadex/utils/formatBalance'
 import { useQuery, useQueryClient } from '@tanstack/react-query'
 import { LineChartLoader } from 'components/ChartLoaders'
 import PairPriceDisplay from 'components/PairPriceDisplay'

@@ -1,5 +1,5 @@
+import { Text } from '@iguanadex/uikit'
 import React from 'react'
-import { Text } from '@pancakeswap/uikit'
 
 export interface EmptyTextProps {
   text: string

@@ -1,12 +1,12 @@
+import { PoolIds } from '@iguanadex/ifos'
+import { useTranslation } from '@iguanadex/localization'
+import { Box, BunnyKnownPlaceholder, BunnyPlaceholderIcon, Card, IfoGenericIfoCard, Text } from '@iguanadex/uikit'
 import { useMemo } from 'react'
-import { Card, Text, BunnyPlaceholderIcon, Box, IfoGenericIfoCard, BunnyKnownPlaceholder } from '@pancakeswap/uikit'
-import { useTranslation } from '@pancakeswap/localization'
 import styled from 'styled-components'
-import { PoolIds } from '@pancakeswap/ifos'
 
 import { CardsWrapper } from './IfoCardStyles'
-import { StyledCardBody } from './IfoFoldableCard/index'
 import { cardConfig } from './IfoFoldableCard/IfoPoolCard'
+import { StyledCardBody } from './IfoFoldableCard/index'
 
 const CurveBox = styled(Box)`
   border-bottom-left-radius: 100% 40px;

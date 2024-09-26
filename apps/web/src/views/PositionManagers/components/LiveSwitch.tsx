@@ -1,8 +1,8 @@
+import { useTranslation } from '@iguanadex/localization'
+import { ButtonMenu, ButtonMenuItem, Flex, NotificationDot } from '@iguanadex/uikit'
 import { memo, useCallback } from 'react'
-import { useTranslation } from '@pancakeswap/localization'
-import { Flex, ButtonMenu, NotificationDot, ButtonMenuItem } from '@pancakeswap/uikit'
 import { styled } from 'styled-components'
-import { usePositionManagerStatus, PositionManagerStatus } from '../hooks'
+import { PositionManagerStatus, usePositionManagerStatus } from '../hooks'
 
 const Wrapper = styled(Flex).attrs({
   justifyContent: 'center',

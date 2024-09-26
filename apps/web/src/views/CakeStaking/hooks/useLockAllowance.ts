@@ -1,12 +1,12 @@
-import { Currency, CurrencyAmount } from '@pancakeswap/swap-sdk-core'
-import { getDecimalAmount } from '@pancakeswap/utils/formatBalance'
+import { Currency, CurrencyAmount } from '@iguanadex/swap-sdk-core'
+import { getDecimalAmount } from '@iguanadex/utils/formatBalance'
 import BN from 'bignumber.js'
+import { useActiveChainId } from 'hooks/useActiveChainId'
 import { useApproveCallback } from 'hooks/useApproveCallback'
 import useTokenAllowance from 'hooks/useTokenAllowance'
 import { useMemo } from 'react'
 import { getVeCakeContract } from 'utils/contractHelpers'
 import { useAccount, useWalletClient } from 'wagmi'
-import { useActiveChainId } from 'hooks/useActiveChainId'
 
 import { useBSCCakeToken } from './useBSCCakeToken'
 

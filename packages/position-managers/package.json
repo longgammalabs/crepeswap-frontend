@@ -1,26 +1,26 @@
 {
-  "name": "@pancakeswap/position-managers",
-  "version": "0.1.20",
+  "name": "@iguanadex/position-managers",
+  "version": "0.1.21",
   "sideEffects": false,
-  "private": true,
+  "private": false,
   "scripts": {
     "test": "vitest --run"
   },
   "type": "module",
   "dependencies": {
-    "@pancakeswap/chains": "workspace:*",
-    "@pancakeswap/sdk": "workspace:*",
-    "@pancakeswap/token-lists": "workspace:*",
-    "@pancakeswap/tokens": "workspace:*",
-    "@pancakeswap/v3-sdk": "workspace:*",
+    "@iguanadex/chains": "workspace:*",
+    "@iguanadex/sdk": "workspace:*",
+    "@iguanadex/token-lists": "workspace:*",
+    "@iguanadex/tokens": "workspace:*",
+    "@iguanadex/v3-sdk": "workspace:*",
     "bignumber.js": "^9.0.0",
     "lodash": "^4.17.21",
     "viem": "1.19.11",
     "wagmi": "1.4.13"
   },
   "devDependencies": {
-    "@pancakeswap/tsconfig": "workspace:*",
-    "@pancakeswap/utils": "workspace:*",
+    "@iguanadex/tsconfig": "workspace:*",
+    "@iguanadex/utils": "workspace:*",
     "@types/lodash": "^4.14.168"
   }
 }

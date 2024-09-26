@@ -1,9 +1,9 @@
-import { Box, Text } from '@pancakeswap/uikit'
-import { Pool } from '@pancakeswap/widgets-internal'
+import { Box, Text } from '@iguanadex/uikit'
+import { Pool } from '@iguanadex/widgets-internal'
 
-import { useTranslation } from '@pancakeswap/localization'
-import { Token } from '@pancakeswap/sdk'
-import { getBalanceNumber } from '@pancakeswap/utils/formatBalance'
+import { useTranslation } from '@iguanadex/localization'
+import { Token } from '@iguanadex/sdk'
+import { getBalanceNumber } from '@iguanadex/utils/formatBalance'
 import { useVaultPoolByKey } from 'state/pools/hooks'
 
 interface OriginalLockedInfoProps {

@@ -1,7 +1,7 @@
-import { memo } from 'react'
-import { Text, Flex, TooltipText, useTooltip, BalanceWithLoading } from '@pancakeswap/uikit'
-import isUndefinedOrNull from '@pancakeswap/utils/isUndefinedOrNull'
+import { BalanceWithLoading, Flex, Text, TooltipText, useTooltip } from '@iguanadex/uikit'
+import isUndefinedOrNull from '@iguanadex/utils/isUndefinedOrNull'
 import _toNumber from 'lodash/toNumber'
+import { memo } from 'react'
 import CrossText from './CrossText'
 
 interface DiffBalancePropsType {

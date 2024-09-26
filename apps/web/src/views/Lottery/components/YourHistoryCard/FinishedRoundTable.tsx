@@ -1,8 +1,8 @@
-import { styled } from 'styled-components'
-import { Text, Box, Flex, Button } from '@pancakeswap/uikit'
-import { useTranslation } from '@pancakeswap/localization'
+import { useTranslation } from '@iguanadex/localization'
+import { Box, Button, Flex, Text } from '@iguanadex/uikit'
 import { LotteryStatus } from 'config/constants/types'
 import { useGetUserLotteriesGraphData } from 'state/lottery/hooks'
+import { styled } from 'styled-components'
 import FinishedRoundRow from './FinishedRoundRow'
 
 const Grid = styled(Box)`

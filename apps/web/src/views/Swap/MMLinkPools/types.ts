@@ -1,4 +1,4 @@
-import { Currency, CurrencyAmount } from '@pancakeswap/sdk'
+import { Currency, CurrencyAmount } from '@iguanadex/sdk'
 import { MutableRefObject } from 'react'
 import { Field } from 'state/swap/actions'
 import { nativeEnum as zNativeEnum, number as zNumber, object as zObject, string as zString } from 'zod'

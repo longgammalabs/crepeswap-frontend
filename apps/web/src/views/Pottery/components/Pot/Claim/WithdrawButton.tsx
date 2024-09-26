@@ -1,9 +1,9 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { Button, AutoRenewIcon } from '@pancakeswap/uikit'
-import { useWithdrawPottery } from 'views/Pottery/hooks/useWithdrawPottery'
-import { PotteryDepositStatus } from 'state/types'
+import { useTranslation } from '@iguanadex/localization'
+import { AutoRenewIcon, Button } from '@iguanadex/uikit'
 import BigNumber from 'bignumber.js'
 import { useMemo } from 'react'
+import { PotteryDepositStatus } from 'state/types'
+import { useWithdrawPottery } from 'views/Pottery/hooks/useWithdrawPottery'
 import { Address } from 'wagmi'
 
 interface WithdrawButtonProps {

@@ -1,8 +1,8 @@
 /* eslint-disable address/addr-type */
-import { SerializedFarm } from '@pancakeswap/farms'
-import farms1 from '@pancakeswap/farms/constants/eth'
-import farms56 from '@pancakeswap/farms/constants/bsc'
-import { Native } from '@pancakeswap/sdk'
+import { SerializedFarm } from '@iguanadex/farms'
+import farms56 from '@iguanadex/farms/constants/bsc'
+import farms1 from '@iguanadex/farms/constants/eth'
+import { Native } from '@iguanadex/sdk'
 import { getLpContract } from 'utils/contractHelpers'
 import { describe, it } from 'vitest'
 

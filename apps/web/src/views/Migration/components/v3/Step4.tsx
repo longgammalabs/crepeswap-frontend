@@ -1,19 +1,7 @@
-import { ChainId } from '@pancakeswap/chains'
-import { useTranslation } from '@pancakeswap/localization'
-import { Token } from '@pancakeswap/sdk'
-import {
-  AtomBox,
-  AutoRow,
-  Button,
-  Dots,
-  Flex,
-  Modal,
-  ModalV2,
-  PreTitle,
-  Tag,
-  Text,
-  useModalV2,
-} from '@pancakeswap/uikit'
+import { ChainId } from '@iguanadex/chains'
+import { useTranslation } from '@iguanadex/localization'
+import { Token } from '@iguanadex/sdk'
+import { AtomBox, AutoRow, Button, Dots, Flex, Modal, ModalV2, PreTitle, Tag, Text, useModalV2 } from '@iguanadex/uikit'
 import { AppBody, AppHeader } from 'components/App'
 import { LightGreyCard } from 'components/Card'
 import { CommitButton } from 'components/CommitButton'

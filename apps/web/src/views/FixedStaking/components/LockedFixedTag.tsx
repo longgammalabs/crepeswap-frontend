@@ -1,5 +1,5 @@
-import { Tag, LockIcon } from '@pancakeswap/uikit'
-import { ReactNode, CSSProperties } from 'react'
+import { LockIcon, Tag } from '@iguanadex/uikit'
+import { CSSProperties, ReactNode } from 'react'
 
 export function LockedFixedTag({ children, style }: { children: ReactNode; style?: CSSProperties }) {
   return (

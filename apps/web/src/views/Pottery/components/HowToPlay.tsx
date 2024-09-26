@@ -1,7 +1,7 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { styled } from 'styled-components'
-import { Flex, Text, Card, Box } from '@pancakeswap/uikit'
+import { useTranslation } from '@iguanadex/localization'
+import { Box, Card, Flex, Text } from '@iguanadex/uikit'
 import Divider from 'components/Divider'
+import { styled } from 'styled-components'
 
 const HowToPlayContainer = styled(Flex)`
   width: 100%;

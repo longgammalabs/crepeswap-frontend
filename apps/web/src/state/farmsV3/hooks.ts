@@ -1,4 +1,4 @@
-import { ChainId } from '@pancakeswap/chains'
+import { ChainId } from '@iguanadex/chains'
 import {
   FarmV3DataWithPrice,
   FarmV3DataWithPriceAndUserInfo,
@@ -10,12 +10,12 @@ import {
   bCakeSupportedChainId,
   createFarmFetcherV3,
   supportedChainIdV3,
-} from '@pancakeswap/farms'
-import { priceHelperTokens } from '@pancakeswap/farms/constants/common'
-import { farmsV3ConfigChainMap } from '@pancakeswap/farms/constants/v3'
-import { bCakeFarmBoosterVeCakeABI } from '@pancakeswap/farms/constants/v3/abi/bCakeFarmBoosterVeCake'
-import { TvlMap, fetchCommonTokenUSDValue } from '@pancakeswap/farms/src/fetchFarmsV3'
-import { deserializeToken } from '@pancakeswap/token-lists'
+} from '@iguanadex/farms'
+import { priceHelperTokens } from '@iguanadex/farms/constants/common'
+import { farmsV3ConfigChainMap } from '@iguanadex/farms/constants/v3'
+import { bCakeFarmBoosterVeCakeABI } from '@iguanadex/farms/constants/v3/abi/bCakeFarmBoosterVeCake'
+import { TvlMap, fetchCommonTokenUSDValue } from '@iguanadex/farms/src/fetchFarmsV3'
+import { deserializeToken } from '@iguanadex/token-lists'
 import { keepPreviousData, useQuery } from '@tanstack/react-query'
 import { FAST_INTERVAL } from 'config/constants'
 import { FARMS_API } from 'config/constants/endpoints'
@@ -49,7 +49,7 @@ export const farmV3ApiFetch = (chainId: number): Promise<FarmsV3Response> =>
     })
 
 const fallback: Awaited<ReturnType<typeof farmFetcherV3.fetchFarms>> = {
-  chainId: ChainId.BSC,
+  chainId: ChainId.ETHERLINK,
   farmsWithPrice: [],
   poolLength: 0,
   cakePerSecond: '0',

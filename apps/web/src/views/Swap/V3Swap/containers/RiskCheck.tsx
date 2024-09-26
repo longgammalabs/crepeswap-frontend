@@ -1,4 +1,4 @@
-import { Box } from '@pancakeswap/uikit'
+import { Box } from '@iguanadex/uikit'
 import { memo, useContext } from 'react'
 
 import AccessRisk from 'components/AccessRisk'

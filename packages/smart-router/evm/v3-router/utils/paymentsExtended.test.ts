@@ -1,5 +1,5 @@
-import { Percent, Token } from '@pancakeswap/sdk'
-import { describe, it, expect } from 'vitest'
+import { Percent, Token } from '@iguanadex/sdk'
+import { describe, expect, it } from 'vitest'
 import { PaymentsExtended } from './paymentsExtended'
 
 const recipient = '0x0000000000000000000000000000000000000003'

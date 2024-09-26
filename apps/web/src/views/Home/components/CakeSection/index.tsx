@@ -1,5 +1,5 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { Button, Flex, Link, OpenNewIcon, Text, useMatchBreakpoints } from '@pancakeswap/uikit'
+import { useTranslation } from '@iguanadex/localization'
+import { Button, Flex, Link, OpenNewIcon, Text, useMatchBreakpoints } from '@iguanadex/uikit'
 import { PANCAKE_ASSET_CDN } from 'config/constants/endpoints'
 import useTheme from 'hooks/useTheme'
 import React, { memo, useCallback, useLayoutEffect, useRef } from 'react'
@@ -426,7 +426,7 @@ const CakeSection: React.FC = () => {
         </Text>
       </Flex>
       <Flex justifyContent="center" style={{ gap: 14 }}>
-        <Link href="https://pancakeswap.finance/swap?outputCurrency=0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82&chainId=56">
+        <Link href="https://iguanadex.com/swap?outputCurrency=XTZ&chainId=42793">
           <Button variant="primary">{t('Buy IGN')}</Button>
         </Link>
         <Link href="https://docs.pancakeswap.finance/governance-and-tokenomics/cake-tokenomics">

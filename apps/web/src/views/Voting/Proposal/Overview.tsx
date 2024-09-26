@@ -1,5 +1,5 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { ArrowBackIcon, Box, Button, Flex, Heading, NotFound, ReactMarkdown } from '@pancakeswap/uikit'
+import { useTranslation } from '@iguanadex/localization'
+import { ArrowBackIcon, Box, Button, Flex, Heading, NotFound, ReactMarkdown } from '@iguanadex/uikit'
 import { useQuery } from '@tanstack/react-query'
 import Container from 'components/Layout/Container'
 import PageLoader from 'components/Loader/PageLoader'

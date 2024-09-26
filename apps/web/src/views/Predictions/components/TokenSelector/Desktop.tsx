@@ -1,5 +1,5 @@
-import { PredictionConfig } from '@pancakeswap/prediction'
-import { Flex, Text } from '@pancakeswap/uikit'
+import { PredictionConfig } from '@iguanadex/prediction'
+import { Flex, Text } from '@iguanadex/uikit'
 import { TokenImage } from 'components/TokenImage'
 import { styled } from 'styled-components'
 import { Price } from 'views/Predictions/components/TokenSelector/Price'

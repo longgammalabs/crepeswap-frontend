@@ -1,5 +1,5 @@
+import { TickList } from '@iguanadex/v3-sdk'
 import invariant from 'tiny-invariant'
-import { TickList } from '@pancakeswap/v3-sdk'
 
 import {
   BASE_SWAP_COST_STABLE_SWAP,

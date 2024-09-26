@@ -1,35 +1,35 @@
-import { useState, useEffect } from 'react'
-import { useProfile } from 'state/profile/hooks'
-import { Flex, Box, useMatchBreakpoints, PageSection } from '@pancakeswap/uikit'
-import { styled } from 'styled-components'
-import { useTradingCompetitionContractEaster } from 'hooks/useContract'
+import { ChainId } from '@iguanadex/chains'
+import { Box, Flex, PageSection, useMatchBreakpoints } from '@iguanadex/uikit'
 import { API_PROFILE } from 'config/constants/endpoints'
-import useTheme from 'hooks/useTheme'
 import {
-  SmartContractPhases,
-  CompetitionPhases,
-  LIVE,
-  FINISHED,
   CLAIM,
+  CompetitionPhases,
+  FINISHED,
+  LIVE,
   OVER,
   REGISTRATION,
+  SmartContractPhases,
 } from 'config/constants/trading-competition/phases'
-import { ChainId } from '@pancakeswap/chains'
 import useAccountActiveChain from 'hooks/useAccountActiveChain'
-import { DARKBG, MIDBLUEBG, MIDBLUEBG_DARK } from './pageSectionStyles'
-import EasterStormBunny from './pngs/easter-storm.png'
+import { useTradingCompetitionContractEaster } from 'hooks/useContract'
+import useTheme from 'hooks/useTheme'
+import { useEffect, useState } from 'react'
+import { useProfile } from 'state/profile/hooks'
+import { styled } from 'styled-components'
+import Footer from './Footer'
+import BattleCta from './components/BattleCta'
 import Countdown from './components/Countdown'
 import HowToJoin from './components/HowToJoin'
-import BattleCta from './components/BattleCta'
+import PrizesInfoSection from './components/PrizesInfoSection'
+import TeamRanksSection from './components/TeamRanksSection'
 import EasterBattleBanner from './easter/components/BattleBanner/EasterBattleBanner'
 import EasterPrizesInfo from './easter/components/PrizesInfo/EasterPrizesInfo'
 import EasterYourScore from './easter/components/YourScore/EasterYourScore'
+import { DARKBG, MIDBLUEBG, MIDBLUEBG_DARK } from './pageSectionStyles'
 import EasterCakerBunny from './pngs/easter-cakers.png'
-import { useTeamInformation } from './useTeamInformation'
+import EasterStormBunny from './pngs/easter-storm.png'
 import { useRegistrationClaimStatus } from './useRegistrationClaimStatus'
-import Footer from './Footer'
-import TeamRanksSection from './components/TeamRanksSection'
-import PrizesInfoSection from './components/PrizesInfoSection'
+import { useTeamInformation } from './useTeamInformation'
 
 const CompetitionPage = styled.div`
   min-height: calc(100vh - 64px);

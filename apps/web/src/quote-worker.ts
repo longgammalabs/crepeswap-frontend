@@ -1,6 +1,6 @@
 import 'utils/workerPolyfill'
 
-import { SmartRouter, V4Router } from '@pancakeswap/smart-router'
+import { SmartRouter, V4Router } from '@iguanadex/smart-router'
 import { Call } from 'state/multicall/actions'
 import { fetchChunk } from 'state/multicall/fetchChunk'
 import { getLogger } from 'utils/datadog'

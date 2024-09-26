@@ -1,6 +1,6 @@
-import { Gauge, GaugeType } from '@pancakeswap/gauges'
-import { useDebounce } from '@pancakeswap/hooks'
-import { useTranslation } from '@pancakeswap/localization'
+import { Gauge, GaugeType } from '@iguanadex/gauges'
+import { useDebounce } from '@iguanadex/hooks'
+import { useTranslation } from '@iguanadex/localization'
 import {
   AutoColumn,
   Box,
@@ -16,7 +16,7 @@ import {
   ModalWrapper,
   Text,
   useMatchBreakpoints,
-} from '@pancakeswap/uikit'
+} from '@iguanadex/uikit'
 import { useEffect, useMemo, useState } from 'react'
 import styled from 'styled-components'
 import { useGauges } from 'views/GaugesVoting/hooks/useGauges'

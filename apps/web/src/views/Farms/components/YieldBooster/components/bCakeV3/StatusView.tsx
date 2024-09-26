@@ -1,5 +1,5 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { Box, Flex, HelpIcon, Text, useMatchBreakpoints, useTooltip } from '@pancakeswap/uikit'
+import { useTranslation } from '@iguanadex/localization'
+import { Box, Flex, HelpIcon, Text, useMatchBreakpoints, useTooltip } from '@iguanadex/uikit'
 import { useMemo } from 'react'
 import { useAccount } from 'wagmi'
 import { useBCakeBoostLimitAndLockInfo } from '../../hooks/bCakeV3/useBCakeV3Info'

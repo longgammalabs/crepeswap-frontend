@@ -1,4 +1,4 @@
-import { ChainId } from '@pancakeswap/chains'
+import { ChainId } from '@iguanadex/chains'
 import { useQuery } from '@tanstack/react-query'
 import BigNumber from 'bignumber.js'
 import { tradingRewardABI } from 'config/abi/tradingReward'

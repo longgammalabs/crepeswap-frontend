@@ -1,8 +1,8 @@
+import { useTranslation } from '@iguanadex/localization'
+import { Box, Button, CalculateIcon, Flex, Tag, Text, useModal } from '@iguanadex/uikit'
 import { useMemo } from 'react'
-import { Flex, Box, Button, useModal, Text, Tag, CalculateIcon } from '@pancakeswap/uikit'
-import { useTranslation } from '@pancakeswap/localization'
-import WinRateModal from 'views/Pottery/components/WinRateModal'
 import { usePotteryData } from 'state/pottery/hook'
+import WinRateModal from 'views/Pottery/components/WinRateModal'
 
 const WinRate: React.FC<React.PropsWithChildren> = () => {
   const { t } = useTranslation()

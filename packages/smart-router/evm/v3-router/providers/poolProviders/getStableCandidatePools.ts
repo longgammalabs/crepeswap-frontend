@@ -1,7 +1,7 @@
-import { BigintIsh, Currency } from '@pancakeswap/sdk'
+import { BigintIsh, Currency } from '@iguanadex/sdk'
 
-import { OnChainProvider } from '../../types'
 import { getPairCombinations } from '../../functions'
+import { OnChainProvider } from '../../types'
 import { getStablePoolsOnChain } from './onChainPoolProviders'
 
 interface Params {

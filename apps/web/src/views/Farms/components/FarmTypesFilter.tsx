@@ -1,4 +1,4 @@
-import { useTranslation } from '@pancakeswap/localization'
+import { useTranslation } from '@iguanadex/localization'
 import {
   Box,
   Button,
@@ -10,7 +10,7 @@ import {
   Text,
   Toggle,
   TradeIcon,
-} from '@pancakeswap/uikit'
+} from '@iguanadex/uikit'
 import { useEffect, useRef, useState } from 'react'
 import { styled } from 'styled-components'
 

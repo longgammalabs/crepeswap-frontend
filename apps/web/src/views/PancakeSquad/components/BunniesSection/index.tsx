@@ -1,14 +1,14 @@
-import { Box, Button, Flex, Text } from '@pancakeswap/uikit'
-import { NextLinkFromReactRouter } from '@pancakeswap/widgets-internal'
+import { Box, Button, Flex, Text } from '@iguanadex/uikit'
+import { NextLinkFromReactRouter } from '@iguanadex/widgets-internal'
 
-import { useTranslation } from '@pancakeswap/localization'
-import ColoredWordHeading from 'views/Home/components/ColoredWordHeading'
-import { LandingBodyWrapper } from 'views/PancakeSquad/styles'
-import { SlideSvgDark, SlideSvgLight } from 'views/Home/components/SlideSvg'
+import { useTranslation } from '@iguanadex/localization'
 import useTheme from 'hooks/useTheme'
+import ColoredWordHeading from 'views/Home/components/ColoredWordHeading'
+import { SlideSvgDark, SlideSvgLight } from 'views/Home/components/SlideSvg'
+import { LandingBodyWrapper } from 'views/PancakeSquad/styles'
+import BunniesImages from './BunniesImages'
 import bunniesConfig from './config'
 import { StyledBunnySectionContainer, StyledTextContainer } from './styles'
-import BunniesImages from './BunniesImages'
 
 const BunniesSection = () => {
   const { t } = useTranslation()

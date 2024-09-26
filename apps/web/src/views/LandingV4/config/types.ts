@@ -1,4 +1,4 @@
-import { ArticleDataType, PaginationType } from '@pancakeswap/blog'
+import { ArticleDataType, PaginationType } from '@iguanadex/blog'
 
 export enum TagType {
   // Category

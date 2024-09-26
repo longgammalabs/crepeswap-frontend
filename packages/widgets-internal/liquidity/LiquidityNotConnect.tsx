@@ -1,5 +1,5 @@
-import { useTranslation } from "@pancakeswap/localization";
-import { Text } from "@pancakeswap/uikit";
+import { useTranslation } from "@iguanadex/localization";
+import { Text } from "@iguanadex/uikit";
 
 export function LiquidityNotConnect() {
   const { t } = useTranslation();

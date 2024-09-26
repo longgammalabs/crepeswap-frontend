@@ -1,5 +1,5 @@
+import { languageList, useTranslation } from '@iguanadex/localization'
 import { NextRouter, useRouter } from 'next/router'
-import { useTranslation, languageList } from '@pancakeswap/localization'
 import { useEffect, useState } from 'react'
 /* eslint-disable no-console */
 const cbList = {}

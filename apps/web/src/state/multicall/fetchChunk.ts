@@ -1,5 +1,5 @@
-import { ChainId } from '@pancakeswap/chains'
-import { getMulticall3ContractAddress, multicall3ABI } from '@pancakeswap/multicall'
+import { ChainId } from '@iguanadex/chains'
+import { getMulticall3ContractAddress, multicall3ABI } from '@iguanadex/multicall'
 import { getViemClients } from 'utils/viem'
 import { Call } from './actions'
 import { RetryableError } from './retry'

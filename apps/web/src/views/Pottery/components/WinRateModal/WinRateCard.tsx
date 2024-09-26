@@ -1,7 +1,7 @@
-import { useRef, useEffect, useState } from 'react'
+import { useTranslation } from '@iguanadex/localization'
+import { Box, CheckmarkIcon, Flex, IconButton, Input, PencilIcon, Text } from '@iguanadex/uikit'
+import { useEffect, useRef, useState } from 'react'
 import { styled } from 'styled-components'
-import { useTranslation } from '@pancakeswap/localization'
-import { Box, Flex, Text, Input, CheckmarkIcon, PencilIcon, IconButton } from '@pancakeswap/uikit'
 import { WinRateCalculatorState } from 'views/Pottery/hooks/useWinRateCalculator'
 import { CalculatorMode } from '../../types'
 

@@ -1,6 +1,6 @@
-import { CurrencyAmount } from '@pancakeswap/sdk'
-import { useDeferredValue } from 'react'
+import { CurrencyAmount } from '@iguanadex/sdk'
 import { keepPreviousData, useQuery } from '@tanstack/react-query'
+import { useDeferredValue } from 'react'
 
 export function useEstimatedAmount({ estimatedCurrency, stableSwapConfig, quotient, stableSwapContract }) {
   const deferQuotient = useDeferredValue(quotient)

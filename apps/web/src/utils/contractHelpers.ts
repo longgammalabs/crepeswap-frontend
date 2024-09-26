@@ -1,4 +1,4 @@
-import { CAKE } from '@pancakeswap/tokens'
+import { CAKE } from '@iguanadex/tokens'
 
 // Addresses
 import {
@@ -46,7 +46,7 @@ import {
 } from 'utils/addressHelpers'
 
 // ABI
-import { predictionsV1ABI, predictionsV2ABI, predictionsV3ABI } from '@pancakeswap/prediction'
+import { predictionsV1ABI, predictionsV2ABI, predictionsV3ABI } from '@iguanadex/prediction'
 import { crossFarmingProxyABI } from 'config/abi/crossFarmingProxy'
 import { crossFarmingSenderABI } from 'config/abi/crossFarmingSender'
 import { nftSaleABI } from 'config/abi/nftSale'
@@ -54,18 +54,18 @@ import { nonBscVaultABI } from 'config/abi/nonBscVault'
 import { pointCenterIfoABI } from 'config/abi/pointCenterIfo'
 import { stableSwapNativeHelperABI } from 'config/abi/stableSwapNativeHelper'
 
-import { ChainId } from '@pancakeswap/chains'
-import { bCakeFarmBoosterV3ABI } from '@pancakeswap/farms/constants/v3/abi/bCakeFarmBoosterV3'
-import { bCakeFarmBoosterVeCakeABI } from '@pancakeswap/farms/constants/v3/abi/bCakeFarmBoosterVeCake'
-import { calcGaugesVotingABI, gaugesVotingABI } from '@pancakeswap/gauges'
-import { getIfoCreditAddressContract as getIfoCreditAddressContract_ } from '@pancakeswap/ifos'
-import { cakeFlexibleSideVaultV2ABI, cakeVaultV2ABI } from '@pancakeswap/pools'
+import { ChainId } from '@iguanadex/chains'
+import { bCakeFarmBoosterV3ABI } from '@iguanadex/farms/constants/v3/abi/bCakeFarmBoosterV3'
+import { bCakeFarmBoosterVeCakeABI } from '@iguanadex/farms/constants/v3/abi/bCakeFarmBoosterVeCake'
+import { calcGaugesVotingABI, gaugesVotingABI } from '@iguanadex/gauges'
+import { getIfoCreditAddressContract as getIfoCreditAddressContract_ } from '@iguanadex/ifos'
+import { cakeFlexibleSideVaultV2ABI, cakeVaultV2ABI } from '@iguanadex/pools'
 import {
   positionManagerAdapterABI,
   positionManagerVeBCakeWrapperABI,
   positionManagerWrapperABI,
-} from '@pancakeswap/position-managers'
-import { masterChefV3ABI } from '@pancakeswap/v3-sdk'
+} from '@iguanadex/position-managers'
+import { masterChefV3ABI } from '@iguanadex/v3-sdk'
 import { sidABI } from 'config/abi/SID'
 import { SIDResolverABI } from 'config/abi/SIDResolver'
 import { affiliateProgramABI } from 'config/abi/affiliateProgram'

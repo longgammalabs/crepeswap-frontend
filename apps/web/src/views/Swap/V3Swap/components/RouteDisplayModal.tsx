@@ -1,6 +1,6 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { Currency } from '@pancakeswap/sdk'
-import { Route, SmartRouter } from '@pancakeswap/smart-router'
+import { useTranslation } from '@iguanadex/localization'
+import { Currency } from '@iguanadex/sdk'
+import { Route, SmartRouter } from '@iguanadex/smart-router'
 import {
   AtomBox,
   AutoColumn,
@@ -11,8 +11,8 @@ import {
   Text,
   UseModalV2Props,
   useTooltip,
-} from '@pancakeswap/uikit'
-import { CurrencyLogo } from '@pancakeswap/widgets-internal'
+} from '@iguanadex/uikit'
+import { CurrencyLogo } from '@iguanadex/widgets-internal'
 import { memo, useMemo } from 'react'
 
 import { RoutingSettingsButton } from 'components/Menu/GlobalSettings/SettingsModal'

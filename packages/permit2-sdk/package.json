@@ -1,6 +1,6 @@
 {
-  "name": "@pancakeswap/permit2-sdk",
-  "version": "1.0.2",
+  "name": "@iguanadex/permit2-sdk",
+  "version": "1.0.4",
   "description": "An sdk for interacting with permit2.",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
@@ -18,7 +18,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/pancakeswap/pancake-frontend.git",
+    "url": "https://github.com/iguanadex/frontend.git",
     "directory": "packages/permit2-sdk"
   },
   "scripts": {
@@ -29,12 +29,12 @@
     "format:write": "prettier --write \"src/**/*.{js,jsx,ts,tsx,json}\""
   },
   "keywords": [
-    "pancakeswap",
-    "ethereum"
+    "iguanadex",
+    "etherlink"
   ],
   "dependencies": {
-    "@pancakeswap/chains": "workspace:*",
-    "@pancakeswap/sdk": "workspace:*",
+    "@iguanadex/chains": "workspace:*",
+    "@iguanadex/sdk": "workspace:*",
     "tiny-invariant": "^1.3.1",
     "viem": "1.19.11"
   },

@@ -1,4 +1,4 @@
-import { useExpertMode } from '@pancakeswap/utils/user'
+import { useExpertMode } from '@iguanadex/utils/user'
 
 import { useIsWrapping } from './useIsWrapping'
 

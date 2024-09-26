@@ -1,4 +1,4 @@
-import { useTranslation } from '@pancakeswap/localization'
+import { useTranslation } from '@iguanadex/localization'
 import {
   BinanceIcon,
   Box,
@@ -11,8 +11,8 @@ import {
   Text,
   WalletFilledIcon,
   useModal,
-} from '@pancakeswap/uikit'
-import { formatNumber } from '@pancakeswap/utils/formatBalance'
+} from '@iguanadex/uikit'
+import { formatNumber } from '@iguanadex/utils/formatBalance'
 import ConnectWalletButton from 'components/ConnectWalletButton'
 import { Collection, NftLocation, NftToken } from 'state/nftMarket/types'
 import { useProfile } from 'state/profile/hooks'

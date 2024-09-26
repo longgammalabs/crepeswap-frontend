@@ -1,5 +1,5 @@
-import { useTranslation } from '@pancakeswap/localization'
-import type { Currency } from '@pancakeswap/sdk'
+import { useTranslation } from '@iguanadex/localization'
+import type { Currency } from '@iguanadex/sdk'
 import ceil from 'lodash/ceil'
 import { useMemo } from 'react'
 import formatLocaleNumber from 'utils/formatLocaleNumber'

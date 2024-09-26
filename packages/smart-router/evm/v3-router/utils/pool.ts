@@ -1,7 +1,7 @@
-import { Currency, Pair, Price } from '@pancakeswap/sdk'
-import { Pool as SDKV3Pool, computePoolAddress } from '@pancakeswap/v3-sdk'
-import tryParseAmount from '@pancakeswap/utils/tryParseAmount'
-import { getSwapOutput } from '@pancakeswap/stable-swap-sdk'
+import { Currency, Pair, Price } from '@iguanadex/sdk'
+import { getSwapOutput } from '@iguanadex/stable-swap-sdk'
+import tryParseAmount from '@iguanadex/utils/tryParseAmount'
+import { Pool as SDKV3Pool, computePoolAddress } from '@iguanadex/v3-sdk'
 import memoize from 'lodash/memoize.js'
 import { Address } from 'viem'
 

@@ -1,6 +1,6 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { Box, Button, Flex, Input, QuestionHelper, Text } from '@pancakeswap/uikit'
-import { useUserSlippage } from '@pancakeswap/utils/user'
+import { useTranslation } from '@iguanadex/localization'
+import { Box, Button, Flex, Input, QuestionHelper, Text } from '@iguanadex/uikit'
+import { useUserSlippage } from '@iguanadex/utils/user'
 import { useState } from 'react'
 import { escapeRegExp } from 'utils'
 
@@ -35,7 +35,7 @@ const SlippageTabs = () => {
   let slippageError: SlippageError | undefined
   if (slippageInput !== '' && !slippageInputIsValid) {
     slippageError = SlippageError.InvalidInput
-  } else if (slippageInputIsValid && userSlippageTolerance < 50) {
+  } else if (slippageInputIsValid && userSlippageTolerance < 10) {
     slippageError = SlippageError.RiskyLow
   } else if (slippageInputIsValid && userSlippageTolerance > 500) {
     slippageError = SlippageError.RiskyHigh
@@ -100,6 +100,18 @@ const SlippageTabs = () => {
             scale="sm"
             onClick={() => {
               setSlippageInput('')
+              setUserSlippageTolerance(5)
+            }}
+            variant={userSlippageTolerance === 5 ? 'primary' : 'tertiary'}
+          >
+            0.05%
+          </Button>
+          <Button
+            mt="4px"
+            mr="4px"
+            scale="sm"
+            onClick={() => {
+              setSlippageInput('')
               setUserSlippageTolerance(10)
             }}
             variant={userSlippageTolerance === 10 ? 'primary' : 'tertiary'}
@@ -107,8 +119,8 @@ const SlippageTabs = () => {
             0.1%
           </Button>
           <Button
-            mt="4px"
             mr="4px"
+            mt="4px"
             scale="sm"
             onClick={() => {
               setSlippageInput('')
@@ -117,18 +129,6 @@ const SlippageTabs = () => {
             variant={userSlippageTolerance === 50 ? 'primary' : 'tertiary'}
           >
             0.5%
-          </Button>
-          <Button
-            mr="4px"
-            mt="4px"
-            scale="sm"
-            onClick={() => {
-              setSlippageInput('')
-              setUserSlippageTolerance(100)
-            }}
-            variant={userSlippageTolerance === 100 ? 'primary' : 'tertiary'}
-          >
-            1.0%
           </Button>
           <Flex alignItems="center">
             <Box width="76px" mt="4px">
@@ -147,7 +147,7 @@ const SlippageTabs = () => {
                   }
                 }}
                 isWarning={!slippageInputIsValid}
-                isSuccess={![10, 50, 100].includes(userSlippageTolerance)}
+                isSuccess={![5, 10, 50].includes(userSlippageTolerance)}
               />
             </Box>
             <Text color="primary" bold ml="2px">

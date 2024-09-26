@@ -1,4 +1,4 @@
-import { Gauge } from '@pancakeswap/gauges'
+import { Gauge } from '@iguanadex/gauges'
 import { useQuery } from '@tanstack/react-query'
 import dayjs from 'dayjs'
 import useAccountActiveChain from 'hooks/useAccountActiveChain'

@@ -1,4 +1,4 @@
-import { ChainId } from '@pancakeswap/chains'
+import { ChainId } from '@iguanadex/chains'
 import { CHAINS } from 'config/chains'
 import { PUBLIC_NODES } from 'config/nodes'
 import { PublicClient, createPublicClient, fallback, http } from 'viem'
@@ -28,7 +28,7 @@ export function createViemPublicClients({ transportSignal }: CreatePublicClientP
         ),
         batch: {
           multicall: {
-            batchSize: cur.id === ChainId.POLYGON_ZKEVM ? 128 : 1024 * 200,
+            batchSize: 1024 * 200,
             wait: 16,
           },
         },

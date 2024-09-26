@@ -1,5 +1,5 @@
-import { DeserializedFarm, FarmWithStakedValue } from '@pancakeswap/farms'
-import { useTranslation } from '@pancakeswap/localization'
+import { DeserializedFarm, FarmWithStakedValue } from '@iguanadex/farms'
+import { useTranslation } from '@iguanadex/localization'
 import BigNumber from 'bignumber.js'
 import { CAKE_PER_YEAR } from 'config'
 import { useActiveChainId } from 'hooks/useActiveChainId'

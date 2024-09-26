@@ -1,14 +1,14 @@
+import { useTranslation } from '@iguanadex/localization'
+import { useToast } from '@iguanadex/uikit'
+import { Pool } from '@iguanadex/widgets-internal'
 import { useCallback } from 'react'
-import { useTranslation } from '@pancakeswap/localization'
-import { useToast } from '@pancakeswap/uikit'
-import { Pool } from '@pancakeswap/widgets-internal'
 
-import { useAccount } from 'wagmi'
 import { ToastDescriptionWithTx } from 'components/Toast'
+import { useActiveChainId } from 'hooks/useActiveChainId'
 import useCatchTxError from 'hooks/useCatchTxError'
 import { useAppDispatch } from 'state'
 import { updateUserBalance, updateUserPendingReward, updateUserStakedBalance } from 'state/pools'
-import { useActiveChainId } from 'hooks/useActiveChainId'
+import { useAccount } from 'wagmi'
 
 import useHarvestPool from '../../hooks/useHarvestPool'
 

@@ -1,5 +1,5 @@
-import { describe, it, expect } from 'vitest'
-import { Price, Token } from '@pancakeswap/swap-sdk-core'
+import { Price, Token } from '@iguanadex/swap-sdk-core'
+import { describe, expect, it } from 'vitest'
 import { tickToPrice } from './index'
 import { priceToClosestTick } from './priceTickConversions'
 

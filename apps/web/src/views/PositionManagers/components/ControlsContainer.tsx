@@ -1,4 +1,4 @@
-import { Flex } from '@pancakeswap/uikit'
+import { Flex } from '@iguanadex/uikit'
 import { styled } from 'styled-components'
 
 export const ControlsContainer = styled(Flex).attrs({

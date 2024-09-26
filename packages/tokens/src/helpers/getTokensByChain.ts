@@ -1,5 +1,5 @@
-import { ChainId } from '@pancakeswap/chains'
-import { Token } from '@pancakeswap/sdk'
+import { ChainId } from '@iguanadex/chains'
+import { Token } from '@iguanadex/sdk'
 
 import { allTokens } from '../allTokens'
 

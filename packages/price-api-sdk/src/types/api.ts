@@ -1,8 +1,8 @@
-import { ChainId } from '@pancakeswap/chains'
+import { ChainId } from '@iguanadex/chains'
 
 import { AMMOrder, AMMRequestConfig, TradeTypeKey } from './amm'
-import { XRequestConfig } from './pcsx'
 import { Order } from './order'
+import { XRequestConfig } from './pcsx'
 
 export enum ResponseType {
   PRICE_RESPONSE = 'PRICE_RESPONSE',

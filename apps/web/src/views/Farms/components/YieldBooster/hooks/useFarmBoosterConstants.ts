@@ -1,10 +1,10 @@
-import { getBCakeFarmBoosterAddress } from 'utils/addressHelpers'
-import { useMemo } from 'react'
-import BigNumber from 'bignumber.js'
-import { publicClient } from 'utils/wagmi'
-import { ChainId } from '@pancakeswap/chains'
-import { bCakeFarmBoosterABI } from 'config/abi/bCakeFarmBooster'
+import { ChainId } from '@iguanadex/chains'
 import { useQuery } from '@tanstack/react-query'
+import BigNumber from 'bignumber.js'
+import { bCakeFarmBoosterABI } from 'config/abi/bCakeFarmBooster'
+import { useMemo } from 'react'
+import { getBCakeFarmBoosterAddress } from 'utils/addressHelpers'
+import { publicClient } from 'utils/wagmi'
 
 const useFarmBoosterConstants = () => {
   const bCakeFarmBoosterAddress = getBCakeFarmBoosterAddress()

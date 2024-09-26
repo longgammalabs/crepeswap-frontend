@@ -1,18 +1,18 @@
-# @pancakeswap/token-lists
+# @iguanadex/token-lists
 
 ## 0.0.11
 
 ### Patch Changes
 
 - Updated dependencies [610a24a]
-  - @pancakeswap/swap-sdk-core@1.1.0
+  - @iguanadex/swap-sdk-core@1.1.0
 
 ## 0.0.10
 
 ### Patch Changes
 
 - Updated dependencies [c269d43]
-  - @pancakeswap/swap-sdk-core@1.0.1
+  - @iguanadex/swap-sdk-core@1.0.1
 
 ## 0.0.9
 
@@ -31,7 +31,7 @@
 ### Patch Changes
 
 - Updated dependencies [b5dbd2921]
-  - @pancakeswap/swap-sdk-core@1.0.0
+  - @iguanadex/swap-sdk-core@1.0.0
 
 ## 0.0.6
 

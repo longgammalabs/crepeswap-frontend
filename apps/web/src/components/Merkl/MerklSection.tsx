@@ -1,20 +1,9 @@
-import { useTranslation } from '@pancakeswap/localization'
-import {
-  AutoRow,
-  Box,
-  Button,
-  Flex,
-  Link,
-  Message,
-  MessageText,
-  Text,
-  TooltipText,
-  useTooltip,
-} from '@pancakeswap/uikit'
-import { CurrencyLogo } from '@pancakeswap/widgets-internal'
+import { useTranslation } from '@iguanadex/localization'
+import { AutoRow, Box, Button, Flex, Link, Message, MessageText, Text, TooltipText, useTooltip } from '@iguanadex/uikit'
+import { CurrencyLogo } from '@iguanadex/widgets-internal'
 import { LightGreyCard } from 'components/Card'
 
-import { Currency, CurrencyAmount } from '@pancakeswap/swap-sdk-core'
+import { Currency, CurrencyAmount } from '@iguanadex/swap-sdk-core'
 import useMerkl from '../../hooks/useMerkl'
 
 function TextWarning({ tokenAmount }: { tokenAmount: CurrencyAmount<Currency> }) {

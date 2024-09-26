@@ -1,6 +1,6 @@
-import { Ifo } from '@pancakeswap/ifos'
-import { useTranslation } from '@pancakeswap/localization'
-import { bscTokens } from '@pancakeswap/tokens'
+import { Ifo } from '@iguanadex/ifos'
+import { useTranslation } from '@iguanadex/localization'
+import { bscTokens } from '@iguanadex/tokens'
 import {
   Flex,
   FlexGap,
@@ -14,9 +14,9 @@ import {
   TelegramIcon,
   Text,
   TwitterIcon,
-} from '@pancakeswap/uikit'
-import { BIG_TEN } from '@pancakeswap/utils/bigNumber'
-import { formatBigInt } from '@pancakeswap/utils/formatBalance'
+} from '@iguanadex/uikit'
+import { BIG_TEN } from '@iguanadex/utils/bigNumber'
+import { formatBigInt } from '@iguanadex/utils/formatBalance'
 import { styled } from 'styled-components'
 import { getBlockExploreLink } from 'utils'
 import { PublicIfoData } from 'views/Ifos/types'

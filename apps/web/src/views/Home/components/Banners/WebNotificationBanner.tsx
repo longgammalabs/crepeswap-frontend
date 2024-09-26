@@ -1,5 +1,5 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { Box, Button, Flex, Link, Text, useMatchBreakpoints } from '@pancakeswap/uikit'
+import { useTranslation } from '@iguanadex/localization'
+import { Box, Button, Flex, Link, Text, useMatchBreakpoints } from '@iguanadex/uikit'
 
 import { PANCAKE_ASSET_CDN } from 'config/constants/endpoints'
 import Image from 'next/legacy/image'

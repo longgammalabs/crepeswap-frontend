@@ -45,15 +45,15 @@ const Logo: React.FC<React.PropsWithChildren<Props>> = ({ href }) => {
   const isAbsoluteUrl = href.startsWith("http");
   const { isDark } = useTheme();
 
-  const light = "https://raw.githubusercontent.com/Iguana-DEX/assets/main/iguana_brand_assets/logo-light.webp";
-  const dark = "https://raw.githubusercontent.com/Iguana-DEX/assets/main/iguana_brand_assets/logo-dark.webp";
+  const light = "https://raw.githubusercontent.com/IguanaDEX/assets/main/iguana_brand_assets/logo-light.webp";
+  const dark = "https://raw.githubusercontent.com/IguanaDEX/assets/main/iguana_brand_assets/logo-dark.webp";
   let innerLogo;
 
   if (isDark) {
     innerLogo = (
       <>
         <img
-          src="https://raw.githubusercontent.com/Iguana-DEX/assets/main/iguana_brand_assets/icon.webp"
+          src="https://raw.githubusercontent.com/IguanaDEX/assets/main/iguana_brand_assets/icon.webp"
           alt="IguanaDEX logo"
           className="mobile-icon"
         />
@@ -64,7 +64,7 @@ const Logo: React.FC<React.PropsWithChildren<Props>> = ({ href }) => {
     innerLogo = (
       <>
         <img
-          src="https://raw.githubusercontent.com/Iguana-DEX/assets/main/iguana_brand_assets/icon.webp"
+          src="https://raw.githubusercontent.com/IguanaDEX/assets/main/iguana_brand_assets/icon.webp"
           alt="IguanaDEX logo"
           className="mobile-icon"
         />

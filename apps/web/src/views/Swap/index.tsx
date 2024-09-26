@@ -1,7 +1,7 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { Currency } from '@pancakeswap/sdk'
-import { BottomDrawer, Flex, Modal, ModalV2, useMatchBreakpoints } from '@pancakeswap/uikit'
-import replaceBrowserHistory from '@pancakeswap/utils/replaceBrowserHistory'
+import { useTranslation } from '@iguanadex/localization'
+import { Currency } from '@iguanadex/sdk'
+import { BottomDrawer, Flex, Modal, ModalV2, useMatchBreakpoints } from '@iguanadex/uikit'
+import replaceBrowserHistory from '@iguanadex/utils/replaceBrowserHistory'
 import { AppBody } from 'components/App'
 import { useRouter } from 'next/router'
 import { useCallback, useContext, useEffect, useState } from 'react'
@@ -34,6 +34,8 @@ export default function Swap() {
   const [isSwapHotTokenDisplay, setIsSwapHotTokenDisplay] = useSwapHotTokenDisplay()
   const { t } = useTranslation()
   const [firstTime, setFirstTime] = useState(true)
+
+  // setIsChartDisplayed?.(() => true)
 
   useEffect(() => {
     if (firstTime && query.showTradingReward) {

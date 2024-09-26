@@ -1,7 +1,7 @@
-import { styled } from 'styled-components'
-import { TabMenu as UIKitTabMenu, Tab, Flex, VerifiedIcon, CommunityIcon } from '@pancakeswap/uikit'
-import { useTranslation } from '@pancakeswap/localization'
+import { useTranslation } from '@iguanadex/localization'
+import { CommunityIcon, Flex, Tab, TabMenu as UIKitTabMenu, VerifiedIcon } from '@iguanadex/uikit'
 import { ProposalType } from 'state/types'
+import { styled } from 'styled-components'
 
 interface TabMenuProps {
   proposalType: ProposalType

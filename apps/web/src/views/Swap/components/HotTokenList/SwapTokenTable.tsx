@@ -1,5 +1,5 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { Currency, Token } from '@pancakeswap/sdk'
+import { useTranslation } from '@iguanadex/localization'
+import { Currency, Token } from '@iguanadex/sdk'
 import {
   ArrowBackIcon,
   ArrowForwardIcon,
@@ -11,9 +11,9 @@ import {
   SortArrowIcon,
   Text,
   useMatchBreakpoints,
-} from '@pancakeswap/uikit'
+} from '@iguanadex/uikit'
 
-import { NextLinkFromReactRouter } from '@pancakeswap/widgets-internal'
+import { NextLinkFromReactRouter } from '@iguanadex/widgets-internal'
 import { useActiveChainId } from 'hooks/useActiveChainId'
 import useTheme from 'hooks/useTheme'
 import orderBy from 'lodash/orderBy'

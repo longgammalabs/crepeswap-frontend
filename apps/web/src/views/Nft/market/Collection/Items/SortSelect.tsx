@@ -1,7 +1,7 @@
-import { Select, OptionProps } from '@pancakeswap/uikit'
-import { useTranslation } from '@pancakeswap/localization'
-import { useNftStorage } from 'state/nftMarket/storage'
+import { useTranslation } from '@iguanadex/localization'
+import { OptionProps, Select } from '@iguanadex/uikit'
 import { useGetNftOrdering } from 'state/nftMarket/hooks'
+import { useNftStorage } from 'state/nftMarket/storage'
 
 const SortSelect: React.FC<React.PropsWithChildren<{ collectionAddress: string }>> = ({ collectionAddress }) => {
   const { t } = useTranslation()

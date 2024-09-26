@@ -1,5 +1,5 @@
-import { Currency } from '@pancakeswap/sdk'
-import { FeeAmount } from '@pancakeswap/v3-sdk'
+import { Currency } from '@iguanadex/sdk'
+import { FeeAmount } from '@iguanadex/v3-sdk'
 import { Address } from 'viem'
 
 // Information used to identify a pool

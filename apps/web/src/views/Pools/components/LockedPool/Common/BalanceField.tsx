@@ -1,10 +1,10 @@
-import { BalanceInput, Button, Flex, Image, Slider, Text } from '@pancakeswap/uikit'
+import { useTranslation } from '@iguanadex/localization'
+import { BalanceInput, Button, Flex, Image, Slider, Text } from '@iguanadex/uikit'
+import { getFullDisplayBalance } from '@iguanadex/utils/formatBalance'
+import { getFullDecimalMultiplier } from '@iguanadex/utils/getFullDecimalMultiplier'
 import BigNumber from 'bignumber.js'
-import { useTranslation } from '@pancakeswap/localization'
-import { Dispatch, useMemo, memo, SetStateAction, useCallback } from 'react'
+import { Dispatch, memo, SetStateAction, useCallback, useMemo } from 'react'
 import { styled } from 'styled-components'
-import { getFullDisplayBalance } from '@pancakeswap/utils/formatBalance'
-import { getFullDecimalMultiplier } from '@pancakeswap/utils/getFullDecimalMultiplier'
 import { useUserEnoughCakeValidator } from '../hooks/useUserEnoughCakeValidator'
 
 const StyledButton = styled(Button)`

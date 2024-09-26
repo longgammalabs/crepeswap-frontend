@@ -1,7 +1,7 @@
-import { useTranslation } from '@pancakeswap/localization'
+import { useTranslation } from '@iguanadex/localization'
+import { Flex, Heading, Text } from '@iguanadex/uikit'
+import getTimePeriods from '@iguanadex/utils/getTimePeriods'
 import { styled } from 'styled-components'
-import { Flex, Heading, Text } from '@pancakeswap/uikit'
-import getTimePeriods from '@pancakeswap/utils/getTimePeriods'
 
 const FlexGap = styled(Flex)<{ gap: string }>`
   gap: ${({ gap }) => gap};

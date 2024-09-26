@@ -2,7 +2,7 @@ import _noop from 'lodash/noop'
 import { ReactElement, createContext, memo, useMemo } from 'react'
 import { Address } from 'wagmi'
 
-import { FarmWithStakedValue } from '@pancakeswap/farms'
+import { FarmWithStakedValue } from '@iguanadex/farms'
 import useYieldBoosterState, { YieldBoosterState } from '../hooks/useYieldBoosterState'
 
 interface ProxyFarmContainerPropsType {

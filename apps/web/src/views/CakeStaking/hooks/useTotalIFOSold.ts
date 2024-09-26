@@ -1,4 +1,4 @@
-import { getTotalIFOSold } from '@pancakeswap/ifos'
+import { getTotalIFOSold } from '@iguanadex/ifos'
 import { useActiveChainId } from 'hooks/useActiveChainId'
 import { useEffect, useState } from 'react'
 

@@ -1,7 +1,7 @@
-import { styled } from 'styled-components'
-import { Flex, Text, Heading } from '@pancakeswap/uikit'
+import { useTranslation } from '@iguanadex/localization'
+import { Flex, Heading, Text } from '@iguanadex/uikit'
 import Image from 'next/image'
-import { useTranslation } from '@pancakeswap/localization'
+import { styled } from 'styled-components'
 import FanTokenFlipperBunny from '../../../pngs/fan-token-flippers.png'
 
 const StyledFlex = styled(Flex)`

@@ -1,6 +1,6 @@
-import { ChainId } from '@pancakeswap/chains'
-import { useTranslation } from '@pancakeswap/localization'
-import { WNATIVE } from '@pancakeswap/sdk'
+import { ChainId } from '@iguanadex/chains'
+import { useTranslation } from '@iguanadex/localization'
+import { WNATIVE } from '@iguanadex/sdk'
 import {
   Box,
   Button,
@@ -16,7 +16,7 @@ import {
   Text,
   TooltipText,
   useTooltip,
-} from '@pancakeswap/uikit'
+} from '@iguanadex/uikit'
 import { ChainLogo } from 'components/Logo/ChainLogo'
 import { FetchStatus } from 'config/constants/types'
 import useActiveWeb3React from 'hooks/useActiveWeb3React'
@@ -24,7 +24,7 @@ import useAuth from 'hooks/useAuth'
 import useNativeCurrency from 'hooks/useNativeCurrency'
 import useTokenBalance, { useBSCCakeBalance } from 'hooks/useTokenBalance'
 
-import { formatBigInt, getFullDisplayBalance } from '@pancakeswap/utils/formatBalance'
+import { formatBigInt, getFullDisplayBalance } from '@iguanadex/utils/formatBalance'
 import InternalLink from 'components/Links'
 import { useDomainNameForAddress } from 'hooks/useDomain'
 import { useState } from 'react'
@@ -229,14 +229,14 @@ const WalletInfo: React.FC<WalletInfoProps> = ({ hasLowNativeBalance, onDismiss 
             )}
           </Flex>
         )}
-        <Flex alignItems="center" justifyContent="space-between">
+        {/* <Flex alignItems="center" justifyContent="space-between">
           <Text color="textSubtle">{t('IGN Balance')}</Text>
           {cakeFetchStatus !== FetchStatus.Fetched ? (
             <Skeleton height="22px" width="60px" />
           ) : (
             <Text>{formatBigInt(cakeBalance, 3)}</Text>
           )}
-        </Flex>
+        </Flex> */}
       </Box>
       <Button variant="secondary" width="100%" minHeight={48} onClick={handleLogout}>
         {t('Disconnect Wallet')}

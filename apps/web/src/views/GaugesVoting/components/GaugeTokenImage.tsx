@@ -5,9 +5,9 @@ import {
   GaugeType,
   GaugeV2Config,
   GaugeV3Config,
-} from '@pancakeswap/gauges'
-import { Token } from '@pancakeswap/swap-sdk-core'
-import { CurrencyLogo } from '@pancakeswap/widgets-internal'
+} from '@iguanadex/gauges'
+import { Token } from '@iguanadex/swap-sdk-core'
+import { CurrencyLogo } from '@iguanadex/widgets-internal'
 import { useMemo } from 'react'
 import styled from 'styled-components'
 import { Address } from 'viem'

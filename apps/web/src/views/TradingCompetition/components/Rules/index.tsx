@@ -1,8 +1,8 @@
-import { Flex, Text } from '@pancakeswap/uikit'
+import { useTranslation } from '@iguanadex/localization'
+import { Flex, Text } from '@iguanadex/uikit'
 import { styled } from 'styled-components'
-import { useTranslation } from '@pancakeswap/localization'
-import RulesCard from './RulesCard'
 import FAQs from './FAQs'
+import RulesCard from './RulesCard'
 
 const Wrapper = styled(Flex)`
   flex-direction: column;

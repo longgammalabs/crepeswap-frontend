@@ -1,5 +1,5 @@
-import { useTranslation } from "@pancakeswap/localization";
-import { Box, FlexGap, InfoFilledIcon, Message, MessageProps, MessageText } from "@pancakeswap/uikit";
+import { useTranslation } from "@iguanadex/localization";
+import { Box, FlexGap, InfoFilledIcon, Message, MessageProps, MessageText } from "@iguanadex/uikit";
 import BigNumber from "bignumber.js";
 import Link from "next/link";
 import { useMemo } from "react";

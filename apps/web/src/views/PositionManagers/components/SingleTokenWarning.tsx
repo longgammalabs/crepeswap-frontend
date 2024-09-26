@@ -1,5 +1,5 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { Message, MessageText, Text, Link } from '@pancakeswap/uikit'
+import { useTranslation } from '@iguanadex/localization'
+import { Link, Message, MessageText, Text } from '@iguanadex/uikit'
 import { memo } from 'react'
 
 export const SingleTokenWarning: React.FC<{ strategyInfoUrl?: string }> = memo(({ strategyInfoUrl }) => {

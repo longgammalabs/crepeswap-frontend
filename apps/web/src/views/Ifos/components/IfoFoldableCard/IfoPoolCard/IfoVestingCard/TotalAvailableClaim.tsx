@@ -1,11 +1,11 @@
-import { useMemo } from 'react'
-import { Flex, Box, Text } from '@pancakeswap/uikit'
-import { TokenImage } from 'components/TokenImage'
-import { LightGreyCard } from 'components/Card'
-import { useTranslation } from '@pancakeswap/localization'
-import { Ifo } from '@pancakeswap/ifos'
-import { getFullDisplayBalance } from '@pancakeswap/utils/formatBalance'
+import { Ifo } from '@iguanadex/ifos'
+import { useTranslation } from '@iguanadex/localization'
+import { Box, Flex, Text } from '@iguanadex/uikit'
+import { getFullDisplayBalance } from '@iguanadex/utils/formatBalance'
 import BigNumber from 'bignumber.js'
+import { LightGreyCard } from 'components/Card'
+import { TokenImage } from 'components/TokenImage'
+import { useMemo } from 'react'
 
 interface TotalAvailableClaimProps {
   ifo: Ifo

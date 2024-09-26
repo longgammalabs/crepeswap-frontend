@@ -1,7 +1,7 @@
+import { useTranslation } from '@iguanadex/localization'
+import { Tag, TagProps } from '@iguanadex/uikit'
+import { FarmWidget } from '@iguanadex/widgets-internal'
 import { memo } from 'react'
-import { Tag, TagProps } from '@pancakeswap/uikit'
-import { useTranslation } from '@pancakeswap/localization'
-import { FarmWidget } from '@pancakeswap/widgets-internal'
 
 const { V3FeeTag, CompoundingPoolTag } = FarmWidget.Tags
 
@@ -23,4 +23,4 @@ export const SingleTokenTag = memo(function SingleTokenTag(props: TagProps) {
   )
 })
 
-export { V3FeeTag as FeeTag, CompoundingPoolTag as AutoCompoundTag }
+export { CompoundingPoolTag as AutoCompoundTag, V3FeeTag as FeeTag }

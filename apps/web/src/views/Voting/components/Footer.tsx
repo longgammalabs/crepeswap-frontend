@@ -1,8 +1,8 @@
-import { Box, Button, Text, Heading, ProposalIcon, Flex } from '@pancakeswap/uikit'
-import { styled } from 'styled-components'
-import { useTranslation } from '@pancakeswap/localization'
-import Link from 'next/link'
+import { useTranslation } from '@iguanadex/localization'
+import { Box, Button, Flex, Heading, ProposalIcon, Text } from '@iguanadex/uikit'
 import Container from 'components/Layout/Container'
+import Link from 'next/link'
+import { styled } from 'styled-components'
 import DesktopImage from './DesktopImage'
 
 const StyledFooter = styled(Box)`

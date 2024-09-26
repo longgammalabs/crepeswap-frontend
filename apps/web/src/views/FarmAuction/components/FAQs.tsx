@@ -1,7 +1,7 @@
-import { styled } from 'styled-components'
-import { Text, Heading, Card, CardHeader, CardBody, Flex, Link, Box } from '@pancakeswap/uikit'
-import { useTranslation } from '@pancakeswap/localization'
+import { useTranslation } from '@iguanadex/localization'
+import { Box, Card, CardBody, CardHeader, Flex, Heading, Link, Text } from '@iguanadex/uikit'
 import FoldableText from 'components/FoldableSection/FoldableText'
+import { styled } from 'styled-components'
 import { FORM_ADDRESS } from '../helpers'
 
 const StyledCard = styled(Card)`

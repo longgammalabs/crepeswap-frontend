@@ -1,5 +1,5 @@
-import { Token } from '@pancakeswap/sdk'
-import { ChainId } from '@pancakeswap/chains'
+import { ChainId } from '@iguanadex/chains'
+import { Token } from '@iguanadex/sdk'
 import SwapWarningTokens from 'config/constants/swapWarningTokens'
 
 const shouldShowSwapWarning = (chainId: ChainId | undefined, swapCurrency: Token): boolean => {

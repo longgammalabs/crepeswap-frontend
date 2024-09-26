@@ -1,6 +1,6 @@
-import { ChainId } from '@pancakeswap/chains'
-import { useTranslation } from '@pancakeswap/localization'
-import { Box, Button, Grid, Message, MessageText, Modal, Text } from '@pancakeswap/uikit'
+import { ChainId } from '@iguanadex/chains'
+import { useTranslation } from '@iguanadex/localization'
+import { Box, Button, Grid, Message, MessageText, Modal, Text } from '@iguanadex/uikit'
 import { useMenuItems } from 'components/Menu/hooks/useMenuItems'
 import { getActiveMenuItem, getActiveSubMenuItem } from 'components/Menu/utils'
 import { useHistory } from 'contexts/HistoryContext'
@@ -59,7 +59,9 @@ export function PageNetworkSupportModal() {
           <Button
             variant={foundChain && lastValidPath ? 'secondary' : 'primary'}
             isLoading={isLoading}
-            onClick={() => (isWrongNetwork ? switchNetworkLocal(ChainId.BSC) : switchNetworkAsync(ChainId.BSC))}
+            onClick={() =>
+              isWrongNetwork ? switchNetworkLocal(ChainId.ETHERLINK) : switchNetworkAsync(ChainId.ETHERLINK)
+            }
           >
             {t('Switch to %chain%', { chain: 'BNB Chain' })}
           </Button>

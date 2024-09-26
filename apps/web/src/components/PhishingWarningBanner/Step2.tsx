@@ -1,15 +1,15 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { Box, Text } from '@pancakeswap/uikit'
+import { useTranslation } from '@iguanadex/localization'
+import { Box, Text } from '@iguanadex/uikit'
 import { useMemo } from 'react'
 
-const domain = 'https://pancakeswap.finance'
+const domain = 'https://iguanadex.com'
 
 export const Step2 = () => {
   const { t } = useTranslation()
 
   const warningTextAsParts = useMemo(() => {
     const warningText = t("please make sure you're visiting %domain% - check the URL carefully.", { domain })
-    return warningText.split(/(https:\/\/pancakeswap.finance)/g)
+    return warningText.split(/(https:\/\/iguanadex.com)/g)
   }, [t])
 
   return (

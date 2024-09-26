@@ -1,15 +1,5 @@
-import { useTranslation } from '@pancakeswap/localization'
-import {
-  Button,
-  Flex,
-  Grid,
-  InjectedModalProps,
-  LinkExternal,
-  Modal,
-  ScanLink,
-  Text,
-  useModal,
-} from '@pancakeswap/uikit'
+import { useTranslation } from '@iguanadex/localization'
+import { Button, Flex, Grid, InjectedModalProps, LinkExternal, Modal, ScanLink, Text, useModal } from '@iguanadex/uikit'
 import useTheme from 'hooks/useTheme'
 import { NftToken } from 'state/nftMarket/types'
 import { styled } from 'styled-components'

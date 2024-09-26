@@ -1,7 +1,7 @@
+import { PositionDetails } from "@iguanadex/farms";
+import { useTranslation } from "@iguanadex/localization";
+import { Balance, Box, Button, Flex, Heading, PreTitle, Text } from "@iguanadex/uikit";
 import { styled } from "styled-components";
-import { useTranslation } from "@pancakeswap/localization";
-import { PositionDetails } from "@pancakeswap/farms";
-import { PreTitle, Text, Button, Flex, Box, Heading, Balance } from "@pancakeswap/uikit";
 
 const LightGreyCard = styled("div")`
   padding: 0;

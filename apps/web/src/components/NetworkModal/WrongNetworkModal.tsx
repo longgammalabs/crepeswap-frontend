@@ -1,6 +1,6 @@
-import { ChainId } from '@pancakeswap/chains'
-import { useTranslation } from '@pancakeswap/localization'
-import { ArrowForwardIcon, Button, FlexGap, Grid, Message, MessageText, Modal, Text } from '@pancakeswap/uikit'
+import { ChainId } from '@iguanadex/chains'
+import { useTranslation } from '@iguanadex/localization'
+import { ArrowForwardIcon, Button, FlexGap, Grid, Message, MessageText, Modal, Text } from '@iguanadex/uikit'
 import { ChainLogo } from 'components/Logo/ChainLogo'
 import useAuth from 'hooks/useAuth'
 import { useSessionChainId } from 'hooks/useSessionChainId'
@@ -16,7 +16,7 @@ export function WrongNetworkModal({ currentChain, onDismiss }: { currentChain: C
   const { logout } = useAuth()
   const { isConnected } = useAccount()
   const [, setSessionChainId] = useSessionChainId()
-  const chainId = currentChain.id || ChainId.BSC
+  const chainId = currentChain.id || ChainId.ETHERLINK
   const { t } = useTranslation()
 
   const switchText = t('Switch to %network%', { network: currentChain.name })

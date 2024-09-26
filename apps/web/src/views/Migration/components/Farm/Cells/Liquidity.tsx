@@ -1,9 +1,9 @@
+import { Flex, HelpIcon, Text, useTooltip } from '@iguanadex/uikit'
+import { Pool } from '@iguanadex/widgets-internal'
 import React from 'react'
 import { styled } from 'styled-components'
-import { Flex, HelpIcon, Text, useTooltip } from '@pancakeswap/uikit'
-import { Pool } from '@pancakeswap/widgets-internal'
 
-import { useTranslation } from '@pancakeswap/localization'
+import { useTranslation } from '@iguanadex/localization'
 import BigNumber from 'bignumber.js'
 
 const StyledCell = styled(Pool.BaseCell)`

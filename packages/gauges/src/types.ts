@@ -1,5 +1,5 @@
-import { ChainId } from '@pancakeswap/chains'
-import { FeeAmount } from '@pancakeswap/v3-sdk'
+import { ChainId } from '@iguanadex/chains'
+import { FeeAmount } from '@iguanadex/v3-sdk'
 import type { Address, Hash } from 'viem'
 
 export enum GaugeType {

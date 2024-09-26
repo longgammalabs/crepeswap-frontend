@@ -1,5 +1,5 @@
-import { Button, ButtonProps } from '@pancakeswap/uikit'
-import { useTranslation } from '@pancakeswap/localization'
+import { useTranslation } from '@iguanadex/localization'
+import { Button, ButtonProps } from '@iguanadex/uikit'
 import { useNftStorage } from 'state/nftMarket/storage'
 
 interface ClearAllButtonProps extends ButtonProps {

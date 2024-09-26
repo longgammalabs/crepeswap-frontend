@@ -1,16 +1,16 @@
+import { useTranslation } from '@iguanadex/localization'
+import { BCakeIcon, Box, Card, Flex, ICakeIcon, Text, VCakeIcon } from '@iguanadex/uikit'
+import { NextLinkFromReactRouter } from '@iguanadex/widgets-internal'
 import { useMemo } from 'react'
-import { useTranslation } from '@pancakeswap/localization'
-import { Box, Flex, Text, Card, ICakeIcon, BCakeIcon, VCakeIcon } from '@pancakeswap/uikit'
-import { NextLinkFromReactRouter } from '@pancakeswap/widgets-internal'
 
-import Image from 'next/image'
 import BigNumber from 'bignumber.js'
-import BenefitsText from 'views/Pools/components/RevenueSharing/BenefitsModal/BenefitsText'
 import useCakeBenefits from 'components/Menu/UserMenu/hooks/useCakeBenefits'
 import { useVaultApy } from 'hooks/useVaultApy'
-import { VaultKey, DeserializedLockedCakeVault } from 'state/types'
+import Image from 'next/image'
 import { useVaultPoolByKey } from 'state/pools/hooks'
+import { DeserializedLockedCakeVault, VaultKey } from 'state/types'
 import useUserDataInVaultPresenter from 'views/Pools/components/LockedPool/hooks/useUserDataInVaultPresenter'
+import BenefitsText from 'views/Pools/components/RevenueSharing/BenefitsModal/BenefitsText'
 
 const LockedBenefits = () => {
   const { t } = useTranslation()

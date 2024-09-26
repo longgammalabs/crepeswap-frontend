@@ -1,5 +1,5 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { AutoRenewIcon, Button, ButtonProps, useToast } from '@pancakeswap/uikit'
+import { useTranslation } from '@iguanadex/localization'
+import { AutoRenewIcon, Button, ButtonProps, useToast } from '@iguanadex/uikit'
 import { ToastDescriptionWithTx } from 'components/Toast'
 import useCatchTxError from 'hooks/useCatchTxError'
 import { useBCakeFarmBoosterProxyFactoryContract } from 'hooks/useContract'

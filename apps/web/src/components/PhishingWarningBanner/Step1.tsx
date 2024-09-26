@@ -1,5 +1,5 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { Box, Link, Text } from '@pancakeswap/uikit'
+import { useTranslation } from '@iguanadex/localization'
+import { Box, Link, Text } from '@iguanadex/uikit'
 
 export const Step1 = () => {
   const { t } = useTranslation()

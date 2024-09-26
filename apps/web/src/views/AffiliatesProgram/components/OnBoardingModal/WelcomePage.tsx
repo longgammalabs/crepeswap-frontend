@@ -1,11 +1,11 @@
-import { Flex, Box, Text, Button, LogoRoundIcon, Checkbox, Link } from '@pancakeswap/uikit'
-import { useTranslation } from '@pancakeswap/localization'
-import { useRouter } from 'next/router'
-import { useState, useMemo } from 'react'
+import { useTranslation } from '@iguanadex/localization'
+import { Box, Button, Checkbox, Flex, Link, LogoRoundIcon, Text } from '@iguanadex/uikit'
 import BigNumber from 'bignumber.js'
-import { useAccount } from 'wagmi'
 import ConnectWalletButton from 'components/ConnectWalletButton'
+import { useRouter } from 'next/router'
+import { useMemo, useState } from 'react'
 import useUserExist from 'views/AffiliatesProgram/hooks/useUserExist'
+import { useAccount } from 'wagmi'
 
 interface WelcomePageProps {
   isLoading: boolean

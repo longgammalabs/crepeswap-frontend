@@ -1,27 +1,27 @@
+import { useTranslation } from '@iguanadex/localization'
 import {
   Box,
   Card,
   CardBody,
   CardRibbon,
   Flex,
-  ProfileAvatar,
   LaurelLeftIcon,
   LaurelRightIcon,
-  Text,
-  SubMenu,
+  ProfileAvatar,
   Skeleton,
-} from '@pancakeswap/uikit'
-import { styled } from 'styled-components'
-import { useTranslation } from '@pancakeswap/localization'
-import { RankListDetail } from 'views/TradingReward/hooks/useRankList'
-import { formatNumber } from '@pancakeswap/utils/formatBalance'
-import { useProfileForAddress } from 'state/profile/hooks'
-import { useDomainNameForAddress } from 'hooks/useDomain'
-import truncateHash from '@pancakeswap/utils/truncateHash'
-import { useCakePrice } from 'hooks/useCakePrice'
-import { useMemo } from 'react'
+  SubMenu,
+  Text,
+} from '@iguanadex/uikit'
+import { formatNumber } from '@iguanadex/utils/formatBalance'
+import truncateHash from '@iguanadex/utils/truncateHash'
 import BigNumber from 'bignumber.js'
+import { useCakePrice } from 'hooks/useCakePrice'
+import { useDomainNameForAddress } from 'hooks/useDomain'
 import Image from 'next/image'
+import { useMemo } from 'react'
+import { useProfileForAddress } from 'state/profile/hooks'
+import { styled } from 'styled-components'
+import { RankListDetail } from 'views/TradingReward/hooks/useRankList'
 
 interface RankingCardProps {
   rank: 1 | 2 | 3

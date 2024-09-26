@@ -1,11 +1,11 @@
+import { Flex, Text } from '@iguanadex/uikit'
+import { Pool } from '@iguanadex/widgets-internal'
 import React from 'react'
 import { styled } from 'styled-components'
-import { Flex, Text } from '@pancakeswap/uikit'
-import { Pool } from '@pancakeswap/widgets-internal'
 
-import { Token } from '@pancakeswap/sdk'
+import { FarmWithStakedValue } from '@iguanadex/farms'
+import { Token } from '@iguanadex/sdk'
 import { TokenPairImage } from 'components/TokenImage'
-import { FarmWithStakedValue } from '@pancakeswap/farms'
 
 const StyledCell = styled(Pool.BaseCell)`
   flex: 0;

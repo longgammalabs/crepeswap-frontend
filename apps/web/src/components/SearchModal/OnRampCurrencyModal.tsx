@@ -1,5 +1,5 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { Currency } from '@pancakeswap/sdk'
+import { useTranslation } from '@iguanadex/localization'
+import { Currency } from '@iguanadex/sdk'
 import {
   Box,
   Button,
@@ -14,8 +14,8 @@ import {
   RowBetween,
   Text,
   useMatchBreakpoints,
-} from '@pancakeswap/uikit'
-import { ChainLogo } from '@pancakeswap/widgets-internal'
+} from '@iguanadex/uikit'
+import { ChainLogo } from '@iguanadex/widgets-internal'
 import isArray from 'lodash/isArray'
 import Image from 'next/image'
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
@@ -107,7 +107,7 @@ const SearchModalNetworkPopOver = ({
           <>
             {[chains[0], ...chains]
               .filter((chain) => {
-                if (('testnet' in chain && chain.testnet) || chain.id === 204) return false
+                if ('testnet' in chain && chain.testnet) return false
                 return true
               })
               .map((chain, index: number) => {

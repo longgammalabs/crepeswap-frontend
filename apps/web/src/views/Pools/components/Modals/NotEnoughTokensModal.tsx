@@ -1,7 +1,7 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { styled } from 'styled-components'
-import { Modal, Text, Button, OpenNewIcon, Link } from '@pancakeswap/uikit'
+import { useTranslation } from '@iguanadex/localization'
+import { Button, Link, Modal, OpenNewIcon, Text } from '@iguanadex/uikit'
 import useTheme from 'hooks/useTheme'
+import { styled } from 'styled-components'
 
 interface NotEnoughTokensModalProps {
   tokenSymbol: string

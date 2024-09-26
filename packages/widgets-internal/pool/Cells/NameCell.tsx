@@ -1,6 +1,6 @@
-import { useTranslation } from "@pancakeswap/localization";
-import { Skeleton, Text, useMatchBreakpoints } from "@pancakeswap/uikit";
-import { BIG_ZERO } from "@pancakeswap/utils/bigNumber";
+import { useTranslation } from "@iguanadex/localization";
+import { Skeleton, Text, useMatchBreakpoints } from "@iguanadex/uikit";
+import { BIG_ZERO } from "@iguanadex/utils/bigNumber";
 import BigNumber from "bignumber.js";
 import React, { ReactNode, useMemo } from "react";
 import { styled } from "styled-components";

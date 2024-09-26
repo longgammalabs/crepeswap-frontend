@@ -1,5 +1,5 @@
-import { PositionDetails } from '@pancakeswap/farms'
-import { masterChefV3ABI } from '@pancakeswap/v3-sdk'
+import { PositionDetails } from '@iguanadex/farms'
+import { masterChefV3ABI } from '@iguanadex/v3-sdk'
 import { useActiveChainId } from 'hooks/useActiveChainId'
 import { useMasterchefV3, useV3NFTPositionManagerContract } from 'hooks/useContract'
 import { useEffect, useMemo } from 'react'

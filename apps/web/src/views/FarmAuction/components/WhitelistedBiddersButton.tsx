@@ -1,6 +1,6 @@
-import { useModal, Button, Skeleton } from '@pancakeswap/uikit'
-import WhitelistedBiddersModal from './WhitelistedBiddersModal'
+import { Button, Skeleton, useModal } from '@iguanadex/uikit'
 import useWhitelistedAddresses from '../hooks/useWhitelistedAddresses'
+import WhitelistedBiddersModal from './WhitelistedBiddersModal'
 
 const WhitelistedBiddersButton: React.FC<React.PropsWithChildren> = () => {
   const whitelistedBidders = useWhitelistedAddresses()

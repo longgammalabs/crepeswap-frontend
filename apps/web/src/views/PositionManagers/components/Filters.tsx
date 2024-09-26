@@ -1,7 +1,7 @@
-import { Flex, Text, Select, OptionProps, SearchInput } from '@pancakeswap/uikit'
+import { useTranslation } from '@iguanadex/localization'
+import { Flex, OptionProps, SearchInput, Select, Text } from '@iguanadex/uikit'
+import { ChangeEvent, useCallback, useMemo } from 'react'
 import { styled } from 'styled-components'
-import { useTranslation } from '@pancakeswap/localization'
-import { useMemo, useCallback, ChangeEvent } from 'react'
 
 import { useSearch, useSortBy } from '../hooks'
 

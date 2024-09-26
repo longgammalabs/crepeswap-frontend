@@ -1,10 +1,10 @@
-import { styled } from "styled-components";
-import { useMemo } from "react";
+import { useTranslation } from "@iguanadex/localization";
 import dayjs from "dayjs";
-import { useTranslation } from "@pancakeswap/localization";
+import { useMemo } from "react";
+import { styled } from "styled-components";
 import { Flex } from "../../components/Box";
-import { Text } from "../../components/Text";
 import { Skeleton } from "../../components/Skeleton";
+import { Text } from "../../components/Text";
 
 const StyledIfoVestingFooter = styled(Flex)`
   padding: 16px;

@@ -1,23 +1,23 @@
-import { styled } from "styled-components";
+import { useTranslation } from "@iguanadex/localization";
 import { ReactNode } from "react";
-import { useTranslation } from "@pancakeswap/localization";
+import { styled } from "styled-components";
 //  should be ok to import type from sdk
-import type { FeeAmount } from "@pancakeswap/v3-sdk";
 import {
-  Text,
-  Button,
-  Flex,
-  ModalContainer,
-  ModalCloseButton,
-  ModalBody,
-  ModalActions,
-  ModalProps,
   AtomBox,
   AutoColumn,
   AutoRow,
+  Button,
+  Flex,
+  ModalActions,
+  ModalBody,
+  ModalCloseButton,
+  ModalContainer,
+  ModalProps,
   RowBetween,
   Tag,
-} from "@pancakeswap/uikit";
+  Text,
+} from "@iguanadex/uikit";
+import type { FeeAmount } from "@iguanadex/v3-sdk";
 import Tags from "../Tags";
 
 const { BoostedTag, FarmAuctionTag, V3FeeTag } = Tags;

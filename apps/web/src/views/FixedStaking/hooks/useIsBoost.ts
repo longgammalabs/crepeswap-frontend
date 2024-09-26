@@ -1,4 +1,4 @@
-import { getBalanceAmount } from '@pancakeswap/utils/formatBalance'
+import { getBalanceAmount } from '@iguanadex/utils/formatBalance'
 import BigNumber from 'bignumber.js'
 
 import { useIfUserLocked } from './useStakedPools'

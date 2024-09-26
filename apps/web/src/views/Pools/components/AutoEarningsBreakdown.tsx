@@ -1,12 +1,12 @@
-import { Text, Box } from '@pancakeswap/uikit'
-import { Pool } from '@pancakeswap/widgets-internal'
-import { BIG_ZERO } from '@pancakeswap/utils/bigNumber'
+import { Box, Text } from '@iguanadex/uikit'
+import { BIG_ZERO } from '@iguanadex/utils/bigNumber'
+import { Pool } from '@iguanadex/widgets-internal'
 
-import { useTranslation } from '@pancakeswap/localization'
-import { useVaultPoolByKey } from 'state/pools/hooks'
-import { VaultKey, DeserializedLockedVaultUser } from 'state/types'
-import { Token } from '@pancakeswap/sdk'
+import { useTranslation } from '@iguanadex/localization'
+import { Token } from '@iguanadex/sdk'
 import dayjs from 'dayjs'
+import { useVaultPoolByKey } from 'state/pools/hooks'
+import { DeserializedLockedVaultUser, VaultKey } from 'state/types'
 import { getCakeVaultEarnings } from '../helpers'
 
 interface AutoEarningsBreakdownProps {

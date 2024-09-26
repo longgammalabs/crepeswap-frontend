@@ -1,10 +1,10 @@
-import { Flex, Text, Heading } from '@pancakeswap/uikit'
+import { useTranslation } from '@iguanadex/localization'
+import { Flex, Heading, Text } from '@iguanadex/uikit'
+import useTheme from 'hooks/useTheme'
 import Image from 'next/image'
 import { styled } from 'styled-components'
-import { useTranslation } from '@pancakeswap/localization'
-import useTheme from 'hooks/useTheme'
-import MoboxAllBunniesImage from '../../../pngs/mobox-all-bunnies.png'
 import { Heading1Text, Heading2Text } from '../../../components/CompetitionHeadingText'
+import MoboxAllBunniesImage from '../../../pngs/mobox-all-bunnies.png'
 
 const TextStyles = (theme) => `
   text-align: center;

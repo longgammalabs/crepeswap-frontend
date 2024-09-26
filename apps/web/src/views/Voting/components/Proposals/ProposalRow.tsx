@@ -1,8 +1,8 @@
-import { ArrowForwardIcon, Box, IconButton, Flex, Text } from '@pancakeswap/uikit'
-import { NextLinkFromReactRouter } from '@pancakeswap/widgets-internal'
+import { ArrowForwardIcon, Box, Flex, IconButton, Text } from '@iguanadex/uikit'
+import { NextLinkFromReactRouter } from '@iguanadex/widgets-internal'
 
-import { styled } from 'styled-components'
 import { Proposal } from 'state/types'
+import { styled } from 'styled-components'
 import { isCoreProposal } from '../../helpers'
 import TimeFrame from './TimeFrame'
 import { ProposalStateTag, ProposalTypeTag } from './tags'

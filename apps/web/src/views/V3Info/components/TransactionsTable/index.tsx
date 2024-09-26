@@ -1,14 +1,5 @@
-import { useTranslation } from '@pancakeswap/localization'
-import {
-  ArrowBackIcon,
-  ArrowForwardIcon,
-  AutoColumn,
-  Box,
-  Flex,
-  ScanLink,
-  SortArrowIcon,
-  Text,
-} from '@pancakeswap/uikit'
+import { useTranslation } from '@iguanadex/localization'
+import { ArrowBackIcon, ArrowForwardIcon, AutoColumn, Box, Flex, ScanLink, SortArrowIcon, Text } from '@iguanadex/uikit'
 import React, { useCallback, useEffect, useMemo, useState } from 'react'
 import { ChainLinkSupportChains, multiChainId } from 'state/info/constant'
 import { useChainIdByQuery, useChainNameByQuery } from 'state/info/hooks'

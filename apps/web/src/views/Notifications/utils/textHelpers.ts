@@ -1,4 +1,4 @@
-import { TranslateFunction } from '@pancakeswap/localization'
+import { TranslateFunction } from '@iguanadex/localization'
 
 export const getOnBoardingDescriptionMessage = (isOnBoarded: boolean, t: TranslateFunction) => {
   let onBoardingDescription: string = t(

@@ -1,7 +1,7 @@
-import { ChainId } from '@pancakeswap/chains'
-import { useTranslation } from '@pancakeswap/localization'
-import { Currency, Token } from '@pancakeswap/sdk'
-import { WrappedTokenInfo } from '@pancakeswap/token-lists'
+import { ChainId } from '@iguanadex/chains'
+import { useTranslation } from '@iguanadex/localization'
+import { Currency, Token } from '@iguanadex/sdk'
+import { WrappedTokenInfo } from '@iguanadex/token-lists'
 import {
   AutoColumn,
   BscScanIcon,
@@ -16,9 +16,10 @@ import {
   Tag,
   Text,
   useTooltip,
-} from '@pancakeswap/uikit'
-import truncateHash from '@pancakeswap/utils/truncateHash'
-import { ListLogo } from '@pancakeswap/widgets-internal'
+} from '@iguanadex/uikit'
+import truncateHash from '@iguanadex/utils/truncateHash'
+import { ListLogo } from '@iguanadex/widgets-internal'
+import { useQuery } from '@tanstack/react-query'
 import AccessRisk, { TOKEN_RISK } from 'components/AccessRisk'
 import { ACCESS_TOKEN_SUPPORT_CHAIN_IDS } from 'components/AccessRisk/config/supportedChains'
 import { fetchRiskToken } from 'components/AccessRisk/utils/fetchTokenRisk'
@@ -28,7 +29,6 @@ import { useCombinedInactiveList } from 'state/lists/hooks'
 import { useAddUserToken } from 'state/user/hooks'
 import { getBlockExploreLink, getBlockExploreName } from 'utils'
 import { chains } from 'utils/wagmi'
-import { useQuery } from '@tanstack/react-query'
 
 interface ImportProps {
   tokens: Token[]

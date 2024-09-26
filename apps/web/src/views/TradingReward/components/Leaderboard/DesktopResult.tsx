@@ -1,12 +1,12 @@
-import { useMemo } from 'react'
+import { Flex, ProfileAvatar, Td, Text } from '@iguanadex/uikit'
+import { formatNumber } from '@iguanadex/utils/formatBalance'
+import truncateHash from '@iguanadex/utils/truncateHash'
 import BigNumber from 'bignumber.js'
-import { Text, Flex, Td, ProfileAvatar } from '@pancakeswap/uikit'
-import { RankListDetail } from 'views/TradingReward/hooks/useRankList'
-import { formatNumber } from '@pancakeswap/utils/formatBalance'
-import { useProfileForAddress } from 'state/profile/hooks'
-import { useDomainNameForAddress } from 'hooks/useDomain'
-import truncateHash from '@pancakeswap/utils/truncateHash'
 import { useCakePrice } from 'hooks/useCakePrice'
+import { useDomainNameForAddress } from 'hooks/useDomain'
+import { useMemo } from 'react'
+import { useProfileForAddress } from 'state/profile/hooks'
+import { RankListDetail } from 'views/TradingReward/hooks/useRankList'
 
 interface DesktopResultProps {
   rank: RankListDetail

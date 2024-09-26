@@ -1,9 +1,9 @@
-import { useModal } from '@pancakeswap/uikit'
-import { Swap as SwapUI } from '@pancakeswap/widgets-internal'
+import { useModal } from '@iguanadex/uikit'
+import { Swap as SwapUI } from '@iguanadex/widgets-internal'
 
-import { useTranslation } from '@pancakeswap/localization'
-import { Price, Currency } from '@pancakeswap/sdk'
-import { useUserSlippage } from '@pancakeswap/utils/user'
+import { useTranslation } from '@iguanadex/localization'
+import { Currency, Price } from '@iguanadex/sdk'
+import { useUserSlippage } from '@iguanadex/utils/user'
 import { memo } from 'react'
 
 import SettingsModal from '../../../../components/Menu/GlobalSettings/SettingsModal'

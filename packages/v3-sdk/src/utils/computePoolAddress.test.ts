@@ -1,6 +1,6 @@
-import { Token } from '@pancakeswap/sdk'
-import { ChainId } from '@pancakeswap/chains'
-import { describe, it, expect } from 'vitest'
+import { ChainId } from '@iguanadex/chains'
+import { Token } from '@iguanadex/sdk'
+import { describe, expect, it } from 'vitest'
 import { DEPLOYER_ADDRESSES, FeeAmount } from '../constants'
 import { computePoolAddress } from './computePoolAddress'
 

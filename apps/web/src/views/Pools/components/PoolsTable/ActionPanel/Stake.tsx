@@ -13,20 +13,20 @@ import {
   useMatchBreakpoints,
   useModal,
   useTooltip,
-} from '@pancakeswap/uikit'
-import { Pool } from '@pancakeswap/widgets-internal'
+} from '@iguanadex/uikit'
+import { Pool } from '@iguanadex/widgets-internal'
 
-import { useTranslation } from '@pancakeswap/localization'
+import { useTranslation } from '@iguanadex/localization'
 import BigNumber from 'bignumber.js'
 import ConnectWalletButton from 'components/ConnectWalletButton'
 import { PoolCategory } from 'config/constants/types'
 import { useERC20 } from 'hooks/useContract'
 import { useAccount } from 'wagmi'
 
-import { Token } from '@pancakeswap/sdk'
-import { BIG_ZERO } from '@pancakeswap/utils/bigNumber'
-import { getBalanceNumber, getFullDisplayBalance } from '@pancakeswap/utils/formatBalance'
-import isUndefinedOrNull from '@pancakeswap/utils/isUndefinedOrNull'
+import { Token } from '@iguanadex/sdk'
+import { BIG_ZERO } from '@iguanadex/utils/bigNumber'
+import { getBalanceNumber, getFullDisplayBalance } from '@iguanadex/utils/formatBalance'
+import isUndefinedOrNull from '@iguanadex/utils/isUndefinedOrNull'
 import { useVaultPoolByKey } from 'state/pools/hooks'
 import { DeserializedLockedCakeVault, VaultKey } from 'state/types'
 import { styled } from 'styled-components'

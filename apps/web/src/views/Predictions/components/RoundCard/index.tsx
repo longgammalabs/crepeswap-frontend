@@ -1,5 +1,5 @@
-import { BetPosition } from '@pancakeswap/prediction'
-import { BIG_ZERO } from '@pancakeswap/utils/bigNumber'
+import { BetPosition } from '@iguanadex/prediction'
+import { BIG_ZERO } from '@iguanadex/utils/bigNumber'
 import { useGetBetByEpoch, useGetCurrentEpoch } from 'state/predictions/hooks'
 import { NodeRound } from 'state/types'
 import { useAccount } from 'wagmi'

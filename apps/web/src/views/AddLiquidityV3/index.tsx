@@ -1,7 +1,7 @@
 import { CurrencySelect } from 'components/CurrencySelect'
 import { CommonBasesType } from 'components/SearchModal/types'
 
-import { Currency, NATIVE, WNATIVE } from '@pancakeswap/sdk'
+import { Currency, NATIVE, WNATIVE } from '@iguanadex/sdk'
 import {
   AddIcon,
   AutoColumn,
@@ -12,12 +12,12 @@ import {
   IconButton,
   PreTitle,
   RefreshIcon,
-} from '@pancakeswap/uikit'
+} from '@iguanadex/uikit'
 
-import { FeeAmount } from '@pancakeswap/v3-sdk'
+import { FeeAmount } from '@iguanadex/v3-sdk'
 import React, { ReactNode, useCallback, useEffect, useMemo } from 'react'
 
-import { Trans, useTranslation } from '@pancakeswap/localization'
+import { Trans, useTranslation } from '@iguanadex/localization'
 import { useRouter } from 'next/router'
 import currencyId from 'utils/currencyId'
 
@@ -26,7 +26,7 @@ import { atom, useAtom } from 'jotai'
 import { styled } from 'styled-components'
 import Page from 'views/Page'
 
-import { usePreviousValue } from '@pancakeswap/hooks'
+import { usePreviousValue } from '@iguanadex/hooks'
 import { useCurrency } from 'hooks/Tokens'
 import AddLiquidity from 'views/AddLiquidity'
 import AddStableLiquidity from 'views/AddLiquidity/AddStableLiquidity'

@@ -1,11 +1,11 @@
-import { ChainId } from '@pancakeswap/chains'
+import { ChainId } from '@iguanadex/chains'
 import { createStore, Store } from 'redux'
 import {
   addTransaction,
   checkedTransaction,
+  clearAllChainTransactions,
   clearAllTransactions,
   finalizeTransaction,
-  clearAllChainTransactions,
 } from './actions'
 import reducer, { initialState, TransactionState } from './reducer'
 

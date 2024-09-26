@@ -1,4 +1,4 @@
-import { opBnbTokens } from '@pancakeswap/tokens'
+import { opBnbTokens } from '@iguanadex/tokens'
 import { getAddress } from 'viem'
 
 import { PoolCategory, SerializedPool } from '../../types'

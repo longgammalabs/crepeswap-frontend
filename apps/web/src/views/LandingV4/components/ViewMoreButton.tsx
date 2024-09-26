@@ -1,5 +1,5 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { Box, Button, Flex } from '@pancakeswap/uikit'
+import { useTranslation } from '@iguanadex/localization'
+import { Box, Button, Flex } from '@iguanadex/uikit'
 import { styled } from 'styled-components'
 import { GradientBox } from 'views/LandingV4/components/GradientBox'
 

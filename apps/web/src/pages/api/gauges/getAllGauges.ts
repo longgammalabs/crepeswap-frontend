@@ -1,5 +1,5 @@
-import { ChainId } from '@pancakeswap/chains'
-import { getAllGauges } from '@pancakeswap/gauges'
+import { ChainId } from '@iguanadex/chains'
+import { getAllGauges } from '@iguanadex/gauges'
 import { NextApiHandler } from 'next'
 import qs from 'qs'
 import { getViemClients } from 'utils/viem.server'
@@ -20,7 +20,7 @@ const handler: NextApiHandler = async (req, res) => {
   try {
     const gauges = await getAllGauges(
       getViemClients({
-        chainId: testnet ? ChainId.BSC_TESTNET : ChainId.BSC,
+        chainId: testnet ? ChainId.ETHERLINK_TESTNET : ChainId.ETHERLINK,
       }),
       {
         testnet,

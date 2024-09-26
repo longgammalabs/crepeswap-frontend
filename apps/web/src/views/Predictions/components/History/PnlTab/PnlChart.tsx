@@ -1,6 +1,6 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { Text } from '@pancakeswap/uikit'
-import { SVG, WonSlice, LostSlice, Wrapper, Info } from './PnlChartStyles'
+import { useTranslation } from '@iguanadex/localization'
+import { Text } from '@iguanadex/uikit'
+import { Info, LostSlice, SVG, WonSlice, Wrapper } from './PnlChartStyles'
 
 /**
  * Bare minimum chart that doesn't require any external dependencies

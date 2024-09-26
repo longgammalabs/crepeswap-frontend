@@ -1,7 +1,7 @@
 {
-  "name": "@pancakeswap/tsconfig",
-  "version": "0.0.0",
+  "name": "@iguanadex/tsconfig",
+  "version": "0.0.1",
   "license": "MIT",
   "main": "index.js",
-  "private": true
+  "private": false
 }

@@ -1,6 +1,6 @@
-import { useDebounce } from '@pancakeswap/hooks'
-import { useTranslation } from '@pancakeswap/localization'
-import { Flex, Input, Skeleton, Text, useMatchBreakpoints } from '@pancakeswap/uikit'
+import { useDebounce } from '@iguanadex/hooks'
+import { useTranslation } from '@iguanadex/localization'
+import { Flex, Input, Skeleton, Text, useMatchBreakpoints } from '@iguanadex/uikit'
 import { MINIMUM_SEARCH_CHARACTERS } from 'config/constants/info'
 import orderBy from 'lodash/orderBy'
 import { useRouter } from 'next/router'
@@ -249,7 +249,7 @@ const Search = () => {
         {isLoading && debouncedSearchTerm && <Skeleton />}
         {showMessage && <Text>{noTokensMessage}</Text>}
         {!showWatchlist && debouncedSearchTerm.length < MINIMUM_SEARCH_CHARACTERS && (
-          <Text>{t('Search liquidity pairs or tokens')}</Text>
+          <Text>{t('Search liquidity pools or tokens')}</Text>
         )}
       </>
     )
@@ -267,7 +267,7 @@ const Search = () => {
         {isLoading && debouncedSearchTerm && <Skeleton />}
         {showMessage && <Text>{noPoolsMessage}</Text>}
         {!showWatchlist && debouncedSearchTerm.length < MINIMUM_SEARCH_CHARACTERS && (
-          <Text>{t('Search liquidity pairs or tokens')}</Text>
+          <Text>{t('Search liquidity pools or tokens')}</Text>
         )}
       </>
     )
@@ -284,7 +284,7 @@ const Search = () => {
           onChange={(e) => {
             setValue(e.target.value)
           }}
-          placeholder={t('Search liquidity pairs or tokens')}
+          placeholder={t('Search liquidity pools or tokens')}
           ref={inputRef}
           onFocus={() => {
             setShowMenu(true)

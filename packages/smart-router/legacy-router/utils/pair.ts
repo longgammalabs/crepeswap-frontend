@@ -1,4 +1,4 @@
-import { Currency } from '@pancakeswap/sdk'
+import { Currency } from '@iguanadex/sdk'
 
 import { Pair, StableSwapPair } from '../types'
 

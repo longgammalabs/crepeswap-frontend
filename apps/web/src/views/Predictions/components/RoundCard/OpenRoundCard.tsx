@@ -1,5 +1,5 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { BetPosition, ROUND_BUFFER } from '@pancakeswap/prediction'
+import { useTranslation } from '@iguanadex/localization'
+import { BetPosition, ROUND_BUFFER } from '@iguanadex/prediction'
 import {
   ArrowDownIcon,
   ArrowUpIcon,
@@ -9,7 +9,7 @@ import {
   PlayCircleOutlineIcon,
   useToast,
   useTooltip,
-} from '@pancakeswap/uikit'
+} from '@iguanadex/uikit'
 import { ToastDescriptionWithTx } from 'components/Toast'
 import useLocalDispatch from 'contexts/LocalRedux/useLocalDispatch'
 import { useActiveChainId } from 'hooks/useActiveChainId'

@@ -1,4 +1,4 @@
-import { getDecimalAmount } from '@pancakeswap/utils/formatBalance'
+import { getDecimalAmount } from '@iguanadex/utils/formatBalance'
 import BN from 'bignumber.js'
 import { useSetAtom } from 'jotai'
 import { useCallback, useEffect, useState } from 'react'

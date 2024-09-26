@@ -1,5 +1,5 @@
-import { AutoRow, Box, Button, Card, CardBody, Flex, Text, useMatchBreakpoints } from '@pancakeswap/uikit'
-import { NextLinkFromReactRouter } from '@pancakeswap/widgets-internal'
+import { AutoRow, Box, Button, Card, CardBody, Flex, Text, useMatchBreakpoints } from '@iguanadex/uikit'
+import { NextLinkFromReactRouter } from '@iguanadex/widgets-internal'
 import { AppHeader } from 'components/App'
 import { useMemo } from 'react'
 
@@ -9,8 +9,8 @@ import { styled } from 'styled-components'
 import { CHAIN_IDS } from 'utils/wagmi'
 import Page from 'views/Page'
 
-import { useTranslation } from '@pancakeswap/localization'
-import { CurrencyAmount } from '@pancakeswap/sdk'
+import { useTranslation } from '@iguanadex/localization'
+import { CurrencyAmount } from '@iguanadex/sdk'
 import { LightGreyCard } from 'components/Card'
 import { CurrencyLogo } from 'components/Logo'
 import { usePoolTokenPercentage, useTotalUSDValue } from 'components/PositionCard'

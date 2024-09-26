@@ -1,5 +1,5 @@
-import { ChainId } from '@pancakeswap/chains'
-import { ERC20Token } from '@pancakeswap/sdk'
+import { ChainId } from '@iguanadex/chains'
+import { ERC20Token } from '@iguanadex/sdk'
 import {
   arbitrumTokens,
   baseTokens,
@@ -14,7 +14,7 @@ import {
   polygonZkEvmTokens,
   zkSyncTestnetTokens,
   zksyncTokens,
-} from '@pancakeswap/tokens'
+} from '@iguanadex/tokens'
 import type { FarmV3SupportedChainId } from '../../src'
 import type { CommonPrice } from '../../src/fetchFarmsV3'
 
@@ -60,7 +60,7 @@ export const priceHelperTokens = {
   },
   [ChainId.ETHERLINK]: {
     chain: 'etherlink',
-    list: [etherlinkTokens.usdt, etherlinkTokens.usdc, etherlinkTokens.wxtz],
+    list: [etherlinkTokens.wxtz, etherlinkTokens.usdc, etherlinkTokens.usdt],
   },
   [ChainId.ETHERLINK_TESTNET]: {
     chain: 'etherlink-testnet',
@@ -92,12 +92,4 @@ export const DEFAULT_COMMON_PRICE: Record<FarmV3SupportedChainId, CommonPrice> =
   [ChainId.BASE]: {},
   [ChainId.OPBNB_TESTNET]: {},
   [ChainId.OPBNB]: {},
-  [ChainId.ETHERLINK_TESTNET]: {
-    [etherlinkTestnetTokens.usdt.address]: '1',
-    [etherlinkTestnetTokens.usdc.address]: '1',
-  },
-  [ChainId.ETHERLINK]: {
-    [etherlinkTokens.usdt.address]: '1',
-    [etherlinkTokens.usdc.address]: '1',
-  },
 }

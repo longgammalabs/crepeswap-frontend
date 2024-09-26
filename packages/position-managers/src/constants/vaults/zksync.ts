@@ -1,5 +1,5 @@
-import { zksyncTokens } from '@pancakeswap/tokens'
-import { FeeAmount } from '@pancakeswap/v3-sdk'
+import { zksyncTokens } from '@iguanadex/tokens'
+import { FeeAmount } from '@iguanadex/v3-sdk'
 import { Strategy, VaultConfig } from '../../types'
 import { MANAGER } from '../managers'
 

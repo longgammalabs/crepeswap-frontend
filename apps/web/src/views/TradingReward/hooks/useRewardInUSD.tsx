@@ -1,5 +1,5 @@
+import { getBalanceAmount } from '@iguanadex/utils/formatBalance'
 import BigNumber from 'bignumber.js'
-import { getBalanceAmount } from '@pancakeswap/utils/formatBalance'
 
 interface UseRewardInUSDProps {
   timeRemaining: number

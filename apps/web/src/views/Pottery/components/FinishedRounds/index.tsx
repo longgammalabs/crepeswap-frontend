@@ -1,9 +1,9 @@
-import { styled } from 'styled-components'
-import { Flex, PageSection } from '@pancakeswap/uikit'
+import { useTranslation } from '@iguanadex/localization'
+import { Flex, PageSection } from '@iguanadex/uikit'
 import useTheme from 'hooks/useTheme'
-import { useTranslation } from '@pancakeswap/localization'
-import { OutlineText } from 'views/Pottery/components/TextStyle'
+import { styled } from 'styled-components'
 import { FINISHED_ROUNDS_BG, FINISHED_ROUNDS_BG_DARK } from 'views/Lottery/pageSectionStyles'
+import { OutlineText } from 'views/Pottery/components/TextStyle'
 import AllHistoryCard from './AllHistoryCard'
 
 const FinishedRoundsBg = styled(Flex)<{ isDark: boolean }>`

@@ -1,4 +1,4 @@
-import { ChainId } from '@pancakeswap/chains'
+import { ChainId } from '@iguanadex/chains'
 import { Address } from 'viem'
 
 // @fixme convert to ChainId after all chains are updated
@@ -33,13 +33,14 @@ const PERMIT2_ADDRESSES: Record<ChainId, Address> = {
   [ChainId.OPBNB]: '0x31c2F6fcFf4F8759b3Bd5Bf0e1084A055615c768',
   [ChainId.OPBNB_TESTNET]: '0x31c2F6fcFf4F8759b3Bd5Bf0e1084A055615c768',
 
-  // TODO Deploy Permit2
-  [ChainId.ETHERLINK]: '0x',
+  [ChainId.ETHERLINK]: '0x044805008262F8B716C6C7669E87B1eF50f7212A',
+
+  // TODO Deploy Permit2 on Etherlink Testnet
   [ChainId.ETHERLINK_TESTNET]: '0x',
 }
 
 export const getPermit2Address = (chainId: ChainId | undefined): Address => {
-  if (chainId === undefined) return PERMIT2_ADDRESSES[ChainId.BSC]
+  if (chainId === undefined) return PERMIT2_ADDRESSES[ChainId.ETHERLINK]
   if (!(chainId in PERMIT2_ADDRESSES)) throw new Error(`Permit2 Contract not deployed on chain ${chainId}`)
   return PERMIT2_ADDRESSES[chainId]
 }

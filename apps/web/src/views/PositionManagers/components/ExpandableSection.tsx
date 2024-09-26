@@ -1,7 +1,7 @@
-import { SpaceProps } from 'styled-system'
+import { useTranslation } from '@iguanadex/localization'
+import { ExpandableLabel, Flex, Text } from '@iguanadex/uikit'
 import { PropsWithChildren, memo, useCallback, useState } from 'react'
-import { Flex, ExpandableLabel, Text } from '@pancakeswap/uikit'
-import { useTranslation } from '@pancakeswap/localization'
+import { SpaceProps } from 'styled-system'
 
 export const ExpandableSection = memo(function ExpandableSection({
   children,

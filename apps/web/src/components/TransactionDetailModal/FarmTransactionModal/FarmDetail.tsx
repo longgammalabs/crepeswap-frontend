@@ -1,5 +1,5 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { Box, Flex, RefreshIcon, ScanLink, Text, WarningIcon } from '@pancakeswap/uikit'
+import { useTranslation } from '@iguanadex/localization'
+import { Box, Flex, RefreshIcon, ScanLink, Text, WarningIcon } from '@iguanadex/uikit'
 import { ChainLogo } from 'components/Logo/ChainLogo'
 import { useMemo } from 'react'
 import { ChainLinkSupportChains } from 'state/info/constant'

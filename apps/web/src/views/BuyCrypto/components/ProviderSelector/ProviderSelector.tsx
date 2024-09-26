@@ -1,4 +1,4 @@
-import { useTranslation } from '@pancakeswap/localization'
+import { useTranslation } from '@iguanadex/localization'
 import {
   ArrowDownIcon,
   ArrowDropDownIcon,
@@ -12,7 +12,7 @@ import {
   SkeletonText,
   Text,
   useMatchBreakpoints,
-} from '@pancakeswap/uikit'
+} from '@iguanadex/uikit'
 import { useMemo } from 'react'
 import { styled, useTheme } from 'styled-components'
 import formatLocaleNumber from 'utils/formatLocaleNumber'

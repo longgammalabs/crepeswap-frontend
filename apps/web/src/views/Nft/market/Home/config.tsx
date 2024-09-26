@@ -1,15 +1,15 @@
-import { ContextApi } from '@pancakeswap/localization'
-import { LinkExternal } from '@pancakeswap/uikit'
+import { ContextApi } from '@iguanadex/localization'
+import { LinkExternal } from '@iguanadex/uikit'
 
 const config = (t: ContextApi['t']) => {
   return [
     {
-      title: t('I sold an NFT, where’s my BNB?'),
+      title: t('I sold an NFT, where’s my XTZ?'),
       description: [
         t(
-          'Trades are settled in WBNB, which is a wrapped version of BNB used on BNB Smart Chain. That means that when you sell an item, WBNB is sent to your wallet instead of BNB.',
+          'Trades are settled in WXTZ, which is a wrapped version of XTZ used on Etherlink. That means that when you sell an item, WXTZ is sent to your wallet instead of XTZ.',
         ),
-        t('You can instantly swap your WBNB for BNB with no trading fees on PancakeSwap.'),
+        t('You can instantly swap your WXTZ for XTZ at no cost on Etherlink.'),
       ],
     },
     {
@@ -26,7 +26,7 @@ const config = (t: ContextApi['t']) => {
       title: t('What are the fees?'),
       description: [
         t(
-          '100% of all platform fees taken by PancakeSwap from sales are used to buy back and BURN CAKE tokens in our weekly CAKE burns.',
+          '100% of all platform fees taken by IguanaDEX from sales are used to buy back and BURN IGN tokens in our weekly IGN burns.',
         ),
         t(
           'Platform fees: 2% is subtracted from NFT sales on the market. Subject to change.Collection fees: Additional fees may be taken by collection creators, once those collections are live. These will not contribute to the CAKE burns.',

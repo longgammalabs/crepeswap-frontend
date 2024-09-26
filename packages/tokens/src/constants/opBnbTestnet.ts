@@ -1,6 +1,6 @@
-import { WETH9, WBNB, ERC20Token } from '@pancakeswap/sdk'
-import { ChainId } from '@pancakeswap/chains'
-import { USDT, USDC } from './common'
+import { ChainId } from '@iguanadex/chains'
+import { ERC20Token, WBNB, WETH9 } from '@iguanadex/sdk'
+import { USDC, USDT } from './common'
 
 export const opBnbTestnetTokens = {
   wbnb: WBNB[ChainId.OPBNB_TESTNET],

@@ -1,5 +1,5 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { Currency } from '@pancakeswap/sdk'
+import { useTranslation } from '@iguanadex/localization'
+import { Currency } from '@iguanadex/sdk'
 import {
   ArrowDownIcon,
   Button,
@@ -11,8 +11,8 @@ import {
   Spinner,
   Text,
   useMatchBreakpoints,
-} from '@pancakeswap/uikit'
-import { TransactionErrorContent } from '@pancakeswap/widgets-internal'
+} from '@iguanadex/uikit'
+import { TransactionErrorContent } from '@iguanadex/widgets-internal'
 import { CurrencyLogo } from 'components/Logo'
 import { TransactionSubmittedContent } from 'components/TransactionConfirmationModal'
 import { useActiveChainId } from 'hooks/useActiveChainId'

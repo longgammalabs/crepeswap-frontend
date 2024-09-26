@@ -10,13 +10,13 @@ import {
   useMatchBreakpoints,
   useModal,
   useTooltip,
-} from '@pancakeswap/uikit'
-import { Pool } from '@pancakeswap/widgets-internal'
-import { styled } from 'styled-components'
+} from '@iguanadex/uikit'
+import { Pool } from '@iguanadex/widgets-internal'
 import BN from 'bignumber.js'
+import { styled } from 'styled-components'
 
-import { useTranslation } from '@pancakeswap/localization'
-import { Token } from '@pancakeswap/sdk'
+import { useTranslation } from '@iguanadex/localization'
+import { Token } from '@iguanadex/sdk'
 import { useVaultApy } from 'hooks/useVaultApy'
 import { useVaultPoolByKey } from 'state/pools/hooks'
 import { DeserializedLockedCakeVault, VaultKey } from 'state/types'

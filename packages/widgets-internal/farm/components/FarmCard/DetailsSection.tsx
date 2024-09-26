@@ -1,17 +1,17 @@
-import { ReactElement } from "react";
-import { useTranslation } from "@pancakeswap/localization";
-import { styled } from "styled-components";
+import { ChainId } from "@iguanadex/chains";
+import { useTranslation } from "@iguanadex/localization";
 import {
+  FarmMultiplierInfo,
   Flex,
+  HelpIcon,
   LinkExternal,
   ScanLink,
   Skeleton,
   Text,
-  HelpIcon,
   useTooltip,
-  FarmMultiplierInfo,
-} from "@pancakeswap/uikit";
-import { ChainId } from "@pancakeswap/chains";
+} from "@iguanadex/uikit";
+import { ReactElement } from "react";
+import { styled } from "styled-components";
 
 export interface ExpandableSectionProps {
   scanAddress?: { link: string; chainId?: number; icon?: ReactElement };

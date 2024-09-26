@@ -1,10 +1,10 @@
-import { ChainId } from '@pancakeswap/chains'
-import { useTranslation } from '@pancakeswap/localization'
-import { PredictionConfig, PredictionSupportedSymbol, targetChains } from '@pancakeswap/prediction'
-import { Box, Flex, OptionProps, Select, Text } from '@pancakeswap/uikit'
+import { ChainId } from '@iguanadex/chains'
+import { useTranslation } from '@iguanadex/localization'
+import { PredictionConfig, PredictionSupportedSymbol, targetChains } from '@iguanadex/prediction'
+import { Box, Flex, OptionProps, Select, Text } from '@iguanadex/uikit'
 import Container from 'components/Layout/Container'
 import { getImageUrlFromToken } from 'components/TokenImage'
-import { PANCAKE_ASSET_CDN } from 'config/constants/endpoints'
+import { ASSET_CDN } from 'config/constants/endpoints'
 import useLocalDispatch from 'contexts/LocalRedux/useLocalDispatch'
 import { useMemo, useState } from 'react'
 import { setLeaderboardFilter } from 'state/predictions'
@@ -83,7 +83,7 @@ const Filters: React.FC<React.PropsWithChildren<FiltersProps>> = ({
       targetChains?.map((i) => ({
         label: i?.name ?? '',
         value: i?.id?.toString?.() ?? '',
-        imageUrl: `${PANCAKE_ASSET_CDN}/web/chains/${i.id}.png`,
+        imageUrl: `${ASSET_CDN}/chains/${i.id}.png`,
       })) ?? []
     )
   }, [])

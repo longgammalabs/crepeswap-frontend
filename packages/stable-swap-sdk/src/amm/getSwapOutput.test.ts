@@ -1,8 +1,8 @@
-import { describe, it, expect } from 'vitest'
-import { CurrencyAmount, Percent } from '@pancakeswap/swap-sdk-core'
-import { bscTokens } from '@pancakeswap/tokens'
+import { CurrencyAmount, Percent } from '@iguanadex/swap-sdk-core'
+import { bscTokens } from '@iguanadex/tokens'
+import { describe, expect, it } from 'vitest'
 
-import { getSwapOutput, getSwapInput } from './getSwapOutput'
+import { getSwapInput, getSwapOutput } from './getSwapOutput'
 
 describe('getSwapOutput', () => {
   it('Exact output should match exact input', () => {

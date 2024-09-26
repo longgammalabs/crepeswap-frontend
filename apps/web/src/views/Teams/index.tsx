@@ -1,11 +1,11 @@
-import { AutoRenewIcon, Flex, Heading } from '@pancakeswap/uikit'
-import orderBy from 'lodash/orderBy'
-import Page from 'components/Layout/Page'
-import { useTranslation } from '@pancakeswap/localization'
-import { getTeams } from 'state/teams/helpers'
+import { useTranslation } from '@iguanadex/localization'
+import { AutoRenewIcon, Flex, Heading } from '@iguanadex/uikit'
 import { useQuery } from '@tanstack/react-query'
-import TeamListCard from './components/TeamListCard'
+import Page from 'components/Layout/Page'
+import orderBy from 'lodash/orderBy'
+import { getTeams } from 'state/teams/helpers'
 import TeamHeader from './components/TeamHeader'
+import TeamListCard from './components/TeamListCard'
 
 const Teams = () => {
   const { t } = useTranslation()

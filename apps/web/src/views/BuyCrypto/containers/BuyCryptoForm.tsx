@@ -1,6 +1,6 @@
-import { useDebounce } from '@pancakeswap/hooks'
-import { useTranslation } from '@pancakeswap/localization'
-import { AutoColumn, AutoRow, Box, Flex, Link, Row, Text, useMatchBreakpoints } from '@pancakeswap/uikit'
+import { useDebounce } from '@iguanadex/hooks'
+import { useTranslation } from '@iguanadex/localization'
+import { AutoColumn, AutoRow, Box, Flex, Link, Row, Text, useMatchBreakpoints } from '@iguanadex/uikit'
 import { FiatOnRampModalButton } from 'components/FiatOnRampModal/FiatOnRampModal'
 import { useCallback, useEffect, useMemo, useRef, useState, type RefObject } from 'react'
 import { useBuyCryptoActionHandlers, useBuyCryptoState } from 'state/buyCrypto/hooks'
@@ -224,7 +224,7 @@ export function BuyCryptoForm() {
               style={{ color: `${theme.colors.primary}` }}
               display="flex"
               fontSize="14px"
-              href="https://pancakeswap.finance/terms-of-service"
+              href="https://iguanadex.com/terms-of-service"
               referrerPolicy="no-referrer"
               target="_blank"
             >

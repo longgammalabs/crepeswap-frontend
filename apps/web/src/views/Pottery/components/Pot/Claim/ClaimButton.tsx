@@ -1,6 +1,6 @@
+import { useTranslation } from '@iguanadex/localization'
+import { AutoRenewIcon, Button } from '@iguanadex/uikit'
 import { useMemo } from 'react'
-import { useTranslation } from '@pancakeswap/localization'
-import { Button, AutoRenewIcon } from '@pancakeswap/uikit'
 import { useClaimPottery } from 'views/Pottery/hooks/useClaimPottery'
 
 interface ClaimButtonProps {

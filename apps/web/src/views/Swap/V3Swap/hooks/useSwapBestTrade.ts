@@ -1,6 +1,6 @@
-import { TradeType } from '@pancakeswap/sdk'
-import tryParseAmount from '@pancakeswap/utils/tryParseAmount'
-import { useUserSingleHopOnly } from '@pancakeswap/utils/user'
+import { TradeType } from '@iguanadex/sdk'
+import tryParseAmount from '@iguanadex/utils/tryParseAmount'
+import { useUserSingleHopOnly } from '@iguanadex/utils/user'
 
 import { useCurrency } from 'hooks/Tokens'
 import { useBestAMMTrade } from 'hooks/useBestAMMTrade'

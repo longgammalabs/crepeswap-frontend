@@ -1,4 +1,4 @@
-import { ArrowForwardIcon } from '@pancakeswap/uikit'
+import { ArrowForwardIcon } from '@iguanadex/uikit'
 import { styled } from 'styled-components'
 
 const CountdownContainer = styled.div<{ $percentage: number }>`

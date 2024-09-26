@@ -1,5 +1,5 @@
-import { useMatchBreakpoints } from '@pancakeswap/uikit'
-import { BIG_ZERO } from '@pancakeswap/utils/bigNumber'
+import { useMatchBreakpoints } from '@iguanadex/uikit'
+import { BIG_ZERO } from '@iguanadex/utils/bigNumber'
 import React, { useState } from 'react'
 import { useFarmUser } from 'state/farms/hooks'
 import { styled } from 'styled-components'

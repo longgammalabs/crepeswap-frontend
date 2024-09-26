@@ -1,10 +1,10 @@
+import { Box, Flex, ProfileAvatar, Skeleton, Text } from '@iguanadex/uikit'
+import { NextLinkFromReactRouter } from '@iguanadex/widgets-internal'
 import { styled } from 'styled-components'
-import { Box, Flex, Skeleton, Text, ProfileAvatar } from '@pancakeswap/uikit'
-import { NextLinkFromReactRouter } from '@pancakeswap/widgets-internal'
 
-import truncateHash from '@pancakeswap/utils/truncateHash'
-import { useProfileForAddress } from 'state/profile/hooks'
+import truncateHash from '@iguanadex/utils/truncateHash'
 import { useDomainNameForAddress } from 'hooks/useDomain'
+import { useProfileForAddress } from 'state/profile/hooks'
 
 const StyledFlex = styled(Flex)`
   align-items: center;

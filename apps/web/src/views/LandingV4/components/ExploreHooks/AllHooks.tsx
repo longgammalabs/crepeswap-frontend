@@ -1,5 +1,5 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { Box, Flex, FlexGap, MultiSelector, StarFillIcon, Tag, useMatchBreakpoints } from '@pancakeswap/uikit'
+import { useTranslation } from '@iguanadex/localization'
+import { Box, Flex, FlexGap, MultiSelector, StarFillIcon, Tag, useMatchBreakpoints } from '@iguanadex/uikit'
 import { useMemo, useState } from 'react'
 import { styled } from 'styled-components'
 import { HookCard } from 'views/LandingV4/components/ExploreHooks/HookCard'

@@ -1,7 +1,7 @@
+import { useTranslation } from '@iguanadex/localization'
+import { BaseManager, MANAGER, baseManagers } from '@iguanadex/position-managers'
+import { Box, Flex, Link, Message, MessageText, Text } from '@iguanadex/uikit'
 import { useMemo } from 'react'
-import { useTranslation } from '@pancakeswap/localization'
-import { Message, MessageText, Text, Flex, Box, Link } from '@pancakeswap/uikit'
-import { MANAGER, baseManagers, BaseManager } from '@pancakeswap/position-managers'
 
 interface DYORWarningProps {
   manager: {

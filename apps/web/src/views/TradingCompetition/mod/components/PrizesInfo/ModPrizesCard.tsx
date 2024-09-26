@@ -1,8 +1,8 @@
+import { useTranslation } from '@iguanadex/localization'
+import { Box, Card, CardHeader, Heading, Text } from '@iguanadex/uikit'
 import { styled } from 'styled-components'
-import { Card, CardHeader, Box, Heading, Text } from '@pancakeswap/uikit'
-import { useTranslation } from '@pancakeswap/localization'
-import PrizesGrid from '../../../components/PrizesInfo/PrizesGrid/PrizesGrid'
 import { modPrizes } from '../../../../../config/constants/trading-competition/prizes'
+import PrizesGrid from '../../../components/PrizesInfo/PrizesGrid/PrizesGrid'
 
 const StyledCard = styled(Card)`
   ${({ theme }) => theme.mediaQueries.md} {

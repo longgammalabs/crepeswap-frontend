@@ -1,5 +1,5 @@
-import { useTheme } from '@pancakeswap/hooks'
-import { Svg, SvgProps } from '@pancakeswap/uikit'
+import { useTheme } from '@iguanadex/hooks'
+import { Svg, SvgProps } from '@iguanadex/uikit'
 
 interface MultiplierProps extends SvgProps {
   isActive: boolean

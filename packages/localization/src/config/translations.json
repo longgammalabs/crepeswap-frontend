@@ -1104,7 +1104,7 @@
   "Add %token0% and %token1%": "Add %token0% and %token1%",
   "Remove %token0% and %token1%": "Remove %token0% and %token1%",
   "Swap %token0% for %token1%": "Swap %token0% for %token1%",
-  "Search liquidity pairs or tokens": "Search liquidity pairs or tokens",
+  "search liquidity pools or tokens": "search liquidity pools or tokens",
   "Watchlist": "Watchlist",
   "See more...": "See more...",
   "No results": "No results",

@@ -1,6 +1,6 @@
-import { ChainId } from '@pancakeswap/chains'
-import { isActiveV3Farm } from '@pancakeswap/farms'
-import { Currency, CurrencyAmount, Fraction, Percent, Price, Token } from '@pancakeswap/sdk'
+import { ChainId } from '@iguanadex/chains'
+import { isActiveV3Farm } from '@iguanadex/farms'
+import { Currency, CurrencyAmount, Fraction, Percent, Price, Token } from '@iguanadex/sdk'
 import {
   AtomBox,
   AutoColumn,
@@ -24,11 +24,11 @@ import {
   Toggle,
   useMatchBreakpoints,
   useModal,
-} from '@pancakeswap/uikit'
+} from '@iguanadex/uikit'
 
-import { ConfirmationModalContent, NextLinkFromReactRouter } from '@pancakeswap/widgets-internal'
+import { ConfirmationModalContent, NextLinkFromReactRouter } from '@iguanadex/widgets-internal'
 
-import { MasterChefV3, NonfungiblePositionManager, Pool, Position, isPoolTickInRange } from '@pancakeswap/v3-sdk'
+import { MasterChefV3, NonfungiblePositionManager, Pool, Position, isPoolTickInRange } from '@iguanadex/v3-sdk'
 import { AppHeader } from 'components/App'
 import { useToken } from 'hooks/Tokens'
 import { useMasterchefV3, useV3NFTPositionManagerContract } from 'hooks/useContract'
@@ -38,7 +38,7 @@ import useIsTickAtLimit from 'hooks/v3/useIsTickAtLimit'
 import { usePool } from 'hooks/v3/usePools'
 import { NextSeo } from 'next-seo'
 // import { usePositionTokenURI } from 'hooks/v3/usePositionTokenURI'
-import { Trans, useTranslation } from '@pancakeswap/localization'
+import { Trans, useTranslation } from '@iguanadex/localization'
 import { useQuery } from '@tanstack/react-query'
 import { LightGreyCard } from 'components/Card'
 import FormattedCurrencyAmount from 'components/FormattedCurrencyAmount/FormattedCurrencyAmount'

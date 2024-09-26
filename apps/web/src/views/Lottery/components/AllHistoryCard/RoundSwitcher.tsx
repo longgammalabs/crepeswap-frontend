@@ -1,5 +1,5 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { ArrowBackIcon, ArrowForwardIcon, ArrowLastIcon, Flex, Heading, IconButton, Input } from '@pancakeswap/uikit'
+import { useTranslation } from '@iguanadex/localization'
+import { ArrowBackIcon, ArrowForwardIcon, ArrowLastIcon, Flex, Heading, IconButton, Input } from '@iguanadex/uikit'
 import { useCallback } from 'react'
 import { styled } from 'styled-components'
 

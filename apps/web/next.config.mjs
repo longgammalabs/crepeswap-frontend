@@ -1,7 +1,7 @@
 /* eslint-disable @typescript-eslint/no-var-requires */
 import BundleAnalyzer from '@next/bundle-analyzer'
-// import { withWebSecurityHeaders } from '@pancakeswap/next-config/withWebSecurityHeaders'
-import smartRouterPkgs from '@pancakeswap/smart-router/package.json' assert { type: 'json' }
+// import { withWebSecurityHeaders } from '@iguanadex/next-config/withWebSecurityHeaders'
+import smartRouterPkgs from '@iguanadex/smart-router/package.json' assert { type: 'json' }
 import { withSentryConfig } from '@sentry/nextjs'
 import { createVanillaExtractPlugin } from '@vanilla-extract/next-plugin'
 import vercelToolbarPlugin from '@vercel/toolbar/plugins/next'
@@ -38,7 +38,7 @@ const sentryWebpackPluginOptions =
       }
 
 const workerDeps = Object.keys(smartRouterPkgs.dependencies)
-  .map((d) => d.replace('@pancakeswap/', 'packages/'))
+  .map((d) => d.replace('@iguanadex/', 'packages/'))
   .concat(['/packages/smart-router/', '/packages/swap-sdk/', '/packages/token-lists/'])
 
 /** @type {import('next').NextConfig} */
@@ -56,18 +56,18 @@ const config = {
     outputFileTracingExcludes: {
       '*': [],
     },
-    optimizePackageImports: ['@pancakeswap/widgets-internal', '@pancakeswap/uikit'],
+    optimizePackageImports: ['@iguanadex/widgets-internal', '@iguanadex/uikit'],
   },
   transpilePackages: [
-    '@pancakeswap/farms',
-    '@pancakeswap/position-managers',
-    '@pancakeswap/localization',
-    '@pancakeswap/hooks',
-    '@pancakeswap/utils',
-    '@pancakeswap/widgets-internal',
-    '@pancakeswap/universal-router-sdk',
-    '@pancakeswap/permit2-sdk',
-    '@pancakeswap/ifos',
+    '@iguanadex/farms',
+    '@iguanadex/position-managers',
+    '@iguanadex/localization',
+    '@iguanadex/hooks',
+    '@iguanadex/utils',
+    '@iguanadex/widgets-internal',
+    '@iguanadex/universal-router-sdk',
+    '@iguanadex/permit2-sdk',
+    '@iguanadex/ifos',
   ],
   reactStrictMode: true,
   swcMinify: true,
@@ -82,7 +82,7 @@ const config = {
       {
         protocol: 'https',
         hostname: 'raw.githubusercontent.com',
-        pathname: '/Iguana-DEX/assets/main/**',
+        pathname: '/IguanaDEX/assets/main/**',
       },
     ],
   },

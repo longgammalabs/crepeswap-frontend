@@ -1,5 +1,4 @@
-import { styled } from 'styled-components'
-import every from 'lodash/every'
+import { ChainId, Currency, CurrencyAmount } from '@iguanadex/sdk'
 import {
   Balance,
   Box,
@@ -18,16 +17,17 @@ import {
   StepStatus,
   Stepper,
   Text,
-} from '@pancakeswap/uikit'
-import { NextLinkFromReactRouter as RouterLink, Ifo } from '@pancakeswap/widgets-internal'
-import { ChainId, CurrencyAmount, Currency } from '@pancakeswap/sdk'
+} from '@iguanadex/uikit'
+import { Ifo, NextLinkFromReactRouter as RouterLink } from '@iguanadex/widgets-internal'
+import every from 'lodash/every'
+import { ReactNode, useMemo } from 'react'
+import { styled } from 'styled-components'
 import { Address, useAccount } from 'wagmi'
-import { useMemo, ReactNode } from 'react'
 
-import { useTranslation } from '@pancakeswap/localization'
-import { useProfile } from 'state/profile/hooks'
+import { useTranslation } from '@iguanadex/localization'
 import ConnectWalletButton from 'components/ConnectWalletButton'
 import { useCakePrice } from 'hooks/useCakePrice'
+import { useProfile } from 'state/profile/hooks'
 
 import { useChainName } from '../hooks/useChainNames'
 

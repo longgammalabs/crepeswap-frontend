@@ -1,7 +1,7 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { Currency } from '@pancakeswap/sdk'
-import { Text, Heading } from '@pancakeswap/uikit'
-import { LightGreyCard, LightCardProps } from 'components/Card'
+import { useTranslation } from '@iguanadex/localization'
+import { Currency } from '@iguanadex/sdk'
+import { Heading, Text } from '@iguanadex/uikit'
+import { LightCardProps, LightGreyCard } from 'components/Card'
 
 interface RangePriceSectionProps extends LightCardProps {
   title: string

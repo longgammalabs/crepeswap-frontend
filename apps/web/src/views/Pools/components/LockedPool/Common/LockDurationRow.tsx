@@ -1,5 +1,5 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { Flex, Text } from '@pancakeswap/uikit'
+import { useTranslation } from '@iguanadex/localization'
+import { Flex, Text } from '@iguanadex/uikit'
 
 const LockDurationRow = ({ weekDuration }) => {
   const { t } = useTranslation()

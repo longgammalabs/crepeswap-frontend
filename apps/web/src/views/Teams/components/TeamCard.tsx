@@ -1,5 +1,5 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { Card, CardBody, CardHeader, CommunityIcon, Heading, PrizeIcon, Skeleton, Text } from '@pancakeswap/uikit'
+import { useTranslation } from '@iguanadex/localization'
+import { Card, CardBody, CardHeader, CommunityIcon, Heading, PrizeIcon, Skeleton, Text } from '@iguanadex/uikit'
 import { useQuery } from '@tanstack/react-query'
 import { getTeam } from 'state/teams/helpers'
 import { styled } from 'styled-components'

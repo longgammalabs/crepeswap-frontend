@@ -1,5 +1,5 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { Box, Flex, Text } from '@pancakeswap/uikit'
+import { useTranslation } from '@iguanadex/localization'
+import { Box, Flex, Text } from '@iguanadex/uikit'
 import { LotteryStatus } from 'config/constants/types'
 import useTheme from 'hooks/useTheme'
 import { useLottery } from 'state/lottery/hooks'

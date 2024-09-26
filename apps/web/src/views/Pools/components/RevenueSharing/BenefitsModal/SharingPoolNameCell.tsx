@@ -1,10 +1,10 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { Balance, Box, Flex, LogoRoundIcon, Text } from '@pancakeswap/uikit'
-import { Pool } from '@pancakeswap/widgets-internal'
+import { useTranslation } from '@iguanadex/localization'
+import { Balance, Box, Flex, LogoRoundIcon, Text } from '@iguanadex/uikit'
+import { Pool } from '@iguanadex/widgets-internal'
 import { useMemo } from 'react'
 
-import { Token } from '@pancakeswap/sdk'
-import { getBalanceNumber } from '@pancakeswap/utils/formatBalance'
+import { Token } from '@iguanadex/sdk'
+import { getBalanceNumber } from '@iguanadex/utils/formatBalance'
 import { usePoolsWithVault, useVaultPoolByKey } from 'state/pools/hooks'
 import { DeserializedLockedCakeVault, VaultKey } from 'state/types'
 

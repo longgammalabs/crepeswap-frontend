@@ -1,4 +1,4 @@
-import { Currency, CurrencyAmount, Percent, Token, TradeType } from '@pancakeswap/swap-sdk-core'
+import { Currency, CurrencyAmount, Percent, Token, TradeType } from '@iguanadex/swap-sdk-core'
 import invariant from 'tiny-invariant'
 import { Address, Hex } from 'viem'
 import { Trade } from './entities'

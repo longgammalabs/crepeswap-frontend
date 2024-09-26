@@ -1,7 +1,7 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { Currency, CurrencyAmount, Pair, Percent, Price, Token } from '@pancakeswap/sdk'
-import { useModal } from '@pancakeswap/uikit'
-import { useUserSlippage } from '@pancakeswap/utils/user'
+import { useTranslation } from '@iguanadex/localization'
+import { Currency, CurrencyAmount, Pair, Percent, Price, Token } from '@iguanadex/sdk'
+import { useModal } from '@iguanadex/uikit'
+import { useUserSlippage } from '@iguanadex/utils/user'
 import { ReactElement, useCallback, useMemo, useState } from 'react'
 
 import { V2_ROUTER_ADDRESS } from 'config/constants/exchange'

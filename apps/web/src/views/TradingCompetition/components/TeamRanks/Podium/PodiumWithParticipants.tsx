@@ -1,9 +1,9 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { Flex, Text, Skeleton, AccountFilledIcon } from '@pancakeswap/uikit'
-import { StyledVolumeText, PodiumProps, RightBox, MiddleBox, LeftBox, Wrapper, Inner, StyledVolumeFlex } from './styles'
-import TeamPodiumIcon from './TeamPodiumIcon'
-import { PodiumBase } from '../../../svgs'
+import { useTranslation } from '@iguanadex/localization'
+import { AccountFilledIcon, Flex, Skeleton, Text } from '@iguanadex/uikit'
 import { localiseTradingVolume } from '../../../helpers'
+import { PodiumBase } from '../../../svgs'
+import { Inner, LeftBox, MiddleBox, PodiumProps, RightBox, StyledVolumeFlex, StyledVolumeText, Wrapper } from './styles'
+import TeamPodiumIcon from './TeamPodiumIcon'
 
 interface MoboxPodiumProps extends PodiumProps {
   participants: string[]

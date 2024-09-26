@@ -1,5 +1,5 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { Flex, Heading, Text, useMatchBreakpoints } from '@pancakeswap/uikit'
+import { useTranslation } from '@iguanadex/localization'
+import { Flex, Heading, Text, useMatchBreakpoints } from '@iguanadex/uikit'
 import useTheme from 'hooks/useTheme'
 import { styled } from 'styled-components'
 import { Autoplay, EffectFade, Pagination } from 'swiper/modules'

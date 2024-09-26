@@ -1,5 +1,5 @@
-import { CurrencyAmount, Token } from '@pancakeswap/swap-sdk-core'
-import { bscTestnetTokens, ethereumTokens, goerliTestnetTokens } from '@pancakeswap/tokens'
+import { CurrencyAmount, Token } from '@iguanadex/swap-sdk-core'
+import { bscTestnetTokens, ethereumTokens, goerliTestnetTokens } from '@iguanadex/tokens'
 import { QueryObserverResult } from '@tanstack/react-query'
 import useAccountActiveChain from 'hooks/useAccountActiveChain'
 import { useApproveCallback } from 'hooks/useApproveCallback'

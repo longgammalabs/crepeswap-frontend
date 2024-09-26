@@ -1,4 +1,4 @@
-import { Svg, SvgProps } from '@pancakeswap/uikit'
+import { Svg, SvgProps } from '@iguanadex/uikit'
 import React from 'react'
 
 export const LpsIcon: React.FC<React.PropsWithChildren<SvgProps>> = (props) => {

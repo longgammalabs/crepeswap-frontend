@@ -1,5 +1,5 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { Link } from '@pancakeswap/uikit'
+import { useTranslation } from '@iguanadex/localization'
+import { Link } from '@iguanadex/uikit'
 import useTheme from 'hooks/useTheme'
 import { memo } from 'react'
 

@@ -1,10 +1,10 @@
-import { Currency, CurrencyAmount } from '@pancakeswap/sdk'
-import { ChainId } from '@pancakeswap/chains'
+import { ChainId } from '@iguanadex/chains'
+import { Currency, CurrencyAmount } from '@iguanadex/sdk'
 
-import { Provider, StableSwapPair } from '../types'
-import { wrappedCurrencyAmount } from '../../evm/utils/currency'
-import { getOutputToken } from '../utils/pair'
 import { stableSwapPairABI } from '../../evm/abis/StableSwapPair'
+import { wrappedCurrencyAmount } from '../../evm/utils/currency'
+import { Provider, StableSwapPair } from '../types'
+import { getOutputToken } from '../utils/pair'
 
 interface Options {
   provider: Provider

@@ -1,5 +1,5 @@
+import { shouldGeoBlock } from '@iguanadex/utils/geoBlock'
 import { NextFetchEvent, NextRequest, NextResponse } from 'next/server'
-import { shouldGeoBlock } from '@pancakeswap/utils/geoBlock'
 import { MiddlewareFactory, NextMiddleware } from './types'
 
 export const withGeoBlock: MiddlewareFactory = (next: NextMiddleware) => {

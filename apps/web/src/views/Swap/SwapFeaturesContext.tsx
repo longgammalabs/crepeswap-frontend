@@ -1,5 +1,5 @@
-import { ChainId } from '@pancakeswap/chains'
-import { useMatchBreakpoints } from '@pancakeswap/uikit'
+import { ChainId } from '@iguanadex/chains'
+import { useMatchBreakpoints } from '@iguanadex/uikit'
 import { ACCESS_TOKEN_SUPPORT_CHAIN_IDS } from 'components/AccessRisk/config/supportedChains'
 import { useActiveChainId } from 'hooks/useActiveChainId'
 import React, { createContext, useMemo, useState } from 'react'
@@ -25,11 +25,7 @@ export const SwapFeaturesContext = createContext<{
   setIsChartDisplayed: null,
 })
 
-const CHART_SUPPORT_CHAIN_IDS = [
-  ChainId.BSC,
-  ChainId.BSC_TESTNET,
-  // ChainId.ETHEREUM
-]
+const CHART_SUPPORT_CHAIN_IDS = [ChainId.BSC, ChainId.BSC_TESTNET, ChainId.ETHERLINK, ChainId.ETHEREUM]
 const STABLE_SUPPORT_CHAIN_IDS = [ChainId.BSC_TESTNET, ChainId.BSC]
 const HOT_TOKEN_SUPPORT_CHAIN_IDS = [ChainId.BSC, ChainId.ETHEREUM]
 

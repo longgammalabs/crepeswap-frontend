@@ -1,11 +1,11 @@
-import { BigintIsh, Currency, CurrencyAmount, TradeType, ZERO } from '@pancakeswap/sdk'
-import { ChainId } from '@pancakeswap/chains'
+import { ChainId } from '@iguanadex/chains'
+import { BigintIsh, Currency, CurrencyAmount, TradeType, ZERO } from '@iguanadex/sdk'
 
+import { ROUTE_CONFIG_BY_CHAIN } from './constants'
 import { computeAllRoutes, getBestRouteCombinationByQuotes } from './functions'
 import { createGasModel } from './gasModel'
 import { getRoutesWithValidQuote } from './getRoutesWithValidQuote'
-import { BestRoutes, TradeConfig, RouteConfig, SmartRouterTrade, RouteType } from './types'
-import { ROUTE_CONFIG_BY_CHAIN } from './constants'
+import { BestRoutes, RouteConfig, RouteType, SmartRouterTrade, TradeConfig } from './types'
 
 export async function getBestTrade(
   amount: CurrencyAmount<Currency>,

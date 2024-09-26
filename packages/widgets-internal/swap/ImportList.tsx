@@ -1,8 +1,8 @@
-import { useTranslation } from "@pancakeswap/localization";
-import { useTheme } from "@pancakeswap/hooks";
+import { useTheme } from "@iguanadex/hooks";
+import { useTranslation } from "@iguanadex/localization";
+import { AutoColumn, Box, Button, Checkbox, Flex, Link, Message, RowBetween, RowFixed, Text } from "@iguanadex/uikit";
 import { useState } from "react";
 import { styled } from "styled-components";
-import { AutoColumn, Flex, Link, Text, Checkbox, Button, Message, Box, RowBetween, RowFixed } from "@pancakeswap/uikit";
 import { ListLogo } from "./ListLogo";
 
 interface ImportProps {

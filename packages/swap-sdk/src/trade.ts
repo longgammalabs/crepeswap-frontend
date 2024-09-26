@@ -1,6 +1,6 @@
-import { Currency, Percent, TradeType } from '@pancakeswap/swap-sdk-core'
-import { Trade } from './entities'
+import { Currency, Percent, TradeType } from '@iguanadex/swap-sdk-core'
 import { ONE_HUNDRED_PERCENT, ZERO_PERCENT } from './constants'
+import { Trade } from './entities'
 
 // returns whether tradeB is better than tradeA by at least a threshold percentage amount
 export function isTradeBetter(

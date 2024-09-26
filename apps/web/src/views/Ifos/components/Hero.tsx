@@ -1,7 +1,7 @@
-import { isIfoSupported } from '@pancakeswap/ifos'
-import { useTranslation } from '@pancakeswap/localization'
-import { ChainId } from '@pancakeswap/sdk'
-import { Box, Button, Container, Flex, Heading, Text, useMatchBreakpoints } from '@pancakeswap/uikit'
+import { isIfoSupported } from '@iguanadex/ifos'
+import { useTranslation } from '@iguanadex/localization'
+import { ChainId } from '@iguanadex/sdk'
+import { Box, Button, Container, Flex, Heading, Text, useMatchBreakpoints } from '@iguanadex/uikit'
 import { useActiveChainId } from 'hooks/useActiveChainId'
 import Image from 'next/image'
 import { useRouter } from 'next/router'
@@ -96,7 +96,7 @@ const Hero = () => {
               <StyledHeading as="h1" mb={['12px', '12px', '24px']}>
                 {t('IFO: Initial Farm Offerings')}
               </StyledHeading>
-              <StyledSubTitle bold>{t('Buy new tokens launching on BNB Smart Chain')}</StyledSubTitle>
+              <StyledSubTitle bold>{t('Buy new tokens launching on Etherlink')}</StyledSubTitle>
             </Box>
             {isMobile ? (
               <StyledButton onClick={handleClick} mt="0.375rem">

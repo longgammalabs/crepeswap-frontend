@@ -1,5 +1,5 @@
+import { Flex, Skeleton, Td, useMatchBreakpoints } from '@iguanadex/uikit'
 import { styled } from 'styled-components'
-import { Flex, Skeleton, Td, useMatchBreakpoints } from '@pancakeswap/uikit'
 
 const GridItem = styled(Flex)`
   align-items: center;

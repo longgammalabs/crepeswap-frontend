@@ -1,7 +1,7 @@
-import { ChainId } from '@pancakeswap/chains'
+import { ChainId } from '@iguanadex/chains'
 import { gql, GraphQLClient } from 'graphql-request'
 
-import isUndefinedOrNull from '@pancakeswap/utils/isUndefinedOrNull'
+import isUndefinedOrNull from '@iguanadex/utils/isUndefinedOrNull'
 import { POOL_HIDE } from '../../constants'
 
 export const TOP_POOLS = gql`

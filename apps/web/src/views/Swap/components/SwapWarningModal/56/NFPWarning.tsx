@@ -1,5 +1,5 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { Box, LinkExternal, Text } from '@pancakeswap/uikit'
+import { useTranslation } from '@iguanadex/localization'
+import { Box, LinkExternal, Text } from '@iguanadex/uikit'
 
 const NFPWarning = () => {
   const { t } = useTranslation()

@@ -1,5 +1,5 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { AutoRow, BalanceInput, BalanceInputProps, Box, Button, FlexGap, Image, Text } from '@pancakeswap/uikit'
+import { useTranslation } from '@iguanadex/localization'
+import { AutoRow, BalanceInput, BalanceInputProps, Box, Button, FlexGap, Image, Text } from '@iguanadex/uikit'
 import { MAX_VECAKE_LOCK_WEEKS } from 'config/constants/veCake'
 import { useAtom, useAtomValue } from 'jotai'
 import React, { useCallback, useMemo } from 'react'

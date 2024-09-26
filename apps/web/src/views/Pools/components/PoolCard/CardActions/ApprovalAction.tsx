@@ -1,9 +1,9 @@
-import { Button, AutoRenewIcon, Skeleton } from '@pancakeswap/uikit'
-import { Pool } from '@pancakeswap/widgets-internal'
+import { AutoRenewIcon, Button, Skeleton } from '@iguanadex/uikit'
+import { Pool } from '@iguanadex/widgets-internal'
 
-import { useTranslation } from '@pancakeswap/localization'
+import { useTranslation } from '@iguanadex/localization'
+import { Token } from '@iguanadex/sdk'
 import { useERC20 } from 'hooks/useContract'
-import { Token } from '@pancakeswap/sdk'
 import { useApprovePool } from '../../../hooks/useApprove'
 
 interface ApprovalActionProps {

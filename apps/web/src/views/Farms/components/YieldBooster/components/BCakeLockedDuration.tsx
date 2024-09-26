@@ -1,6 +1,6 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { MAX_LOCK_DURATION } from '@pancakeswap/pools'
-import { Box, Button, Flex, Input, Message, MessageText, Text } from '@pancakeswap/uikit'
+import { useTranslation } from '@iguanadex/localization'
+import { MAX_LOCK_DURATION } from '@iguanadex/pools'
+import { Box, Button, Flex, Input, Message, MessageText, Text } from '@iguanadex/uikit'
 
 import _toNumber from 'lodash/toNumber'
 import { useMemo } from 'react'

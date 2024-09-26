@@ -1,14 +1,14 @@
-import { useMemo, useState, useCallback, useEffect } from 'react'
-import { styled } from 'styled-components'
-import { useTranslation } from '@pancakeswap/localization'
+import { useTranslation } from '@iguanadex/localization'
+import { Box, Card, CardBody, CardHeader, Flex, IfoNotTokens, Image, Text } from '@iguanadex/uikit'
 import Trans from 'components/Trans'
-import { Box, Card, CardBody, CardHeader, Flex, Text, Image, IfoNotTokens } from '@pancakeswap/uikit'
+import { useCallback, useEffect, useMemo, useState } from 'react'
+import { styled } from 'styled-components'
 
 import { useAccount } from 'wagmi'
-import { VestingStatus } from './types'
-import TokenInfo from './VestingPeriod/TokenInfo'
-import VestingEnded from './VestingEnded'
 import useFetchVestingData from '../../hooks/vesting/useFetchVestingData'
+import { VestingStatus } from './types'
+import VestingEnded from './VestingEnded'
+import TokenInfo from './VestingPeriod/TokenInfo'
 
 const StyleVestingCard = styled(Card)`
   width: 100%;

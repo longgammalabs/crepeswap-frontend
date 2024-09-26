@@ -1,10 +1,10 @@
-import { ArrowDownIcon, Button } from '@pancakeswap/uikit'
-import { useTranslation } from '@pancakeswap/localization'
+import { useTranslation } from '@iguanadex/localization'
+import { ArrowDownIcon, Button } from '@iguanadex/uikit'
 import { memo } from 'react'
 
-import { useSwapActionHandlers } from 'state/swap/useSwapActionHandlers'
-import { useSwapState } from 'state/swap/hooks'
 import { AutoRow } from 'components/Layout/Row'
+import { useSwapState } from 'state/swap/hooks'
+import { useSwapActionHandlers } from 'state/swap/useSwapActionHandlers'
 
 import AddressInputPanel from '../../components/AddressInputPanel'
 import { ArrowWrapper } from '../../components/styleds'

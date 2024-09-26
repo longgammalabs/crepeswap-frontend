@@ -1,4 +1,4 @@
-import { Box } from '@pancakeswap/uikit'
+import { Box } from '@iguanadex/uikit'
 import { initWeb3InboxClient, useSubscription, useWeb3InboxAccount, useWeb3InboxClient } from '@web3inbox/react'
 import React, { memo, useCallback, useEffect, useState } from 'react'
 import { useAccount } from 'wagmi'

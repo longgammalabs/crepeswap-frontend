@@ -7,7 +7,7 @@ import styles from "../styles.module.css";
 const Logo: React.FC<React.PropsWithChildren<SvgProps>> = (props) => {
   return (
     <img
-      src="https://raw.githubusercontent.com/Iguana-DEX/assets/main/iguana_brand_assets/logo-dark.webp"
+      src="https://raw.githubusercontent.com/IguanaDEX/assets/main/iguana_brand_assets/logo-dark.webp"
       alt="Iguana Logo"
       width={160}
       height={100}

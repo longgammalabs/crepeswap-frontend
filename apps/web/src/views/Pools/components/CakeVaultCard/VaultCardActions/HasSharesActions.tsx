@@ -1,4 +1,4 @@
-import { useTranslation } from '@pancakeswap/localization'
+import { useTranslation } from '@iguanadex/localization'
 import {
   AddIcon,
   Balance,
@@ -10,13 +10,13 @@ import {
   Skeleton,
   Text,
   useModal,
-} from '@pancakeswap/uikit'
-import { Pool } from '@pancakeswap/widgets-internal'
+} from '@iguanadex/uikit'
+import { Pool } from '@iguanadex/widgets-internal'
 import { LearnMoreLink } from 'views/CakeStaking/components/SyrupPool'
 import { useIsMigratedToVeCake } from 'views/CakeStaking/hooks/useIsMigratedToVeCake'
 
-import { Token } from '@pancakeswap/sdk'
-import { getBalanceNumber } from '@pancakeswap/utils/formatBalance'
+import { Token } from '@iguanadex/sdk'
+import { getBalanceNumber } from '@iguanadex/utils/formatBalance'
 import BigNumber from 'bignumber.js'
 import { LightGreyCard } from 'components/Card'
 import { useCakePrice } from 'hooks/useCakePrice'

@@ -1,5 +1,5 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { Card, Flex, Heading } from '@pancakeswap/uikit'
+import { useTranslation } from '@iguanadex/localization'
+import { Card, Flex, Heading } from '@iguanadex/uikit'
 import Page from 'components/Layout/Page'
 import { useMemo } from 'react'
 import {
@@ -91,13 +91,13 @@ const Overview: React.FC<React.PropsWithChildren> = () => {
         </Card>
       </ChartCardsContainer>
       <Heading scale="lg" mt="40px" mb="16px">
+        {t('Top Pools')}
+      </Heading>
+      <PoolTable poolDatas={poolsData} loading={somePoolsAreLoading} />
+      <Heading scale="lg" mt="40px" mb="16px">
         {t('Top Tokens')}
       </Heading>
       <TokenTable tokenDatas={formattedTokens} />
-      <Heading scale="lg" mt="40px" mb="16px">
-        {t('Top Pairs')}
-      </Heading>
-      <PoolTable poolDatas={poolsData} loading={somePoolsAreLoading} />
       <Heading scale="lg" mt="40px" mb="16px">
         {t('Transactions')}
       </Heading>

@@ -1,6 +1,6 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { Text, Message, MessageText } from '@pancakeswap/uikit'
-import { ChainId } from '@pancakeswap/chains'
+import { ChainId } from '@iguanadex/chains'
+import { useTranslation } from '@iguanadex/localization'
+import { Message, MessageText, Text } from '@iguanadex/uikit'
 import { useSwitchNetwork } from 'hooks/useSwitchNetwork'
 
 const WrongNetworkWarning = () => {

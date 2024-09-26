@@ -1,8 +1,8 @@
-import { Text } from '@pancakeswap/uikit'
-import { useTranslation } from '@pancakeswap/localization'
-import { ProposalState } from 'state/types'
+import { useTranslation } from '@iguanadex/localization'
+import { Text } from '@iguanadex/uikit'
 import dayjs from 'dayjs'
 import advancedFormat from 'dayjs/plugin/advancedFormat'
+import { ProposalState } from 'state/types'
 
 dayjs.extend(advancedFormat)
 

@@ -1,8 +1,8 @@
-import { Box, Flex, Message, MessageText, Text } from '@pancakeswap/uikit'
+import { Box, Flex, Message, MessageText, Text } from '@iguanadex/uikit'
 import BN from 'bignumber.js'
 import { useMemo } from 'react'
 
-import { useTranslation } from '@pancakeswap/localization'
+import { useTranslation } from '@iguanadex/localization'
 import { LightGreyCard } from 'components/Card'
 import dayjs from 'dayjs'
 import { useVaultApy } from 'hooks/useVaultApy'

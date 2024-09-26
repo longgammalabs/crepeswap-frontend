@@ -1,4 +1,4 @@
-import { AllArticleType, getArticle } from '@pancakeswap/blog'
+import { AllArticleType, getArticle } from '@iguanadex/blog'
 import { useQuery } from '@tanstack/react-query'
 
 export const useAllNewsArticle = (): AllArticleType => {

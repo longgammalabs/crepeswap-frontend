@@ -1,22 +1,12 @@
-import {
-  Box,
-  Flex,
-  InfoIcon,
-  Message,
-  MessageText,
-  Text,
-  TooltipText,
-  WarningIcon,
-  useTooltip,
-} from '@pancakeswap/uikit'
+import { Box, Flex, InfoIcon, Message, MessageText, Text, TooltipText, WarningIcon, useTooltip } from '@iguanadex/uikit'
 import BigNumber from 'bignumber.js'
 import { useMemo } from 'react'
 import { VeCakePreviewTextInfo } from 'views/TradingReward/components/YourTradingReward/VeCake/VeCakePreviewTextInfo'
 import { timeFormat } from 'views/TradingReward/utils/timeFormat'
 
-import { useTranslation } from '@pancakeswap/localization'
-import { formatNumber } from '@pancakeswap/utils/formatBalance'
-import getTimePeriods from '@pancakeswap/utils/getTimePeriods'
+import { useTranslation } from '@iguanadex/localization'
+import { formatNumber } from '@iguanadex/utils/formatBalance'
+import getTimePeriods from '@iguanadex/utils/getTimePeriods'
 import { GreyCard } from 'components/Card'
 import { useCakePrice } from 'hooks/useCakePrice'
 import { RewardInfo } from 'views/TradingReward/hooks/useAllTradingRewardPair'

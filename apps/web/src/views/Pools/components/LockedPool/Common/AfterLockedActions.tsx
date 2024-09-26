@@ -1,5 +1,5 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { Box, Flex, Message, MessageText, useMatchBreakpoints } from '@pancakeswap/uikit'
+import { useTranslation } from '@iguanadex/localization'
+import { Box, Flex, Message, MessageText, useMatchBreakpoints } from '@iguanadex/uikit'
 import Trans from 'components/Trans'
 import { ReactNode, memo } from 'react'
 import { VaultPosition } from 'utils/cakePool'

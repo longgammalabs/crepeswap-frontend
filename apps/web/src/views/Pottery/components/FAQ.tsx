@@ -1,7 +1,7 @@
-import { styled } from 'styled-components'
-import { Card, CardBody, CardHeader, Heading, Text, Flex, Link } from '@pancakeswap/uikit'
-import { useTranslation } from '@pancakeswap/localization'
+import { useTranslation } from '@iguanadex/localization'
+import { Card, CardBody, CardHeader, Flex, Heading, Link, Text } from '@iguanadex/uikit'
 import FoldableText from 'components/FoldableSection/FoldableText'
+import { styled } from 'styled-components'
 
 const Wrapper = styled(Flex)`
   width: 100%;

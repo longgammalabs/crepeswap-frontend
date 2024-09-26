@@ -1,6 +1,6 @@
-import { Currency, Price } from '@pancakeswap/sdk'
+import { Currency, Price } from '@iguanadex/sdk'
 
-import { BaseRoute, Pool, RouteType, PoolType, Route } from '../types'
+import { BaseRoute, Pool, PoolType, Route, RouteType } from '../types'
 import { getOutputCurrency, getTokenPrice } from './pool'
 
 export function buildBaseRoute(pools: Pool[], currencyIn: Currency, currencyOut: Currency): BaseRoute {

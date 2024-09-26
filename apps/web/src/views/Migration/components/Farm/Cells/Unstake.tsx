@@ -1,4 +1,4 @@
-import { FarmWithStakedValue } from '@pancakeswap/farms'
+import { FarmWithStakedValue } from '@iguanadex/farms'
 import React from 'react'
 import { styled } from 'styled-components'
 

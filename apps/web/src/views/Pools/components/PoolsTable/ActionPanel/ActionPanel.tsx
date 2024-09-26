@@ -7,16 +7,16 @@ import {
   MessageText,
   Text,
   useMatchBreakpoints,
-} from '@pancakeswap/uikit'
-import { Pool } from '@pancakeswap/widgets-internal'
+} from '@iguanadex/uikit'
+import { Pool } from '@iguanadex/widgets-internal'
 import { useMemo } from 'react'
 import { css, keyframes, styled } from 'styled-components'
 import { useIsMigratedToVeCake } from 'views/CakeStaking/hooks/useIsMigratedToVeCake'
 
-import { useTranslation } from '@pancakeswap/localization'
-import { Token } from '@pancakeswap/sdk'
-import { BIG_ZERO } from '@pancakeswap/utils/bigNumber'
-import { getBalanceNumber } from '@pancakeswap/utils/formatBalance'
+import { useTranslation } from '@iguanadex/localization'
+import { Token } from '@iguanadex/sdk'
+import { BIG_ZERO } from '@iguanadex/utils/bigNumber'
+import { getBalanceNumber } from '@iguanadex/utils/formatBalance'
 import BigNumber from 'bignumber.js'
 import { useVaultPoolByKey } from 'state/pools/hooks'
 import { DeserializedLockedCakeVault, DeserializedLockedVaultUser, VaultKey } from 'state/types'

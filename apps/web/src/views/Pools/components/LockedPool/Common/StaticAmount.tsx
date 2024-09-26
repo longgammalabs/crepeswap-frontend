@@ -1,5 +1,5 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { BalanceWithLoading, Box, Flex, Image, Text } from '@pancakeswap/uikit'
+import { useTranslation } from '@iguanadex/localization'
+import { BalanceWithLoading, Box, Flex, Image, Text } from '@iguanadex/uikit'
 import Divider from 'components/Divider'
 import { StaticAmountPropsType } from '../types'
 

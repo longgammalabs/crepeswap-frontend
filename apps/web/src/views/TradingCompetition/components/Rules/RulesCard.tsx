@@ -1,4 +1,4 @@
-import { Heading, Card, CardBody } from '@pancakeswap/uikit'
+import { Card, CardBody, Heading } from '@iguanadex/uikit'
 
 const RulesCard: React.FC<React.PropsWithChildren<{ title?: string }>> = ({ title, children }) => {
   return (

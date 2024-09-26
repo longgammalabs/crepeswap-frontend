@@ -1,8 +1,8 @@
-import { useEffect, useState } from 'react'
-import { useModal } from '@pancakeswap/uikit'
-import { useAccount } from 'wagmi'
+import { useModal } from '@iguanadex/uikit'
 import ClaimNftModal from 'components/ClaimNftModal/ClaimNftModal'
 import noop from 'lodash/noop'
+import { useEffect, useState } from 'react'
+import { useAccount } from 'wagmi'
 
 const useNftClaimStatusCheck = () => {
   const [hasDisplayedModal, setHasDisplayedModal] = useState(false)

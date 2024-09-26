@@ -1,5 +1,5 @@
-import { CAKE, STABLE_COIN, USDC, USDT } from '@pancakeswap/tokens'
-import { FeeAmount } from '@pancakeswap/v3-sdk'
+import { CAKE, STABLE_COIN, USDC, USDT } from '@iguanadex/tokens'
+import { FeeAmount } from '@iguanadex/v3-sdk'
 import { useActiveChainId } from 'hooks/useActiveChainId'
 import useNativeCurrency from 'hooks/useNativeCurrency'
 import { useRouter } from 'next/router'

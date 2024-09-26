@@ -1,7 +1,7 @@
 /* eslint-disable react-hooks/exhaustive-deps */
 
-import { ContextApi } from '@pancakeswap/localization'
-import { Flex } from '@pancakeswap/uikit'
+import { ContextApi } from '@iguanadex/localization'
+import { Flex } from '@iguanadex/uikit'
 import { DefaultTheme } from 'styled-components'
 import { Address } from 'wagmi'
 import { SaleStatusEnum, UserStatusEnum } from '../../types'

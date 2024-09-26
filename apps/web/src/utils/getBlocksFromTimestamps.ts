@@ -1,7 +1,7 @@
+import { ChainId, getLlamaChainName } from '@iguanadex/chains'
 import { gql } from 'graphql-request'
 import orderBy from 'lodash/orderBy'
 import { multiChainBlocksClient, multiChainName, MultiChainNameExtend } from 'state/info/constant'
-import { ChainId, getLlamaChainName } from '@pancakeswap/chains'
 import { Block } from 'state/info/types'
 import { multiQuery } from 'views/Info/utils/infoQueryHelpers'
 

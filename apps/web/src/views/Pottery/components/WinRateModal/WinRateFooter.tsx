@@ -1,7 +1,7 @@
+import { useTranslation } from '@iguanadex/localization'
+import { Box, ExpandableLabel, Flex, Grid, Text } from '@iguanadex/uikit'
 import { useState } from 'react'
 import { styled } from 'styled-components'
-import { Flex, Box, Text, ExpandableLabel, Grid } from '@pancakeswap/uikit'
-import { useTranslation } from '@pancakeswap/localization'
 
 const Footer = styled(Flex)`
   width: 100%;

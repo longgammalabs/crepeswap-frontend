@@ -1,9 +1,9 @@
-import { Button, Modal, ModalV2, ModalBody, ModalV2Props, Text, Flex, useTooltip, Box } from '@pancakeswap/uikit'
+import { useTranslation } from '@iguanadex/localization'
+import { ChainId } from '@iguanadex/sdk'
+import { Box, Button, Flex, Modal, ModalBody, ModalV2, ModalV2Props, Text, useTooltip } from '@iguanadex/uikit'
 import Image from 'next/image'
-import { useTranslation } from '@pancakeswap/localization'
-import styled from 'styled-components'
 import { ReactNode, useCallback } from 'react'
-import { ChainId } from '@pancakeswap/sdk'
+import styled from 'styled-components'
 
 import { useSwitchNetwork } from 'hooks/useSwitchNetwork'
 

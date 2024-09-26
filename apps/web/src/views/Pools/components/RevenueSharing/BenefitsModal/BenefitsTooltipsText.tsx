@@ -1,5 +1,5 @@
+import { Flex, TooltipText, useMatchBreakpoints, useTooltip } from '@iguanadex/uikit'
 import { ReactElement } from 'react'
-import { Flex, TooltipText, useTooltip, useMatchBreakpoints } from '@pancakeswap/uikit'
 
 interface BenefitsTooltipsTextProps {
   title: string

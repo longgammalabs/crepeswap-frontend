@@ -1,6 +1,6 @@
+import { useTranslation } from "@iguanadex/localization";
+import { Button, CheckmarkCircleIcon, RowFixed, Text, useMatchBreakpoints } from "@iguanadex/uikit";
 import { styled } from "styled-components";
-import { useTranslation } from "@pancakeswap/localization";
-import { Button, RowFixed, Text, CheckmarkCircleIcon, useMatchBreakpoints } from "@pancakeswap/uikit";
 
 const CheckIcon = styled(CheckmarkCircleIcon)`
   height: 16px;

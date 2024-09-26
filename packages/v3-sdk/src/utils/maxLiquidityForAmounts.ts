@@ -1,4 +1,4 @@
-import { BigintIsh } from '@pancakeswap/sdk'
+import { BigintIsh } from '@iguanadex/sdk'
 import { Q96 } from '../internalConstants'
 
 /**

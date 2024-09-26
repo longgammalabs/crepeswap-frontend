@@ -11,7 +11,7 @@ import {
 import { GraphQLClient } from 'graphql-request'
 import { infoClient, infoClientETH, infoStableSwapClients, v2Clients } from 'utils/graphql'
 
-import { ChainId } from '@pancakeswap/chains'
+import { ChainId } from '@iguanadex/chains'
 import {
   BSC_TOKEN_WHITELIST,
   ETH_TOKEN_BLACKLIST,

@@ -1,6 +1,5 @@
-import { ERC20Token } from '@pancakeswap/sdk'
-import { ChainId } from '@pancakeswap/chains'
-import { etherlinkTokens } from '@pancakeswap/tokens'
+import { ChainId } from '@iguanadex/chains'
+import { ERC20Token } from '@iguanadex/sdk'
 
 import { BaseIfoConfig } from '../../types'
 
@@ -32,8 +31,8 @@ export const ifos: BaseIfoConfig[] = [
     articleUrl: 'https://pancakeswap.finance/voting/',
     tokenOfferingPrice: 0.5782,
     version: 7,
-    twitterUrl: 'https://twitter.com/pancakeswap',
-    description: 'Spend CAKE LP, buy OF, but on vesting',
-    vestingTitle: 'Use CAKE LP to buy OF',
+    twitterUrl: 'https://twitter.com/iguanadex',
+    description: 'Spend IGN LP, buy OF, but on vesting',
+    vestingTitle: 'Use IGN LP to buy OF',
   },
 ]

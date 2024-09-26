@@ -1,4 +1,4 @@
-import { ChainId } from '@pancakeswap/chains'
+import { ChainId } from '@iguanadex/chains'
 
 import { arbitrumTokens } from './constants/arb'
 import { arbitrumGoerliTokens } from './constants/arbGoerli'

@@ -1,4 +1,4 @@
-import { useTranslation } from '@pancakeswap/localization'
+import { useTranslation } from '@iguanadex/localization'
 import {
   AutoColumn,
   Balance,
@@ -14,8 +14,8 @@ import {
   Tag,
   Text,
   WarningIcon,
-} from '@pancakeswap/uikit'
-import { formatBigInt } from '@pancakeswap/utils/formatBalance'
+} from '@iguanadex/uikit'
+import { formatBigInt } from '@iguanadex/utils/formatBalance'
 import { WEEK } from 'config/constants/veCake'
 import dayjs from 'dayjs'
 import { useCakePrice } from 'hooks/useCakePrice'
@@ -101,7 +101,7 @@ export const CakePoolLockStatus = () => {
               <Balance fontSize="20px" bold color="failure" value={0} decimals={2} />
             </AutoColumn>
             <img
-              srcSet="https://raw.githubusercontent.com/Iguana-DEX/assets/main/iguana_brand_assets/veIGN_logo.png"
+              srcSet="https://raw.githubusercontent.com/IguanaDEX/assets/main/iguana_brand_assets/veIGN_logo.png"
               alt="token-veign"
             />
           </RowBetween>

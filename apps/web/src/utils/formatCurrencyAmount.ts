@@ -1,4 +1,4 @@
-import { Currency, CurrencyAmount, Fraction, Price } from '@pancakeswap/sdk'
+import { Currency, CurrencyAmount, Fraction, Price } from '@iguanadex/sdk'
 import formatLocaleNumber from './formatLocaleNumber'
 
 export function formatCurrencyAmount(

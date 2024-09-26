@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState, useCallback } from 'react'
-import isUndefinedOrNull from '@pancakeswap/utils/isUndefinedOrNull'
+import isUndefinedOrNull from '@iguanadex/utils/isUndefinedOrNull'
 import useLastUpdated from './useLastUpdated'
 
 export default function useInterval(

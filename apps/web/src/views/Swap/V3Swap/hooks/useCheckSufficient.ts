@@ -1,5 +1,5 @@
-import { SmartRouterTrade } from '@pancakeswap/smart-router'
-import { TradeType } from '@pancakeswap/swap-sdk-core'
+import { SmartRouterTrade } from '@iguanadex/smart-router'
+import { TradeType } from '@iguanadex/swap-sdk-core'
 import { useAccount } from 'wagmi'
 
 import { useCurrency } from 'hooks/Tokens'

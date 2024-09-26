@@ -1,7 +1,7 @@
 {
-  "name": "@pancakeswap/universal-router-sdk",
-  "version": "1.0.14",
-  "description": "🛠 An SDK for building applications on top of Pancakeswap.",
+  "name": "@iguanadex/universal-router-sdk",
+  "version": "1.1.0",
+  "description": "🛠 An SDK for building applications on top of IguanaDEX.",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
   "module": "dist/index.mjs",
@@ -18,11 +18,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/pancakeswap/pancake-frontend.git",
+    "url": "https://github.com/iguanadex/frontend.git",
     "directory": "packages/universal-router-sdk"
   },
   "keywords": [
-    "pancakeswap"
+    "iguanadex"
   ],
   "scripts": {
     "build": "tsup",
@@ -35,18 +35,18 @@
     "lint": "eslint '{src,test}/**/*.{js,jsx,ts,json}'"
   },
   "devDependencies": {
-    "@pancakeswap/stable-swap-sdk": "workspace:*",
-    "@pancakeswap/tokens": "workspace:*",
+    "@iguanadex/stable-swap-sdk": "workspace:*",
+    "@iguanadex/tokens": "workspace:*",
     "@types/node": "^15.12.2",
     "tslib": "^2.3.0",
     "tsup": "^6.7.0"
   },
   "dependencies": {
-    "@pancakeswap/chains": "workspace:*",
-    "@pancakeswap/permit2-sdk": "workspace:*",
-    "@pancakeswap/sdk": "workspace:*",
-    "@pancakeswap/smart-router": "workspace:*",
-    "@pancakeswap/v3-sdk": "workspace:*",
+    "@iguanadex/chains": "workspace:*",
+    "@iguanadex/permit2-sdk": "workspace:*",
+    "@iguanadex/sdk": "workspace:*",
+    "@iguanadex/smart-router": "workspace:*",
+    "@iguanadex/v3-sdk": "workspace:*",
     "abitype": "^0.9.8",
     "tiny-invariant": "^1.1.0",
     "viem": "1.19.11"

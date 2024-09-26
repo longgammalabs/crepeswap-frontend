@@ -1,4 +1,4 @@
-import { LinkExternal, LinkProps, Text } from "@pancakeswap/uikit";
+import { LinkExternal, LinkProps, Text } from "@iguanadex/uikit";
 import { PropsWithChildren } from "react";
 import { styled } from "styled-components";
 

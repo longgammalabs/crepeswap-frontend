@@ -1,5 +1,5 @@
-import { Flex, Text, Button, Spinner } from '@pancakeswap/uikit'
-import { useTranslation } from '@pancakeswap/localization'
+import { useTranslation } from '@iguanadex/localization'
+import { Button, Flex, Spinner, Text } from '@iguanadex/uikit'
 import { StepIndicator } from './styles'
 
 interface ApproveAndConfirmStageProps {

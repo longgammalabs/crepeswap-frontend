@@ -1,5 +1,5 @@
-import { Gauge } from '@pancakeswap/gauges'
-import { useTranslation } from '@pancakeswap/localization'
+import { Gauge } from '@iguanadex/gauges'
+import { useTranslation } from '@iguanadex/localization'
 import {
   AutoColumn,
   Box,
@@ -12,7 +12,7 @@ import {
   Skeleton,
   Text,
   useMatchBreakpoints,
-} from '@pancakeswap/uikit'
+} from '@iguanadex/uikit'
 import ConnectWalletButton from 'components/ConnectWalletButton'
 import { PropsWithChildren, useCallback, useEffect, useMemo, useState } from 'react'
 import styled from 'styled-components'

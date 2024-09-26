@@ -1,5 +1,5 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { Box, Button, InjectedModalProps, Skeleton, Text, useToast } from '@pancakeswap/uikit'
+import { useTranslation } from '@iguanadex/localization'
+import { Box, Button, InjectedModalProps, Skeleton, Text, useToast } from '@iguanadex/uikit'
 import ApproveConfirmButtons from 'components/ApproveConfirmButtons'
 import { ToastDescriptionWithTx } from 'components/Toast'
 import useApproveConfirmTransaction from 'hooks/useApproveConfirmTransaction'
@@ -12,9 +12,9 @@ import { NftLocation } from 'state/nftMarket/types'
 import { useProfile } from 'state/profile/hooks'
 import { getPancakeProfileAddress } from 'utils/addressHelpers'
 import { getErc721Contract } from 'utils/contractHelpers'
+import { useNftsForAddress } from 'views/Nft/market/hooks/useNftsForAddress'
 import SelectionCard from 'views/ProfileCreation/SelectionCard'
 import { Address, useAccount, useWalletClient } from 'wagmi'
-import { useNftsForAddress } from 'views/Nft/market/hooks/useNftsForAddress'
 
 interface ChangeProfilePicPageProps extends InjectedModalProps {
   onSuccess?: () => void

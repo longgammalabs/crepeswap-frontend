@@ -1,4 +1,4 @@
-import { NotFound } from '@pancakeswap/uikit'
+import { NotFound } from '@iguanadex/uikit'
 import { NextSeo } from 'next-seo'
 import Link from 'next/link'
 

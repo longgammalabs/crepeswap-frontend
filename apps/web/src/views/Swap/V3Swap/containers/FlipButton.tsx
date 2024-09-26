@@ -1,15 +1,15 @@
-import { AutoColumn, Button } from '@pancakeswap/uikit'
-import { Swap as SwapUI } from '@pancakeswap/widgets-internal'
+import { AutoColumn, Button } from '@iguanadex/uikit'
+import { Swap as SwapUI } from '@iguanadex/widgets-internal'
 
-import { useCallback, memo } from 'react'
-import replaceBrowserHistory from '@pancakeswap/utils/replaceBrowserHistory'
-import { useTranslation } from '@pancakeswap/localization'
+import { useTranslation } from '@iguanadex/localization'
+import replaceBrowserHistory from '@iguanadex/utils/replaceBrowserHistory'
+import { memo, useCallback } from 'react'
 
-import { useExpertMode } from '@pancakeswap/utils/user'
-import { useSwapActionHandlers } from 'state/swap/useSwapActionHandlers'
-import { useSwapState } from 'state/swap/hooks'
-import { Field } from 'state/swap/actions'
+import { useExpertMode } from '@iguanadex/utils/user'
 import { AutoRow } from 'components/Layout/Row'
+import { Field } from 'state/swap/actions'
+import { useSwapState } from 'state/swap/hooks'
+import { useSwapActionHandlers } from 'state/swap/useSwapActionHandlers'
 
 import { useAllowRecipient } from '../hooks'
 

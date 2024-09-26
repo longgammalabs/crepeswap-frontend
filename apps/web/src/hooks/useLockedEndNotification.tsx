@@ -1,13 +1,13 @@
-import { useToast, Text, StyledLink } from '@pancakeswap/uikit'
-import { NextLinkFromReactRouter } from '@pancakeswap/widgets-internal'
+import { StyledLink, Text, useToast } from '@iguanadex/uikit'
+import { NextLinkFromReactRouter } from '@iguanadex/widgets-internal'
 
-import { useEffect } from 'react'
-import { useTranslation } from '@pancakeswap/localization'
-import isUndefinedOrNull from '@pancakeswap/utils/isUndefinedOrNull'
-import { useAtom } from 'jotai'
-import { useAccount } from 'wagmi'
-import atomWithStorageWithErrorCatch from 'utils/atomWithStorageWithErrorCatch'
+import { useTranslation } from '@iguanadex/localization'
+import isUndefinedOrNull from '@iguanadex/utils/isUndefinedOrNull'
 import { useQueryClient } from '@tanstack/react-query'
+import { useAtom } from 'jotai'
+import { useEffect } from 'react'
+import atomWithStorageWithErrorCatch from 'utils/atomWithStorageWithErrorCatch'
+import { useAccount } from 'wagmi'
 import { useUserCakeLockStatus } from './useUserCakeLockStatus'
 
 const lockedNotificationShowAtom = atomWithStorageWithErrorCatch('lockedNotificationShow', true, () => sessionStorage)

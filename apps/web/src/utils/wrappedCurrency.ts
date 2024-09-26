@@ -1,7 +1,7 @@
-import { ChainId } from '@pancakeswap/chains'
-import { Currency, CurrencyAmount, Token, WNATIVE } from '@pancakeswap/sdk'
+import { ChainId } from '@iguanadex/chains'
+import { Currency, CurrencyAmount, Token, WNATIVE } from '@iguanadex/sdk'
 
-export { unwrappedToken } from '@pancakeswap/tokens'
+export { unwrappedToken } from '@iguanadex/tokens'
 
 export function wrappedCurrency(
   currency: Currency | undefined | null,

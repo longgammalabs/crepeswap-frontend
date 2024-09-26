@@ -1,6 +1,6 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { WalletModalV2 } from '@pancakeswap/ui-wallets'
-import { Button, ButtonProps } from '@pancakeswap/uikit'
+import { useTranslation } from '@iguanadex/localization'
+import { WalletModalV2 } from '@iguanadex/ui-wallets'
+import { Button, ButtonProps } from '@iguanadex/uikit'
 import { createWallets, getDocLink } from 'config/wallet'
 import { useActiveChainId } from 'hooks/useActiveChainId'
 import useAuth from 'hooks/useAuth'
@@ -8,7 +8,7 @@ import useAuth from 'hooks/useAuth'
 // eslint-disable-next-line import/extensions
 import { useActiveHandle } from 'hooks/useEagerConnect.bmp.ts'
 
-import { ChainId } from '@pancakeswap/chains'
+import { ChainId } from '@iguanadex/chains'
 import { useMemo, useState } from 'react'
 import { logGTMWalletConnectEvent } from 'utils/customGTMEventTracking'
 import { useConnect } from 'wagmi'
@@ -35,7 +35,7 @@ const ConnectWalletButton = ({ children, ...props }: ButtonProps) => {
     }
   }
 
-  const wallets = useMemo(() => createWallets(chainId || ChainId.BSC, connectAsync), [chainId, connectAsync])
+  const wallets = useMemo(() => createWallets(chainId || ChainId.ETHERLINK, connectAsync), [chainId, connectAsync])
 
   return (
     <>

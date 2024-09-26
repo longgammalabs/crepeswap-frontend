@@ -1,18 +1,18 @@
+import { useTranslation } from '@iguanadex/localization'
 import {
-  ModalWrapper,
-  ModalBody,
-  Text,
-  Button,
-  InjectedModalProps,
-  Flex,
-  Image,
-  Heading,
-  Checkbox,
   Box,
-} from '@pancakeswap/uikit'
-import { styled } from 'styled-components'
-import { useTranslation } from '@pancakeswap/localization'
+  Button,
+  Checkbox,
+  Flex,
+  Heading,
+  Image,
+  InjectedModalProps,
+  ModalBody,
+  ModalWrapper,
+  Text,
+} from '@iguanadex/uikit'
 import { useUserPredictionChainlinkChartDisclaimerShow } from 'state/user/hooks'
+import { styled } from 'styled-components'
 
 const Ul = styled.ul`
   color: ${({ theme }) => theme.colors.textSubtle};

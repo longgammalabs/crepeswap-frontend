@@ -1,5 +1,5 @@
+import { formatNumber } from '@iguanadex/utils/formatBalance'
 import BigNumber from 'bignumber.js'
-import { formatNumber } from '@pancakeswap/utils/formatBalance'
 
 interface MinAmountDisplayProps {
   amount: number

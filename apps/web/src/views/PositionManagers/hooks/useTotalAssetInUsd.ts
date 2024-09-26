@@ -1,6 +1,6 @@
+import { Currency, CurrencyAmount } from '@iguanadex/sdk'
+import { formatAmount } from '@iguanadex/utils/formatFractions'
 import { useMemo } from 'react'
-import { formatAmount } from '@pancakeswap/utils/formatFractions'
-import { Currency, CurrencyAmount } from '@pancakeswap/sdk'
 
 export const useTotalAssetInUsd = (
   staked0Amount?: CurrencyAmount<Currency>,

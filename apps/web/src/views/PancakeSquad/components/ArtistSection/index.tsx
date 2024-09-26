@@ -1,11 +1,11 @@
-import { Box, Button, Flex, Text } from '@pancakeswap/uikit'
-import { useTranslation } from '@pancakeswap/localization'
+import { useTheme } from '@iguanadex/hooks'
+import { useTranslation } from '@iguanadex/localization'
+import { Box, Button, Flex, Text } from '@iguanadex/uikit'
 import { LandingBodyWrapper, StyledWaveContainer } from 'views/PancakeSquad/styles'
-import { useTheme } from '@pancakeswap/hooks'
-import artistConfigBuilder from './config'
-import { StyledArtistBioContainer, StyledArtistSectionContainer, StyledSocialButton } from './styles'
 import ArtistBottomWave from '../../assets/ArtistBottomWave'
 import TriangleBio from '../../assets/TriangleBio'
+import artistConfigBuilder from './config'
+import { StyledArtistBioContainer, StyledArtistSectionContainer, StyledSocialButton } from './styles'
 
 const ArtistSection = () => {
   const { t } = useTranslation()

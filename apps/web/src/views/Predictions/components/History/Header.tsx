@@ -1,21 +1,11 @@
-import { useAccount } from 'wagmi'
-import {
-  ArrowForwardIcon,
-  Box,
-  Button,
-  Radio,
-  Flex,
-  Heading,
-  Text,
-  ButtonMenu,
-  ButtonMenuItem,
-} from '@pancakeswap/uikit'
+import { useTranslation } from '@iguanadex/localization'
+import { ArrowForwardIcon, Box, Button, ButtonMenu, ButtonMenuItem, Flex, Heading, Radio, Text } from '@iguanadex/uikit'
 import useLocalDispatch from 'contexts/LocalRedux/useLocalDispatch'
-import { HistoryFilter } from 'state/types'
 import { setHistoryFilter, setHistoryPaneState } from 'state/predictions'
 import { useGetHistoryFilter, useGetIsFetchingHistory } from 'state/predictions/hooks'
-import { useTranslation } from '@pancakeswap/localization'
+import { HistoryFilter } from 'state/types'
 import { styled } from 'styled-components'
+import { useAccount } from 'wagmi'
 
 const Filter = styled.label`
   align-items: center;

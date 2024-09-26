@@ -1,8 +1,8 @@
+import { useTranslation } from '@iguanadex/localization'
+import { Button, Flex, Input, InputProps, Link, Text } from '@iguanadex/uikit'
+import { formatBigInt } from '@iguanadex/utils/formatBalance'
 import { styled } from 'styled-components'
-import { Text, Button, Input, InputProps, Flex, Link } from '@pancakeswap/uikit'
-import { useTranslation } from '@pancakeswap/localization'
 import { parseUnits } from 'viem'
-import { formatBigInt } from '@pancakeswap/utils/formatBalance'
 
 interface ModalInputProps {
   max: string

@@ -1,9 +1,9 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { AtomBox, Flex, ModalBody, ModalCloseButton, ModalContainer, RowBetween, Text } from '@pancakeswap/uikit'
-import { Pool } from '@pancakeswap/widgets-internal'
+import { useTranslation } from '@iguanadex/localization'
+import { AtomBox, Flex, ModalBody, ModalCloseButton, ModalContainer, RowBetween, Text } from '@iguanadex/uikit'
+import { Pool } from '@iguanadex/widgets-internal'
 import { styled } from 'styled-components'
 
-import { Token } from '@pancakeswap/sdk'
+import { Token } from '@iguanadex/sdk'
 import { DeserializedLockedVaultUser } from 'state/types'
 import RevenueSharing from 'views/Pools/components/RevenueSharing/BenefitsModal/RevenueSharing'
 import SharingPoolNameCell from 'views/Pools/components/RevenueSharing/BenefitsModal/SharingPoolNameCell'

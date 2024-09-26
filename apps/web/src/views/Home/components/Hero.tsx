@@ -1,7 +1,7 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { ChainId } from '@pancakeswap/sdk'
-import { Button, Flex, Heading } from '@pancakeswap/uikit'
-import { NextLinkFromReactRouter } from '@pancakeswap/widgets-internal'
+import { useTranslation } from '@iguanadex/localization'
+import { ChainId } from '@iguanadex/sdk'
+import { Button, Flex, Heading } from '@iguanadex/uikit'
+import { NextLinkFromReactRouter } from '@iguanadex/widgets-internal'
 import ConnectWalletButton from 'components/ConnectWalletButton'
 import { ASSET_CDN } from 'config/constants/endpoints'
 import { useActiveChainId } from 'hooks/useActiveChainId'
@@ -132,7 +132,7 @@ const Hero = () => {
             {t('Welcome to the rainforest.')}
           </Heading>
           <Heading scale="md" mb="24px">
-            {t("Trade your tokens on Etherlink's top exchange.")}
+            {t('One-stop decentralized trading on Etherlink')}
           </Heading>
           <Flex>
             {!account && <ConnectWalletButton mr="8px" />}

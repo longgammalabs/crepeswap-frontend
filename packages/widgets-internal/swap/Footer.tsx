@@ -1,5 +1,5 @@
-import { useTranslation } from "@pancakeswap/localization";
-import { Button, Flex, Image, LinkExternal, Svg } from "@pancakeswap/uikit";
+import { useTranslation } from "@iguanadex/localization";
+import { Button, Flex, Image, LinkExternal, Svg } from "@iguanadex/uikit";
 import { ReactNode, memo } from "react";
 import { styled } from "styled-components";
 
@@ -52,7 +52,7 @@ const Footer: React.FC<
   externalLinkUrl,
   helpImage = (
     <Image
-      src="https://raw.githubusercontent.com/Iguana-DEX/assets/main/iguana_brand_assets/iggies-club.webp"
+      src="https://raw.githubusercontent.com/IguanaDEX/assets/main/iguana_brand_assets/iggies-club.webp"
       alt="Get some help"
       width={185}
       height={108}

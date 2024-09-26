@@ -1,17 +1,8 @@
+import { useTranslation } from '@iguanadex/localization'
+import { BetPosition } from '@iguanadex/prediction'
+import { ArrowDownIcon, ArrowUpIcon, Flex, FlexProps, InfoIcon, Text, TooltipText, useTooltip } from '@iguanadex/uikit'
 import { ReactNode } from 'react'
 import { styled } from 'styled-components'
-import {
-  ArrowUpIcon,
-  ArrowDownIcon,
-  Flex,
-  FlexProps,
-  Text,
-  useTooltip,
-  TooltipText,
-  InfoIcon,
-} from '@pancakeswap/uikit'
-import { BetPosition } from '@pancakeswap/prediction'
-import { useTranslation } from '@pancakeswap/localization'
 
 interface TagProps extends FlexProps {
   startIcon?: ReactNode

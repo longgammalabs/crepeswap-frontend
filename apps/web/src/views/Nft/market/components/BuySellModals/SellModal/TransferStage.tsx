@@ -1,5 +1,5 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { BinanceIcon, Button, ErrorIcon, Flex, Grid, Input, Text } from '@pancakeswap/uikit'
+import { useTranslation } from '@iguanadex/localization'
+import { BinanceIcon, Button, ErrorIcon, Flex, Grid, Input, Text } from '@iguanadex/uikit'
 import { NftToken } from 'state/nftMarket/types'
 import { safeGetAddress } from 'utils'
 import { useAccount } from 'wagmi'
@@ -28,7 +28,7 @@ const TransferStage: React.FC<React.PropsWithChildren<TransferStageProps>> = ({
   const transferAddressEqualsConnectedAddress = safeGetAddress(transferAddress) === safeGetAddress(account)
   const getErrorText = () => {
     if (isInvalidTransferAddress) {
-      return t('That’s not a BNB Smart Chain wallet address.')
+      return t('This is not an Etherlink wallet address.')
     }
     if (transferAddressEqualsConnectedAddress) {
       return t('This address is the one that is currently connected')

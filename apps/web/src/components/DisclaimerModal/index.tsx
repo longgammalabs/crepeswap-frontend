@@ -1,18 +1,18 @@
-import { useState, useCallback, ReactNode } from 'react'
+import { useTranslation } from '@iguanadex/localization'
 import {
-  ModalContainer,
-  ModalBody,
-  Text,
+  Box,
   Button,
-  Flex,
-  InjectedModalProps,
   Checkbox,
+  Flex,
+  Heading,
+  InjectedModalProps,
+  ModalBody,
+  ModalContainer,
   ModalHeader,
   ModalTitle,
-  Heading,
-  Box,
-} from '@pancakeswap/uikit'
-import { useTranslation } from '@pancakeswap/localization'
+  Text,
+} from '@iguanadex/uikit'
+import { ReactNode, useCallback, useState } from 'react'
 import { styled } from 'styled-components'
 
 export interface CheckType {

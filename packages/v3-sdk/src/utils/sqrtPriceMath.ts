@@ -1,6 +1,6 @@
-import { MaxUint256 } from '@pancakeswap/swap-sdk-core'
+import { MaxUint256 } from '@iguanadex/swap-sdk-core'
 import invariant from 'tiny-invariant'
-import { ONE, ZERO, Q96 } from '../internalConstants'
+import { ONE, Q96, ZERO } from '../internalConstants'
 import { FullMath } from './fullMath'
 
 const MaxUint160 = 2n ** 160n - ONE

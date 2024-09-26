@@ -1,5 +1,5 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { AtomBox, Box, Button, HelpIcon, Link, Svg, SvgProps, Text, useMatchBreakpoints } from '@pancakeswap/uikit'
+import { useTranslation } from '@iguanadex/localization'
+import { AtomBox, Box, Button, HelpIcon, Link, Svg, SvgProps, Text, useMatchBreakpoints } from '@iguanadex/uikit'
 import useTheme from 'hooks/useTheme'
 import Image from 'next/legacy/image'
 import styled from 'styled-components'
@@ -55,7 +55,7 @@ export const NewCakeStakingCard: React.FC = () => {
         </SpeechBubbleBox>
       </Link>
       <Image
-        src="https://raw.githubusercontent.com/Iguana-DEX/assets/main/iguana_brand_assets/iggies-club.webp"
+        src="https://raw.githubusercontent.com/IguanaDEX/assets/main/iguana_brand_assets/iggies-club.webp"
         alt="Get some help"
         width={185}
         height={108}

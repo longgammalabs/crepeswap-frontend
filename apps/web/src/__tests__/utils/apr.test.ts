@@ -1,8 +1,8 @@
+import { ChainId } from '@iguanadex/chains'
+import { BIG_TEN, BIG_ZERO } from '@iguanadex/utils/bigNumber'
 import BigNumber from 'bignumber.js'
 import lpAprs from 'config/constants/lpAprs/56.json'
-import { getPoolApr, getFarmApr } from 'utils/apr'
-import { BIG_TEN, BIG_ZERO } from '@pancakeswap/utils/bigNumber'
-import { ChainId } from '@pancakeswap/chains'
+import { getFarmApr, getPoolApr } from 'utils/apr'
 import { vi } from 'vitest'
 
 vi.mock('../../config/constants/lpAprs/56.json', async () => {

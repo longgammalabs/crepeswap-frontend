@@ -1,6 +1,6 @@
+import { useTranslation } from '@iguanadex/localization'
+import { CameraIcon, Flex, SellIcon, Text, WalletFilledIcon } from '@iguanadex/uikit'
 import { NftLocation } from 'state/nftMarket/types'
-import { Text, Flex, WalletFilledIcon, CameraIcon, SellIcon } from '@pancakeswap/uikit'
-import { useTranslation } from '@pancakeswap/localization'
 
 const LocationTag: React.FC<React.PropsWithChildren<{ nftLocation: NftLocation }>> = ({ nftLocation }) => {
   const { t } = useTranslation()

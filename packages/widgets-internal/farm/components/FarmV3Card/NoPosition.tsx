@@ -1,6 +1,6 @@
+import { useTranslation } from "@iguanadex/localization";
+import { Button, Flex, Text } from "@iguanadex/uikit";
 import { ReactNode } from "react";
-import { useTranslation } from "@pancakeswap/localization";
-import { Text, Button, Flex } from "@pancakeswap/uikit";
 
 interface NoPositionProps {
   inactive: boolean;

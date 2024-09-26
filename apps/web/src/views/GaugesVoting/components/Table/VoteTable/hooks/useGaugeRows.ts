@@ -1,5 +1,5 @@
-import { Gauge } from '@pancakeswap/gauges'
-import { usePreviousValue } from '@pancakeswap/hooks'
+import { Gauge } from '@iguanadex/gauges'
+import { usePreviousValue } from '@iguanadex/hooks'
 import useAccountActiveChain from 'hooks/useAccountActiveChain'
 import { useCallback, useEffect, useMemo, useState } from 'react'
 import { useGauges } from 'views/GaugesVoting/hooks/useGauges'

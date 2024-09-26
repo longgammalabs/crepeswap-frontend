@@ -1,4 +1,4 @@
-import { bscTokens } from '@pancakeswap/tokens'
+import { bscTokens } from '@iguanadex/tokens'
 import { getAddress } from 'viem'
 
 import { PoolCategory, SerializedPool } from '../../types'

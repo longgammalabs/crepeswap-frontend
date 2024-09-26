@@ -1,4 +1,4 @@
-import { ErrorIcon, Box, Text, AutoColumn, ColumnCenter } from '@pancakeswap/uikit'
+import { AutoColumn, Box, ColumnCenter, ErrorIcon, Text } from '@iguanadex/uikit'
 
 export const TxErrorModalContent: React.FC<{
   title: React.ReactNode

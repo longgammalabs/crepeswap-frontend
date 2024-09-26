@@ -1,5 +1,5 @@
-import { cakeVaultV2ABI } from '@pancakeswap/pools'
-import { bscTokens } from '@pancakeswap/tokens'
+import { cakeVaultV2ABI } from '@iguanadex/pools'
+import { bscTokens } from '@iguanadex/tokens'
 import BigNumber from 'bignumber.js'
 import { SNAPSHOT_HUB_API } from 'config/constants/endpoints'
 import fromPairs from 'lodash/fromPairs'

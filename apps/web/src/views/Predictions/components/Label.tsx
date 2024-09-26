@@ -1,5 +1,5 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { Box, Flex, PocketWatchIcon, Text } from '@pancakeswap/uikit'
+import { useTranslation } from '@iguanadex/localization'
+import { Box, Flex, PocketWatchIcon, Text } from '@iguanadex/uikit'
 import { useGetCurrentRoundCloseTimestamp, useGetInternalTimeInMinutes } from 'state/predictions/hooks'
 import { keyframes, styled } from 'styled-components'
 import { formatRoundTime } from '../helpers'

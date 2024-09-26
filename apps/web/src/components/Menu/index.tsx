@@ -1,8 +1,8 @@
-import { languageList, useTranslation } from '@pancakeswap/localization'
-import { Menu as UikitMenu, footerLinks, useModal } from '@pancakeswap/uikit'
-import { BIG_ZERO } from '@pancakeswap/utils/bigNumber'
-// import { usePhishingBanner } from '@pancakeswap/utils/user'
-import { NextLinkFromReactRouter } from '@pancakeswap/widgets-internal'
+import { languageList, useTranslation } from '@iguanadex/localization'
+import { Menu as UikitMenu, footerLinks, useModal } from '@iguanadex/uikit'
+import { BIG_ZERO } from '@iguanadex/utils/bigNumber'
+// import { usePhishingBanner } from '@iguanadex/utils/user'
+import { NextLinkFromReactRouter } from '@iguanadex/widgets-internal'
 import USCitizenConfirmModal from 'components/Modal/USCitizenConfirmModal'
 import { NetworkSwitcher } from 'components/NetworkSwitcher'
 import PhishingWarningBanner from 'components/PhishingWarningBanner'
@@ -10,23 +10,19 @@ import { useActiveChainId } from 'hooks/useActiveChainId'
 import { useCakePrice } from 'hooks/useCakePrice'
 import useTheme from 'hooks/useTheme'
 import { IdType } from 'hooks/useUserIsUsCitizenAcknowledgement'
-import { useWebNotifications } from 'hooks/useWebNotifications'
 import { useRouter } from 'next/router'
-import { lazy, useMemo } from 'react'
+import { useMemo } from 'react'
 import GlobalSettings from './GlobalSettings'
 import { SettingsMode } from './GlobalSettings/types'
 import UserMenu from './UserMenu'
 import { useMenuItems } from './hooks/useMenuItems'
 import { getActiveMenuItem, getActiveSubMenuItem } from './utils'
 
-const Notifications = lazy(() => import('views/Notifications'))
-
 const LinkComponent = (linkProps) => {
   return <NextLinkFromReactRouter to={linkProps.href} {...linkProps} prefetch={false} />
 }
 
 const Menu = (props) => {
-  const { enabled } = useWebNotifications()
   const { chainId } = useActiveChainId()
   const { isDark, setTheme } = useTheme()
   const cakePrice = useCakePrice()
@@ -61,11 +57,6 @@ const Menu = (props) => {
         rightSide={
           <>
             <GlobalSettings mode={SettingsMode.GLOBAL} />
-            {/* {enabled && (
-              <Suspense fallback={null}>
-                <Notifications />
-              </Suspense>
-            )} */}
             <NetworkSwitcher />
             <UserMenu />
           </>
@@ -83,8 +74,8 @@ const Menu = (props) => {
         footerLinks={getFooterLinks}
         activeItem={activeMenuItem?.href}
         activeSubItem={activeSubMenuItem?.href}
-        buyCakeLabel={t('Buy IGN')}
-        buyCakeLink={`https://iguanadex.com/swap?outputCurrency=0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82&chainId=${chainId}`}
+        buyCakeLabel={t('Buy XTZ')}
+        buyCakeLink={`https://iguanadex.com/swap?outputCurrency=XTZ&chainId=${chainId}`}
         {...props}
       />
     </>

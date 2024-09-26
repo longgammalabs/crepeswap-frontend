@@ -1,5 +1,5 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { Box, Flex, FlexGap, OptionProps, Select, Text, useMatchBreakpoints } from '@pancakeswap/uikit'
+import { useTranslation } from '@iguanadex/localization'
+import { Box, Flex, FlexGap, OptionProps, Select, Text, useMatchBreakpoints } from '@iguanadex/uikit'
 import { useMemo, useState } from 'react'
 import { styled } from 'styled-components'
 import { GradientBox } from 'views/LandingV4/components/GradientBox'

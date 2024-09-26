@@ -1,12 +1,12 @@
 {
-  "name": "@pancakeswap/localization",
+  "name": "@iguanadex/localization",
   "license": "MIT",
-  "version": "6.0.3",
+  "version": "6.0.4",
   "description": "A minimal internationalization library",
   "main": "./src/index.tsx",
   "types": "./src/index.tsx",
   "sideEffects": false,
-  "private": true,
+  "private": false,
   "scripts": {},
   "dependencies": {
     "tslib": "^2.2.0",
@@ -14,12 +14,12 @@
     "react": "^18.2.0"
   },
   "peerDependencies": {
-    "@pancakeswap/utils": "workspace:*",
-    "@pancakeswap/hooks": "workspace:*"
+    "@iguanadex/utils": "workspace:*",
+    "@iguanadex/hooks": "workspace:*"
   },
   "devDependencies": {
-    "@pancakeswap/utils": "workspace:*",
-    "@pancakeswap/hooks": "workspace:*",
+    "@iguanadex/utils": "workspace:*",
+    "@iguanadex/hooks": "workspace:*",
     "@types/react": "^18.2.21",
     "@types/lodash": "^4.14.178"
   }

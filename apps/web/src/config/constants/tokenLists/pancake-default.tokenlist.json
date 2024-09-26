@@ -528,7 +528,7 @@
       "address": "0x6333657f8fd60593282213664ed25fFb88aB5A59",
       "chainId": 97,
       "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/Iguana-DEX/assets/main/assets/0x6333657f8fd60593282213664ed25fFb88aB5A59.png"
+      "logoURI": "https://raw.githubusercontent.com/IguanaDEX/assets/main/assets/0x6333657f8fd60593282213664ed25fFb88aB5A59.png"
     },
     {
       "name": "Iguana Token",
@@ -536,7 +536,7 @@
       "address": "0xBeEfb119631691a1e0D9378fA7864fC6E67A72Ad",
       "chainId": 128123,
       "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/Iguana-DEX/assets/main/assets/0xBeEfb119631691a1e0D9378fA7864fC6E67A72Ad.png"
+      "logoURI": "https://raw.githubusercontent.com/IguanaDEX/assets/main/assets/0xBeEfb119631691a1e0D9378fA7864fC6E67A72Ad.png"
     },
     {
       "name": "Wrapped XTZ",
@@ -544,7 +544,7 @@
       "address": "0xB1Ea698633d57705e93b0E40c1077d46CD6A51d8",
       "chainId": 128123,
       "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/Iguana-DEX/assets/main/assets/0xB1Ea698633d57705e93b0E40c1077d46CD6A51d8.png"
+      "logoURI": "https://raw.githubusercontent.com/IguanaDEX/assets/main/assets/0xB1Ea698633d57705e93b0E40c1077d46CD6A51d8.png"
     },
     {
       "name": "Etherlink USD",
@@ -552,7 +552,7 @@
       "address": "0x1A71f491fb0Ef77F13F8f6d2a927dd4C969ECe4f",
       "chainId": 128123,
       "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/Iguana-DEX/assets/main/assets/0x1A71f491fb0Ef77F13F8f6d2a927dd4C969ECe4f.png"
+      "logoURI": "https://raw.githubusercontent.com/IguanaDEX/assets/main/assets/0x1A71f491fb0Ef77F13F8f6d2a927dd4C969ECe4f.png"
     },
     {
       "name": "Tether USD",
@@ -576,7 +576,7 @@
       "address": "0x8DEF68408Bc96553003094180E5C90d9fe5b88C1",
       "chainId": 128123,
       "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/Iguana-DEX/assets/main/assets/0x8DEF68408Bc96553003094180E5C90d9fe5b88C1.png"
+      "logoURI": "https://raw.githubusercontent.com/IguanaDEX/assets/main/assets/0x8DEF68408Bc96553003094180E5C90d9fe5b88C1.png"
     },
     {
       "name": "tzBTC",
@@ -585,14 +585,6 @@
       "chainId": 128123,
       "decimals": 18,
       "logoURI": "https://tokens.pancakeswap.finance/images/symbol/wbtc.png"
-    },
-    {
-      "name": "Iguana Token",
-      "symbol": "IGN",
-      "address": "0x17F9805664347022b59a8F67C1b8237b0AC5E89B",
-      "chainId": 42793,
-      "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/IguanaDEX/assets/main/assets/0xBeEfb119631691a1e0D9378fA7864fC6E67A72Ad.png"
     },
     {
       "name": "Wrapped XTZ",

@@ -1,5 +1,5 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { ErrorIcon, Flex, FlexGap, Text } from '@pancakeswap/uikit'
+import { useTranslation } from '@iguanadex/localization'
+import { ErrorIcon, Flex, FlexGap, Text } from '@iguanadex/uikit'
 import dayjs from 'dayjs'
 import { CSSProperties, useMemo } from 'react'
 import styled from 'styled-components'

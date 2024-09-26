@@ -1,6 +1,6 @@
-import { useTranslation } from "@pancakeswap/localization";
-import { Flex, Text, TimerIcon, useTooltip } from "@pancakeswap/uikit";
-import getTimePeriods from "@pancakeswap/utils/getTimePeriods";
+import { useTranslation } from "@iguanadex/localization";
+import { Flex, Text, TimerIcon, useTooltip } from "@iguanadex/uikit";
+import getTimePeriods from "@iguanadex/utils/getTimePeriods";
 import { useMemo } from "react";
 
 import { DeserializedPool } from "../types";

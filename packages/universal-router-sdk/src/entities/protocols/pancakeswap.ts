@@ -1,4 +1,4 @@
-import { Currency, CurrencyAmount, Percent, TradeType, validateAndParseAddress } from '@pancakeswap/sdk'
+import { Currency, CurrencyAmount, Percent, TradeType, validateAndParseAddress } from '@iguanadex/sdk'
 import {
   BaseRoute,
   RouteType,
@@ -6,7 +6,7 @@ import {
   SmartRouterTrade,
   StablePool,
   getPoolAddress,
-} from '@pancakeswap/smart-router'
+} from '@iguanadex/smart-router'
 import invariant from 'tiny-invariant'
 import { Address } from 'viem'
 

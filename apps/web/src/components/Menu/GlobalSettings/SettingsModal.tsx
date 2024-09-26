@@ -1,5 +1,5 @@
-import { ChainId } from '@pancakeswap/chains'
-import { useTranslation } from '@pancakeswap/localization'
+import { ChainId } from '@iguanadex/chains'
+import { useTranslation } from '@iguanadex/localization'
 import {
   AtomBox,
   AutoColumn,
@@ -21,23 +21,22 @@ import {
   Text,
   ThemeSwitcher,
   Toggle,
-} from '@pancakeswap/uikit'
+} from '@iguanadex/uikit'
 import {
   useAudioPlay,
   useExpertMode,
   useUserExpertModeAcknowledgement,
   useUserSingleHopOnly,
-} from '@pancakeswap/utils/user'
-import { ExpertModal } from '@pancakeswap/widgets-internal'
+} from '@iguanadex/utils/user'
+import { ExpertModal } from '@iguanadex/widgets-internal'
 import { TOKEN_RISK } from 'components/AccessRisk'
 import AccessRiskTooltips from 'components/AccessRisk/AccessRiskTooltips'
 import { useActiveChainId } from 'hooks/useActiveChainId'
 import { useSpeedQuote } from 'hooks/useSpeedQuote'
 import useTheme from 'hooks/useTheme'
-import { useWebNotifications } from 'hooks/useWebNotifications'
-import { ReactNode, lazy, useCallback, useState } from 'react'
+import { ReactNode, useCallback, useState } from 'react'
 import { useSwapActionHandlers } from 'state/swap/useSwapActionHandlers'
-import { useSubgraphHealthIndicatorManager, useUserUsernameVisibility } from 'state/user/hooks'
+import { useUserUsernameVisibility } from 'state/user/hooks'
 import { useUserShowTestnet } from 'state/user/hooks/useUserShowTestnet'
 import { useUserTokenRisk } from 'state/user/hooks/useUserTokenRisk'
 import { useMMLinkedPoolByDefault } from 'state/user/mmLinkedPool'
@@ -54,20 +53,20 @@ import GasSettings from './GasSettings'
 import TransactionSettings from './TransactionSettings'
 import { SettingsMode } from './types'
 
-const WebNotiToggle = lazy(() => import('./WebNotiToggle'))
+// const WebNotiToggle = lazy(() => import('./WebNotiToggle'))
 
-const BetaTag = styled.div`
-  border: 2px solid ${({ theme }) => theme.colors.success};
-  border-radius: 16px;
-  padding-left: 6px;
-  padding-right: 6px;
-  padding-top: 3px;
-  padding-bottom: 3px;
-  color: ${({ theme }) => theme.colors.success};
-  margin-left: 6px;
-  font-weight: bold;
-  font-size: 14px;
-`
+// const BetaTag = styled.div`
+//   border: 2px solid ${({ theme }) => theme.colors.success};
+//   border-radius: 16px;
+//   padding-left: 6px;
+//   padding-right: 6px;
+//   padding-top: 3px;
+//   padding-bottom: 3px;
+//   color: ${({ theme }) => theme.colors.success};
+//   margin-left: 6px;
+//   font-weight: bold;
+//   font-size: 14px;
+// `
 const ScrollableContainer = styled(Flex)`
   flex-direction: column;
   height: auto;
@@ -107,10 +106,10 @@ const SettingsModal: React.FC<React.PropsWithChildren<InjectedModalProps>> = ({ 
   const [expertMode, setExpertMode] = useExpertMode()
   const [audioPlay, setAudioMode] = useAudioPlay()
   const [speedQuote, setSpeedQuote] = useSpeedQuote()
-  const [subgraphHealth, setSubgraphHealth] = useSubgraphHealthIndicatorManager()
+  // const [subgraphHealth, setSubgraphHealth] = useSubgraphHealthIndicatorManager()
   const [userUsernameVisibility, setUserUsernameVisibility] = useUserUsernameVisibility()
   const [showTestnet, setShowTestnet] = useUserShowTestnet()
-  const { enabled } = useWebNotifications()
+  // const { enabled } = useWebNotifications()
 
   const { onChangeRecipient } = useSwapActionHandlers()
   const { chainId } = useActiveChainId()

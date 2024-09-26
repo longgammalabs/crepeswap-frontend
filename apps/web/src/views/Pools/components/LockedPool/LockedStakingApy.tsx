@@ -1,7 +1,7 @@
-import { Pool } from '@pancakeswap/widgets-internal'
+import { Pool } from '@iguanadex/widgets-internal'
 import { memo } from 'react'
 
-import { Token } from '@pancakeswap/sdk'
+import { Token } from '@iguanadex/sdk'
 import { LightGreyCard } from 'components/Card'
 import { useIsUserDelegated } from 'views/CakeStaking/hooks/useIsUserDelegated'
 import LockDurationRow from './Common/LockDurationRow'

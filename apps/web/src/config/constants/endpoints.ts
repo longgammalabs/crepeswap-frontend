@@ -1,4 +1,4 @@
-import { BLOCKS_SUBGRAPHS, ChainId, V2_SUBGRAPHS, V3_SUBGRAPHS } from '@pancakeswap/chains'
+import { BLOCKS_SUBGRAPHS, ChainId, V2_SUBGRAPHS, V3_SUBGRAPHS } from '@iguanadex/chains'
 
 export const GRAPH_API_PROFILE = 'https://api.thegraph.com/subgraphs/name/pancakeswap/profile'
 
@@ -51,7 +51,7 @@ export const INFO_CLIENT_WITH_CHAIN = V2_SUBGRAPHS
 
 export const BLOCKS_CLIENT_WITH_CHAIN = BLOCKS_SUBGRAPHS
 
-export const ASSET_CDN = 'https://raw.githubusercontent.com/Iguana-DEX/assets/main'
+export const ASSET_CDN = 'https://raw.githubusercontent.com/IguanaDEX/assets/main'
 export const PANCAKE_ASSET_CDN = 'https://assets.pancakeswap.finance'
 
 export const V3_SUBGRAPH_URLS = V3_SUBGRAPHS
@@ -73,4 +73,4 @@ export const MERCURYO_WIDGET_URL =
     ? 'https://sandbox-widget.mrcr.io/embed.2.0.js'
     : 'https://widget.mercuryo.io/embed.2.0.js'
 
-export const WALLET_API = 'https://wallet-api.pancakeswap.com'
+export const WALLET_API = 'https://wallet-api.iguanadex.com'

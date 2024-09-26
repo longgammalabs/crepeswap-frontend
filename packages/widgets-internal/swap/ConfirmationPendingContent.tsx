@@ -1,6 +1,6 @@
-import { useTranslation } from "@pancakeswap/localization";
+import { useTranslation } from "@iguanadex/localization";
+import { AutoColumn, ColumnCenter, Spinner, Text } from "@iguanadex/uikit";
 import { styled } from "styled-components";
-import { Spinner, Text, ColumnCenter, AutoColumn } from "@pancakeswap/uikit";
 
 const Wrapper = styled.div`
   width: 100%;

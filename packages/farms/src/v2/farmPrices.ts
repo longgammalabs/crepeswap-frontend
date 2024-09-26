@@ -1,8 +1,8 @@
-import { BIG_ONE, BIG_TWO, BIG_ZERO } from '@pancakeswap/utils/bigNumber'
+import { BIG_ONE, BIG_TWO, BIG_ZERO } from '@iguanadex/utils/bigNumber'
+import { equalsIgnoreCase } from '@iguanadex/utils/equalsIgnoreCase'
 import BN from 'bignumber.js'
-import { equalsIgnoreCase } from '@pancakeswap/utils/equalsIgnoreCase'
 import toNumber from 'lodash/toNumber'
-import { SerializedFarmPublicData, FarmData, isStableFarm } from '../types'
+import { FarmData, isStableFarm, SerializedFarmPublicData } from '../types'
 import { getFullDecimalMultiplier } from './getFullDecimalMultiplier'
 
 // Find BUSD price for token

@@ -1,5 +1,5 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { Grid, Link, Modal, ModalV2, Text } from '@pancakeswap/uikit'
+import { useTranslation } from '@iguanadex/localization'
+import { Grid, Link, Modal, ModalV2, Text } from '@iguanadex/uikit'
 import { useQuery } from '@tanstack/react-query'
 import { WALLET_API } from 'config/constants/endpoints'
 import { UpdatePositionsReminder } from 'views/Farms/components/UpdatePositionsReminder'
@@ -53,18 +53,14 @@ export function Blocklist() {
             <Text style={{ wordBreak: 'break-word' }}>{address}</Text>
             <Text>
               {t('We have detected that this address is associated with a Prohibited Activity')}{' '}
-              <Link
-                style={{ display: 'inline-block' }}
-                href="https://pancakeswap.finance/terms-of-service"
-                target="_blank"
-              >
+              <Link style={{ display: 'inline-block' }} href="https://iguanadex.com/terms-of-service" target="_blank">
                 {t('Learn more')}
               </Link>
             </Text>
             <Text>
               {t('If you believe that your address has been misclassified, please email')}{' '}
-              <Link style={{ display: 'inline-block' }} href="mailto:info@pancakeswap.com">
-                info@pancakeswap.com
+              <Link style={{ display: 'inline-block' }} href="mailto:info@iguanadex.com">
+                info@iguanadex.com
               </Link>
             </Text>
           </Grid>

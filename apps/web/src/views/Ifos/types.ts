@@ -1,5 +1,5 @@
+import { IfoStatus, PoolIds } from '@iguanadex/ifos'
 import BigNumber from 'bignumber.js'
-import { IfoStatus, PoolIds } from '@pancakeswap/ifos'
 
 import { useIfoV1Contract, useIfoV2Contract, useIfoV3Contract, useIfoV7Contract } from 'hooks/useContract'
 

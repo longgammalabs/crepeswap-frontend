@@ -1,6 +1,6 @@
-import { BigintIsh, Currency, CurrencyAmount, Price } from '@pancakeswap/sdk'
-import { ChainId } from '@pancakeswap/chains'
-import tryParseAmount from '@pancakeswap/utils/tryParseAmount'
+import { ChainId } from '@iguanadex/chains'
+import { BigintIsh, Currency, CurrencyAmount, Price } from '@iguanadex/sdk'
+import tryParseAmount from '@iguanadex/utils/tryParseAmount'
 import sum from 'lodash/sum.js'
 
 import {

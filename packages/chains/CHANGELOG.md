@@ -1,4 +1,4 @@
-# @pancakeswap/chains
+# @iguanadex/chains
 
 ## 0.4.1
 

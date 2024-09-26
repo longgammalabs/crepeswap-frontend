@@ -1,5 +1,5 @@
-import { goerliTestnetTokens } from '@pancakeswap/tokens'
-import { FeeAmount } from '@pancakeswap/v3-sdk'
+import { goerliTestnetTokens } from '@iguanadex/tokens'
+import { FeeAmount } from '@iguanadex/v3-sdk'
 import { getAddress } from 'viem'
 import { SerializedFarmConfig } from '..'
 import { defineFarmV3Configs } from '../src/defineFarmV3Configs'

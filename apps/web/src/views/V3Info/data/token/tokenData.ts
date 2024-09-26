@@ -78,13 +78,12 @@ export async function fetchedTokenDatas(
   try {
     const { data: ethPrices } = await fetchEthPrices(dataClient, blocks)
 
-    const data = await dataClient.request<TokenDataResponse>(TOKENS_BULK(undefined, tokenAddresses))
-
-    const data24 = await dataClient.request<TokenDataResponse>(TOKENS_BULK(block24?.number, tokenAddresses))
-
-    const data48 = await dataClient.request<TokenDataResponse>(TOKENS_BULK(block48?.number, tokenAddresses))
-
-    const dataWeek = await dataClient.request<TokenDataResponse>(TOKENS_BULK(blockWeek?.number, tokenAddresses))
+    const [data, data24, data48, dataWeek] = await Promise.all([
+      dataClient.request<TokenDataResponse>(TOKENS_BULK(undefined, tokenAddresses)),
+      dataClient.request<TokenDataResponse>(TOKENS_BULK(block24?.number, tokenAddresses)),
+      dataClient.request<TokenDataResponse>(TOKENS_BULK(block48?.number, tokenAddresses)),
+      dataClient.request<TokenDataResponse>(TOKENS_BULK(blockWeek?.number, tokenAddresses)),
+    ])
     if (!ethPrices) {
       return {
         error: false,

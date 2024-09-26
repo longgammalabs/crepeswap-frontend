@@ -1,7 +1,7 @@
-import { styled } from 'styled-components'
-import { Box, Flex, Text, Heading, Link, Image, useMatchBreakpoints } from '@pancakeswap/uikit'
-import { useTranslation } from '@pancakeswap/localization'
+import { useTranslation } from '@iguanadex/localization'
+import { Box, Flex, Heading, Image, Link, Text, useMatchBreakpoints } from '@iguanadex/uikit'
 import useTheme from 'hooks/useTheme'
+import { styled } from 'styled-components'
 import { BallWithNumber, MatchExampleA, MatchExampleB, PoolAllocationChart } from '../svgs'
 
 const Divider = styled.div`

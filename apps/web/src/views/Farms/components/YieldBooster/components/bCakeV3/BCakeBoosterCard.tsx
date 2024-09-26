@@ -1,4 +1,4 @@
-import { useTranslation } from '@pancakeswap/localization'
+import { useTranslation } from '@iguanadex/localization'
 import {
   Box,
   Button,
@@ -12,7 +12,7 @@ import {
   Text,
   useMatchBreakpoints,
   useTooltip,
-} from '@pancakeswap/uikit'
+} from '@iguanadex/uikit'
 import ConnectWalletButton from 'components/ConnectWalletButton'
 import Image from 'next/legacy/image'
 import NextLink from 'next/link'

@@ -1,5 +1,5 @@
-import { getIfoConfig } from '@pancakeswap/ifos'
-import { ChainId } from '@pancakeswap/sdk'
+import { getIfoConfig } from '@iguanadex/ifos'
+import { ChainId } from '@iguanadex/sdk'
 
 import campaigns from 'config/constants/campaigns'
 

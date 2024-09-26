@@ -1,4 +1,4 @@
-import { Token } from '@pancakeswap/sdk'
+import { Token } from '@iguanadex/sdk'
 import BigNumber from 'bignumber.js'
 import { Dispatch, SetStateAction } from 'react'
 import { DeserializedLockedVaultUser } from 'state/types'

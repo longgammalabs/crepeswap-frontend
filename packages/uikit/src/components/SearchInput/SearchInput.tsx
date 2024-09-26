@@ -1,7 +1,7 @@
-import { useState, useMemo, useEffect } from "react";
-import { styled } from "styled-components";
+import { useTranslation } from "@iguanadex/localization";
 import debounce from "lodash/debounce";
-import { useTranslation } from "@pancakeswap/localization";
+import { useEffect, useMemo, useState } from "react";
+import { styled } from "styled-components";
 import { Input } from "../Input";
 
 const StyledInput = styled(Input)`

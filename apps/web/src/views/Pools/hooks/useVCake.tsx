@@ -1,7 +1,7 @@
-import { ChainId } from '@pancakeswap/chains'
+import { ChainId } from '@iguanadex/chains'
+import { useQuery } from '@tanstack/react-query'
 import useAccountActiveChain from 'hooks/useAccountActiveChain'
 import { useVCakeContract } from 'hooks/useContract'
-import { useQuery } from '@tanstack/react-query'
 
 interface UseVCake {
   isInitialization?: boolean

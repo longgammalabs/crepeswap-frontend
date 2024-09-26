@@ -1,6 +1,6 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { AutoColumn, AutoRow, Box, Text } from '@pancakeswap/uikit'
-import { formatNumber, getBalanceNumber } from '@pancakeswap/utils/formatBalance'
+import { useTranslation } from '@iguanadex/localization'
+import { AutoColumn, AutoRow, Box, Text } from '@iguanadex/uikit'
+import { formatNumber, getBalanceNumber } from '@iguanadex/utils/formatBalance'
 import { useVeCakeBalance } from 'hooks/useTokenBalance'
 import styled from 'styled-components'
 
@@ -23,7 +23,7 @@ export const MyVeCakeCard: React.FC<{
   return (
     <StyledBox px={type === 'row' ? '16px' : '24px'}>
       <img
-        src="https://raw.githubusercontent.com/Iguana-DEX/assets/main/iguana_brand_assets/veIGN_logo.png"
+        src="https://raw.githubusercontent.com/IguanaDEX/assets/main/iguana_brand_assets/veIGN_logo.png"
         alt="token-veign"
         width="58px"
       />

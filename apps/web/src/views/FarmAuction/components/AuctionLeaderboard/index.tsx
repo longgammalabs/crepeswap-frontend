@@ -1,5 +1,5 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { Box, Card, Flex, Spinner, Text } from '@pancakeswap/uikit'
+import { useTranslation } from '@iguanadex/localization'
+import { Box, Card, Flex, Spinner, Text } from '@iguanadex/uikit'
 import { TabToggle, TabToggleGroup } from 'components/TabToggle'
 import { Auction, AuctionStatus, Bidder } from 'config/constants/types'
 import { useState } from 'react'

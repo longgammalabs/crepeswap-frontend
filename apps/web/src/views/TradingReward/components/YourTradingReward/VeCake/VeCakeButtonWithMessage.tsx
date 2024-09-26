@@ -1,4 +1,4 @@
-import { Button, Flex, Message, Text } from '@pancakeswap/uikit'
+import { Button, Flex, Message, Text } from '@iguanadex/uikit'
 
 interface VeCakeButtonWithMessageProps {
   messageText: string

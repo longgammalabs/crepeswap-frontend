@@ -1,4 +1,4 @@
-import { updateQuery } from '@pancakeswap/utils/clientRouter'
+import { updateQuery } from '@iguanadex/utils/clientRouter'
 import { useRouter } from 'next/router'
 import { useCallback, useMemo } from 'react'
 

@@ -1,5 +1,5 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { Card, CardBody, CardHeader, Flex, Heading, Link, PageSection, Text } from '@pancakeswap/uikit'
+import { useTranslation } from '@iguanadex/localization'
+import { Card, CardBody, CardHeader, Flex, Heading, Link, PageSection, Text } from '@iguanadex/uikit'
 import FoldableText from 'components/FoldableSection/FoldableText'
 import useTheme from 'hooks/useTheme'
 import { styled } from 'styled-components'
@@ -58,10 +58,10 @@ const Question = () => {
             </Heading>
           </CardHeader>
           <StyledCardBody>
-            <FoldableText title={t('What is the criteria to become a PancakeSwap affiliate?')} mt="24px">
+            <FoldableText title={t('What are the criteria to become an IguanaDEX affiliate?')} mt="24px">
               <StyledListText color="textSubtle">
                 {t(
-                  'At least 10,000 followers across social media platforms such as Twitter, Youtube, Discord, Instagram and Telegram',
+                  'At least 10,000 followers across social media platforms such as X, Youtube, Discord, Instagram and Telegram',
                 )}
               </StyledListText>
               <StyledListText color="textSubtle">

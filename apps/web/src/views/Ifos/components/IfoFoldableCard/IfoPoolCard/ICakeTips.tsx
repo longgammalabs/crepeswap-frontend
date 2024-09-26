@@ -1,12 +1,12 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { ChainId } from '@pancakeswap/sdk'
+import { useTranslation } from '@iguanadex/localization'
+import { ChainId } from '@iguanadex/sdk'
 import { Address } from 'viem'
 
-import { StakeButton } from './StakeButton'
-import { useICakeBridgeStatus } from '../../../hooks/useIfoCredit'
 import { useChainNames } from '../../../hooks/useChainNames'
+import { useICakeBridgeStatus } from '../../../hooks/useIfoCredit'
+import { ContentText, LinkTitle, WarningTips } from '../../WarningTips'
 import { BridgeButton } from './BridgeButton'
-import { WarningTips, LinkTitle, ContentText } from '../../WarningTips'
+import { StakeButton } from './StakeButton'
 
 type Props = {
   ifoId: string

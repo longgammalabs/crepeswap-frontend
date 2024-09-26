@@ -1,5 +1,5 @@
-import { CurrencyAmount, Token } from '@pancakeswap/swap-sdk-core'
-import { bscTestnetTokens, ethereumTokens, goerliTestnetTokens } from '@pancakeswap/tokens'
+import { CurrencyAmount, Token } from '@iguanadex/swap-sdk-core'
+import { bscTestnetTokens, ethereumTokens, goerliTestnetTokens } from '@iguanadex/tokens'
 import { useMemo } from 'react'
 import { Address, isAddressEqual } from 'viem'
 import useAccountActiveChain from './useAccountActiveChain'

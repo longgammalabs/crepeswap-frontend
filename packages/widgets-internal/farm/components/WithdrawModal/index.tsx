@@ -1,20 +1,20 @@
-import BigNumber from "bignumber.js";
-import { useCallback, useMemo, useState } from "react";
-import { useTranslation } from "@pancakeswap/localization";
-import { getFullDisplayBalance } from "@pancakeswap/utils/formatBalance";
-import { trimTrailZero } from "@pancakeswap/utils/trimTrailZero";
-import { BIG_ZERO } from "@pancakeswap/utils/bigNumber";
+import { useTranslation } from "@iguanadex/localization";
 import {
-  Button,
   AutoRenewIcon,
+  Box,
+  Button,
   Message,
   MessageText,
-  Box,
   Modal,
-  ModalBody,
   ModalActions,
+  ModalBody,
   ModalInput,
-} from "@pancakeswap/uikit";
+} from "@iguanadex/uikit";
+import { BIG_ZERO } from "@iguanadex/utils/bigNumber";
+import { getFullDisplayBalance } from "@iguanadex/utils/formatBalance";
+import { trimTrailZero } from "@iguanadex/utils/trimTrailZero";
+import BigNumber from "bignumber.js";
+import { useCallback, useMemo, useState } from "react";
 
 interface WithdrawModalProps {
   max: BigNumber;

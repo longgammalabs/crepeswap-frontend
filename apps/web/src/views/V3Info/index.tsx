@@ -1,6 +1,6 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { AutoColumn, Box, Button, Card, Heading, Text } from '@pancakeswap/uikit'
-import isUndefinedOrNull from '@pancakeswap/utils/isUndefinedOrNull'
+import { useTranslation } from '@iguanadex/localization'
+import { AutoColumn, Box, Button, Card, Heading, Text } from '@iguanadex/uikit'
+import isUndefinedOrNull from '@iguanadex/utils/isUndefinedOrNull'
 import Page from 'components/Layout/Page'
 import dayjs from 'dayjs'
 import { useActiveChainId } from 'hooks/useActiveChainId'
@@ -231,15 +231,17 @@ export default function Home() {
           </RowBetween>
         </DarkGreyCard>
       </ProtocolWrapper>
+
+      <Heading scale="lg" mt="40px" mb="16px">
+        {t('Top Pools')}
+      </Heading>
+      <PoolTable poolDatas={poolDatas} />
+
       <Heading scale="lg" mt="40px" mb="16px">
         {t('Top Tokens')}
       </Heading>
       <TokenTable tokenDatas={formattedTokens} />
 
-      <Heading scale="lg" mt="40px" mb="16px">
-        {t('Top Pairs')}
-      </Heading>
-      <PoolTable poolDatas={poolDatas} />
       <Heading scale="lg" mt="40px" mb="16px">
         {t('Transactions')}
       </Heading>

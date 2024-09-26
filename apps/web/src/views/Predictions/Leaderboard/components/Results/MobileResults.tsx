@@ -1,5 +1,5 @@
-import { Token } from '@pancakeswap/sdk'
-import { Box } from '@pancakeswap/uikit'
+import { Token } from '@iguanadex/sdk'
+import { Box } from '@iguanadex/uikit'
 import { PredictionUser } from 'state/types'
 import MobileRow from './MobileRow'
 

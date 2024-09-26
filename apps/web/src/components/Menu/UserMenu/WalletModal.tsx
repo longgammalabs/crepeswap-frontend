@@ -1,4 +1,4 @@
-import { useTranslation } from '@pancakeswap/localization'
+import { useTranslation } from '@iguanadex/localization'
 import {
   ButtonMenu,
   ButtonMenuItem,
@@ -10,7 +10,7 @@ import {
   ModalTitle,
   ModalWrapper,
   ModalHeader as UIKitModalHeader,
-} from '@pancakeswap/uikit'
+} from '@iguanadex/uikit'
 import { useCallback, useState } from 'react'
 import { styled } from 'styled-components'
 import { parseEther } from 'viem'

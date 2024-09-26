@@ -2,7 +2,7 @@
 
 <p align="center">
   <a href="https://iguanadex.com">
-      <img src="https://raw.githubusercontent.com/Iguana-DEX/assets/main/iguana_brand_assets/icon.webp" height="300">
+      <img src="https://raw.githubusercontent.com/IguanaDEX/assets/main/iguana_brand_assets/icon.webp" height="300">
   </a>
 </p>
 

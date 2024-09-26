@@ -1,4 +1,4 @@
-import { isThirdPartyVaultConfig } from '@pancakeswap/position-managers'
+import { isThirdPartyVaultConfig } from '@iguanadex/position-managers'
 import { memo, useMemo } from 'react'
 import { useFarmsV3WithPositionsAndBooster } from 'state/farmsV3/hooks'
 

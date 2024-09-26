@@ -1,4 +1,4 @@
-import { ChainId } from '@pancakeswap/chains'
+import { ChainId } from '@iguanadex/chains'
 import BigNumber from 'bignumber.js'
 import { masterChefV2ABI } from 'config/abi/masterchefV2'
 import { nonBscVaultABI } from 'config/abi/nonBscVault'

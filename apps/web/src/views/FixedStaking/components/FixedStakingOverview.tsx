@@ -1,17 +1,17 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { Flex, Text, Box } from '@pancakeswap/uikit'
+import { useTranslation } from '@iguanadex/localization'
+import { Box, Flex, Text } from '@iguanadex/uikit'
 
 import { LightGreyCard } from 'components/Card'
 
 import { ReactNode, useMemo } from 'react'
-import TextRow from 'views/Pools/components/LockedPool/Common/Overview/TextRow'
 import { formatUnixTime } from 'utils/formatTime'
+import TextRow from 'views/Pools/components/LockedPool/Common/Overview/TextRow'
 
-import { CurrencyAmount, Percent, Currency } from '@pancakeswap/swap-sdk-core'
+import { Currency, CurrencyAmount, Percent } from '@iguanadex/swap-sdk-core'
+import { useCalculateProjectedReturnAmount } from '../hooks/useCalculateProjectedReturnAmount'
+import { useCurrentDay } from '../hooks/useStakedPools'
 import { AmountWithUSDSub } from './AmountWithUSDSub'
 import { StakedLimitEndOn } from './StakedLimitEndOn'
-import { useCurrentDay } from '../hooks/useStakedPools'
-import { useCalculateProjectedReturnAmount } from '../hooks/useCalculateProjectedReturnAmount'
 
 function DiffDuration({ lockPeriod }: { lockPeriod: number }) {
   const { t } = useTranslation()

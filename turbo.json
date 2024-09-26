@@ -23,11 +23,11 @@
       "outputs": ["dist/**"]
     },
     "lint": {
-      "dependsOn": ["@pancakeswap/next-config#build"],
+      "dependsOn": ["@iguanadex/next-config#build"],
       "outputs": []
     },
     "dev": {
-      "dependsOn": ["@pancakeswap/next-config#build"],
+      "dependsOn": ["@iguanadex/next-config#build"],
       "cache": false,
       "persistent": true
     },

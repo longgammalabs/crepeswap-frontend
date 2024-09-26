@@ -1,6 +1,6 @@
-import { FeeAmount, nearestUsableTick, TICK_SPACINGS, TickMath } from '@pancakeswap/v3-sdk'
-import { useMemo } from 'react'
+import { FeeAmount, nearestUsableTick, TICK_SPACINGS, TickMath } from '@iguanadex/v3-sdk'
 import { Bound } from 'config/constants/types'
+import { useMemo } from 'react'
 
 export default function useIsTickAtLimit(
   feeAmount: FeeAmount | undefined,

@@ -1,5 +1,5 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { Box, ChevronRightIcon, Flex, Text, useMatchBreakpoints, useModal } from '@pancakeswap/uikit'
+import { useTranslation } from '@iguanadex/localization'
+import { Box, ChevronRightIcon, Flex, Text, useMatchBreakpoints, useModal } from '@iguanadex/uikit'
 import USCitizenConfirmModal from 'components/Modal/USCitizenConfirmModal'
 import { PANCAKE_ASSET_CDN } from 'config/constants/endpoints'
 import { useActiveChainId } from 'hooks/useActiveChainId'

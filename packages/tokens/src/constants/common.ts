@@ -1,5 +1,5 @@
-import { ChainId } from '@pancakeswap/chains'
-import { ERC20Token } from '@pancakeswap/sdk'
+import { ChainId } from '@iguanadex/chains'
+import { ERC20Token } from '@iguanadex/sdk'
 
 export const IGN = {
   [ChainId.ETHERLINK]: new ERC20Token(

@@ -1,6 +1,6 @@
-import { ReactElement, createContext, useCallback, useEffect, useMemo } from "react";
+import { useIsWindowVisible } from "@iguanadex/hooks";
+import { createContext, ReactElement, useCallback, useEffect, useMemo } from "react";
 import { ExternalToast, toast as sonnerToast, ToastT } from "sonner";
-import { useIsWindowVisible } from "@pancakeswap/hooks";
 import { Toast, ToastData, types } from "../../components/Toast";
 import { ToastContextApi } from "./types";
 

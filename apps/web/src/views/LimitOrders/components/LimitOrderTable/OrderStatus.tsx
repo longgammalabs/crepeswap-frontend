@@ -1,5 +1,5 @@
-import { Tag, Text, TagVariant } from '@pancakeswap/uikit'
-import { useTranslation } from '@pancakeswap/localization'
+import { useTranslation } from '@iguanadex/localization'
+import { Tag, TagVariant, Text } from '@iguanadex/uikit'
 import React from 'react'
 import { FormattedOrderData } from 'views/LimitOrders/hooks/useFormattedOrderData'
 

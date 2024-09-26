@@ -1,5 +1,5 @@
-import { Flex, lightColors } from '@pancakeswap/uikit'
-import { styled, keyframes } from 'styled-components'
+import { Flex, lightColors } from '@iguanadex/uikit'
+import { keyframes, styled } from 'styled-components'
 
 const flyingAnim = () => keyframes`
   from {

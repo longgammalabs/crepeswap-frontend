@@ -1,10 +1,10 @@
-import { styled } from 'styled-components'
-import { Flex, Box } from '@pancakeswap/uikit'
-import Image from 'next/image'
+import { Box, Flex } from '@iguanadex/uikit'
 import orderBy from 'lodash/orderBy'
+import Image from 'next/image'
+import { styled } from 'styled-components'
 import { TeamRanksProps } from '../../types'
-import TopTradersCard from './TopTradersCard'
 import Podium from './Podium'
+import TopTradersCard from './TopTradersCard'
 
 const Wrapper = styled(Flex)`
   flex-direction: column;

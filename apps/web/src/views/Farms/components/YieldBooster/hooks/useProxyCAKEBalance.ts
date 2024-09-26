@@ -1,9 +1,9 @@
-import { getCakeContract } from 'utils/contractHelpers'
-import { getBalanceNumber } from '@pancakeswap/utils/formatBalance'
-import { useBCakeProxyContractAddress } from 'views/Farms/hooks/useBCakeProxyContractAddress'
+import { getBalanceNumber } from '@iguanadex/utils/formatBalance'
 import BigNumber from 'bignumber.js'
-import { useContractRead } from 'wagmi'
 import useAccountActiveChain from 'hooks/useAccountActiveChain'
+import { getCakeContract } from 'utils/contractHelpers'
+import { useBCakeProxyContractAddress } from 'views/Farms/hooks/useBCakeProxyContractAddress'
+import { useContractRead } from 'wagmi'
 
 const useProxyCAKEBalance = () => {
   const { account, chainId } = useAccountActiveChain()

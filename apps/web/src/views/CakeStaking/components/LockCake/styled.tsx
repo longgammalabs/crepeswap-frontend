@@ -1,4 +1,4 @@
-import { Card } from '@pancakeswap/uikit'
+import { Card } from '@iguanadex/uikit'
 import styled from 'styled-components'
 
 export const StyledCard = styled(Card)`

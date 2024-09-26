@@ -1,4 +1,4 @@
-import { ChainId } from '@pancakeswap/chains'
+import { ChainId } from '@iguanadex/chains'
 
 import { livePools as ethLivePools, pools as ethPools } from './1'
 import { livePools as polygonZkEvmLivePools, pools as polygonZkEvmPools } from './1101'

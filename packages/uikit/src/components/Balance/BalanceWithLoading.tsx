@@ -1,12 +1,12 @@
-import { useMemo } from "react";
-import isUndefinedOrNull from "@pancakeswap/utils/isUndefinedOrNull";
-import _toNumber from "lodash/toNumber";
+import isUndefinedOrNull from "@iguanadex/utils/isUndefinedOrNull";
 import _isNaN from "lodash/isNaN";
 import _replace from "lodash/replace";
+import _toNumber from "lodash/toNumber";
 import _toString from "lodash/toString";
-import Balance from "./Balance";
-import { TextProps } from "../Text";
+import { useMemo } from "react";
 import { Skeleton } from "../Skeleton";
+import { TextProps } from "../Text";
+import Balance from "./Balance";
 
 interface BalanceProps extends TextProps {
   value: number;

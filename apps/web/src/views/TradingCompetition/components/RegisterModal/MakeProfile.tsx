@@ -1,8 +1,8 @@
-import { Button, Heading, Text } from '@pancakeswap/uikit'
-import { useAccount } from 'wagmi'
-import { useTranslation } from '@pancakeswap/localization'
-import { CompetitionProps } from 'views/TradingCompetition/types'
+import { useTranslation } from '@iguanadex/localization'
+import { Button, Heading, Text } from '@iguanadex/uikit'
 import { useRouter } from 'next/router'
+import { CompetitionProps } from 'views/TradingCompetition/types'
+import { useAccount } from 'wagmi'
 
 const MakeProfile: React.FC<React.PropsWithChildren<CompetitionProps>> = ({ onDismiss }) => {
   const { address: account } = useAccount()

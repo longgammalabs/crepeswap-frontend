@@ -1,12 +1,12 @@
-import { useState } from 'react'
-import { styled } from 'styled-components'
-import { Button, Heading, Text, Flex, Checkbox, AutoRenewIcon, useToast } from '@pancakeswap/uikit'
-import { useTradingCompetitionContractMoD } from 'hooks/useContract'
-import { useTranslation } from '@pancakeswap/localization'
+import { useTranslation } from '@iguanadex/localization'
+import { AutoRenewIcon, Button, Checkbox, Flex, Heading, Text, useToast } from '@iguanadex/uikit'
+import { ToastDescriptionWithTx } from 'components/Toast'
 import { useCallWithGasPrice } from 'hooks/useCallWithGasPrice'
 import useCatchTxError from 'hooks/useCatchTxError'
-import { ToastDescriptionWithTx } from 'components/Toast'
+import { useTradingCompetitionContractMoD } from 'hooks/useContract'
 import useGetUsernameWithVisibility from 'hooks/useUsernameWithVisibility'
+import { useState } from 'react'
+import { styled } from 'styled-components'
 import { CompetitionProps } from '../../types'
 
 const StyledCheckbox = styled(Checkbox)`

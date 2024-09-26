@@ -1,4 +1,4 @@
-import { bCakeSupportedChainId } from '@pancakeswap/farms'
+import { bCakeSupportedChainId } from '@iguanadex/farms'
 import { keepPreviousData, useQuery } from '@tanstack/react-query'
 import BN from 'bignumber.js'
 import useAccountActiveChain from 'hooks/useAccountActiveChain'

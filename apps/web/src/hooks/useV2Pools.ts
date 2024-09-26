@@ -1,11 +1,11 @@
-import { Currency } from '@pancakeswap/sdk'
-import { SmartRouter, V2Pool } from '@pancakeswap/smart-router'
-import { useMemo, useRef } from 'react'
+import { Currency } from '@iguanadex/sdk'
+import { SmartRouter, V2Pool } from '@iguanadex/smart-router'
 import { useQuery } from '@tanstack/react-query'
+import { useMemo, useRef } from 'react'
 
+import { POOLS_FAST_REVALIDATE } from 'config/pools'
 import { infoClientWithChain, v3Clients } from 'utils/graphql'
 import { getViemClients } from 'utils/viem'
-import { POOLS_FAST_REVALIDATE } from 'config/pools'
 
 export interface V2PoolsHookParams {
   // Used for caching

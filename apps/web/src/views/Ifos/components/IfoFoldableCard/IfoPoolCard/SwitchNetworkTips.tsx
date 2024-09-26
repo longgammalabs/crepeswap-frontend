@@ -1,8 +1,8 @@
-import { Box, Message, MessageText, Flex } from '@pancakeswap/uikit'
-import { ChainLogo } from '@pancakeswap/widgets-internal'
-import { useTranslation } from '@pancakeswap/localization'
-import { ChainId } from '@pancakeswap/sdk'
-import { useCallback, MouseEvent } from 'react'
+import { useTranslation } from '@iguanadex/localization'
+import { ChainId } from '@iguanadex/sdk'
+import { Box, Flex, Message, MessageText } from '@iguanadex/uikit'
+import { ChainLogo } from '@iguanadex/widgets-internal'
+import { MouseEvent, useCallback } from 'react'
 import styled from 'styled-components'
 
 import { useActiveChainId } from 'hooks/useActiveChainId'

@@ -1,8 +1,8 @@
-import { useRef, memo, useCallback, ReactNode } from "react";
-import { useTranslation } from "@pancakeswap/localization";
+import { useTranslation } from "@iguanadex/localization";
+import { memo, ReactNode, useCallback, useRef } from "react";
 
-import { Button, Flex } from "@pancakeswap/uikit";
-import { CardSection, SectionTitle, AssetCard, AssetCardProps } from "./AssetCard";
+import { Button, Flex } from "@iguanadex/uikit";
+import { AssetCard, AssetCardProps, CardSection, SectionTitle } from "./AssetCard";
 
 interface Props extends AssetCardProps {
   title?: ReactNode;

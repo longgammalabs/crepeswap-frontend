@@ -1,4 +1,4 @@
-import { ChainId } from '@pancakeswap/chains'
+import { ChainId } from '@iguanadex/chains'
 import { Address } from 'viem'
 import { SupportedChainId } from './constants/supportedChains'
 import { ContractAddresses } from './type'

@@ -1,11 +1,11 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { styled } from 'styled-components'
-import { Flex, Heading, PocketWatchIcon, Text, Skeleton, Link, TimerIcon } from '@pancakeswap/uikit'
-import getTimePeriods from '@pancakeswap/utils/getTimePeriods'
+import { useTranslation } from '@iguanadex/localization'
+import { Flex, Heading, Link, PocketWatchIcon, Skeleton, Text, TimerIcon } from '@iguanadex/uikit'
+import getTimePeriods from '@iguanadex/utils/getTimePeriods'
+import { useActiveChainId } from 'hooks/useActiveChainId'
 import useCurrentBlockTimestamp from 'hooks/useCurrentBlockTimestamp'
+import { styled } from 'styled-components'
 import { getBlockExploreLink } from 'utils'
 import { PublicIfoData } from 'views/Ifos/types'
-import { useActiveChainId } from 'hooks/useActiveChainId'
 
 interface Props {
   publicIfoData: PublicIfoData

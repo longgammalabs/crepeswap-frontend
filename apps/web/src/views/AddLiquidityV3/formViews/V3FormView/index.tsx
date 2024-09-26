@@ -1,6 +1,6 @@
 import { CommonBasesType } from 'components/SearchModal/types'
 
-import { Currency, CurrencyAmount, Percent } from '@pancakeswap/sdk'
+import { Currency, CurrencyAmount, Percent } from '@iguanadex/sdk'
 import {
   AutoColumn,
   AutoRow,
@@ -14,20 +14,20 @@ import {
   RowBetween,
   Text,
   useModal,
-} from '@pancakeswap/uikit'
+} from '@iguanadex/uikit'
 import {
   ConfirmationModalContent,
   LiquidityChartRangeInput,
   NumericalInput,
   ZOOM_LEVELS,
   ZoomLevels,
-} from '@pancakeswap/widgets-internal'
+} from '@iguanadex/widgets-internal'
 
 import { tryParsePrice } from 'hooks/v3/utils'
 import { logGTMClickAddLiquidityEvent } from 'utils/customGTMEventTracking'
 
-import { useIsExpertMode, useUserSlippage } from '@pancakeswap/utils/user'
-import { FeeAmount, NonfungiblePositionManager } from '@pancakeswap/v3-sdk'
+import { useIsExpertMode, useUserSlippage } from '@iguanadex/utils/user'
+import { FeeAmount, NonfungiblePositionManager } from '@iguanadex/v3-sdk'
 import CurrencyInputPanel from 'components/CurrencyInputPanel'
 import { useTransactionDeadline } from 'hooks/useTransactionDeadline'
 import useV3DerivedInfo from 'hooks/v3/useV3DerivedInfo'
@@ -38,7 +38,7 @@ import { Field } from 'state/mint/actions'
 import { basisPointsToPercent } from 'utils/exchange'
 import { maxAmountSpend } from 'utils/maxAmountSpend'
 
-import { useTranslation } from '@pancakeswap/localization'
+import { useTranslation } from '@iguanadex/localization'
 import TransactionConfirmationModal from 'components/TransactionConfirmationModal'
 import { Bound } from 'config/constants/types'
 import { useIsTransactionUnsupported, useIsTransactionWarning } from 'hooks/Trades'

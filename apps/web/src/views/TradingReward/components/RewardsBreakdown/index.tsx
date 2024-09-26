@@ -1,4 +1,4 @@
-import { useTranslation } from '@pancakeswap/localization'
+import { useTranslation } from '@iguanadex/localization'
 import {
   Box,
   ButtonMenu,
@@ -8,7 +8,7 @@ import {
   PaginationButton,
   Text,
   useMatchBreakpoints,
-} from '@pancakeswap/uikit'
+} from '@iguanadex/uikit'
 import { useCallback, useEffect, useMemo, useState } from 'react'
 import DesktopView from 'views/TradingReward/components/RewardsBreakdown/DesktopView'
 import MobileView from 'views/TradingReward/components/RewardsBreakdown/MobileView'

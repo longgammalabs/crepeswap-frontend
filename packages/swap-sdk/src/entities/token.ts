@@ -1,6 +1,6 @@
-import { BaseCurrency, Currency, Token } from '@pancakeswap/swap-sdk-core'
-import { Address } from 'viem'
+import { BaseCurrency, Currency, Token } from '@iguanadex/swap-sdk-core'
 import invariant from 'tiny-invariant'
+import { Address } from 'viem'
 import { validateAndParseAddress } from '../utils'
 
 export interface SerializedToken {

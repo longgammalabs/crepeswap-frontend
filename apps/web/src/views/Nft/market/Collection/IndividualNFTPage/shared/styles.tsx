@@ -1,6 +1,6 @@
+import { Box, Flex, Grid, Image } from '@iguanadex/uikit'
+import { NextLinkFromReactRouter } from '@iguanadex/widgets-internal'
 import { styled } from 'styled-components'
-import { Box, Flex, Grid, Image } from '@pancakeswap/uikit'
-import { NextLinkFromReactRouter } from '@pancakeswap/widgets-internal'
 
 export const TwoColumnsContainer = styled(Flex)`
   gap: 22px;

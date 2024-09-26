@@ -1,7 +1,7 @@
+import { Box, Text } from '@iguanadex/uikit'
+import { PropsWithChildren, ReactNode, memo } from 'react'
 import { styled } from 'styled-components'
 import { SpaceProps } from 'styled-system'
-import { PropsWithChildren, ReactNode, memo } from 'react'
-import { Box, Text } from '@pancakeswap/uikit'
 
 interface Props extends SpaceProps {
   title: ReactNode

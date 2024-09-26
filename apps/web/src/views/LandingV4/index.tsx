@@ -1,4 +1,4 @@
-import { Box, useIsomorphicEffect } from '@pancakeswap/uikit'
+import { Box, useIsomorphicEffect } from '@iguanadex/uikit'
 import { useRouter } from 'next/router'
 import { useRef } from 'react'
 import { Banner } from 'views/LandingV4/components/Banner'

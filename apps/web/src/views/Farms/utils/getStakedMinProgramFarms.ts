@@ -1,5 +1,5 @@
+import { DeserializedFarm } from '@iguanadex/farms'
 import BigNumber from 'bignumber.js'
-import { DeserializedFarm } from '@pancakeswap/farms'
 
 export const getStakedMinProgramFarms = (farmsData: DeserializedFarm[]): DeserializedFarm[] => {
   return farmsData.filter((farm) => {

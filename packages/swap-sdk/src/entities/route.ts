@@ -1,5 +1,5 @@
+import { Currency, Price, Token } from '@iguanadex/swap-sdk-core'
 import invariant from 'tiny-invariant'
-import { Token, Currency, Price } from '@pancakeswap/swap-sdk-core'
 
 import { Pair } from './pair'
 

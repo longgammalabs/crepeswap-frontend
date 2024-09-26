@@ -1,4 +1,4 @@
-import { useTranslation } from '@pancakeswap/localization'
+import { useTranslation } from '@iguanadex/localization'
 import {
   AutoRenewIcon,
   Box,
@@ -10,8 +10,8 @@ import {
   Text,
   useToast,
   useTooltip,
-} from '@pancakeswap/uikit'
-import { getFullDisplayBalance } from '@pancakeswap/utils/formatBalance'
+} from '@iguanadex/uikit'
+import { getFullDisplayBalance } from '@iguanadex/utils/formatBalance'
 import BigNumber from 'bignumber.js'
 import { ToastDescriptionWithTx } from 'components/Toast'
 import useAccountActiveChain from 'hooks/useAccountActiveChain'

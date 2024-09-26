@@ -1,9 +1,9 @@
+import { useTranslation } from '@iguanadex/localization'
+import { Box, Text } from '@iguanadex/uikit'
 import { styled } from 'styled-components'
-import { Box, Text } from '@pancakeswap/uikit'
-import { useTranslation } from '@pancakeswap/localization'
-import LineChartLoaderSVG from './LineChartLoaderSVG'
 import BarChartLoaderSVG from './BarChartLoaderSVG'
 import CandleChartLoaderSVG from './CandleChartLoaderSVG'
+import LineChartLoaderSVG from './LineChartLoaderSVG'
 
 const LoadingText = styled(Box)`
   position: absolute;

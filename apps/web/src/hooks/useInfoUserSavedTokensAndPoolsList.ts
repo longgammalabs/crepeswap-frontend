@@ -1,5 +1,5 @@
-import { ChainId } from '@pancakeswap/chains'
-import { enumValues } from '@pancakeswap/utils/enumValues'
+import { ChainId } from '@iguanadex/chains'
+import { enumValues } from '@iguanadex/utils/enumValues'
 import { useAtom } from 'jotai'
 import { atomWithStorage } from 'jotai/utils'
 

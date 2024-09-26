@@ -1,11 +1,9 @@
-import { Token } from '@pancakeswap/sdk'
-import { TokenLogo } from '@pancakeswap/uikit'
-import { useMemo } from 'react'
-import { multiChainId, MultiChainName } from 'state/info/constant'
+import { Token } from '@iguanadex/sdk'
+import { TokenLogo } from '@iguanadex/uikit'
+import { ASSET_CDN } from 'config/constants/endpoints'
+import { MultiChainName } from 'state/info/constant'
 import { styled } from 'styled-components'
 import { safeGetAddress } from 'utils'
-import { Address } from 'viem'
-import getTokenLogoURL from '../../../../utils/getTokenLogoURL'
 
 const StyledLogo = styled(TokenLogo)<{ size: string }>`
   width: ${({ size }) => size};
@@ -24,18 +22,17 @@ export const CurrencyLogo: React.FC<
     chainName?: MultiChainName
   }>
 > = ({ address, size = '24px', chainName = 'BSC', ...rest }) => {
-  const src = useMemo(() => {
-    return getTokenLogoURL(new Token(multiChainId[chainName], address as Address, 18, ''))
-  }, [address, chainName])
+  // const src = useMemo(() => {
+  //   return getTokenLogoURL(new Token(multiChainId[chainName], address as Address, 18, ''))
+  // }, [address, chainName])
 
-  const imagePath = chainName === 'BSC' ? '' : `${chainName?.toLowerCase()}/`
+  // const imagePath = chainName === 'BSC' ? '' : `${chainName?.toLowerCase()}/`
   const checkedsummedAddress = safeGetAddress(address)
   const srcFromPCS = checkedsummedAddress
-    ? `https://tokens.pancakeswap.finance/images/${imagePath}${checkedsummedAddress}.png`
+    ? // ? `https://tokens.pancakeswap.finance/images/${imagePath}${checkedsummedAddress}.png`
+      `${ASSET_CDN}/assets/${checkedsummedAddress}.png`
     : ''
-  return (
-    <StyledLogo size={size} srcs={src ? [srcFromPCS, src] : [srcFromPCS]} alt="token logo" useFilledIcon {...rest} />
-  )
+  return <StyledLogo size={size} srcs={[srcFromPCS]} alt="token logo" useFilledIcon {...rest} />
 }
 
 const DoubleCurrencyWrapper = styled.div`

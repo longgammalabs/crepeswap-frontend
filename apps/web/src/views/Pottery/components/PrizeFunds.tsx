@@ -1,8 +1,8 @@
-import { styled } from 'styled-components'
-import { Box, Flex, Text, Heading } from '@pancakeswap/uikit'
-import { useTranslation } from '@pancakeswap/localization'
+import { useTranslation } from '@iguanadex/localization'
+import { Box, Flex, Heading, Text } from '@iguanadex/uikit'
 import Divider from 'components/Divider'
 import Image from 'next/image'
+import { styled } from 'styled-components'
 
 const PrizeFundsContainer = styled(Flex)`
   width: 100%;

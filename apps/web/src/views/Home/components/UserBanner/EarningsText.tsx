@@ -1,4 +1,4 @@
-import { ContextApi } from '@pancakeswap/localization'
+import { ContextApi } from '@iguanadex/localization'
 import BigNumber from 'bignumber.js'
 
 export const getEarningsText = (

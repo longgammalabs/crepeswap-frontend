@@ -1,5 +1,5 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { Button, Text, useMatchBreakpoints, Box, OpenNewIcon } from '@pancakeswap/uikit'
+import { useTranslation } from '@iguanadex/localization'
+import { Box, Button, OpenNewIcon, Text, useMatchBreakpoints } from '@iguanadex/uikit'
 import Image from 'next/legacy/image'
 import { styled } from 'styled-components'
 import { Aptos, AptosXPancakeSwap } from './images'

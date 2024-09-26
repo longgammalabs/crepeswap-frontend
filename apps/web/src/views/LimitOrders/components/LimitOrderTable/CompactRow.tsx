@@ -1,6 +1,6 @@
 import { Order } from '@gelatonetwork/limit-orders-lib'
-import { Flex, ChevronRightIcon, Text, Box, useModal } from '@pancakeswap/uikit'
-import { useTranslation } from '@pancakeswap/localization'
+import { useTranslation } from '@iguanadex/localization'
+import { Box, ChevronRightIcon, Flex, Text, useModal } from '@iguanadex/uikit'
 import useFormattedOrderData from 'views/LimitOrders/hooks/useFormattedOrderData'
 import CurrencyFormat from './CurrencyFormat'
 import { DetailLimitOrderModal } from './DetailLimitOrderModal'

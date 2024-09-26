@@ -1,6 +1,6 @@
+import { useTranslation } from '@iguanadex/localization'
+import { Box, ChevronRightIcon, Flex, PrizeIcon, SmallDotIcon, Text } from '@iguanadex/uikit'
 import { styled } from 'styled-components'
-import { useTranslation } from '@pancakeswap/localization'
-import { Text, Flex, ChevronRightIcon, Box, SmallDotIcon, PrizeIcon } from '@pancakeswap/uikit'
 import { dateOptions, timeOptions } from '../../helpers'
 
 interface FinishedRoundRowProps {

@@ -1,7 +1,7 @@
-import React, { useCallback } from 'react'
-import { ArrowDownIcon, IconButton, ArrowUpDownIcon, AutoColumn } from '@pancakeswap/uikit'
-import { styled } from 'styled-components'
+import { ArrowDownIcon, ArrowUpDownIcon, AutoColumn, IconButton } from '@iguanadex/uikit'
 import { AutoRow } from 'components/Layout/Row'
+import React, { useCallback } from 'react'
+import { styled } from 'styled-components'
 
 const StyledButton = styled(IconButton)`
   box-shadow: inset 0px -2px 0px rgba(0, 0, 0, 0.1);

@@ -1,6 +1,7 @@
-import { ChainId } from '@pancakeswap/chains'
-import { BOOST_WEIGHT, DURATION_FACTOR, MAX_LOCK_DURATION } from '@pancakeswap/pools'
-import { BIG_ZERO } from '@pancakeswap/utils/bigNumber'
+import { ChainId } from '@iguanadex/chains'
+import { BOOST_WEIGHT, DURATION_FACTOR, MAX_LOCK_DURATION } from '@iguanadex/pools'
+import { BIG_ZERO } from '@iguanadex/utils/bigNumber'
+import { useQuery } from '@tanstack/react-query'
 import BN from 'bignumber.js'
 import { BLOCKS_PER_YEAR } from 'config'
 import { masterChefV2ABI } from 'config/abi/masterchefV2'
@@ -9,7 +10,6 @@ import { useCallback, useMemo } from 'react'
 import { useCakeVault } from 'state/pools/hooks'
 import { getMasterChefV2Address } from 'utils/addressHelpers'
 import { publicClient } from 'utils/wagmi'
-import { useQuery } from '@tanstack/react-query'
 
 const masterChefAddress = getMasterChefV2Address()
 

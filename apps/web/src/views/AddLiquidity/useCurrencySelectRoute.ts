@@ -1,5 +1,5 @@
-import { Currency } from '@pancakeswap/sdk'
-import { CAKE, USDC } from '@pancakeswap/tokens'
+import { Currency } from '@iguanadex/sdk'
+import { CAKE, USDC } from '@iguanadex/tokens'
 import { useActiveChainId } from 'hooks/useActiveChainId'
 import useNativeCurrency from 'hooks/useNativeCurrency'
 import { useRouter } from 'next/router'

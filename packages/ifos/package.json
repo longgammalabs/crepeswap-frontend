@@ -1,29 +1,29 @@
 {
-  "name": "@pancakeswap/ifos",
+  "name": "@iguanadex/ifos",
   "version": "3.0.4",
   "sideEffects": false,
-  "private": true,
+  "private": false,
   "scripts": {
     "test": "vitest --run"
   },
   "type": "module",
   "peerDependencies": {
-    "@pancakeswap/sdk": "workspace:*",
-    "@pancakeswap/tokens": "workspace:*",
-    "@pancakeswap/utils": "workspace:*",
+    "@iguanadex/sdk": "workspace:*",
+    "@iguanadex/tokens": "workspace:*",
+    "@iguanadex/utils": "workspace:*",
     "viem": "1.19.11",
     "wagmi": "1.4.13"
   },
   "dependencies": {
     "@layerzerolabs/scan-client": "^0.0.6",
-    "@pancakeswap/chains": "workspace:*",
+    "@iguanadex/chains": "workspace:*",
     "bignumber.js": "^9.0.0"
   },
   "devDependencies": {
-    "@pancakeswap/sdk": "workspace:*",
-    "@pancakeswap/tokens": "workspace:*",
-    "@pancakeswap/tsconfig": "workspace:*",
-    "@pancakeswap/utils": "workspace:*",
+    "@iguanadex/sdk": "workspace:*",
+    "@iguanadex/tokens": "workspace:*",
+    "@iguanadex/tsconfig": "workspace:*",
+    "@iguanadex/utils": "workspace:*",
     "viem": "1.19.11",
     "wagmi": "1.4.13"
   }

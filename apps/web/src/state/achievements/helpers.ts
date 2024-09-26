@@ -1,4 +1,4 @@
-import { TranslateFunction } from '@pancakeswap/localization'
+import { TranslateFunction } from '@iguanadex/localization'
 import { campaignMap } from 'config/constants/campaigns'
 import { GRAPH_API_PROFILE } from 'config/constants/endpoints'
 import { gql, request } from 'graphql-request'

@@ -1,5 +1,5 @@
-import { ChainId } from '@pancakeswap/chains'
-import { Text } from '@pancakeswap/uikit'
+import { ChainId } from '@iguanadex/chains'
+import { Text } from '@iguanadex/uikit'
 import styled from 'styled-components'
 import { chains } from 'utils/wagmi'
 import { NetworkLogo, NetworkLogoTheme } from './NetworkLogo'

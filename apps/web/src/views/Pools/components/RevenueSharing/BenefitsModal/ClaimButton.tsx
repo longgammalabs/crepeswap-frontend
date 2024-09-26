@@ -1,5 +1,5 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { Button, useToast } from '@pancakeswap/uikit'
+import { useTranslation } from '@iguanadex/localization'
+import { Button, useToast } from '@iguanadex/uikit'
 import BigNumber from 'bignumber.js'
 import { ToastDescriptionWithTx } from 'components/Toast'
 import useAccountActiveChain from 'hooks/useAccountActiveChain'

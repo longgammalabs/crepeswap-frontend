@@ -1,4 +1,4 @@
-import { ChainId } from '@pancakeswap/chains'
+import { ChainId } from '@iguanadex/chains'
 import { Address } from 'wagmi'
 
 export const WBETH: Record<number, Address> = {

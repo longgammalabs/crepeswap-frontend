@@ -1,8 +1,8 @@
-import { useAccount } from 'wagmi'
-import { Pool } from '@pancakeswap/widgets-internal'
-import { useUserPoolStakedOnly, useUserPoolsViewMode } from 'state/user/hooks'
+import { Token } from '@iguanadex/sdk'
+import { Pool } from '@iguanadex/widgets-internal'
 import { useInitialBlockTimestamp } from 'state/block/hooks'
-import { Token } from '@pancakeswap/sdk'
+import { useUserPoolStakedOnly, useUserPoolsViewMode } from 'state/user/hooks'
+import { useAccount } from 'wagmi'
 
 const POOL_START_THRESHOLD = 60 * 4
 

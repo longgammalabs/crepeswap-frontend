@@ -8,10 +8,10 @@ import {
   Token,
   TradeType,
   ZERO,
-} from '@pancakeswap/sdk'
-import { Route, SmartRouter, SmartRouterTrade } from '@pancakeswap/smart-router'
-import { formatPrice, parseNumberToFraction } from '@pancakeswap/utils/formatFractions'
-import { FeeAmount } from '@pancakeswap/v3-sdk'
+} from '@iguanadex/sdk'
+import { Route, SmartRouter, SmartRouterTrade } from '@iguanadex/smart-router'
+import { formatPrice, parseNumberToFraction } from '@iguanadex/utils/formatFractions'
+import { FeeAmount } from '@iguanadex/v3-sdk'
 
 import { BIPS_BASE, INPUT_FRACTION_AFTER_FEE } from 'config/constants/exchange'
 import { Field } from 'state/swap/actions'

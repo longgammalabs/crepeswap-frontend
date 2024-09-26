@@ -1,17 +1,17 @@
 {
-  "name": "@pancakeswap/v3-sdk",
+  "name": "@iguanadex/v3-sdk",
   "license": "MIT",
   "publishConfig": {
     "access": "public"
   },
-  "version": "3.8.0",
-  "description": "⚒️ An SDK for building applications on top of Pancakeswap V3",
+  "version": "3.8.2",
+  "description": "⚒️ An SDK for building applications on top of IguanaDEX V3",
   "files": [
     "dist"
   ],
   "keywords": [
-    "pancakeswap",
-    "bsc"
+    "iguanadex",
+    "etherlink"
   ],
   "sideEffects": false,
   "main": "dist/index.js",
@@ -26,9 +26,9 @@
     "clean": "rm -rf .turbo && rm -rf node_modules && rm -rf dist"
   },
   "dependencies": {
-    "@pancakeswap/sdk": "workspace:*",
-    "@pancakeswap/swap-sdk-core": "workspace:*",
-    "@pancakeswap/chains": "workspace:*",
+    "@iguanadex/sdk": "workspace:*",
+    "@iguanadex/swap-sdk-core": "workspace:*",
+    "@iguanadex/chains": "workspace:*",
     "big.js": "^5.2.2",
     "decimal.js-light": "^2.5.0",
     "tiny-invariant": "^1.3.0",
@@ -37,7 +37,7 @@
     "viem": "1.19.11"
   },
   "devDependencies": {
-    "@pancakeswap/utils": "workspace:*",
+    "@iguanadex/utils": "workspace:*",
     "tsup": "^6.7.0"
   },
   "engines": {

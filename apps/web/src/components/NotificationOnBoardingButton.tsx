@@ -1,5 +1,5 @@
-import { TranslateFunction, useTranslation } from '@pancakeswap/localization'
-import { AutoColumn, CircleLoader, Flex, Text, useToast } from '@pancakeswap/uikit'
+import { TranslateFunction, useTranslation } from '@iguanadex/localization'
+import { AutoColumn, CircleLoader, Flex, Text, useToast } from '@iguanadex/uikit'
 import {
   usePrepareRegistration,
   useRegister,

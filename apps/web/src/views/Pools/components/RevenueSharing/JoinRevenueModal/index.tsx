@@ -1,16 +1,16 @@
+import { Box, Card, Flex, LinkExternal, Modal, Text, useMatchBreakpoints } from '@iguanadex/uikit'
+import { Pool } from '@iguanadex/widgets-internal'
 import { useMemo } from 'react'
 import { styled } from 'styled-components'
-import { Modal, Text, Card, Flex, Box, LinkExternal, useMatchBreakpoints } from '@pancakeswap/uikit'
-import { Pool } from '@pancakeswap/widgets-internal'
 
-import Image from 'next/image'
+import { useTranslation } from '@iguanadex/localization'
+import { Token } from '@iguanadex/sdk'
 import useTheme from 'hooks/useTheme'
-import { Token } from '@pancakeswap/sdk'
-import { useTranslation } from '@pancakeswap/localization'
-import JoinButton from 'views/Pools/components/RevenueSharing/JoinRevenueModal/JoinButton'
-import { useVaultPoolByKey, usePoolsWithVault } from 'state/pools/hooks'
-import { VaultKey, DeserializedLockedCakeVault } from 'state/types'
+import Image from 'next/image'
+import { usePoolsWithVault, useVaultPoolByKey } from 'state/pools/hooks'
+import { DeserializedLockedCakeVault, VaultKey } from 'state/types'
 import LockedStaking from 'views/Pools/components/LockedPool/LockedStaking'
+import JoinButton from 'views/Pools/components/RevenueSharing/JoinRevenueModal/JoinButton'
 
 interface JoinRevenueModalProps {
   refresh?: () => void

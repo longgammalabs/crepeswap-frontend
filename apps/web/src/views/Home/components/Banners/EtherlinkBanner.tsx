@@ -1,7 +1,8 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { Button, Flex, OpenNewIcon, Text, useMatchBreakpoints } from '@pancakeswap/uikit'
-import { NextLinkFromReactRouter } from '@pancakeswap/widgets-internal'
+import { useTranslation } from '@iguanadex/localization'
+import { Button, Flex, OpenNewIcon, Text, useMatchBreakpoints } from '@iguanadex/uikit'
+import { NextLinkFromReactRouter } from '@iguanadex/widgets-internal'
 // eslint-disable-next-line import/no-named-default
+import { ASSET_CDN } from 'config/constants/endpoints'
 import Image from 'next/legacy/image'
 import { memo } from 'react'
 import styled from 'styled-components'
@@ -9,8 +10,8 @@ import * as S from './Styled'
 import { flyingAnim } from './animations'
 import { baseBg, baseBgMobile, baseTree } from './images'
 
-const iguanaLogo = 'https://raw.githubusercontent.com/Iguana-DEX/assets/main/iguana_brand_assets/logo-dark.webp'
-const etherlinkLogo = 'https://raw.githubusercontent.com/Iguana-DEX/assets/main/chains/42793.png'
+const iguanaLogo = `${ASSET_CDN}/iguana_brand_assets/logo-dark.webp`
+const etherlinkLogo = `${ASSET_CDN}/chains/42793.png`
 
 const RightWrapper = styled.div`
   position: absolute;
@@ -134,8 +135,8 @@ const BaseBanner = () => {
             <Image
               src={etherlinkLogo}
               alt="Etherlink Logo"
-              width={isMobile ? 25 : 32}
-              height={isMobile ? 25 : 32}
+              width={isMobile ? 24 : 28}
+              height={isMobile ? 24 : 28}
               unoptimized
             />
           </Flex>
@@ -153,7 +154,7 @@ const BaseBanner = () => {
         <RightWrapper>
           {/* <div style={{ borderRadius: '0px', overflow: 'hidden' }}>
             <Image
-              src="https://raw.githubusercontent.com/Iguana-DEX/assets/main/iguana_brand_assets/bg-header.webp"
+              src="https://raw.githubusercontent.com/IguanaDEX/assets/main/iguana_brand_assets/bg-header.webp"
               alt="Background header"
               layout="fill"
               objectFit="cover"

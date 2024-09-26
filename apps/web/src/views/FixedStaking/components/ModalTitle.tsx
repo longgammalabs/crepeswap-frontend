@@ -1,7 +1,7 @@
-import { Flex, Heading } from '@pancakeswap/uikit'
-import { CurrencyLogo } from '@pancakeswap/widgets-internal'
-import { useTranslation } from '@pancakeswap/localization'
-import { Currency } from '@pancakeswap/swap-sdk-core'
+import { useTranslation } from '@iguanadex/localization'
+import { Currency } from '@iguanadex/swap-sdk-core'
+import { Flex, Heading } from '@iguanadex/uikit'
+import { CurrencyLogo } from '@iguanadex/widgets-internal'
 import { UnlockedFixedTag } from './UnlockedFixedTag'
 
 export function ModalTitle({

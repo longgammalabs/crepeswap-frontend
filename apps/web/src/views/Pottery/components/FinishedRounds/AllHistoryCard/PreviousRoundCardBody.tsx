@@ -1,7 +1,7 @@
 /* eslint-disable react/no-array-index-key */
-import { useTranslation } from '@pancakeswap/localization'
-import { Balance, Box, CardBody, CardRibbon, Flex, ScanLink, Skeleton, Text } from '@pancakeswap/uikit'
-import { getBalanceNumber } from '@pancakeswap/utils/formatBalance'
+import { useTranslation } from '@iguanadex/localization'
+import { Balance, Box, CardBody, CardRibbon, Flex, ScanLink, Skeleton, Text } from '@iguanadex/uikit'
+import { getBalanceNumber } from '@iguanadex/utils/formatBalance'
 import BigNumber from 'bignumber.js'
 import Divider from 'components/Divider'
 import { useCakePrice } from 'hooks/useCakePrice'

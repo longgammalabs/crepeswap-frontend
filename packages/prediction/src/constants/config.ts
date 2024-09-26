@@ -1,4 +1,4 @@
-import { BSC_BLOCK_TIME } from '@pancakeswap/pools'
+import { BSC_BLOCK_TIME } from '@iguanadex/pools'
 import { LeaderboardMinRoundsPlatedType, PredictionSupportedSymbol } from '../type'
 
 export const REWARD_RATE = 0.97

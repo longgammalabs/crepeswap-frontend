@@ -1,10 +1,10 @@
 {
-  "name": "@pancakeswap/smart-router",
-  "version": "6.0.1",
+  "name": "@iguanadex/smart-router",
+  "version": "1.0.4",
   "description": "A SDK for getting best routes from AMM",
   "repository": {
     "type": "git",
-    "url": "https://github.com/pancakeswap/pancake-frontend.git",
+    "url": "https://github.com/iguanadex/frontend.git",
     "directory": "packages/smart-router"
   },
   "main": "dist/evm.js",
@@ -22,15 +22,15 @@
     "dist"
   ],
   "dependencies": {
-    "@pancakeswap/chains": "workspace:*",
-    "@pancakeswap/gauges": "workspace:*",
-    "@pancakeswap/multicall": "workspace:*",
-    "@pancakeswap/sdk": "workspace:*",
-    "@pancakeswap/stable-swap-sdk": "workspace:*",
-    "@pancakeswap/swap-sdk-core": "workspace:*",
-    "@pancakeswap/tokens": "workspace:*",
-    "@pancakeswap/token-lists": "workspace:*",
-    "@pancakeswap/v3-sdk": "workspace:*",
+    "@iguanadex/chains": "workspace:*",
+    "@iguanadex/gauges": "workspace:*",
+    "@iguanadex/multicall": "workspace:*",
+    "@iguanadex/sdk": "workspace:*",
+    "@iguanadex/stable-swap-sdk": "workspace:*",
+    "@iguanadex/swap-sdk-core": "workspace:*",
+    "@iguanadex/tokens": "workspace:*",
+    "@iguanadex/token-lists": "workspace:*",
+    "@iguanadex/v3-sdk": "workspace:*",
     "async-retry": "^1.3.1",
     "debug": "^4.3.4",
     "graphql": "^16.8.1",
@@ -43,8 +43,8 @@
     "zod": "^3.22.3"
   },
   "devDependencies": {
-    "@pancakeswap/tsconfig": "workspace:*",
-    "@pancakeswap/utils": "workspace:*",
+    "@iguanadex/tsconfig": "workspace:*",
+    "@iguanadex/utils": "workspace:*",
     "@types/async-retry": "^1.4.4",
     "@types/debug": "^4.1.7",
     "@types/lodash": "^4.14.178",

@@ -1,5 +1,5 @@
-import { Trans } from '@pancakeswap/localization'
-import { Button } from '@pancakeswap/uikit'
+import { Trans } from '@iguanadex/localization'
+import { Button } from '@iguanadex/uikit'
 import { useRouter } from 'next/router'
 import { memo } from 'react'
 

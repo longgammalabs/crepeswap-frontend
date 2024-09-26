@@ -1,13 +1,13 @@
+import { usePreviousValue } from '@iguanadex/hooks'
+import { useTranslation } from '@iguanadex/localization'
+import { Link, Text } from '@iguanadex/uikit'
 import DisclaimerModal, { CheckType } from 'components/DisclaimerModal'
-import { useUserNotUsCitizenAcknowledgement, IdType } from 'hooks/useUserIsUsCitizenAcknowledgement'
-import { memo, useCallback, useEffect } from 'react'
-import { getPerpetualUrl } from 'utils/getPerpetualUrl'
 import { useActiveChainId } from 'hooks/useActiveChainId'
-import { useTheme } from 'styled-components'
-import { Text, Link } from '@pancakeswap/uikit'
-import { useTranslation } from '@pancakeswap/localization'
+import { IdType, useUserNotUsCitizenAcknowledgement } from 'hooks/useUserIsUsCitizenAcknowledgement'
 import { useRouter } from 'next/router'
-import { usePreviousValue } from '@pancakeswap/hooks'
+import { memo, useCallback, useEffect } from 'react'
+import { useTheme } from 'styled-components'
+import { getPerpetualUrl } from 'utils/getPerpetualUrl'
 
 interface USCitizenConfirmModalProps {
   id: IdType

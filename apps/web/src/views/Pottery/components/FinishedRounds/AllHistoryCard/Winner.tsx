@@ -1,8 +1,8 @@
-import { styled } from 'styled-components'
-import { Box, Flex, Text, ProfileAvatar, Skeleton } from '@pancakeswap/uikit'
-import { useProfileForAddress } from 'state/profile/hooks'
-import truncateHash from '@pancakeswap/utils/truncateHash'
+import { Box, Flex, ProfileAvatar, Skeleton, Text } from '@iguanadex/uikit'
+import truncateHash from '@iguanadex/utils/truncateHash'
 import { useDomainNameForAddress } from 'hooks/useDomain'
+import { useProfileForAddress } from 'state/profile/hooks'
+import { styled } from 'styled-components'
 
 const Container = styled(Flex)`
   min-width: 158px;

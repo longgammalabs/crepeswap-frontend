@@ -1,11 +1,11 @@
-import { ChainId, testnetChainIds } from '@pancakeswap/chains'
+import { ChainId, testnetChainIds } from '@iguanadex/chains'
 import {
   SUPPORTED_CHAIN_IDS,
   SerializedPool,
   getPoolContractBySousId,
   getPoolsConfig,
   isLegacyPool,
-} from '@pancakeswap/pools'
+} from '@iguanadex/pools'
 import { publicClient } from 'utils/client'
 import { Address, formatUnits } from 'viem'
 import { describe, it } from 'vitest'

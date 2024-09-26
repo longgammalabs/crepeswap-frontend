@@ -1,6 +1,6 @@
-import { ChainId } from '@pancakeswap/chains'
-import { useTranslation } from '@pancakeswap/localization'
-import { NATIVE } from '@pancakeswap/sdk'
+import { ChainId } from '@iguanadex/chains'
+import { useTranslation } from '@iguanadex/localization'
+import { NATIVE } from '@iguanadex/sdk'
 import {
   ArrowDownIcon,
   ArrowUpIcon,
@@ -13,7 +13,7 @@ import {
   UserMenuDivider,
   UserMenuItem,
   useTooltip,
-} from '@pancakeswap/uikit'
+} from '@iguanadex/uikit'
 import { useActiveChainId, useLocalNetworkChain } from 'hooks/useActiveChainId'
 import { useNetworkConnectorUpdater } from 'hooks/useActiveWeb3React'
 import { useHover } from 'hooks/useHover'
@@ -25,6 +25,7 @@ import { useUserShowTestnet } from 'state/user/hooks/useUserShowTestnet'
 import { chainNameConverter } from 'utils/chainNameConverter'
 import { chains } from 'utils/wagmi'
 import { useNetwork } from 'wagmi'
+import { ASSET_CDN } from '../config/constants/endpoints'
 import { ChainLogo } from './Logo/ChainLogo'
 
 const NetworkSelect = ({ switchNetwork, chainId }) => {
@@ -174,7 +175,7 @@ export const NetworkSwitcher = () => {
         mr="8px"
         placement="bottom"
         variant={isLoading ? 'pending' : isWrongNetwork ? 'danger' : 'default'}
-        avatarSrc={`https://raw.githubusercontent.com/Iguana-DEX/assets/main/chains/${chainId}.png`}
+        avatarSrc={`${ASSET_CDN}/chains/${chainId}.png`}
         disabled={cannotChangeNetwork}
         text={
           isLoading ? (

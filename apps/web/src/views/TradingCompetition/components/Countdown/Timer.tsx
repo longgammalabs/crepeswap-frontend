@@ -1,8 +1,8 @@
-import { styled } from 'styled-components'
-import { Flex, Heading, Text, Link, useTooltip, BscScanIcon } from '@pancakeswap/uikit'
-import { getBlockExploreLink } from 'utils'
-import { useTranslation, ContextApi } from '@pancakeswap/localization'
+import { ContextApi, useTranslation } from '@iguanadex/localization'
+import { BscScanIcon, Flex, Heading, Link, Text, useTooltip } from '@iguanadex/uikit'
 import { ReactNode } from 'react'
+import { styled } from 'styled-components'
+import { getBlockExploreLink } from 'utils'
 
 export interface TimerProps {
   prefix?: string

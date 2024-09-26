@@ -1,6 +1,6 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { Box, Button, Card, Flex, LibraryIcon, OpenNewIcon, Text } from '@pancakeswap/uikit'
-import { NextLinkFromReactRouter } from '@pancakeswap/widgets-internal'
+import { useTranslation } from '@iguanadex/localization'
+import { Box, Button, Card, Flex, LibraryIcon, OpenNewIcon, Text } from '@iguanadex/uikit'
+import { NextLinkFromReactRouter } from '@iguanadex/widgets-internal'
 import { ASSET_CDN } from 'config/constants/endpoints'
 import { styled } from 'styled-components'
 

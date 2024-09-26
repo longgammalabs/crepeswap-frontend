@@ -1,6 +1,6 @@
-import { Box, Flex, Skeleton } from '@pancakeswap/uikit'
-import { styled } from 'styled-components'
+import { Box, Flex, Skeleton } from '@iguanadex/uikit'
 import times from 'lodash/times'
+import { styled } from 'styled-components'
 import { PROPOSALS_TO_SHOW } from '../../config'
 
 const Row = styled(Flex)`

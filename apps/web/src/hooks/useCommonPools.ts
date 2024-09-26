@@ -1,8 +1,10 @@
 /* eslint-disable @typescript-eslint/no-shadow, no-await-in-loop, no-constant-condition, no-console */
-import { Currency } from '@pancakeswap/sdk'
-import { Pool } from '@pancakeswap/smart-router'
-import { useMemo, useCallback } from 'react'
+import { Currency } from '@iguanadex/sdk'
+import { Pool } from '@iguanadex/smart-router'
+import { useCallback, useMemo } from 'react'
 
+import { useStableCandidatePools } from './usePoolsOnChain'
+import { useV2CandidatePools } from './useV2Pools'
 import {
   useV3CandidatePools,
   useV3CandidatePoolsWithoutTicks,
@@ -10,8 +12,6 @@ import {
   V3PoolsHookParams,
   V3PoolsResult,
 } from './useV3Pools'
-import { useStableCandidatePools } from './usePoolsOnChain'
-import { useV2CandidatePools } from './useV2Pools'
 
 interface FactoryOptions {
   // use to identify hook

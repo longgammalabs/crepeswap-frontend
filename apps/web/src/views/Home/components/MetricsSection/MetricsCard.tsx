@@ -1,7 +1,7 @@
-import { styled } from 'styled-components'
-import { Box, Text, lightColors, useMatchBreakpoints, BoxProps } from '@pancakeswap/uikit'
-import CountUp from 'react-countup'
+import { Box, BoxProps, Text, lightColors, useMatchBreakpoints } from '@iguanadex/uikit'
 import useTheme from 'hooks/useTheme'
+import CountUp from 'react-countup'
+import { styled } from 'styled-components'
 
 export const Divider = styled.div`
   height: 45px;

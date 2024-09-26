@@ -1,38 +1,38 @@
-import { useEffect, useMemo, useState, useCallback } from 'react'
 import {
   ArrowBackIcon,
   ArrowForwardIcon,
+  BnbUsdtPairTokenIcon,
+  Card,
   Flex,
   Grid,
   Heading,
-  Text,
-  Td,
-  ProfileAvatar,
-  BnbUsdtPairTokenIcon,
-  Table,
-  Th,
-  Card,
-  Skeleton,
-  useMatchBreakpoints,
-  PageHeader,
-  Select,
   OptionProps,
+  PageHeader,
+  ProfileAvatar,
+  Select,
+  Skeleton,
+  Table,
+  Td,
+  Text,
+  Th,
   ToggleView,
-} from '@pancakeswap/uikit'
-import { NextLinkFromReactRouter } from '@pancakeswap/widgets-internal'
+  useMatchBreakpoints,
+} from '@iguanadex/uikit'
+import { NextLinkFromReactRouter } from '@iguanadex/widgets-internal'
+import { useCallback, useEffect, useMemo, useState } from 'react'
 
-import orderBy from 'lodash/orderBy'
-import { getLeastMostPriceInCollection } from 'state/nftMarket/helpers'
-import { ViewMode } from 'state/user/actions'
-import { Collection } from 'state/nftMarket/types'
-import { styled } from 'styled-components'
-import { useGetShuffledCollections } from 'state/nftMarket/hooks'
-import { useTranslation } from '@pancakeswap/localization'
+import { useTranslation } from '@iguanadex/localization'
+import { keepPreviousData, useQuery } from '@tanstack/react-query'
 import Page from 'components/Layout/Page'
-import { nftsBaseUrl } from 'views/Nft/market/constants'
 import PageLoader from 'components/Loader/PageLoader'
 import DELIST_COLLECTIONS from 'config/constants/nftsCollections/delist'
-import { keepPreviousData, useQuery } from '@tanstack/react-query'
+import orderBy from 'lodash/orderBy'
+import { getLeastMostPriceInCollection } from 'state/nftMarket/helpers'
+import { useGetShuffledCollections } from 'state/nftMarket/hooks'
+import { Collection } from 'state/nftMarket/types'
+import { ViewMode } from 'state/user/actions'
+import { styled } from 'styled-components'
+import { nftsBaseUrl } from 'views/Nft/market/constants'
 import CollectionCardWithVolume from '../components/CollectibleCard/CollectionCardWithVolume'
 
 export const ITEMS_PER_PAGE = 9

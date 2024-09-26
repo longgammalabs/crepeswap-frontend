@@ -1,24 +1,24 @@
 {
-  "name": "@pancakeswap/prediction",
-  "version": "1.0.6",
+  "name": "@iguanadex/prediction",
+  "version": "1.0.7",
   "sideEffects": false,
-  "private": true,
+  "private": false,
   "scripts": {
     "test": "vitest --run"
   },
   "type": "module",
   "peerDependencies": {
-    "@pancakeswap/sdk": "workspace:*"
+    "@iguanadex/sdk": "workspace:*"
   },
   "dependencies": {
-    "@pancakeswap/chains": "workspace:*",
-    "@pancakeswap/pools": "workspace:*",
-    "@pancakeswap/tokens": "workspace:*",
+    "@iguanadex/chains": "workspace:*",
+    "@iguanadex/pools": "workspace:*",
+    "@iguanadex/tokens": "workspace:*",
     "viem": "1.19.11",
     "wagmi": "1.4.13"
   },
   "devDependencies": {
-    "@pancakeswap/sdk": "workspace:*",
-    "@pancakeswap/tsconfig": "workspace:*"
+    "@iguanadex/sdk": "workspace:*",
+    "@iguanadex/tsconfig": "workspace:*"
   }
 }

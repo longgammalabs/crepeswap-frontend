@@ -1,11 +1,11 @@
-import { ChainId } from '@pancakeswap/chains'
+import { ChainId } from '@iguanadex/chains'
 import { useMemo } from 'react'
 import { createPortal } from 'react-dom'
 
-import { GRAPH_API_PREDICTION_BNB } from '@pancakeswap/prediction'
+import { GRAPH_API_PREDICTION_BNB } from '@iguanadex/prediction'
+import { getPortalRoot } from '@iguanadex/uikit'
 import { GRAPH_API_LOTTERY, V3_SUBGRAPH_URLS } from 'config/constants/endpoints'
 import { useActiveChainId } from 'hooks/useActiveChainId'
-import { getPortalRoot } from '@pancakeswap/uikit'
 import { SubgraphHealthIndicator, SubgraphHealthIndicatorProps } from './SubgraphHealthIndicator'
 
 interface FactoryParams {

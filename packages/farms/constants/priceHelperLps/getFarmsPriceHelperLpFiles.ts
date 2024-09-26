@@ -1,13 +1,13 @@
-import { ChainId } from '@pancakeswap/chains'
-import FarmsBscPriceHelper from './56'
-import FarmsBscTestnetPriceHelper from './97'
+import { ChainId } from '@iguanadex/chains'
 import FarmsEthereumPriceHelper from './1'
-import FarmsGoerliPriceHelper from './5'
+import FarmsEtherlinkTestnetHelper from './128123'
 import FarmsArbitrumHelper from './42161'
+import FarmsEtherlinkHelper from './42793'
+import FarmsGoerliPriceHelper from './5'
+import FarmsBscPriceHelper from './56'
 import FarmsLineaHelper from './59144'
 import FarmsBaseHelper from './8453'
-import FarmsEtherlinkTestnetHelper from './128123'
-import FarmsEtherlinkHelper from './42793'
+import FarmsBscTestnetPriceHelper from './97'
 
 export const getFarmsPriceHelperLpFiles = (chainId: ChainId) => {
   switch (chainId) {

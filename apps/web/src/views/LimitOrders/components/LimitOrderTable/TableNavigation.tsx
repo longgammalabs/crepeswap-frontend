@@ -1,11 +1,11 @@
-import { useState, useMemo, useCallback, ReactElement, memo, useEffect } from 'react'
-import { Text, Flex, Box, Grid, ArrowBackIcon, ArrowForwardIcon } from '@pancakeswap/uikit'
-import { styled } from 'styled-components'
-import { useTranslation } from '@pancakeswap/localization'
+import { useTranslation } from '@iguanadex/localization'
+import { ArrowBackIcon, ArrowForwardIcon, Box, Flex, Grid, Text } from '@iguanadex/uikit'
 import SubgraphHealthIndicator from 'components/SubgraphHealthIndicator'
-import NoOrdersMessage from './NoOrdersMessage'
+import { ReactElement, memo, useCallback, useEffect, useMemo, useState } from 'react'
+import { styled } from 'styled-components'
 import { ORDER_CATEGORY } from '../../types'
 import LoadingTable from './LoadingTable'
+import NoOrdersMessage from './NoOrdersMessage'
 
 const Arrow = styled.div`
   color: ${({ theme }) => theme.colors.primary};

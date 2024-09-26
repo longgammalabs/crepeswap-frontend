@@ -1,4 +1,4 @@
-import { TooltipOptions, useMatchBreakpoints, useTooltip } from '@pancakeswap/uikit'
+import { TooltipOptions, useMatchBreakpoints, useTooltip } from '@iguanadex/uikit'
 
 type TooltipsProps = {
   content: React.ReactNode

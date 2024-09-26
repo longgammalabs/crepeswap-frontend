@@ -1,5 +1,5 @@
 /* eslint-disable no-nested-ternary */
-import { useTranslation } from '@pancakeswap/localization'
+import { useTranslation } from '@iguanadex/localization'
 import {
   Box,
   Breadcrumbs,
@@ -16,10 +16,10 @@ import {
   Text,
   useMatchBreakpoints,
   useTooltip,
-} from '@pancakeswap/uikit'
-import { NextLinkFromReactRouter } from '@pancakeswap/widgets-internal'
+} from '@iguanadex/uikit'
+import { NextLinkFromReactRouter } from '@iguanadex/widgets-internal'
 
-import { getChainName } from '@pancakeswap/chains'
+import { getChainName } from '@iguanadex/chains'
 import { useQuery } from '@tanstack/react-query'
 import BigNumber from 'bignumber.js'
 import Page from 'components/Layout/Page'
@@ -80,7 +80,7 @@ const LockedTokensContainer = styled(Flex)`
 `
 
 const getFarmConfig = async (chainId: number) => {
-  const config = await import(`@pancakeswap/farms/constants/${getChainName(chainId)}`)
+  const config = await import(`@iguanadex/farms/constants/${getChainName(chainId)}`)
   return config
 }
 

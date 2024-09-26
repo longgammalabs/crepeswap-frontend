@@ -1,8 +1,8 @@
 {
-  "name": "@pancakeswap/chains",
+  "name": "@iguanadex/chains",
   "license": "MIT",
-  "version": "0.4.1",
-  "description": "The single source of truth for Pancakeswap chain-related information",
+  "version": "1.0.4",
+  "description": "The single source of truth for IguanaDEX chain-related information",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
   "module": "dist/index.mjs",
@@ -11,11 +11,11 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/pancakeswap/pancake-frontend.git",
+    "url": "https://github.com/iguanadex/frontend.git",
     "directory": "packages/chains"
   },
   "keywords": [
-    "pancakeswap",
+    "iguanadex",
     "chain"
   ],
   "exports": {

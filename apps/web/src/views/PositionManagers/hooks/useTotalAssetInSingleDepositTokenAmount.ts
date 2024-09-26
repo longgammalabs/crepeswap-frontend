@@ -1,7 +1,7 @@
-import { useMemo } from 'react'
-import { formatAmount } from '@pancakeswap/utils/formatFractions'
-import { Currency, CurrencyAmount } from '@pancakeswap/sdk'
+import { Currency, CurrencyAmount } from '@iguanadex/sdk'
+import { formatAmount } from '@iguanadex/utils/formatFractions'
 import BigNumber from 'bignumber.js'
+import { useMemo } from 'react'
 
 export const useTotalAssetInSingleDepositTokenAmount = (
   singleDepositTokenAmount?: CurrencyAmount<Currency>,

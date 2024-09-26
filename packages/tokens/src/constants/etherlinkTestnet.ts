@@ -1,5 +1,5 @@
-import { ChainId } from '@pancakeswap/chains'
-import { WETH9, WXTZ } from '@pancakeswap/sdk'
+import { ChainId } from '@iguanadex/chains'
+import { WETH9, WXTZ } from '@iguanadex/sdk'
 import { IGN, USDC, USDT, eUSD, tzBTC } from './common'
 
 export const etherlinkTestnetTokens = {

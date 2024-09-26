@@ -1,5 +1,5 @@
-import { Token } from '@pancakeswap/swap-sdk-core'
-import { FeeAmount } from '@pancakeswap/v3-sdk'
+import { Token } from '@iguanadex/swap-sdk-core'
+import { FeeAmount } from '@iguanadex/v3-sdk'
 import { Address } from 'viem'
 
 export type ComputedFarmConfigV3 = {

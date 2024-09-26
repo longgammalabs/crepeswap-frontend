@@ -1,5 +1,5 @@
-import { ChainId } from '@pancakeswap/chains'
-import { Token } from '@pancakeswap/swap-sdk-core'
+import { ChainId } from '@iguanadex/chains'
+import { Token } from '@iguanadex/swap-sdk-core'
 import { useQuery } from '@tanstack/react-query'
 import { tradingRewardPairConfigChainMap } from 'views/TradingReward/config/pairs'
 import { AllTradingRewardPairDetail } from 'views/TradingReward/hooks/useAllTradingRewardPair'

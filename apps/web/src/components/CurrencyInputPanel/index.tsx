@@ -1,7 +1,7 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { Currency, CurrencyAmount, Pair, Percent, Token } from '@pancakeswap/sdk'
-import { WrappedTokenInfo } from '@pancakeswap/token-lists'
-import { bscTokens, ethereumTokens } from '@pancakeswap/tokens'
+import { useTranslation } from '@iguanadex/localization'
+import { Currency, CurrencyAmount, Pair, Percent, Token } from '@iguanadex/sdk'
+import { WrappedTokenInfo } from '@iguanadex/token-lists'
+import { bscTokens, ethereumTokens } from '@iguanadex/tokens'
 import {
   ArrowDropDownIcon,
   Box,
@@ -13,14 +13,14 @@ import {
   Skeleton,
   Text,
   useModal,
-} from '@pancakeswap/uikit'
-import { formatAmount } from '@pancakeswap/utils/formatFractions'
-import { CurrencyLogo, DoubleCurrencyLogo, Swap as SwapUI } from '@pancakeswap/widgets-internal'
+} from '@iguanadex/uikit'
+import { formatAmount } from '@iguanadex/utils/formatFractions'
+import { CurrencyLogo, DoubleCurrencyLogo, Swap as SwapUI } from '@iguanadex/widgets-internal'
 import { memo, useCallback, useMemo } from 'react'
 import { styled } from 'styled-components'
 import { safeGetAddress } from 'utils'
 
-import { formatNumber } from '@pancakeswap/utils/formatBalance'
+import { formatNumber } from '@iguanadex/utils/formatBalance'
 import { useStablecoinPriceAmount } from 'hooks/useStablecoinPrice'
 import { StablePair } from 'views/AddLiquidity/AddStableLiquidity/hooks/useStableLPDerivedMintInfo'
 

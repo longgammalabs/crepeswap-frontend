@@ -1,4 +1,4 @@
-import { getFullDecimalMultiplier } from '@pancakeswap/utils/getFullDecimalMultiplier'
+import { getFullDecimalMultiplier } from '@iguanadex/utils/getFullDecimalMultiplier'
 
 export const BSC_BLOCK_TIME = 3
 export const ETHERLINK_BLOCK_TIME = 0.5

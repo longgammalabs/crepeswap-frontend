@@ -1,7 +1,7 @@
-import { styled } from 'styled-components'
-import { Heading, Text } from '@pancakeswap/uikit'
+import { useTranslation } from '@iguanadex/localization'
+import { Heading, Text } from '@iguanadex/uikit'
 import { useProfile } from 'state/profile/hooks'
-import { useTranslation } from '@pancakeswap/localization'
+import { styled } from 'styled-components'
 import NoProfileCard from './NoProfileCard'
 
 const HeaderWrapper = styled.div`

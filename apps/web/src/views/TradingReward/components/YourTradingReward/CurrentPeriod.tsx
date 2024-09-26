@@ -1,5 +1,5 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { Box, Card, Text } from '@pancakeswap/uikit'
+import { useTranslation } from '@iguanadex/localization'
+import { Box, Card, Text } from '@iguanadex/uikit'
 import { useMemo } from 'react'
 import { ApproveAndLockModal } from 'views/CakeStaking/components/ApproveAndLockModal'
 import { useLockModal } from 'views/CakeStaking/hooks/useLockModal'

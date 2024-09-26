@@ -1,26 +1,26 @@
-import { ReactNode, useCallback } from 'react'
-import { styled } from 'styled-components'
-import { StaticImageData } from 'next/dist/client/legacy/image'
+import { useTranslation } from '@iguanadex/localization'
 import {
+  Button,
   Card,
   CardBody,
   CardFooter,
+  CheckmarkCircleIcon,
   Flex,
-  Skeleton,
-  Button,
   LaurelLeftIcon,
   LaurelRightIcon,
-  CheckmarkCircleIcon,
+  Skeleton,
   useModal,
-} from '@pancakeswap/uikit'
-import { CLAIM, OVER } from 'config/constants/trading-competition/phases'
+} from '@iguanadex/uikit'
 import ConnectWalletButton from 'components/ConnectWalletButton'
 import SubgraphHealthIndicator from 'components/SubgraphHealthIndicator'
-import { useTranslation } from '@pancakeswap/localization'
-import ClaimModal from '../ClaimModal'
-import CardUserInfo from './CardUserInfo'
-import ShareImageModal from '../ShareImageModal'
+import { CLAIM, OVER } from 'config/constants/trading-competition/phases'
+import { StaticImageData } from 'next/dist/client/legacy/image'
+import { ReactNode, useCallback } from 'react'
+import { styled } from 'styled-components'
 import { YourScoreProps } from '../../types'
+import ClaimModal from '../ClaimModal'
+import ShareImageModal from '../ShareImageModal'
+import CardUserInfo from './CardUserInfo'
 
 const StyledCard = styled(Card)`
   ${({ theme }) => theme.mediaQueries.sm} {

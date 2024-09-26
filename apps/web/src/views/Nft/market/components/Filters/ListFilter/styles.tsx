@@ -1,4 +1,4 @@
-import { Flex, Image, Button, IconButton } from '@pancakeswap/uikit'
+import { Button, Flex, IconButton, Image } from '@iguanadex/uikit'
 import { styled } from 'styled-components'
 
 export const StyledItemRow = styled(Flex)`

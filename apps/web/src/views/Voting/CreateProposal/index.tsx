@@ -14,15 +14,15 @@ import {
   Text,
   useModal,
   useToast,
-} from '@pancakeswap/uikit'
+} from '@iguanadex/uikit'
 import snapshot from '@snapshot-labs/snapshot.js'
 import isEmpty from 'lodash/isEmpty'
 import times from 'lodash/times'
 import { ChangeEvent, FormEvent, useEffect, useMemo, useState } from 'react'
 import { useInitialBlock } from 'state/block/hooks'
 
-import { useTranslation } from '@pancakeswap/localization'
-import truncateHash from '@pancakeswap/utils/truncateHash'
+import { useTranslation } from '@iguanadex/localization'
+import truncateHash from '@iguanadex/utils/truncateHash'
 import ConnectWalletButton from 'components/ConnectWalletButton'
 import Container from 'components/Layout/Container'
 import dynamic from 'next/dynamic'

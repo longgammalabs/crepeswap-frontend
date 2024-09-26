@@ -1,5 +1,5 @@
-import { Currency, CurrencyAmount, Native, Token, WNATIVE } from '@pancakeswap/sdk'
-import { ChainId } from '@pancakeswap/chains'
+import { ChainId } from '@iguanadex/chains'
+import { Currency, CurrencyAmount, Native, Token, WNATIVE } from '@iguanadex/sdk'
 
 export function wrappedCurrency(currency: Currency | undefined, chainId: ChainId): Token | undefined {
   return currency?.isNative ? WNATIVE[chainId] : currency?.isToken ? currency : undefined

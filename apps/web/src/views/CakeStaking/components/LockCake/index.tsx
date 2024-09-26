@@ -1,4 +1,4 @@
-import { Grid, useMatchBreakpoints } from '@pancakeswap/uikit'
+import { Grid, useMatchBreakpoints } from '@iguanadex/uikit'
 import { useLockModal } from 'views/CakeStaking/hooks/useLockModal'
 import { useCakeLockStatus } from 'views/CakeStaking/hooks/useVeCakeUserInfo'
 import { CakeLockStatus } from '../../types'

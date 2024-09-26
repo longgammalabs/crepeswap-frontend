@@ -1,6 +1,6 @@
-import { useDebouncedChangeHandler } from '@pancakeswap/hooks'
-import { useTranslation } from '@pancakeswap/localization'
-import { Currency, Percent, WNATIVE } from '@pancakeswap/sdk'
+import { useDebouncedChangeHandler } from '@iguanadex/hooks'
+import { useTranslation } from '@iguanadex/localization'
+import { Currency, Percent, WNATIVE } from '@iguanadex/sdk'
 import {
   AddIcon,
   ArrowDownIcon,
@@ -17,8 +17,8 @@ import {
   useMatchBreakpoints,
   useModal,
   useToast,
-} from '@pancakeswap/uikit'
-import { useUserSlippage } from '@pancakeswap/utils/user'
+} from '@iguanadex/uikit'
+import { useUserSlippage } from '@iguanadex/utils/user'
 import { CommitButton } from 'components/CommitButton'
 import { useStableSwapNativeHelperContract } from 'hooks/useContract'
 import useNativeCurrency from 'hooks/useNativeCurrency'

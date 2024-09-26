@@ -1,11 +1,11 @@
+import { Token } from '@iguanadex/sdk'
+import { BIG_ZERO } from '@iguanadex/utils/bigNumber'
+import { getApy } from '@iguanadex/utils/compoundApyHelpers'
+import { getBalanceNumber, getDecimalAmount, getFullDisplayBalance } from '@iguanadex/utils/formatBalance'
+import { Pool } from '@iguanadex/widgets-internal'
 import BigNumber from 'bignumber.js'
 import { vaultPoolConfig } from 'config/constants/pools'
-import { BIG_ZERO } from '@pancakeswap/utils/bigNumber'
-import { getApy } from '@pancakeswap/utils/compoundApyHelpers'
-import { getBalanceNumber, getFullDisplayBalance, getDecimalAmount } from '@pancakeswap/utils/formatBalance'
 import memoize from 'lodash/memoize'
-import { Token } from '@pancakeswap/sdk'
-import { Pool } from '@pancakeswap/widgets-internal'
 
 // min deposit and withdraw amount
 export const MIN_LOCK_AMOUNT = new BigNumber(10000000000000)

@@ -1,5 +1,5 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { AutoColumn, Text } from '@pancakeswap/uikit'
+import { useTranslation } from '@iguanadex/localization'
+import { AutoColumn, Text } from '@iguanadex/uikit'
 import useTheme from 'hooks/useTheme'
 import { styled } from 'styled-components'
 import { PoolData } from '../../types'

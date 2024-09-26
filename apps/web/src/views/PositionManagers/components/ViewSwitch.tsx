@@ -1,5 +1,5 @@
+import { ToggleView } from '@iguanadex/uikit'
 import { memo } from 'react'
-import { ToggleView } from '@pancakeswap/uikit'
 
 import { useViewMode } from '../hooks'
 

@@ -1,4 +1,4 @@
-import { arbitrumTokens } from '@pancakeswap/tokens'
+import { arbitrumTokens } from '@iguanadex/tokens'
 import { getAddress } from 'viem'
 
 import { PoolCategory, SerializedPool } from '../../types'

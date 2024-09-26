@@ -1,4 +1,4 @@
-import { useTranslation } from '@pancakeswap/localization'
+import { useTranslation } from '@iguanadex/localization'
 import {
   Box,
   CheckmarkCircleIcon,
@@ -13,7 +13,7 @@ import {
   Text,
   UnlockIcon,
   WarningIcon,
-} from '@pancakeswap/uikit'
+} from '@iguanadex/uikit'
 import Trans from 'components/Trans'
 import { ReactNode, useMemo } from 'react'
 import { DeserializedLockedVaultUser } from 'state/types'

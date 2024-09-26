@@ -1,6 +1,6 @@
-import { Token } from '@pancakeswap/sdk'
-import { TooltipText, useTooltip, Balance } from '@pancakeswap/uikit'
-import { Pool } from '@pancakeswap/widgets-internal'
+import { Token } from '@iguanadex/sdk'
+import { Balance, TooltipText, useTooltip } from '@iguanadex/uikit'
+import { Pool } from '@iguanadex/widgets-internal'
 
 import AutoEarningsBreakdown from '../AutoEarningsBreakdown'
 

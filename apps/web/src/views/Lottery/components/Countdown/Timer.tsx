@@ -1,6 +1,6 @@
+import { useTranslation } from '@iguanadex/localization'
+import { Flex, Heading } from '@iguanadex/uikit'
 import { styled } from 'styled-components'
-import { Flex, Heading } from '@pancakeswap/uikit'
-import { useTranslation } from '@pancakeswap/localization'
 
 export interface TimerProps {
   seconds?: number

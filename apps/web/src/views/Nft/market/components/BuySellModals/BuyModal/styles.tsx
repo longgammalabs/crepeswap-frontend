@@ -1,6 +1,6 @@
-import { styled } from 'styled-components'
-import { Modal, Grid, Flex, Text, BinanceIcon, Skeleton } from '@pancakeswap/uikit'
+import { BinanceIcon, Flex, Grid, Modal, Skeleton, Text } from '@iguanadex/uikit'
 import { useBNBPrice } from 'hooks/useBNBPrice'
+import { styled } from 'styled-components'
 import { BuyingStage } from './types'
 
 export const StyledModal = styled(Modal)<{ stage: BuyingStage }>`

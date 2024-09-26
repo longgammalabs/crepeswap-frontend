@@ -1,5 +1,5 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { Flex, Image, Text } from '@pancakeswap/uikit'
+import { useTranslation } from '@iguanadex/localization'
+import { Flex, Image, Text } from '@iguanadex/uikit'
 
 interface AchievementPointsProps {
   achievement?: {

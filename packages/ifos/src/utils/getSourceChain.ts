@@ -1,7 +1,7 @@
-import { ChainId } from '@pancakeswap/chains'
+import { ChainId } from '@iguanadex/chains'
 
-import { isIfoSupported, isNativeIfoSupported } from './isIfoSupported'
 import { SOURCE_CHAIN_MAP } from '../constants'
+import { isIfoSupported, isNativeIfoSupported } from './isIfoSupported'
 
 export function getSourceChain(chainId?: ChainId): ChainId | undefined {
   if (!isIfoSupported(chainId)) {

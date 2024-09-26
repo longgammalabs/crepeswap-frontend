@@ -1,9 +1,9 @@
 /* eslint-disable address/addr-type */
-import { Token, Percent, CurrencyAmount } from '@pancakeswap/sdk'
-import { ChainId } from '@pancakeswap/chains'
-import { getBlockExploreLink, safeGetAddress, calculateGasMargin } from 'utils'
-import { calculateSlippageAmount, basisPointsToPercent } from 'utils/exchange'
-import { ADDRESS_ZERO } from '@pancakeswap/v3-sdk'
+import { ChainId } from '@iguanadex/chains'
+import { CurrencyAmount, Percent, Token } from '@iguanadex/sdk'
+import { ADDRESS_ZERO } from '@iguanadex/v3-sdk'
+import { calculateGasMargin, getBlockExploreLink, safeGetAddress } from 'utils'
+import { basisPointsToPercent, calculateSlippageAmount } from 'utils/exchange'
 
 describe('utils', () => {
   describe('#getBscScanLink', () => {

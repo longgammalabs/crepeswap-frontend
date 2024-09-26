@@ -1,4 +1,4 @@
-import { ArrowUpIcon, Box, Text, AutoColumn, ColumnCenter, CheckmarkCircleIcon } from '@pancakeswap/uikit'
+import { ArrowUpIcon, AutoColumn, Box, CheckmarkCircleIcon, ColumnCenter, Text } from '@iguanadex/uikit'
 
 export const TxSubmittedModalContent: React.FC<{
   title: React.ReactNode

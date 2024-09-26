@@ -1,4 +1,4 @@
-# @pancakeswap/permit2-sdk
+# @iguanadex/permit2-sdk
 
 ## 1.0.2
 
@@ -10,5 +10,5 @@
 
 ### Patch Changes
 
-- acc454d: Remove binance extension wallet connector @pancakeswap/wagmi
-  release new pkg @pancakeswap/universal-router-sdk & @pancakeswap/permit2-sdk
+- acc454d: Remove binance extension wallet connector @iguanadex/wagmi
+  release new pkg @iguanadex/universal-router-sdk & @iguanadex/permit2-sdk

@@ -1,4 +1,4 @@
-import { Currency } from '@pancakeswap/swap-sdk-core'
+import { Currency } from '@iguanadex/swap-sdk-core'
 
 import { logger } from './datadog'
 

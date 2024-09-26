@@ -42,11 +42,11 @@ export async function fetchProtocolData(
     const [block24, block48] = blocks ?? []
 
     // fetch all data
-    const data = await dataClient.request<GlobalResponse>(GLOBAL_DATA())
-
-    const data24 = await dataClient.request<GlobalResponse>(GLOBAL_DATA(block24?.number ?? 0))
-
-    const data48 = await dataClient.request<GlobalResponse>(GLOBAL_DATA(block48?.number ?? 0))
+    const [data, data24, data48] = await Promise.all([
+      dataClient.request<GlobalResponse>(GLOBAL_DATA()),
+      dataClient.request<GlobalResponse>(GLOBAL_DATA(block24?.number ?? 0)),
+      dataClient.request<GlobalResponse>(GLOBAL_DATA(block48?.number ?? 0)),
+    ])
 
     const parsed = data?.factories?.[0]
     const parsed24 = data24?.factories?.[0]

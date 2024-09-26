@@ -1,11 +1,11 @@
-import { Flex, Box, Text, BalanceWithLoading, HelpIcon, useTooltip } from '@pancakeswap/uikit'
+import { Ifo, PoolIds } from '@iguanadex/ifos'
+import { useTranslation } from '@iguanadex/localization'
+import { BalanceWithLoading, Box, Flex, HelpIcon, Text, useTooltip } from '@iguanadex/uikit'
+import { BIG_ZERO } from '@iguanadex/utils/bigNumber'
+import { getBalanceNumber } from '@iguanadex/utils/formatBalance'
 import { LightGreyCard } from 'components/Card'
 import { TokenImage } from 'components/TokenImage'
-import { Ifo, PoolIds } from '@pancakeswap/ifos'
 import { WalletIfoData } from 'views/Ifos/types'
-import { getBalanceNumber } from '@pancakeswap/utils/formatBalance'
-import { useTranslation } from '@pancakeswap/localization'
-import { BIG_ZERO } from '@pancakeswap/utils/bigNumber'
 
 interface TotalPurchasedProps {
   ifo: Ifo

@@ -1,4 +1,4 @@
-import { useTranslation } from '@pancakeswap/localization'
+import { useTranslation } from '@iguanadex/localization'
 import {
   Button,
   Card,
@@ -10,7 +10,7 @@ import {
   Text,
   useModal,
   useToast,
-} from '@pancakeswap/uikit'
+} from '@iguanadex/uikit'
 import ConnectWalletButton from 'components/ConnectWalletButton'
 import { useState } from 'react'
 import { Proposal } from 'state/types'

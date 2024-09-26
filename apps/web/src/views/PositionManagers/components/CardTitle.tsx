@@ -1,6 +1,6 @@
-import { Currency } from '@pancakeswap/sdk'
-import { Flex, Text } from '@pancakeswap/uikit'
-import { FeeAmount } from '@pancakeswap/v3-sdk'
+import { Currency } from '@iguanadex/sdk'
+import { Flex, Text } from '@iguanadex/uikit'
+import { FeeAmount } from '@iguanadex/v3-sdk'
 import { memo, useMemo } from 'react'
 
 import { CardHeader } from './CardLayout'

@@ -1,40 +1,40 @@
-import { useMemo, ReactNode } from 'react'
+import { Ifo, PoolIds, cakeBnbLpToken } from '@iguanadex/ifos'
+import { useTranslation } from '@iguanadex/localization'
+import { Token } from '@iguanadex/sdk'
+import { bscTokens } from '@iguanadex/tokens'
 import {
-  Text,
-  Flex,
+  AutoRenewIcon,
+  BalanceWithLoading,
   Box,
+  BunnyPlaceholderIcon,
+  Button,
   CheckmarkCircleIcon,
+  ErrorIcon,
+  Flex,
   FlexProps,
   HelpIcon,
-  useTooltip,
-  Button,
-  AutoRenewIcon,
-  BunnyPlaceholderIcon,
+  IfoPercentageOfTotal,
+  IfoSkeletonCardTokens,
+  IfoVestingAvailableToClaim,
   Message,
   MessageText,
-  ErrorIcon,
-  BalanceWithLoading,
-  IfoSkeletonCardTokens,
-  IfoPercentageOfTotal,
-  IfoVestingAvailableToClaim,
-} from '@pancakeswap/uikit'
-import { useAccount } from 'wagmi'
-import { Token } from '@pancakeswap/sdk'
-import { Ifo, PoolIds, cakeBnbLpToken } from '@pancakeswap/ifos'
-import { bscTokens } from '@pancakeswap/tokens'
-import { PublicIfoData, WalletIfoData } from 'views/Ifos/types'
-import { useTranslation } from '@pancakeswap/localization'
-import { getBalanceNumber, formatNumber } from '@pancakeswap/utils/formatBalance'
+  Text,
+  useTooltip,
+} from '@iguanadex/uikit'
+import { BIG_ZERO } from '@iguanadex/utils/bigNumber'
+import { formatNumber, getBalanceNumber } from '@iguanadex/utils/formatBalance'
 import { TokenImage, TokenPairImage } from 'components/TokenImage'
-import { isBasicSale } from 'views/Ifos/hooks/v7/helpers'
 import { useActiveChainId } from 'hooks/useActiveChainId'
-import { BIG_ZERO } from '@pancakeswap/utils/bigNumber'
+import { ReactNode, useMemo } from 'react'
+import { isBasicSale } from 'views/Ifos/hooks/v7/helpers'
+import { PublicIfoData, WalletIfoData } from 'views/Ifos/types'
+import { useAccount } from 'wagmi'
 
-import { EnableStatus } from '../types'
-import IFORequirements from './IFORequirements'
 import { TextLink } from '../../IfoCardStyles'
 import StakeVaultButton from '../StakeVaultButton'
+import { EnableStatus } from '../types'
 import { ICakeTips } from './ICakeTips'
+import IFORequirements from './IFORequirements'
 
 interface TokenSectionProps extends FlexProps {
   primaryToken?: Token

@@ -47,12 +47,12 @@ export const socials = [
   {
     label: "Twitter",
     icon: TwitterIcon,
-    href: "https://x.com/etherlink",
+    href: "https://x.com/iguanadex",
   },
   {
     label: "GitHub",
     icon: GithubIcon,
-    href: "https://github.com/iguana-dex",
+    href: "https://github.com/iguanadex?tab=repositories",
   },
   {
     label: "Discord",

@@ -1,4 +1,4 @@
-import { ChainId } from '@pancakeswap/chains'
+import { ChainId } from '@iguanadex/chains'
 import {
   CurrencyAmount,
   ERC20Token,
@@ -8,9 +8,9 @@ import {
   TradeType,
   Route as V2Route,
   Trade as V2Trade,
-} from '@pancakeswap/sdk'
-import { PoolType, SmartRouter, SmartRouterTrade, V2Pool, V3Pool } from '@pancakeswap/smart-router'
-import { Pool, Route as V3Route, Trade as V3Trade } from '@pancakeswap/v3-sdk'
+} from '@iguanadex/sdk'
+import { PoolType, SmartRouter, SmartRouterTrade, V2Pool, V3Pool } from '@iguanadex/smart-router'
+import { Pool, Route as V3Route, Trade as V3Trade } from '@iguanadex/v3-sdk'
 import { Address, WalletClient, isHex, parseEther, parseUnits, stringify } from 'viem'
 import { beforeEach, describe, expect, it } from 'vitest'
 import { PancakeSwapUniversalRouter, ROUTER_AS_RECIPIENT } from '../src'

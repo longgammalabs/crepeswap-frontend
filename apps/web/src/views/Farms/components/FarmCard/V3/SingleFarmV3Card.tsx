@@ -1,6 +1,6 @@
-import { IPendingCakeByTokenId, PositionDetails } from '@pancakeswap/farms'
-import { useTranslation } from '@pancakeswap/localization'
-import { Token } from '@pancakeswap/swap-sdk-core'
+import { IPendingCakeByTokenId, PositionDetails } from '@iguanadex/farms'
+import { useTranslation } from '@iguanadex/localization'
+import { Token } from '@iguanadex/swap-sdk-core'
 import {
   AtomBox,
   AtomBoxProps,
@@ -13,11 +13,11 @@ import {
   StyledTooltip,
   Text,
   useModalV2,
-} from '@pancakeswap/uikit'
-import { formatBigInt } from '@pancakeswap/utils/formatBalance'
-import { isPositionOutOfRange } from '@pancakeswap/utils/isPositionOutOfRange'
-import { Pool } from '@pancakeswap/v3-sdk'
-import { FarmWidget } from '@pancakeswap/widgets-internal'
+} from '@iguanadex/uikit'
+import { formatBigInt } from '@iguanadex/utils/formatBalance'
+import { isPositionOutOfRange } from '@iguanadex/utils/isPositionOutOfRange'
+import { Pool } from '@iguanadex/v3-sdk'
+import { FarmWidget } from '@iguanadex/widgets-internal'
 import { BigNumber } from 'bignumber.js'
 import { LightCard } from 'components/Card'
 import { RangeTag } from 'components/RangeTag'

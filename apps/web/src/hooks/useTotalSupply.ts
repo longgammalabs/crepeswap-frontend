@@ -1,4 +1,4 @@
-import { Currency, CurrencyAmount, Token } from '@pancakeswap/sdk'
+import { Currency, CurrencyAmount, Token } from '@iguanadex/sdk'
 import { useMemo } from 'react'
 import { useSingleCallResult } from '../state/multicall/hooks'
 import { useTokenContract } from './useContract'

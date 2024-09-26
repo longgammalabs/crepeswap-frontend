@@ -1,5 +1,5 @@
-import { ChainId } from '@pancakeswap/chains'
-import { WETH9 } from '@pancakeswap/sdk'
+import { ChainId } from '@iguanadex/chains'
+import { WETH9 } from '@iguanadex/sdk'
 import { USDC } from './common'
 
 export const arbSepoliaTokens = {

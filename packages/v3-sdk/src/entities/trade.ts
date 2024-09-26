@@ -1,15 +1,15 @@
 import {
   Currency,
+  CurrencyAmount,
   Fraction,
+  InsufficientInputAmountError,
+  InsufficientReservesError,
   Percent,
   Price,
   sortedInsert,
-  CurrencyAmount,
-  TradeType,
   Token,
-  InsufficientInputAmountError,
-  InsufficientReservesError,
-} from '@pancakeswap/sdk'
+  TradeType,
+} from '@iguanadex/sdk'
 
 import invariant from 'tiny-invariant'
 import { ONE, ZERO } from '../internalConstants'

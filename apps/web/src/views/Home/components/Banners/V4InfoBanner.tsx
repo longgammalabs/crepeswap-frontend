@@ -1,5 +1,5 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { useMatchBreakpoints } from '@pancakeswap/uikit'
+import { useTranslation } from '@iguanadex/localization'
+import { useMatchBreakpoints } from '@iguanadex/uikit'
 import {
   BackgroundGraphic,
   BannerActionContainer,
@@ -12,7 +12,7 @@ import {
   GraphicDetail,
   LinkExternalAction,
   PancakeSwapBadge,
-} from '@pancakeswap/widgets-internal'
+} from '@iguanadex/widgets-internal'
 import { ASSET_CDN } from 'config/constants/endpoints'
 import styled from 'styled-components'
 

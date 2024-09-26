@@ -1,7 +1,7 @@
-import { styled } from 'styled-components'
-import { Text, Flex, Box } from '@pancakeswap/uikit'
+import { useTranslation } from '@iguanadex/localization'
+import { Box, Flex, Text } from '@iguanadex/uikit'
 import { Auction, AuctionStatus } from 'config/constants/types'
-import { useTranslation } from '@pancakeswap/localization'
+import { styled } from 'styled-components'
 
 const ScheduleInner = styled(Flex)`
   flex-direction: column;

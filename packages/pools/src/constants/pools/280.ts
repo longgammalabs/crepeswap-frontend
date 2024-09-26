@@ -1,4 +1,4 @@
-import { zkSyncTestnetTokens } from '@pancakeswap/tokens'
+import { zkSyncTestnetTokens } from '@iguanadex/tokens'
 import { getAddress } from 'viem'
 
 import { PoolCategory, SerializedPool } from '../../types'

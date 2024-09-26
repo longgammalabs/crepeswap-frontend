@@ -1,4 +1,4 @@
-import { Box, Flex, InfoFilledIcon, Text, TooltipText, useTooltip } from '@pancakeswap/uikit'
+import { Box, Flex, InfoFilledIcon, Text, TooltipText, useTooltip } from '@iguanadex/uikit'
 import { isMobile } from 'react-device-detect'
 
 const BuyCryptoTooltip = ({

@@ -1,11 +1,11 @@
+import { useTranslation } from '@iguanadex/localization'
+import { Box, CardFooter, ExpandableLabel, Flex, Text } from '@iguanadex/uikit'
+import { Auction, AuctionStatus } from 'config/constants/types'
 import { useState } from 'react'
 import { styled } from 'styled-components'
-import { Text, Flex, Box, CardFooter, ExpandableLabel } from '@pancakeswap/uikit'
-import { useTranslation } from '@pancakeswap/localization'
-import { Auction, AuctionStatus } from 'config/constants/types'
-import WhitelistedBiddersButton from '../WhitelistedBiddersButton'
 import { HARD_CODED_START_AUCTION_ID } from '../../constants'
 import { useV3FarmAuctionConfig } from '../../hooks/useV3FarmAuctionConfig'
+import WhitelistedBiddersButton from '../WhitelistedBiddersButton'
 
 const FooterInner = styled(Box)`
   background-color: ${({ theme }) => theme.colors.dropdown};

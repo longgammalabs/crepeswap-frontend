@@ -1,6 +1,6 @@
+import { CalculateIcon, Flex, IconButton } from "@iguanadex/uikit";
 import { useCallback } from "react";
 import { styled } from "styled-components";
-import { Flex, CalculateIcon, IconButton } from "@pancakeswap/uikit";
 
 const ApyLabelContainer = styled(Flex)`
   cursor: pointer;

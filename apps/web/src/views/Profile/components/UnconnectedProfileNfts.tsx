@@ -1,5 +1,5 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { Flex, Grid, Text } from '@pancakeswap/uikit'
+import { useTranslation } from '@iguanadex/localization'
+import { Flex, Grid, Text } from '@iguanadex/uikit'
 import { NftToken } from 'state/nftMarket/types'
 import NoNftsImage from '../../Nft/market/components/Activity/NoNftsImage'
 import { CollectibleLinkCard } from '../../Nft/market/components/CollectibleCard'

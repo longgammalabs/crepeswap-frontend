@@ -1,8 +1,8 @@
-import { Progress } from '@pancakeswap/uikit'
-import dayjs from 'dayjs'
-import { Auction, AuctionStatus } from 'config/constants/types'
-import { SLOW_INTERVAL } from 'config/constants'
+import { Progress } from '@iguanadex/uikit'
 import { useQuery } from '@tanstack/react-query'
+import { SLOW_INTERVAL } from 'config/constants'
+import { Auction, AuctionStatus } from 'config/constants/types'
+import dayjs from 'dayjs'
 
 const AuctionProgress: React.FC<React.PropsWithChildren<{ auction: Auction }>> = ({ auction }) => {
   const { data: progress = 0 } = useQuery({

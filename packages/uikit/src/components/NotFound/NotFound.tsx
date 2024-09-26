@@ -1,10 +1,10 @@
-import { styled } from "styled-components";
+import { useTranslation } from "@iguanadex/localization";
 import { JSXElementConstructor, ReactNode, createElement } from "react";
-import { useTranslation } from "@pancakeswap/localization";
-import { LogoIcon } from "../Svg";
-import { Heading } from "../Heading";
-import { Text } from "../Text";
+import { styled } from "styled-components";
 import { Button } from "../Button";
+import { Heading } from "../Heading";
+import { LogoIcon } from "../Svg";
+import { Text } from "../Text";
 
 const StyledNotFound = styled.div`
   align-items: center;

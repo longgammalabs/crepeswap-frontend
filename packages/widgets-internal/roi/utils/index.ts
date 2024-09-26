@@ -1,5 +1,5 @@
-import { Price, Token, Currency, Percent, Fraction } from "@pancakeswap/sdk";
-import { parseUnits } from "viem";
+import { Currency, Fraction, Percent, Price, Token } from "@iguanadex/sdk";
+import tryParseAmount from "@iguanadex/utils/tryParseAmount";
 import {
   encodeSqrtRatioX96,
   FeeAmount,
@@ -7,8 +7,8 @@ import {
   priceToClosestTick,
   TICK_SPACINGS,
   TickMath,
-} from "@pancakeswap/v3-sdk";
-import tryParseAmount from "@pancakeswap/utils/tryParseAmount";
+} from "@iguanadex/v3-sdk";
+import { parseUnits } from "viem";
 
 export * from "./computeSurroundingTicks";
 export * from "./getTokenAmountsFromDepositUsd";

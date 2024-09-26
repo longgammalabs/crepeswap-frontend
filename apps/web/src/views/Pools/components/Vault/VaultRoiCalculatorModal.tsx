@@ -5,18 +5,18 @@ import {
   CalculatorMode,
   RoiCalculatorModal,
   RoiCalculatorModalProps,
-} from '@pancakeswap/uikit'
-import { Pool } from '@pancakeswap/widgets-internal'
+} from '@iguanadex/uikit'
+import { Pool } from '@iguanadex/widgets-internal'
 
-import { useTranslation } from '@pancakeswap/localization'
-import { Token } from '@pancakeswap/sdk'
-import { getRoi } from '@pancakeswap/utils/compoundApyHelpers'
+import { useTranslation } from '@iguanadex/localization'
+import { Token } from '@iguanadex/sdk'
+import { getRoi } from '@iguanadex/utils/compoundApyHelpers'
 import { useVaultApy } from 'hooks/useVaultApy'
 import { useEffect, useMemo, useState } from 'react'
 import { useVaultPoolByKey } from 'state/pools/hooks'
 import { VaultKey } from 'state/types'
 
-import { BIG_ZERO } from '@pancakeswap/utils/bigNumber'
+import { BIG_ZERO } from '@iguanadex/utils/bigNumber'
 import { useAccount } from 'wagmi'
 import LockDurationField from '../LockedPool/Common/LockDurationField'
 import { weeksToSeconds } from '../utils/formatSecondsToWeeks'

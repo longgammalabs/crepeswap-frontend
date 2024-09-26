@@ -1,5 +1,5 @@
+import { Card, CardBody } from '@iguanadex/uikit'
 import { memo, PropsWithChildren } from 'react'
-import { Card, CardBody } from '@pancakeswap/uikit'
 import { styled } from 'styled-components'
 
 const LightGreyCard = styled(Card)`

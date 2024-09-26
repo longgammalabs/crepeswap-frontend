@@ -1,5 +1,5 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { Flex, QuestionHelper, Text } from '@pancakeswap/uikit'
+import { useTranslation } from '@iguanadex/localization'
+import { Flex, QuestionHelper, Text } from '@iguanadex/uikit'
 
 interface ExchangeRateTitleProps {
   tokenOSymbol?: string

@@ -1,12 +1,12 @@
-import { useCallback, useEffect, useMemo, useRef, useState, ReactElement } from "react";
-import { styled } from "styled-components";
+import { useIntersectionObserver } from "@iguanadex/hooks";
+import { useTranslation } from "@iguanadex/localization";
+import { Flex, OptionProps, SearchInput, Select, Text, ViewMode } from "@iguanadex/uikit";
+import latinise from "@iguanadex/utils/latinise";
 import BigNumber from "bignumber.js";
 import partition from "lodash/partition";
-import { useTranslation } from "@pancakeswap/localization";
-import { useIntersectionObserver } from "@pancakeswap/hooks";
-import latinise from "@pancakeswap/utils/latinise";
 import { useRouter } from "next/router";
-import { Flex, Text, SearchInput, Select, OptionProps, ViewMode } from "@pancakeswap/uikit";
+import { ReactElement, useCallback, useEffect, useMemo, useRef, useState } from "react";
+import { styled } from "styled-components";
 
 import { sortPools } from "./helpers";
 import PoolTabButtons from "./PoolTabButtons";

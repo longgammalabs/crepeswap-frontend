@@ -1,5 +1,5 @@
-import { useTheme, THEME_DOMAIN, COOKIE_THEME_KEY } from '@pancakeswap/hooks'
+import { COOKIE_THEME_KEY, THEME_DOMAIN, useTheme } from '@iguanadex/hooks'
 
-export { THEME_DOMAIN, COOKIE_THEME_KEY }
+export { COOKIE_THEME_KEY, THEME_DOMAIN }
 
 export default useTheme

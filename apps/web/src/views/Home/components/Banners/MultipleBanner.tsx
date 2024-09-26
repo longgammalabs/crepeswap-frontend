@@ -1,4 +1,4 @@
-import { appearAnimation, useIsomorphicEffect, useMatchBreakpoints } from '@pancakeswap/uikit'
+import { appearAnimation, useIsomorphicEffect, useMatchBreakpoints } from '@iguanadex/uikit'
 import { useState } from 'react'
 import { styled } from 'styled-components'
 import type SwiperCore from 'swiper'

@@ -1,7 +1,7 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { Box, Button, Flex, Link, OpenNewIcon, Text, useMatchBreakpoints } from '@pancakeswap/uikit'
+import { useTranslation } from '@iguanadex/localization'
+import { Box, Button, Flex, Link, OpenNewIcon, Text, useMatchBreakpoints } from '@iguanadex/uikit'
 
-import { useCountdown } from '@pancakeswap/hooks'
+import { useCountdown } from '@iguanadex/hooks'
 import { ASSET_CDN } from 'config/constants/endpoints'
 import useTheme from 'hooks/useTheme'
 import { memo } from 'react'

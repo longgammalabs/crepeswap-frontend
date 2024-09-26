@@ -1,4 +1,4 @@
-import { Percent } from '@pancakeswap/sdk'
+import { Percent } from '@iguanadex/sdk'
 import { useMemo } from 'react'
 import { DAYS_A_YEAR, PERCENT_DIGIT } from '../constant'
 

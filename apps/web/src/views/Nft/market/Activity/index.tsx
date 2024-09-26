@@ -1,6 +1,6 @@
-import { Card, Heading, PageHeader } from '@pancakeswap/uikit'
+import { useTranslation } from '@iguanadex/localization'
+import { Card, Heading, PageHeader } from '@iguanadex/uikit'
 import Page from 'components/Layout/Page'
-import { useTranslation } from '@pancakeswap/localization'
 import ActivityHistory from '../ActivityHistory/ActivityHistory'
 
 const Activity = () => {

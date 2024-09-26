@@ -1,9 +1,9 @@
-import { ChainId } from '@pancakeswap/chains'
-import { ERC20Token, Ether } from '@pancakeswap/sdk'
-import * as Tokens from '@pancakeswap/tokens'
+import { ChainId } from '@iguanadex/chains'
+import { ERC20Token, Ether } from '@iguanadex/sdk'
+import * as Tokens from '@iguanadex/tokens'
 import { zeroAddress } from 'viem'
 
-export { WETH9 } from '@pancakeswap/sdk'
+export { WETH9 } from '@iguanadex/sdk'
 
 const MockToken: Record<ChainId, ERC20Token> = (() => {
   const tokens: Record<ChainId, ERC20Token> = {} as Record<ChainId, ERC20Token>

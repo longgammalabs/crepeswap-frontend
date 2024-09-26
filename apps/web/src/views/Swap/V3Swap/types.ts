@@ -1,4 +1,4 @@
-import { ConfirmModalState } from '@pancakeswap/widgets-internal'
+import { ConfirmModalState } from '@iguanadex/widgets-internal'
 import { MMTradeInfo } from '../MMLinkPools/hooks'
 import { MMOrderBookTrade, MMRfqTrade } from '../MMLinkPools/types'
 

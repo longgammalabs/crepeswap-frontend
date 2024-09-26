@@ -1,6 +1,6 @@
-import { TradeType } from '@pancakeswap/sdk'
-import { ChainId } from '@pancakeswap/chains'
-import { FeeAmount } from '@pancakeswap/v3-sdk'
+import { ChainId } from '@iguanadex/chains'
+import { TradeType } from '@iguanadex/sdk'
+import { FeeAmount } from '@iguanadex/v3-sdk'
 import { Address } from 'viem'
 import { z } from 'zod'
 

@@ -1,4 +1,4 @@
-import { useTranslation } from '@pancakeswap/localization'
+import { useTranslation } from '@iguanadex/localization'
 import {
   BarChartIcon,
   FavoriteBorderIcon,
@@ -9,7 +9,7 @@ import {
   Text,
   VerifiedIcon,
   useMatchBreakpoints,
-} from '@pancakeswap/uikit'
+} from '@iguanadex/uikit'
 import useTheme from 'hooks/useTheme'
 import { useMemo } from 'react'
 import { styled } from 'styled-components'

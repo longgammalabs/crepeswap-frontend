@@ -1,7 +1,7 @@
-import { ChainId } from "@pancakeswap/chains";
-import { useHttpLocations } from "@pancakeswap/hooks";
-import { Currency } from "@pancakeswap/sdk";
-import { BinanceIcon, TokenLogo } from "@pancakeswap/uikit";
+import { ChainId } from "@iguanadex/chains";
+import { useHttpLocations } from "@iguanadex/hooks";
+import { Currency } from "@iguanadex/sdk";
+import { BinanceIcon, TokenLogo } from "@iguanadex/uikit";
 import { useMemo } from "react";
 import { styled } from "styled-components";
 import { SpaceProps, space } from "styled-system";
@@ -55,7 +55,7 @@ export function CurrencyLogo({
         <StyledLogo
           size={size}
           srcs={[
-            `https://raw.githubusercontent.com/Iguana-DEX/assets/main/assets/0xB1Ea698633d57705e93b0E40c1077d46CD6A51d8.png`,
+            `https://raw.githubusercontent.com/IguanaDEX/assets/main/assets/0xB1Ea698633d57705e93b0E40c1077d46CD6A51d8.png`,
           ]}
           width={size}
           style={style}

@@ -1,6 +1,6 @@
-import { ChainId, chainNames } from '@pancakeswap/chains'
+import { ChainId, chainNames } from '@iguanadex/chains'
 import memoize from 'lodash/memoize'
-import { Chain, bsc as bsc_, mainnet } from 'wagmi/chains'
+import { Chain, bsc as bsc_ } from 'wagmi/chains'
 
 export const CHAIN_QUERY_NAME = chainNames
 
@@ -106,9 +106,11 @@ export const L2_CHAIN_IDS: ChainId[] = [
 ]
 
 export const CHAINS = [
-  bsc,
+  etherlink,
+  etherlinkTestnet,
+  // bsc,
   // bscTestnet,
-  mainnet,
+  // mainnet,
   // goerli,
   // sepolia,
   // polygonZkEvm,
@@ -126,6 +128,4 @@ export const CHAINS = [
   // opBNB,
   // opBNBTestnet,
   // scrollSepolia,
-  etherlinkTestnet,
-  etherlink,
 ]

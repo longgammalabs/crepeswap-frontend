@@ -1,15 +1,15 @@
+import { Flex, LaurelLeftIcon, LaurelRightIcon } from '@iguanadex/uikit'
 import { styled } from 'styled-components'
-import { Flex, LaurelLeftIcon, LaurelRightIcon } from '@pancakeswap/uikit'
 import { RibbonProps } from '../../types'
-import {
-  RibbonDownMidExpanding,
-  RibbonUpMidExpanding,
-  RibbonDownRightSide,
-  RibbonUpRightSide,
-  RibbonDownLeftSide,
-  RibbonUpLeftSide,
-} from './RibbonStyles'
 import { Heading2Text, VisuallyHiddenHeading2Text } from '../CompetitionHeadingText'
+import {
+  RibbonDownLeftSide,
+  RibbonDownMidExpanding,
+  RibbonDownRightSide,
+  RibbonUpLeftSide,
+  RibbonUpMidExpanding,
+  RibbonUpRightSide,
+} from './RibbonStyles'
 
 const Wrapper = styled(Flex)<{ ribbonDirection?: 'up' | 'down' }>`
   position: relative;

@@ -1,5 +1,5 @@
-import { Percent } from '@pancakeswap/sdk'
-import formatLocalisedCompactNumber, { getBalanceNumber } from '@pancakeswap/utils/formatBalance'
+import { Percent } from '@iguanadex/sdk'
+import formatLocalisedCompactNumber, { getBalanceNumber } from '@iguanadex/utils/formatBalance'
 import BN from 'bignumber.js'
 import { useVeCakeBalance } from 'hooks/useTokenBalance'
 import { useEffect, useMemo } from 'react'

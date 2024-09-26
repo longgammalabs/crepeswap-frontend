@@ -1,6 +1,6 @@
-import { useTranslation } from "@pancakeswap/localization";
-import { Currency } from "@pancakeswap/swap-sdk-core";
-import { AutoColumn, Box, Column, ColumnCenter, Flex, Text, TooltipText, useTooltip } from "@pancakeswap/uikit";
+import { useTranslation } from "@iguanadex/localization";
+import { Currency } from "@iguanadex/swap-sdk-core";
+import { AutoColumn, Box, Column, ColumnCenter, Flex, Text, TooltipText, useTooltip } from "@iguanadex/uikit";
 import { FC, ReactNode, Ref, useMemo, useRef } from "react";
 import styled, { css } from "styled-components";
 import { ApprovalPhaseIcon } from "./Logos";

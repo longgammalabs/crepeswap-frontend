@@ -1,5 +1,5 @@
-import { Currency } from '@pancakeswap/sdk'
-import { useExpertMode } from '@pancakeswap/utils/user'
+import { Currency } from '@iguanadex/sdk'
+import { useExpertMode } from '@iguanadex/utils/user'
 import { useCurrency } from 'hooks/Tokens'
 import { useIsTransactionUnsupported } from 'hooks/Trades'
 import { ApprovalState, useApproveCallback } from 'hooks/useApproveCallback'

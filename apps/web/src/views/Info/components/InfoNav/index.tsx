@@ -9,11 +9,11 @@ import {
   UserMenu,
   UserMenuDivider,
   UserMenuItem,
-} from '@pancakeswap/uikit'
-import { NextLinkFromReactRouter } from '@pancakeswap/widgets-internal'
+} from '@iguanadex/uikit'
+import { NextLinkFromReactRouter } from '@iguanadex/widgets-internal'
 
-import { ChainId } from '@pancakeswap/chains'
-import { useTranslation } from '@pancakeswap/localization'
+import { ChainId } from '@iguanadex/chains'
+import { useTranslation } from '@iguanadex/localization'
 import { ChainLogo } from 'components/Logo/ChainLogo'
 import { ASSET_CDN } from 'config/constants/endpoints'
 import {} from 'hooks/useSwitchNetwork'
@@ -24,7 +24,7 @@ import { useChainIdByQuery, useChainNameByQuery, useMultiChainPath } from 'state
 import { styled } from 'styled-components'
 import { chains } from 'utils/wagmi'
 import Search from 'views/Info/components/InfoSearch'
-import { bsc, Chain, mainnet } from 'wagmi/chains'
+import { Chain } from 'wagmi/chains'
 
 const etherlink = {
   id: 42_793,
@@ -88,7 +88,7 @@ const InfoNav: React.FC<{ isStableSwap: boolean }> = ({ isStableSwap }) => {
                 {t('Overview')}
               </ButtonMenuItem>
               <ButtonMenuItem as={NextLinkFromReactRouter} to={`/info${chainPath}/pairs${stableSwapQuery}`}>
-                {t('Pairs')}
+                {t('Pools')}
               </ButtonMenuItem>
               <ButtonMenuItem as={NextLinkFromReactRouter} to={`/info${chainPath}/tokens${stableSwapQuery}`}>
                 {t('Tokens')}
@@ -121,7 +121,7 @@ const InfoNav: React.FC<{ isStableSwap: boolean }> = ({ isStableSwap }) => {
   )
 }
 
-const targetChains = [mainnet, bsc, etherlink]
+const targetChains = [etherlink]
 
 export const NetworkSwitcher: React.FC<{ activeIndex: number }> = ({ activeIndex }) => {
   const { t } = useTranslation()
@@ -130,8 +130,8 @@ export const NetworkSwitcher: React.FC<{ activeIndex: number }> = ({ activeIndex
   const symbol = multiChainShortName[foundChain?.id ?? -1] ?? foundChain?.nativeCurrency?.symbol
   const router = useRouter()
   const switchNetwork = useCallback(
-    (chianId: number) => {
-      const chainPath = multiChainPaths[chianId]
+    (chainId: number) => {
+      const chainPath = multiChainPaths[chainId]
       if (activeIndex === 0) router.push(`/info${chainPath}`)
       if (activeIndex === 1) router.push(`/info${chainPath}/pairs`)
       if (activeIndex === 2) router.push(`/info${chainPath}/tokens`)
@@ -143,7 +143,7 @@ export const NetworkSwitcher: React.FC<{ activeIndex: number }> = ({ activeIndex
     <UserMenu
       alignItems="top"
       ml="8px"
-      avatarSrc={`${ASSET_CDN}/web/chains/${multiChainId[chainName]}.png`}
+      avatarSrc={`${ASSET_CDN}/chains/${multiChainId[chainName]}.png`}
       text={
         foundChain ? (
           <>

@@ -1,5 +1,5 @@
-import { Percent } from "@pancakeswap/swap-sdk-core";
-import { ContextApi } from "@pancakeswap/localization";
+import { ContextApi } from "@iguanadex/localization";
+import { Percent } from "@iguanadex/swap-sdk-core";
 
 /**
  * Given the price impact, get user confirmation.

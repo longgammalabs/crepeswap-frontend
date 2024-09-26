@@ -1,12 +1,12 @@
-import { Box, Card, CardBody, CardHeader, Flex, Heading, LinkExternal, ScanLink, Text } from '@pancakeswap/uikit'
-import { styled } from 'styled-components'
+import { useTranslation } from '@iguanadex/localization'
+import { Box, Card, CardBody, CardHeader, Flex, Heading, LinkExternal, ScanLink, Text } from '@iguanadex/uikit'
+import truncateHash from '@iguanadex/utils/truncateHash'
 import dayjs from 'dayjs'
 import { Proposal } from 'state/types'
+import { styled } from 'styled-components'
 import { getBlockExploreLink } from 'utils'
-import { useTranslation } from '@pancakeswap/localization'
-import truncateHash from '@pancakeswap/utils/truncateHash'
-import { IPFS_GATEWAY } from '../config'
 import { ProposalStateTag } from '../components/Proposals/tags'
+import { IPFS_GATEWAY } from '../config'
 
 interface DetailsProps {
   proposal: Proposal

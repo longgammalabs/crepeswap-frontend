@@ -1,4 +1,4 @@
-import { Text, Link } from '@pancakeswap/uikit'
+import { Link, Text } from '@iguanadex/uikit'
 import { Container } from 'pages/terms-of-service'
 import AffiliatesProgramLayout from 'views/AffiliatesProgram/components/AffiliatesProgramLayout'
 

@@ -1,6 +1,6 @@
-import { ChainId } from '@pancakeswap/chains'
-import { BigintIsh, Currency, CurrencyAmount } from '@pancakeswap/sdk'
-import { AbortControl, isAbortError } from '@pancakeswap/utils/abortControl'
+import { ChainId } from '@iguanadex/chains'
+import { BigintIsh, Currency, CurrencyAmount } from '@iguanadex/sdk'
+import { AbortControl, isAbortError } from '@iguanadex/utils/abortControl'
 import retry from 'async-retry'
 import { Abi, Address } from 'viem'
 

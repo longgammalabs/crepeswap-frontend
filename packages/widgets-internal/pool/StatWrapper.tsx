@@ -1,5 +1,5 @@
+import { Flex } from "@iguanadex/uikit";
 import { ReactNode } from "react";
-import { Flex } from "@pancakeswap/uikit";
 
 export const StatWrapper: React.FC<React.PropsWithChildren<{ label: ReactNode }>> = ({ children, label }) => {
   return (

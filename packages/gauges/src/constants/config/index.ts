@@ -1,4 +1,4 @@
-import { ChainId } from '@pancakeswap/chains'
+import { ChainId } from '@iguanadex/chains'
 import { CONFIG_PROD } from './prod'
 import { CONFIG_TESTNET } from './testnet'
 

@@ -1,8 +1,8 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { AutoRenewIcon, Button, useToast } from '@pancakeswap/uikit'
-import { useWeb3React } from '@pancakeswap/wagmi'
+import { PoolIds } from '@iguanadex/ifos'
+import { useTranslation } from '@iguanadex/localization'
+import { AutoRenewIcon, Button, useToast } from '@iguanadex/uikit'
+import { useWeb3React } from '@iguanadex/wagmi'
 import { ToastDescriptionWithTx } from 'components/Toast'
-import { PoolIds } from '@pancakeswap/ifos'
 import useCatchTxError from 'hooks/useCatchTxError'
 import { WalletIfoData } from 'views/Ifos/types'
 

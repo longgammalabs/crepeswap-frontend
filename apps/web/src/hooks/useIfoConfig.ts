@@ -1,5 +1,5 @@
+import { getActiveIfo, getIfoConfig, getInActiveIfos, Ifo, SUPPORTED_CHAIN_IDS } from '@iguanadex/ifos'
 import { useQuery } from '@tanstack/react-query'
-import { getActiveIfo, getInActiveIfos, getIfoConfig, SUPPORTED_CHAIN_IDS, Ifo } from '@pancakeswap/ifos'
 
 import { useActiveChainId } from 'hooks/useActiveChainId'
 import { useMemo } from 'react'

@@ -1,5 +1,5 @@
-import { AutoRow, Box, Button, Card, CardBody, Flex, Heading, Text, useMatchBreakpoints } from '@pancakeswap/uikit'
-import { NextLinkFromReactRouter } from '@pancakeswap/widgets-internal'
+import { AutoRow, Box, Button, Card, CardBody, Flex, Heading, Text, useMatchBreakpoints } from '@iguanadex/uikit'
+import { NextLinkFromReactRouter } from '@iguanadex/widgets-internal'
 
 import { AppHeader } from 'components/App'
 
@@ -8,8 +8,8 @@ import { styled } from 'styled-components'
 import { CHAIN_IDS } from 'utils/wagmi'
 import Page from 'views/Page'
 
-import { getFarmConfig } from '@pancakeswap/farms/constants'
-import { useTranslation } from '@pancakeswap/localization'
+import { getFarmConfig } from '@iguanadex/farms/constants'
+import { useTranslation } from '@iguanadex/localization'
 import { useQuery } from '@tanstack/react-query'
 import { LightGreyCard } from 'components/Card'
 import { usePoolTokenPercentage, useTokensDeposited, useTotalUSDValue } from 'components/PositionCard'

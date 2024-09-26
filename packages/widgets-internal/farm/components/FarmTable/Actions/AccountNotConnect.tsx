@@ -1,5 +1,5 @@
-import { useTranslation } from "@pancakeswap/localization";
-import { Text } from "@pancakeswap/uikit";
+import { useTranslation } from "@iguanadex/localization";
+import { Text } from "@iguanadex/uikit";
 import { ActionContent, ActionTitles, StyledActionContainer } from "./styles";
 
 const AccountNotConnect = ({ children }: { children: React.ReactNode }) => {

@@ -1,5 +1,5 @@
 /* eslint-disable react/jsx-pascal-case */
-import { useTranslation } from '@pancakeswap/localization'
+import { useTranslation } from '@iguanadex/localization'
 import {
   AutoRow,
   CalculateIcon,
@@ -12,11 +12,11 @@ import {
   useMatchBreakpoints,
   useModalV2,
   useTooltip,
-} from '@pancakeswap/uikit'
-import { BIG_ZERO } from '@pancakeswap/utils/bigNumber'
-import { Position, encodeSqrtRatioX96 } from '@pancakeswap/v3-sdk'
-import { FarmWidget } from '@pancakeswap/widgets-internal'
-import { RoiCalculatorModalV2, useRoi } from '@pancakeswap/widgets-internal/roi'
+} from '@iguanadex/uikit'
+import { BIG_ZERO } from '@iguanadex/utils/bigNumber'
+import { Position, encodeSqrtRatioX96 } from '@iguanadex/v3-sdk'
+import { FarmWidget } from '@iguanadex/widgets-internal'
+import { RoiCalculatorModalV2, useRoi } from '@iguanadex/widgets-internal/roi'
 import BigNumber from 'bignumber.js'
 import { useCakePrice } from 'hooks/useCakePrice'
 import { useMemo, useState } from 'react'

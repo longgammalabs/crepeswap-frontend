@@ -1,5 +1,5 @@
-import { Box, Link, Text } from '@pancakeswap/uikit'
-import { useTranslation } from '@pancakeswap/localization'
+import { useTranslation } from '@iguanadex/localization'
+import { Box, Link, Text } from '@iguanadex/uikit'
 
 const LUSDWarning = () => {
   const { t } = useTranslation()

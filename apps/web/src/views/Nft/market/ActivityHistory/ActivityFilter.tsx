@@ -1,8 +1,8 @@
+import { ContextApi, useTranslation } from '@iguanadex/localization'
+import { Box, Button, CloseIcon, Flex, IconButton } from '@iguanadex/uikit'
 import { styled } from 'styled-components'
-import { Box, Button, Flex, IconButton, CloseIcon } from '@pancakeswap/uikit'
-import { ContextApi, useTranslation } from '@pancakeswap/localization'
-import { MarketEvent } from '../../../../state/nftMarket/types'
 import { useNftStorage } from '../../../../state/nftMarket/storage'
+import { MarketEvent } from '../../../../state/nftMarket/types'
 
 interface ActivityFilterProps {
   eventType: MarketEvent

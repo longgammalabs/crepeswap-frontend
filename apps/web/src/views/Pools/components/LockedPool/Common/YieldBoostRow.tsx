@@ -1,6 +1,6 @@
-import { Flex, Text, TooltipText, useTooltip, BalanceWithLoading } from '@pancakeswap/uikit'
+import { useTranslation } from '@iguanadex/localization'
+import { BalanceWithLoading, Flex, Text, TooltipText, useTooltip } from '@iguanadex/uikit'
 import { useVaultApy } from 'hooks/useVaultApy'
-import { useTranslation } from '@pancakeswap/localization'
 
 const YieldBoostRow = ({ secondDuration }) => {
   const { boostFactor } = useVaultApy({ duration: secondDuration })

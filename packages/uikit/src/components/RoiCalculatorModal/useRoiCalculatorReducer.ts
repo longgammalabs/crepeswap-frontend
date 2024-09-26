@@ -1,7 +1,7 @@
-import { useEffect, useReducer, useCallback } from "react";
-import merge from "lodash/merge";
+import { getInterestBreakdown, getPrincipalForInterest, getRoi } from "@iguanadex/utils/compoundApyHelpers";
 import BigNumber from "bignumber.js";
-import { getRoi, getInterestBreakdown, getPrincipalForInterest } from "@pancakeswap/utils/compoundApyHelpers";
+import merge from "lodash/merge";
+import { useCallback, useEffect, useReducer } from "react";
 
 /**
  * This hook is handling all the calculator state and calculations.

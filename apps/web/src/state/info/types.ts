@@ -1,4 +1,4 @@
-import { ComputedFarmConfigV3 } from '@pancakeswap/farms'
+import { ComputedFarmConfigV3 } from '@iguanadex/farms'
 
 export interface Block {
   number: number

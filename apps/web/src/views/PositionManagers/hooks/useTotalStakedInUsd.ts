@@ -1,6 +1,6 @@
-import { useMemo } from 'react'
+import { Currency, CurrencyAmount } from '@iguanadex/sdk'
 import BigNumber from 'bignumber.js'
-import { Currency, CurrencyAmount } from '@pancakeswap/sdk'
+import { useMemo } from 'react'
 
 interface TotalStakedInUsdProps {
   currencyA: Currency

@@ -1,6 +1,6 @@
-import { Currency, CurrencyAmount, Fraction, ONE, Percent, ZERO } from "@pancakeswap/sdk";
-import { formatFraction, parseNumberToFraction } from "@pancakeswap/utils/formatFractions";
-import { FeeAmount, FeeCalculator } from "@pancakeswap/v3-sdk";
+import { Currency, CurrencyAmount, Fraction, ONE, Percent, ZERO } from "@iguanadex/sdk";
+import { formatFraction, parseNumberToFraction } from "@iguanadex/utils/formatFractions";
+import { FeeAmount, FeeCalculator } from "@iguanadex/v3-sdk";
 import { useMemo } from "react";
 
 import { useRate } from "./useRate";

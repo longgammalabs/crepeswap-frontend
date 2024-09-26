@@ -1,8 +1,8 @@
-import { useAccount } from 'wagmi'
-import { AutoRenewIcon, HistoryIcon, IconButton } from '@pancakeswap/uikit'
+import { AutoRenewIcon, HistoryIcon, IconButton } from '@iguanadex/uikit'
 import useLocalDispatch from 'contexts/LocalRedux/useLocalDispatch'
 import { setHistoryPaneState } from 'state/predictions'
 import { useGetIsFetchingHistory } from 'state/predictions/hooks'
+import { useAccount } from 'wagmi'
 
 const HistoryButton = () => {
   const isFetchingHistory = useGetIsFetchingHistory()

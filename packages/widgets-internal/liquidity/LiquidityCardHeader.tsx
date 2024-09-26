@@ -1,6 +1,6 @@
+import { ArrowBackIcon, AtomBox, Heading, IconButton, QuestionHelper, Text } from "@iguanadex/uikit";
 import Link from "next/link";
 import { styled } from "styled-components";
-import { AtomBox, ArrowBackIcon, IconButton, Text, Heading, QuestionHelper } from "@pancakeswap/uikit";
 
 export interface LiquidityCardHeaderProps {
   title: string;

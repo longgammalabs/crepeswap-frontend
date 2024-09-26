@@ -1,8 +1,8 @@
-import { Token } from "@pancakeswap/sdk";
-import { tickToPrice } from "@pancakeswap/v3-sdk";
+import { Token } from "@iguanadex/sdk";
+import { tickToPrice } from "@iguanadex/v3-sdk";
 
 import { PRICE_FIXED_DIGITS } from "../constants";
-import { TickProcessed, TickData } from "../types";
+import { TickData, TickProcessed } from "../types";
 
 // Computes the numSurroundingTicks above or below the active tick.
 export function computeSurroundingTicks(

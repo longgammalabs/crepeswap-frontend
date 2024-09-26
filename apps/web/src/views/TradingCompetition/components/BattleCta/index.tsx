@@ -1,4 +1,4 @@
-import { useTranslation } from '@pancakeswap/localization'
+import { useTranslation } from '@iguanadex/localization'
 import {
   Box,
   Button,
@@ -11,7 +11,7 @@ import {
   Text,
   TwitterIcon,
   useModal,
-} from '@pancakeswap/uikit'
+} from '@iguanadex/uikit'
 import ConnectWalletButton from 'components/ConnectWalletButton'
 import { FINISHED, OVER, REGISTRATION } from 'config/constants/trading-competition/phases'
 import { useRouter } from 'next/router'
@@ -211,7 +211,7 @@ const BattleCta: React.FC<React.PropsWithChildren<CompetitionProps>> = ({
                   scale="sm"
                   variant="secondary"
                   onClick={() => {
-                    window.open('https://twitter.com/pancakeswap', '_blank', 'noopener noreferrer')
+                    window.open('https://twitter.com/iguanadex', '_blank', 'noopener noreferrer')
                   }}
                 >
                   <TwitterIcon color="textSubtle" fontSize="12px" mr="5px" />

@@ -1,6 +1,6 @@
 {
-  "name": "@pancakeswap/gauges",
-  "version": "1.1.7",
+  "name": "@iguanadex/gauges",
+  "version": "1.1.8",
   "sideEffects": false,
   "scripts": {
     "dev": "tsup --watch",
@@ -22,15 +22,15 @@
     "./package.json": "./package.json"
   },
   "devDependencies": {
-    "@pancakeswap/sdk": "workspace:^",
+    "@iguanadex/sdk": "workspace:^",
     "@types/lodash": "^4.14.202",
     "lodash": "^4.17.21",
     "tsup": "^6.7.0"
   },
   "dependencies": {
-    "@pancakeswap/chains": "workspace:^",
-    "@pancakeswap/tokens": "workspace:^",
-    "@pancakeswap/v3-sdk": "workspace:^",
+    "@iguanadex/chains": "workspace:^",
+    "@iguanadex/tokens": "workspace:^",
+    "@iguanadex/v3-sdk": "workspace:^",
     "viem": "1.19.11"
   }
 }

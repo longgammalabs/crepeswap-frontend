@@ -1,5 +1,5 @@
-// import { useTranslation } from '@pancakeswap/localization'
-import { Box, PageSection, useMatchBreakpoints } from '@pancakeswap/uikit'
+// import { useTranslation } from '@iguanadex/localization'
+import { Box, PageSection, useMatchBreakpoints } from '@iguanadex/uikit'
 // import useTheme from 'hooks/useTheme'
 import { styled } from 'styled-components'
 import MultipleBanner from './components/Banners/MultipleBanner'

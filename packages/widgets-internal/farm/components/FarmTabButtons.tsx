@@ -1,8 +1,8 @@
+import { useTranslation } from "@iguanadex/localization";
+import { ButtonMenu, ButtonMenuItem, Flex, NotificationDot, Text } from "@iguanadex/uikit";
+import { useRouter } from "next/router";
 import React from "react";
 import { styled } from "styled-components";
-import { useRouter } from "next/router";
-import { useTranslation } from "@pancakeswap/localization";
-import { NotificationDot, ButtonMenu, ButtonMenuItem, Text, Flex } from "@pancakeswap/uikit";
 import { NextLinkFromReactRouter } from "../../components/NextLink";
 
 const Wrapper = styled.div`
