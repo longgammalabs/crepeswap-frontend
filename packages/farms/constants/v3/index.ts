@@ -7,8 +7,8 @@ import { farmsV3 as baseFarms } from '../base'
 import { farmsV3 as bscFarms } from '../bsc'
 import { farmsV3 as bscTestnetFarms } from '../bscTestnet'
 import { farmsV3 as ethFarms } from '../eth'
-import { farmsV3 as etherlinkFarms } from '../etherlink'
-import { farmsV3 as etherlinkTestnetFarms } from '../etherlinkTestnet'
+// import { farmsV3 as etherlinkFarms } from '../etherlink'
+// import { farmsV3 as etherlinkTestnetFarms } from '../etherlinkTestnet'
 import { farmsV3 as goerliFarms } from '../goerli'
 import { farmsV3 as lineaFarms } from '../linea'
 import { farmsV3 as opBNBFarms } from '../opBNB'
@@ -32,8 +32,8 @@ export const farmsV3ConfigChainMap: Record<FarmV3SupportedChainId, ComputedFarmC
   [ChainId.BASE]: baseFarms,
   [ChainId.OPBNB_TESTNET]: opBnbTestnetFarms,
   [ChainId.OPBNB]: opBNBFarms,
-  [ChainId.ETHERLINK_TESTNET]: etherlinkTestnetFarms,
-  [ChainId.ETHERLINK]: etherlinkFarms,
+  // [ChainId.ETHERLINK_TESTNET]: etherlinkTestnetFarms,
+  // [ChainId.ETHERLINK]: etherlinkFarms,
 }
 
 export type Addresses = {

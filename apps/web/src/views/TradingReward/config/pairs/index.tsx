@@ -4,8 +4,8 @@ import { farmsV3 as baseFarm } from '@iguanadex/farms/constants/base'
 import { farmsV3 as bscFarm } from '@iguanadex/farms/constants/bsc'
 import { farmsV3 as farm97 } from '@iguanadex/farms/constants/bscTestnet'
 import { farmsV3 as ethFarm } from '@iguanadex/farms/constants/eth'
-import { farmsV3 as etherlinkFarm } from '@iguanadex/farms/constants/etherlink'
-import { farmsV3 as etherlinkTestnetFarm } from '@iguanadex/farms/constants/etherlinkTestnet'
+// import { farmsV3 as etherlinkFarm } from '@iguanadex/farms/constants/etherlink'
+// import { farmsV3 as etherlinkTestnetFarm } from '@iguanadex/farms/constants/etherlinkTestnet'
 import { farmsV3 as farm5 } from '@iguanadex/farms/constants/goerli'
 import { farmsV3 as lineaFarm } from '@iguanadex/farms/constants/linea'
 import { farmsV3 as opBNBFarms } from '@iguanadex/farms/constants/opBNB'
@@ -35,6 +35,6 @@ export const tradingRewardPairConfigChainMap: Record<FarmV3SupportedChainId, Com
   [ChainId.BASE]: [...baseFarm, ...tradingRewardBaseV3Pair],
   [ChainId.OPBNB_TESTNET]: opBNBTestnetFarms,
   [ChainId.OPBNB]: opBNBFarms,
-  [ChainId.ETHERLINK_TESTNET]: etherlinkTestnetFarm,
-  [ChainId.ETHERLINK]: etherlinkFarm,
+  // [ChainId.ETHERLINK_TESTNET]: etherlinkTestnetFarm,
+  // [ChainId.ETHERLINK]: etherlinkFarm,
 }
