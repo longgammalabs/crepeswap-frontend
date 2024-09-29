@@ -8,8 +8,8 @@
   "baseBranch": "develop",
   "updateInternalDependencies": "patch",
   "ignore": [
-    "@pancakeswap/eslint-config-pancake",
-    "@pancakeswap/ui-wallets",
+    "@iguanadex/eslint-config-pancake",
+    "@iguanadex/ui-wallets",
     "farms-api",
     "aptos-web",
     "blog",

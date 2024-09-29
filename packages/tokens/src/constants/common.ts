@@ -447,46 +447,6 @@ export const tzBTC = {
   // ),
 }
 
-export const WBTC = {
-  [ChainId.ETHERLINK]: new ERC20Token(
-    ChainId.ETHERLINK,
-    '0xbFc94CD2B1E55999Cfc7347a9313e88702B83d0F',
-    8,
-    'WBTC',
-    'Wrapped BTC',
-  ),
-}
-
-export const WBNB = {
-  [ChainId.ETHERLINK]: new ERC20Token(
-    ChainId.ETHERLINK,
-    '0xaA40A1cc1561c584B675cbD12F1423A32E2a0d8C',
-    18,
-    'WBNB',
-    'Wrapped BNB',
-  ),
-}
-
-export const WAVAX = {
-  [ChainId.ETHERLINK]: new ERC20Token(
-    ChainId.ETHERLINK,
-    '0xe820995cD39B6E09EAa7e4e16337184b4A61B644',
-    18,
-    'WAVAX',
-    'Wrapped AVAX',
-  ),
-}
-
-export const SHIB = {
-  [ChainId.ETHERLINK]: new ERC20Token(
-    ChainId.ETHERLINK,
-    '0xBBD1F50A212357067318a84179892684e1Ac5181',
-    18,
-    'SHIB',
-    'SHIBA INU',
-  ),
-}
-
 export const WBTC_ETH = new ERC20Token(
   ChainId.ETHEREUM,
   '0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599',

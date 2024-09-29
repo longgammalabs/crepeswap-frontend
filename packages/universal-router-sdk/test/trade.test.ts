@@ -48,8 +48,6 @@ describe('PancakeSwap Universal Router Trade', () => {
   const chainId = ChainId.ETHEREUM
   const liquidity = parseEther('1000')
 
-  let wallet: WalletClient
-
   let ETHER: Ether
   let USDC: ERC20Token
   let USDT: ERC20Token
@@ -59,7 +57,6 @@ describe('PancakeSwap Universal Router Trade', () => {
   let WETH_USDC_V3_LOW: Pool
   let USDC_USDT_V3_LOW: Pool
   let UNIVERSAL_ROUTER: Address
-  let PERMIT2: Address
 
   expect.addSnapshotSerializer({
     serialize(val) {
@@ -73,7 +70,6 @@ describe('PancakeSwap Universal Router Trade', () => {
   beforeEach(async () => {
     ;({
       UNIVERSAL_ROUTER,
-      PERMIT2,
       ETHER,
       USDC,
       USDT,
@@ -83,7 +79,6 @@ describe('PancakeSwap Universal Router Trade', () => {
       WETH_USDC_V3_LOW,
       WETH_USDC_V3_MEDIUM,
     } = await fixtureAddresses(chainId, liquidity))
-    wallet = getWalletClient({ chainId })
   })
 
   describe('v2', () => {
