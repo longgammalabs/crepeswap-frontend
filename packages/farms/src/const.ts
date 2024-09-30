@@ -16,8 +16,8 @@ export const supportedChainIdV3 = [
   ChainId.BASE,
   ChainId.OPBNB,
   ChainId.OPBNB_TESTNET,
-  ChainId.ETHERLINK_TESTNET,
-  ChainId.ETHERLINK,
+  // ChainId.ETHERLINK_TESTNET,
+  // ChainId.ETHERLINK,
 ] as const
 export const supportedChainId = uniq([...supportedChainIdV2, ...supportedChainIdV3])
 export const bCakeSupportedChainId = [ChainId.BSC] as const
@@ -49,8 +49,8 @@ export const masterChefV3Addresses = {
   [ChainId.BASE]: '0xC6A2Db661D5a5690172d8eB0a7DEA2d3008665A3',
   [ChainId.OPBNB]: '0x05ddEDd07C51739d2aE21F6A9d97a8d69C2C3aaA',
   [ChainId.OPBNB_TESTNET]: '0x236e713bFF45adb30e25D1c29A887aBCb0Ea7E21',
-  [ChainId.ETHERLINK]: '0xE6f9ac1B8560EEd758d56C1aEbDb03D0Ca02f75B',
-  [ChainId.ETHERLINK_TESTNET]: '0x3b2ffa5a9b60B9Da804eb3aB4575311F159D4a21',
+  // [ChainId.ETHERLINK]: '0xE6f9ac1B8560EEd758d56C1aEbDb03D0Ca02f75B',
+  // [ChainId.ETHERLINK_TESTNET]: '0x3b2ffa5a9b60B9Da804eb3aB4575311F159D4a21',
 } as const satisfies Record<FarmV3SupportedChainId, string>
 
 export const nonBSCVaultAddresses = {

@@ -6,8 +6,8 @@ import {
   bscTestnetTokens,
   bscTokens,
   ethereumTokens,
-  etherlinkTestnetTokens,
-  etherlinkTokens,
+  // etherlinkTestnetTokens,
+  // etherlinkTokens,
   goerliTestnetTokens,
   lineaTokens,
   opBnbTokens,
@@ -58,14 +58,14 @@ export const priceHelperTokens = {
     chain: 'opbnb',
     list: [opBnbTokens.wbnb, opBnbTokens.usdt],
   },
-  [ChainId.ETHERLINK]: {
-    chain: 'etherlink',
-    list: [etherlinkTokens.usdt, etherlinkTokens.usdc, etherlinkTokens.wxtz],
-  },
-  [ChainId.ETHERLINK_TESTNET]: {
-    chain: 'etherlink-testnet',
-    list: [etherlinkTestnetTokens.usdt, etherlinkTestnetTokens.usdc, etherlinkTestnetTokens.wxtz],
-  },
+  // [ChainId.ETHERLINK]: {
+  //   chain: 'etherlink',
+  //   list: [etherlinkTokens.usdt, etherlinkTokens.usdc, etherlinkTokens.wxtz],
+  // },
+  // [ChainId.ETHERLINK_TESTNET]: {
+  //   chain: 'etherlink-testnet',
+  //   list: [etherlinkTestnetTokens.usdt, etherlinkTestnetTokens.usdc, etherlinkTestnetTokens.wxtz],
+  // },
 } satisfies Record<number, PriceHelper>
 
 // for testing purposes
@@ -92,12 +92,6 @@ export const DEFAULT_COMMON_PRICE: Record<FarmV3SupportedChainId, CommonPrice> =
   [ChainId.BASE]: {},
   [ChainId.OPBNB_TESTNET]: {},
   [ChainId.OPBNB]: {},
-  [ChainId.ETHERLINK_TESTNET]: {
-    [etherlinkTestnetTokens.usdt.address]: '1',
-    [etherlinkTestnetTokens.usdc.address]: '1',
-  },
-  [ChainId.ETHERLINK]: {
-    [etherlinkTokens.usdt.address]: '1',
-    [etherlinkTokens.usdc.address]: '1',
-  },
+  // [ChainId.ETHERLINK_TESTNET]: {},
+  // [ChainId.ETHERLINK]: {},
 }

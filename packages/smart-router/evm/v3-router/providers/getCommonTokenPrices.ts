@@ -152,7 +152,7 @@ export const getCommonTokenPricesByLlma = createCommonTokenPriceProvider<BySubgr
 
 export const getCommonTokenPricesByWalletApi = createCommonTokenPriceProvider<BySubgraphEssentials>(
   createGetTokenPriceFromLlmaWithCache({
-    endpoint: 'https://wallet-api.pancakeswap.com/v1/prices',
+    endpoint: 'https://wallet-api.iguanadex.com/v1/prices',
   }),
 )
 
@@ -161,11 +161,11 @@ export const getCommonTokenPrices = withFallback([
     asyncFn: ({ currencyA, currencyB }: ParamsWithFallback) => getCommonTokenPricesByLlma({ currencyA, currencyB }),
     timeout: 3000,
   },
-  {
-    asyncFn: ({ currencyA, currencyB }: ParamsWithFallback) =>
-      getCommonTokenPricesByWalletApi({ currencyA, currencyB }),
-    timeout: 3000,
-  },
+  // {
+  //   asyncFn: ({ currencyA, currencyB }: ParamsWithFallback) =>
+  //     getCommonTokenPricesByWalletApi({ currencyA, currencyB }),
+  //   timeout: 3000,
+  // },
   {
     asyncFn: ({ currencyA, currencyB, v3SubgraphProvider }: ParamsWithFallback) =>
       getCommonTokenPricesBySubgraph({ currencyA, currencyB, provider: v3SubgraphProvider }),

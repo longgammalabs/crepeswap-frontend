@@ -6,10 +6,10 @@ import { defineFarmV3Configs } from '../src/defineFarmV3Configs'
 export const farmsV3 = defineFarmV3Configs([
   {
     pid: 1,
-    lpAddress: '0x99e4913D8e7DEa6DA9839FEC75a5652dF80FDaFD',
+    lpAddress: '0x508060A01f11d6a2Eb774B55aEba95931265E0cc',
     token0: etherlinkTokens.wxtz,
     token1: etherlinkTokens.usdc,
-    feeAmount: FeeAmount.MEDIUM,
+    feeAmount: FeeAmount.LOW,
   },
 ])
 

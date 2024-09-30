@@ -1415,7 +1415,7 @@
   "1W": "1W",
   "1M": "1M",
   "Failed to load price chart for this pair": "এই পেয়ারের জন্য মূল্য চার্ট লোড করা যায় নাই",
-  "You can swap WBNB for BNB (and vice versa) with no trading fees.": "আপনি কোনো ট্রেডিং ফি ছাড়াই BNB এর সাথে WBNB (এবং এর বিপরীত) বিনিময় করতে পারেন।",
+  "You can swap WXTZ for XTZ (and vice versa) with no trading fees.": "আপনি কোনো ট্রেডিং ফি ছাড়াই XTZ এর সাথে WXTZ (এবং এর বিপরীত) বিনিময় করতে পারেন।",
   "Exchange rate is always 1 to 1.": "বিনিময় হার সবসময় 1-এর সাথে 1। ",
   "You’ll need %symbol% tokens to participate in the IFO!": "IFO-তে অংশ নিতে আপনার %symbol% টোকেন প্রয়োজন হবে!",
   "Get %symbol%, or make sure your tokens aren’t staked somewhere else.": "%symbol% অর্জন করুন বা আপনার টোকেন অন্য কোথাও স্টেক করা নেই মর্মে নিশ্চিত করুন।",
