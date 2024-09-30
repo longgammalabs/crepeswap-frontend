@@ -1,13 +1,13 @@
-import { useTranslation } from '@iguanadex/localization'
-import { AccountFilledIcon, Box, Flex, Skeleton, Text } from '@iguanadex/uikit'
-import orderBy from 'lodash/orderBy'
-import { StaticImageData } from 'next/dist/client/legacy/image'
-import Image from 'next/image'
 import { styled } from 'styled-components'
+import { StaticImageData } from 'next/dist/client/legacy/image'
+import { Flex, Box, Text, Skeleton, AccountFilledIcon } from '@pancakeswap/uikit'
+import Image from 'next/image'
+import orderBy from 'lodash/orderBy'
+import { useTranslation } from '@pancakeswap/localization'
 import { TeamRanksProps } from '../../types'
-import PodiumWithParticipants from './Podium/PodiumWithParticipants'
 import useGetParticipants from './Podium/useGetParticipants'
 import TopTradersCard from './TopTradersCard'
+import PodiumWithParticipants from './Podium/PodiumWithParticipants'
 
 const Wrapper = styled(Flex)`
   flex-direction: column;

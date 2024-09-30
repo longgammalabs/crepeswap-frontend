@@ -1,5 +1,5 @@
-import { useTranslation } from "@iguanadex/localization";
-import { Balance, Button, Flex, Text } from "@iguanadex/uikit";
+import { useTranslation } from "@pancakeswap/localization";
+import { Balance, Flex, Button, Text } from "@pancakeswap/uikit";
 import { ActionContent, ActionTitles } from "./styles";
 
 export interface HarvestActionProps {

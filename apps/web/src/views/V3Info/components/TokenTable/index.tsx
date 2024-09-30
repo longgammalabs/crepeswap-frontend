@@ -7,10 +7,10 @@ import {
   SortArrowIcon,
   Text,
   useMatchBreakpoints,
-} from '@iguanadex/uikit'
-import { NextLinkFromReactRouter } from '@iguanadex/widgets-internal'
+} from '@pancakeswap/uikit'
+import { NextLinkFromReactRouter } from '@pancakeswap/widgets-internal'
 
-import { useTranslation } from '@iguanadex/localization'
+import { useTranslation } from '@pancakeswap/localization'
 import { useActiveChainId } from 'hooks/useActiveChainId'
 import useTheme from 'hooks/useTheme'
 import React, { useCallback, useEffect, useMemo, useState } from 'react'

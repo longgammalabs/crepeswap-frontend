@@ -1,7 +1,7 @@
-import { useTranslation } from '@iguanadex/localization'
-import { Box, Container, LinkExternal } from '@iguanadex/uikit'
 import { ReactElement } from 'react'
 import { styled } from 'styled-components'
+import { useTranslation } from '@pancakeswap/localization'
+import { Box, Container, LinkExternal } from '@pancakeswap/uikit'
 import { Address } from 'viem'
 
 import IfoLayout, { IfoLayoutWrapper } from './IfoLayout'

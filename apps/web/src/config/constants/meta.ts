@@ -1,4 +1,4 @@
-import { ContextApi } from '@iguanadex/localization'
+import { ContextApi } from '@pancakeswap/localization'
 import memoize from 'lodash/memoize'
 import { PageMeta } from './types'
 

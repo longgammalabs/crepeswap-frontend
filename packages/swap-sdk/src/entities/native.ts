@@ -1,6 +1,6 @@
-import { Currency, NativeCurrency, Token } from '@iguanadex/swap-sdk-core'
 import invariant from 'tiny-invariant'
-import { NATIVE, WNATIVE } from '../constants'
+import { Currency, Token, NativeCurrency } from '@pancakeswap/swap-sdk-core'
+import { WNATIVE, NATIVE } from '../constants'
 
 /**
  *

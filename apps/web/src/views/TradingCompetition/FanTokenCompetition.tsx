@@ -1,35 +1,35 @@
-import { ChainId } from '@iguanadex/chains'
-import { Box, PageSection, useMatchBreakpoints } from '@iguanadex/uikit'
-import { API_PROFILE } from 'config/constants/endpoints'
-import {
-  CLAIM,
-  CompetitionPhases,
-  FINISHED,
-  LIVE,
-  OVER,
-  REGISTRATION,
-  SmartContractPhases,
-} from 'config/constants/trading-competition/phases'
-import useAccountActiveChain from 'hooks/useAccountActiveChain'
+import { useState, useEffect } from 'react'
+import { useProfile } from 'state/profile/hooks'
+import { Box, useMatchBreakpoints, PageSection } from '@pancakeswap/uikit'
 import { useTradingCompetitionContractFanToken } from 'hooks/useContract'
 import useTheme from 'hooks/useTheme'
-import { useEffect, useState } from 'react'
-import { useProfile } from 'state/profile/hooks'
-import Footer from './Footer'
-import BattleCta from './components/BattleCta'
-import Countdown from './components/Countdown'
-import HowToJoin from './components/HowToJoin'
-import PrizesInfoSection from './components/PrizesInfoSection'
-import TeamRanksSection from './components/TeamRanksSection'
-import FanTokenBattleBanner from './fantoken/components/BattleBanner/FanTokenBattleBanner'
-import FanTokenPrizesInfo from './fantoken/components/PrizesInfo/FanTokenPrizesInfo'
-import FanTokenYourScore from './fantoken/components/YourScore/FanTokenYourScore'
+import { API_PROFILE } from 'config/constants/endpoints'
+import {
+  SmartContractPhases,
+  CompetitionPhases,
+  LIVE,
+  FINISHED,
+  CLAIM,
+  OVER,
+  REGISTRATION,
+} from 'config/constants/trading-competition/phases'
+import { ChainId } from '@pancakeswap/chains'
+import useAccountActiveChain from 'hooks/useAccountActiveChain'
 import { DARKBG, MIDBLUEBG, MIDBLUEBG_DARK } from './pageSectionStyles'
-import FanTokenCakerBunny from './pngs/fan-token-cakers.png'
+import Countdown from './components/Countdown'
 import FanTokenStormBunny from './pngs/fan-token-storm.png'
-import { BannerFlex, CompetitionPage } from './styles'
-import { useRegistrationClaimStatus } from './useRegistrationClaimStatus'
+import HowToJoin from './components/HowToJoin'
+import BattleCta from './components/BattleCta'
+import { CompetitionPage, BannerFlex } from './styles'
+import FanTokenBattleBanner from './fantoken/components/BattleBanner/FanTokenBattleBanner'
+import FanTokenYourScore from './fantoken/components/YourScore/FanTokenYourScore'
+import FanTokenPrizesInfo from './fantoken/components/PrizesInfo/FanTokenPrizesInfo'
+import FanTokenCakerBunny from './pngs/fan-token-cakers.png'
 import { useTeamInformation } from './useTeamInformation'
+import { useRegistrationClaimStatus } from './useRegistrationClaimStatus'
+import Footer from './Footer'
+import TeamRanksSection from './components/TeamRanksSection'
+import PrizesInfoSection from './components/PrizesInfoSection'
 
 const FanTokenCompetition = () => {
   const { account, chainId } = useAccountActiveChain()

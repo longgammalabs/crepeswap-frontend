@@ -1,4 +1,4 @@
-import { ChainId } from '@iguanadex/chains'
+import { ChainId } from '@pancakeswap/chains'
 import {
   BetPosition,
   FUTURE_ROUND_COUNT,
@@ -8,7 +8,7 @@ import {
   PredictionsChartView,
   PredictionStatus,
   ROUNDS_PER_PAGE,
-} from '@iguanadex/prediction'
+} from '@pancakeswap/prediction'
 import { createAsyncThunk, createSlice, PayloadAction } from '@reduxjs/toolkit'
 import { FetchStatus } from 'config/constants/types'
 import merge from 'lodash/merge'

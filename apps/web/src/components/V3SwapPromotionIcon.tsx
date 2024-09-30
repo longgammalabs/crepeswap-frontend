@@ -1,10 +1,10 @@
-import { IconButton, Text, TooltipText, useTooltip } from '@iguanadex/uikit'
+import { IconButton, Text, TooltipText, useTooltip } from '@pancakeswap/uikit'
 
-import { ChainId } from '@iguanadex/chains'
-import { useTranslation } from '@iguanadex/localization'
+import { useTranslation } from '@pancakeswap/localization'
+import { ChainId } from '@pancakeswap/chains'
 import { useCallback, useEffect, useState } from 'react'
 
-import { keyframes, styled } from 'styled-components'
+import { styled, keyframes } from 'styled-components'
 
 export const v3PromotionFarms = {
   [ChainId.BSC]: {

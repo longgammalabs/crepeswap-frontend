@@ -1,9 +1,9 @@
-import { useTranslation } from '@iguanadex/localization'
-import { Card, Flex, Table, Td, Text, Th } from '@iguanadex/uikit'
-import { formatNumber } from '@iguanadex/utils/formatBalance'
-import truncateHash from '@iguanadex/utils/truncateHash'
 import { useMemo } from 'react'
+import { Flex, Text, Card, Table, Td, Th } from '@pancakeswap/uikit'
+import { useTranslation } from '@pancakeswap/localization'
+import truncateHash from '@pancakeswap/utils/truncateHash'
 import { ListType } from 'views/AffiliatesProgram/hooks/useLeaderboard'
+import { formatNumber } from '@pancakeswap/utils/formatBalance'
 
 interface LeaderBoardListProps {
   isFetching: boolean

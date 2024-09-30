@@ -1,4 +1,4 @@
-import { ChainId } from '@iguanadex/chains'
+import { ChainId } from '@pancakeswap/chains'
 import MERKL_POOLS from 'config/constants/merklPools.json'
 import { Address } from 'viem'
 

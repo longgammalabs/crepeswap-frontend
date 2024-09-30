@@ -1,12 +1,12 @@
-import { useTranslation } from '@iguanadex/localization'
-import { Box, Button, Flex, Text } from '@iguanadex/uikit'
-import isEmpty from 'lodash/isEmpty'
-import { useAppDispatch } from 'state'
-import { clearAllTransactions } from 'state/transactions/actions'
-import { useAllSortedRecentTransactions } from 'state/transactions/hooks'
 import { styled } from 'styled-components'
-import { chains } from '../../../utils/wagmi'
+import { Box, Button, Flex, Text } from '@pancakeswap/uikit'
+import { useAppDispatch } from 'state'
+import { useAllSortedRecentTransactions } from 'state/transactions/hooks'
+import { useTranslation } from '@pancakeswap/localization'
+import { clearAllTransactions } from 'state/transactions/actions'
+import isEmpty from 'lodash/isEmpty'
 import TransactionRow from './TransactionRow'
+import { chains } from '../../../utils/wagmi'
 
 const TransactionsContainer = styled(Box)`
   max-height: 300px;

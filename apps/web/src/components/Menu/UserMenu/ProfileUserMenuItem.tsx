@@ -1,8 +1,8 @@
-import { useTranslation } from '@iguanadex/localization'
-import { Flex, Skeleton, UserMenuItem } from '@iguanadex/uikit'
-import NextLink from 'next/link'
 import { styled } from 'styled-components'
+import NextLink from 'next/link'
+import { Flex, Skeleton, UserMenuItem } from '@pancakeswap/uikit'
 import { useAccount } from 'wagmi'
+import { useTranslation } from '@pancakeswap/localization'
 
 interface ProfileUserMenuItemProps {
   isLoading: boolean

@@ -1,46 +1,46 @@
-import { ChainId } from '@iguanadex/chains'
-import { useTranslation } from '@iguanadex/localization'
-import { Box, Flex, PageSection, useMatchBreakpoints } from '@iguanadex/uikit'
-import { tradingCompetitionMoDABI } from 'config/abi/tradingCompetitionMoD'
-import { API_PROFILE, TC_MOD_SUBGRAPH } from 'config/constants/endpoints'
-import {
-  CLAIM,
-  CompetitionPhases,
-  FINISHED,
-  LIVE,
-  OVER,
-  REGISTRATION,
-  SmartContractPhases,
-} from 'config/constants/trading-competition/phases'
-import useAccountActiveChain from 'hooks/useAccountActiveChain'
+import { useState, useEffect } from 'react'
+import { useTranslation } from '@pancakeswap/localization'
+import { useProfile } from 'state/profile/hooks'
+import { Flex, Box, useMatchBreakpoints, PageSection } from '@pancakeswap/uikit'
+import Image from 'next/image'
 import { useTradingCompetitionContractMoD } from 'hooks/useContract'
 import useTheme from 'hooks/useTheme'
-import Image from 'next/image'
-import { useEffect, useState } from 'react'
-import { useProfile } from 'state/profile/hooks'
+import { TC_MOD_SUBGRAPH, API_PROFILE } from 'config/constants/endpoints'
+import { ChainId } from '@pancakeswap/chains'
 import { publicClient } from 'utils/wagmi'
-import BattleCta from './components/BattleCta'
-import Countdown from './components/Countdown'
-import HowToJoin from './components/HowToJoin'
-import PrizesInfoSection from './components/PrizesInfoSection'
-import RibbonWithImage from './components/RibbonWithImage'
-import Rules from './components/Rules'
-import TeamRanksWithParticipants from './components/TeamRanks/TeamRanksWithParticipants'
-import ModBattleBanner, { CoinDecoration } from './mod/components/BattleBanner/ModBattleBanner'
-import ModPrizesInfo from './mod/components/PrizesInfo/ModPrizesInfo'
-import ModYourScore from './mod/components/YourScore/ModYourScore'
+import { tradingCompetitionMoDABI } from 'config/abi/tradingCompetitionMoD'
+import {
+  SmartContractPhases,
+  CompetitionPhases,
+  LIVE,
+  FINISHED,
+  CLAIM,
+  OVER,
+  REGISTRATION,
+} from 'config/constants/trading-competition/phases'
+import useAccountActiveChain from 'hooks/useAccountActiveChain'
 import { DARKBG, MIDBLUEBG, MIDBLUEBG_DARK, TRADINGCOMPETITIONBANNER } from './pageSectionStyles'
-import MoDCakerBunny from './pngs/MoD-caker.png'
-import StormBunny from './pngs/MoD-storm-bunny.png'
-import { BannerFlex, BottomBunnyWrapper, CompetitionPage } from './styles'
 import {
   //  RanksIcon,
   RulesIcon,
 } from './svgs'
+import Countdown from './components/Countdown'
+import StormBunny from './pngs/MoD-storm-bunny.png'
+import RibbonWithImage from './components/RibbonWithImage'
+import HowToJoin from './components/HowToJoin'
+import BattleCta from './components/BattleCta'
+import Rules from './components/Rules'
+import { UserTradingInformation, initialUserTradingInformation, initialUserLeaderboardInformation } from './types'
+import { CompetitionPage, BannerFlex, BottomBunnyWrapper } from './styles'
 import RanksIcon from './svgs/RanksIcon'
-import { UserTradingInformation, initialUserLeaderboardInformation, initialUserTradingInformation } from './types'
-import { useRegistrationClaimStatus } from './useRegistrationClaimStatus'
+import ModBattleBanner, { CoinDecoration } from './mod/components/BattleBanner/ModBattleBanner'
+import ModPrizesInfo from './mod/components/PrizesInfo/ModPrizesInfo'
+import ModYourScore from './mod/components/YourScore/ModYourScore'
 import { useTeamInformation } from './useTeamInformation'
+import { useRegistrationClaimStatus } from './useRegistrationClaimStatus'
+import TeamRanksWithParticipants from './components/TeamRanks/TeamRanksWithParticipants'
+import MoDCakerBunny from './pngs/MoD-caker.png'
+import PrizesInfoSection from './components/PrizesInfoSection'
 
 const MoDCompetition = () => {
   const { account, chainId } = useAccountActiveChain()

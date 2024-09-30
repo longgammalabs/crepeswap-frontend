@@ -1,5 +1,5 @@
-import { ChevronDownIcon } from "@iguanadex/uikit";
 import { styled } from "styled-components";
+import { ChevronDownIcon } from "@pancakeswap/uikit";
 
 export interface DetailsProps {
   actionPanelToggled: boolean;

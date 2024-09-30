@@ -1,5 +1,5 @@
-import { useTranslation } from '@iguanadex/localization'
-import { Text, Th } from '@iguanadex/uikit'
+import { useTranslation } from '@pancakeswap/localization'
+import { Text, Th } from '@pancakeswap/uikit'
 import { THeader } from '../styled'
 
 export const TableHeader: React.FC<{

@@ -1,9 +1,9 @@
-import { Button, ChevronRightIcon, Flex, Grid, Heading, Text } from '@iguanadex/uikit'
-import { NextLinkFromReactRouter } from '@iguanadex/widgets-internal'
+import { Button, ChevronRightIcon, Flex, Grid, Heading, Text } from '@pancakeswap/uikit'
+import { NextLinkFromReactRouter } from '@pancakeswap/widgets-internal'
 
-import { useTranslation } from '@iguanadex/localization'
-import { Collection } from 'state/nftMarket/types'
 import { nftsBaseUrl } from 'views/Nft/market/constants'
+import { Collection } from 'state/nftMarket/types'
+import { useTranslation } from '@pancakeswap/localization'
 import { CollectionCard } from '../components/CollectibleCard'
 import { BNBAmountLabel } from '../components/CollectibleCard/styles'
 

@@ -1,4 +1,4 @@
-import { ChainId } from '@iguanadex/chains'
+import { ChainId } from '@pancakeswap/chains'
 import { CHAINS } from 'config/chains'
 import { PUBLIC_NODES } from 'config/nodes'
 import { PublicClient, createPublicClient, fallback, http } from 'viem'

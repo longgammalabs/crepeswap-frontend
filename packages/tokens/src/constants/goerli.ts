@@ -1,7 +1,7 @@
-import { ChainId } from '@iguanadex/chains'
-import { ERC20Token, WETH9 } from '@iguanadex/sdk'
+import { ERC20Token, WETH9 } from '@pancakeswap/sdk'
+import { ChainId } from '@pancakeswap/chains'
 
-import { CAKE, USDC_GOERLI } from './common'
+import { USDC_GOERLI, CAKE } from './common'
 
 export const goerliTestnetTokens = {
   cake: CAKE[ChainId.GOERLI],

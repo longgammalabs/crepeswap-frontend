@@ -1,4 +1,4 @@
-import { Box, BoxProps, Card, CardBody, CardHeader, Heading, Text } from '@iguanadex/uikit'
+import { Box, BoxProps, Card, CardBody, CardHeader, Heading, Text } from '@pancakeswap/uikit'
 import { ReactNode } from 'react'
 import FoldableText from './FoldableText'
 

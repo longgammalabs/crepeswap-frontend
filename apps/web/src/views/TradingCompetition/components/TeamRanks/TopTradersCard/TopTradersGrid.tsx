@@ -1,9 +1,9 @@
-import { Box, Skeleton } from '@iguanadex/uikit'
+import { Box, Skeleton } from '@pancakeswap/uikit'
 import { styled } from 'styled-components'
-import { LeaderboardCakers, LeaderboardFlippers, LeaderboardStorm } from '../../../svgs'
 import { LeaderboardDataItem } from '../../../types'
-import ExpandedGridItem from './ExpandedGridItem'
 import GridItem from './GridItem'
+import ExpandedGridItem from './ExpandedGridItem'
+import { LeaderboardStorm, LeaderboardFlippers, LeaderboardCakers } from '../../../svgs'
 
 const SkeletonLoader = () => {
   return (

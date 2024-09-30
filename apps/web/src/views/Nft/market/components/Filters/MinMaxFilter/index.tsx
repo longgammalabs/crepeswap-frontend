@@ -1,6 +1,6 @@
-import { useTranslation } from '@iguanadex/localization'
-import { Box, BoxProps, Button, Grid, InlineMenu, TextField } from '@iguanadex/uikit'
 import { useEffect, useState } from 'react'
+import { Box, BoxProps, Button, Grid, InlineMenu, TextField } from '@pancakeswap/uikit'
+import { useTranslation } from '@pancakeswap/localization'
 import FilterFooter from '../FilterFooter'
 
 interface MinMaxFilterProps extends BoxProps {

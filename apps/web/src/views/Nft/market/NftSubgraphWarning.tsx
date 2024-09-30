@@ -1,5 +1,5 @@
-import { useTranslation } from '@iguanadex/localization'
-import { Flex, Message, Text } from '@iguanadex/uikit'
+import { useTranslation } from '@pancakeswap/localization'
+import { Flex, Message, Text } from '@pancakeswap/uikit'
 import { styled } from 'styled-components'
 
 const StyledAnchor = styled.a`

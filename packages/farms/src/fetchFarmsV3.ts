@@ -1,16 +1,16 @@
-import { ChainId, getLlamaChainName } from '@iguanadex/chains'
-import { Currency, ERC20Token } from '@iguanadex/sdk'
-import { CAKE } from '@iguanadex/tokens'
-import { BIG_ZERO } from '@iguanadex/utils/bigNumber'
-import { tickToPrice } from '@iguanadex/v3-sdk'
-import BN from 'bignumber.js'
-import chunk from 'lodash/chunk'
+import { ERC20Token, Currency } from '@pancakeswap/sdk'
+import { ChainId, getLlamaChainName } from '@pancakeswap/chains'
+import { CAKE } from '@pancakeswap/tokens'
+import { tickToPrice } from '@pancakeswap/v3-sdk'
 import { Address, PublicClient, formatUnits } from 'viem'
+import BN from 'bignumber.js'
+import { BIG_ZERO } from '@pancakeswap/utils/bigNumber'
+import chunk from 'lodash/chunk'
 
 import { DEFAULT_COMMON_PRICE, PriceHelper } from '../constants/common'
+import { ComputedFarmConfigV3, FarmV3Data, FarmV3DataWithPrice } from './types'
 import { getFarmApr } from './apr'
 import { FarmV3SupportedChainId, supportedChainIdV3 } from './const'
-import { ComputedFarmConfigV3, FarmV3Data, FarmV3DataWithPrice } from './types'
 
 const chainlinkAbi = [
   {

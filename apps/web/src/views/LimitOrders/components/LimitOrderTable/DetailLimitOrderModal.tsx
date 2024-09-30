@@ -9,11 +9,11 @@ import {
   Tag,
   Text,
   useMatchBreakpoints,
-} from '@iguanadex/uikit'
-import { ConfirmationPendingContent, TransactionErrorContent } from '@iguanadex/widgets-internal'
+} from '@pancakeswap/uikit'
+import { ConfirmationPendingContent, TransactionErrorContent } from '@pancakeswap/widgets-internal'
 
 import { Order } from '@gelatonetwork/limit-orders-lib'
-import { useTranslation } from '@iguanadex/localization'
+import { useTranslation } from '@pancakeswap/localization'
 import { TransactionSubmittedContent } from 'components/TransactionConfirmationModal'
 import useGelatoLimitOrdersHandlers from 'hooks/limitOrders/useGelatoLimitOrdersHandlers'
 import { useActiveChainId } from 'hooks/useActiveChainId'

@@ -1,5 +1,5 @@
-import { useTranslation } from '@iguanadex/localization'
-import { Tag } from '@iguanadex/uikit'
+import { useTranslation } from '@pancakeswap/localization'
+import { Tag } from '@pancakeswap/uikit'
 import { useMerklInfo } from 'hooks/useMerkl'
 
 export function MerklTag({ poolAddress }: { poolAddress: string | null }) {

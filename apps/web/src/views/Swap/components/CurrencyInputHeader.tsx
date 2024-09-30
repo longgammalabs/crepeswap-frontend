@@ -1,4 +1,4 @@
-import { useTranslation } from '@iguanadex/localization'
+import { useTranslation } from '@pancakeswap/localization'
 import {
   ChartDisableIcon,
   ChartIcon,
@@ -12,9 +12,9 @@ import {
   TooltipText,
   useModal,
   useTooltip,
-} from '@iguanadex/uikit'
-import { useExpertMode } from '@iguanadex/utils/user'
-import { Swap } from '@iguanadex/widgets-internal'
+} from '@pancakeswap/uikit'
+import { useExpertMode } from '@pancakeswap/utils/user'
+import { Swap } from '@pancakeswap/widgets-internal'
 import TransactionsModal from 'components/App/Transactions/TransactionsModal'
 import InternalLink from 'components/Links'
 import GlobalSettings from 'components/Menu/GlobalSettings'

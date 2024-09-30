@@ -1,5 +1,5 @@
-import { Currency, CurrencyAmount, Percent, Price } from '@iguanadex/sdk'
-import { FeeAmount } from '@iguanadex/v3-sdk'
+import { Currency, CurrencyAmount, Percent, Price } from '@pancakeswap/sdk'
+import { FeeAmount } from '@pancakeswap/v3-sdk'
 import { Address, Hash } from 'viem'
 
 import { BaseManager, MANAGER } from './constants/managers'

@@ -1,5 +1,5 @@
-import { useTranslation } from '@iguanadex/localization'
-import { BunnyPlaceholderIcon, Flex, Heading } from '@iguanadex/uikit'
+import { BunnyPlaceholderIcon, Flex, Heading } from '@pancakeswap/uikit'
+import { useTranslation } from '@pancakeswap/localization'
 
 interface ComingSoonProps {
   children?: React.ReactNode

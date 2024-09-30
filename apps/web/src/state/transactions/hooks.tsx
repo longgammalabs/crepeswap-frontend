@@ -10,11 +10,11 @@ import { useSelector } from 'react-redux'
 import { AppState, useAppDispatch } from 'state'
 import { useAccount } from 'wagmi'
 
-import { FeeAmount } from '@iguanadex/v3-sdk'
+import { FeeAmount } from '@pancakeswap/v3-sdk'
 import { useActiveChainId } from 'hooks/useActiveChainId'
 import { Hash } from 'viem'
 
-import { Token } from '@iguanadex/swap-sdk-core'
+import { Token } from '@pancakeswap/swap-sdk-core'
 import useAccountActiveChain from 'hooks/useAccountActiveChain'
 import {
   FarmTransactionStatus,

@@ -1,9 +1,9 @@
-import { CurrencyAmount, Token, TradeType, WETH9 } from '@iguanadex/sdk'
+import { CurrencyAmount, Token, TradeType, WETH9 } from '@pancakeswap/sdk'
 import { describe, expect, it } from 'vitest'
 import { FeeAmount, TICK_SPACINGS } from './constants'
-import { Pool, Route, Trade } from './entities'
 import { SwapQuoter } from './quoter'
-import { encodeSqrtRatioX96, nearestUsableTick, TickMath } from './utils'
+import { nearestUsableTick, encodeSqrtRatioX96, TickMath } from './utils'
+import { Route, Trade, Pool } from './entities'
 
 describe('SwapQuoter', () => {
   const token0 = new Token(1, '0x0000000000000000000000000000000000000001', 18, 't0', 'token0')

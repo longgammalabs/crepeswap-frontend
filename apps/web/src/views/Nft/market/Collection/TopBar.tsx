@@ -1,8 +1,8 @@
-import { Box, ChevronLeftIcon, Flex } from '@iguanadex/uikit'
-import { NextLinkFromReactRouter } from '@iguanadex/widgets-internal'
+import { Box, ChevronLeftIcon, Flex } from '@pancakeswap/uikit'
+import { NextLinkFromReactRouter } from '@pancakeswap/widgets-internal'
 
-import { useTranslation } from '@iguanadex/localization'
 import { styled } from 'styled-components'
+import { useTranslation } from '@pancakeswap/localization'
 import { nftsBaseUrl } from 'views/Nft/market/constants'
 import SearchBar from '../components/SearchBar'
 

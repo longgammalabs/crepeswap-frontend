@@ -1,7 +1,7 @@
-import { useTranslation } from '@iguanadex/localization'
-import { Box, PaginationButton, Text } from '@iguanadex/uikit'
-import MobileResult, { StyledMobileRow } from 'views/TradingReward/components/Leaderboard/MobileResult'
+import { useTranslation } from '@pancakeswap/localization'
+import { PaginationButton, Box, Text } from '@pancakeswap/uikit'
 import { RankListDetail } from 'views/TradingReward/hooks/useRankList'
+import MobileResult, { StyledMobileRow } from 'views/TradingReward/components/Leaderboard/MobileResult'
 
 interface LeaderBoardMobileViewProps {
   data: RankListDetail[]

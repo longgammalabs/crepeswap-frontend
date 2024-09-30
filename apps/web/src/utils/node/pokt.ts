@@ -1,4 +1,4 @@
-import { ChainId } from '@iguanadex/chains'
+import { ChainId } from '@pancakeswap/chains'
 
 const pocketPrefix = {
   [ChainId.ARBITRUM_ONE]: 'arbitrum-one',

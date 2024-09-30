@@ -1,13 +1,13 @@
-import { useMatchBreakpoints } from '@iguanadex/uikit'
+import { useMatchBreakpoints } from '@pancakeswap/uikit'
 
 import {
-  ControlGroup,
   ControlsContainer,
+  ControlGroup,
   LiveSwitch,
-  SearchFilter,
-  SortFilter,
   // ViewSwitch,
   StakeOnlyToggle,
+  SortFilter,
+  SearchFilter,
 } from '../components'
 
 export function Controls() {

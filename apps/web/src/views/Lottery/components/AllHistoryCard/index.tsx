@@ -1,5 +1,5 @@
-import { useTranslation } from '@iguanadex/localization'
-import { Box, Card, CardHeader, Skeleton, Text } from '@iguanadex/uikit'
+import { useTranslation } from '@pancakeswap/localization'
+import { Box, Card, CardHeader, Skeleton, Text } from '@pancakeswap/uikit'
 import { LotteryStatus } from 'config/constants/types'
 import { useCallback, useEffect, useRef, useState } from 'react'
 import { useAppDispatch } from 'state'

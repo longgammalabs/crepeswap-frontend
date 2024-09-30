@@ -1,6 +1,6 @@
-import { SerializedFarmsState } from '@iguanadex/farms'
-import { SerializedPoolWithInfo } from '@iguanadex/pools'
-import { BetPosition, PredictionStatus, PredictionsChartView } from '@iguanadex/prediction'
+import { SerializedFarmsState } from '@pancakeswap/farms'
+import { SerializedPoolWithInfo } from '@pancakeswap/pools'
+import { BetPosition, PredictionStatus, PredictionsChartView } from '@pancakeswap/prediction'
 import BigNumber from 'bignumber.js'
 import {
   CampaignType,

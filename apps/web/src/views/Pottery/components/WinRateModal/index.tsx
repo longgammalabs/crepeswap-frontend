@@ -1,5 +1,5 @@
-import { useTranslation } from '@iguanadex/localization'
-import { BalanceInput, Box, Flex, Modal, Text } from '@iguanadex/uikit'
+import { useTranslation } from '@pancakeswap/localization'
+import { BalanceInput, Box, Flex, Modal, Text } from '@pancakeswap/uikit'
 import BigNumber from 'bignumber.js'
 import { useCakePrice } from 'hooks/useCakePrice'
 import { useVaultApy } from 'hooks/useVaultApy'

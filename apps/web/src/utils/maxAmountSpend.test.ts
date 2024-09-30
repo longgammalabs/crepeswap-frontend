@@ -1,4 +1,4 @@
-import { CurrencyAmount, Native } from '@iguanadex/sdk'
+import { CurrencyAmount, Native } from '@pancakeswap/sdk'
 import { maxAmountSpend } from './maxAmountSpend'
 
 describe('maxAmountSpend', () => {

@@ -1,5 +1,5 @@
-import { useTranslation } from '@iguanadex/localization'
-import { Button, useModal, useToast } from '@iguanadex/uikit'
+import { useTranslation } from '@pancakeswap/localization'
+import { Button, useModal, useToast } from '@pancakeswap/uikit'
 import { ToastDescriptionWithTx } from 'components/Toast'
 import useCatchTxError from 'hooks/useCatchTxError'
 import { useERC20 } from 'hooks/useContract'

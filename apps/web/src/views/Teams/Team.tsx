@@ -1,8 +1,8 @@
-import { useTranslation } from '@iguanadex/localization'
-import { ChevronLeftIcon, Flex, Text } from '@iguanadex/uikit'
+import { ChevronLeftIcon, Flex, Text } from '@pancakeswap/uikit'
 import Page from 'components/Layout/Page'
-import Link from 'next/link'
+import { useTranslation } from '@pancakeswap/localization'
 import { useRouter } from 'next/router'
+import Link from 'next/link'
 import TeamCard from './components/TeamCard'
 import TeamHeader from './components/TeamHeader'
 

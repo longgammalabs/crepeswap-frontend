@@ -1,4 +1,4 @@
-import { useTranslation } from '@iguanadex/localization'
+import { useTranslation } from '@pancakeswap/localization'
 import {
   Button,
   ButtonProps,
@@ -10,7 +10,7 @@ import {
   TooltipText,
   useMatchBreakpoints,
   useTooltip,
-} from '@iguanadex/uikit'
+} from '@pancakeswap/uikit'
 import _isEmpty from 'lodash/isEmpty'
 import { ReactNode } from 'react'
 import { styled } from 'styled-components'

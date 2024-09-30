@@ -1,9 +1,9 @@
-import { useTranslation } from '@iguanadex/localization'
-import { AutoColumn, Message, MessageText, Text } from '@iguanadex/uikit'
+import { useTranslation } from '@pancakeswap/localization'
+import { AutoColumn, Message, MessageText, Text } from '@pancakeswap/uikit'
 import { useEffect, useMemo, useState } from 'react'
 
-import { Currency } from '@iguanadex/sdk'
-import { FeeAmount } from '@iguanadex/v3-sdk'
+import { Currency } from '@pancakeswap/sdk'
+import { FeeAmount } from '@pancakeswap/v3-sdk'
 import { EvenWidthAutoRow } from 'components/Layout/EvenWidthAutoRow'
 import { SelectButton } from 'components/SelectButton'
 import { PoolState } from 'hooks/v3/types'

@@ -1,9 +1,9 @@
-import { LanguageProvider } from "@iguanadex/localization";
-import { CurrencyAmount, Price } from "@iguanadex/sdk";
-import { ethereumTokens } from "@iguanadex/tokens";
-import { Button, MatchBreakpointsProvider } from "@iguanadex/uikit";
-import { FeeAmount } from "@iguanadex/v3-sdk";
 import React, { useState } from "react";
+import { LanguageProvider } from "@pancakeswap/localization";
+import { CurrencyAmount, Price } from "@pancakeswap/sdk";
+import { ethereumTokens } from "@pancakeswap/tokens";
+import { FeeAmount } from "@pancakeswap/v3-sdk";
+import { Button, MatchBreakpointsProvider } from "@pancakeswap/uikit";
 import mockData from "swap/LiquidityChartRangeInput/mockData.json";
 
 import { RoiCalculator } from "./RoiCalculator";

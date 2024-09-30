@@ -1,4 +1,4 @@
-import { CORS_ALLOW, handleCors, wrapCorsHeader } from '@iguanadex/worker-utils'
+import { CORS_ALLOW, handleCors, wrapCorsHeader } from '@pancakeswap/worker-utils'
 import { Router } from 'itty-router'
 import { error, missing } from 'itty-router-extras'
 

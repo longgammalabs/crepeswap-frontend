@@ -1,8 +1,8 @@
-import { Ifo } from '@iguanadex/ifos'
-import { MaxUint256 } from '@iguanadex/swap-sdk-core'
+import { useCallback } from 'react'
+import { MaxUint256 } from '@pancakeswap/swap-sdk-core'
+import { Ifo } from '@pancakeswap/ifos'
 import { useCallWithGasPrice } from 'hooks/useCallWithGasPrice'
 import { useERC20 } from 'hooks/useContract'
-import { useCallback } from 'react'
 import { Address } from 'viem'
 
 const useIfoApprove = (ifo: Ifo, spenderAddress?: string) => {

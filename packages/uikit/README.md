@@ -1,18 +1,18 @@
-# 🦎 IguanaDEX UIkit
+# 🥞 Pancake UIkit
 
-IguanaDEX UIkit is a set of React components and hooks used to build pages on IguanaDEX's apps. It also contains a theme file for dark and light mode.
+Pancake UIkit is a set of React components and hooks used to build pages on Pancake's apps. It also contains a theme file for dark and light mode.
 
-**\*Note**: In case you want to use the older version of the IguanaDEX UIkit, you should install @iguanadex-libs/uikit, instead, but we recommend using the latest version of the UIkit.\*
+***Note**: In case you want to use the older version of the Pancake UIkit, you should install @pancakeswap-libs/uikit, instead, but we recommend using the latest version of the UIkit.*
+
 
 ## Setup
 
 ### Providers
 
-Before using IguanaDEX UIkit, you need to provide the theme file to uikit provider.
+Before using Pancake UIkit, you need to provide the theme file to uikit provider.
 
 ```
-import { UIKitProvider, light, dark } from '@iguanadex/uikit'
-import { UIKitProvider, light, dark } from '@iguanadex/uikit'
+import { UIKitProvider, light, dark } from '@pancakeswap/uikit'
 ...
 <UIKitProvider theme={isDark ? dark : light}>...</UIKitProvider>
 ```
@@ -22,10 +22,8 @@ import { UIKitProvider, light, dark } from '@iguanadex/uikit'
 A reset CSS is available as a global styled component.
 
 ```
-import '@iguanadex/uikit/styles'
-import { ResetCSS } from '@iguanadex/uikit'
-import '@iguanadex/uikit/styles'
-import { ResetCSS } from '@iguanadex/uikit'
+import '@pancakeswap/uikit/styles'
+import { ResetCSS } from '@pancakeswap/uikit'
 ...
 <ResetCSS />
 ```

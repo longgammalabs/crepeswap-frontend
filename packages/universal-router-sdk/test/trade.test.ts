@@ -1,4 +1,4 @@
-import { ChainId } from '@iguanadex/chains'
+import { ChainId } from '@pancakeswap/chains'
 import {
   CurrencyAmount,
   ERC20Token,
@@ -8,9 +8,9 @@ import {
   TradeType,
   Route as V2Route,
   Trade as V2Trade,
-} from '@iguanadex/sdk'
-import { PoolType, SmartRouter, SmartRouterTrade, V2Pool, V3Pool } from '@iguanadex/smart-router'
-import { Pool, Route as V3Route, Trade as V3Trade } from '@iguanadex/v3-sdk'
+} from '@pancakeswap/sdk'
+import { PoolType, SmartRouter, SmartRouterTrade, V2Pool, V3Pool } from '@pancakeswap/smart-router'
+import { Pool, Route as V3Route, Trade as V3Trade } from '@pancakeswap/v3-sdk'
 import { Address, WalletClient, isHex, parseEther, parseUnits, stringify } from 'viem'
 import { beforeEach, describe, expect, it } from 'vitest'
 import { PancakeSwapUniversalRouter, ROUTER_AS_RECIPIENT } from '../src'
@@ -48,6 +48,8 @@ describe('PancakeSwap Universal Router Trade', () => {
   const chainId = ChainId.ETHEREUM
   const liquidity = parseEther('1000')
 
+  let wallet: WalletClient
+
   let ETHER: Ether
   let USDC: ERC20Token
   let USDT: ERC20Token
@@ -57,6 +59,7 @@ describe('PancakeSwap Universal Router Trade', () => {
   let WETH_USDC_V3_LOW: Pool
   let USDC_USDT_V3_LOW: Pool
   let UNIVERSAL_ROUTER: Address
+  let PERMIT2: Address
 
   expect.addSnapshotSerializer({
     serialize(val) {
@@ -70,6 +73,7 @@ describe('PancakeSwap Universal Router Trade', () => {
   beforeEach(async () => {
     ;({
       UNIVERSAL_ROUTER,
+      PERMIT2,
       ETHER,
       USDC,
       USDT,
@@ -79,6 +83,7 @@ describe('PancakeSwap Universal Router Trade', () => {
       WETH_USDC_V3_LOW,
       WETH_USDC_V3_MEDIUM,
     } = await fixtureAddresses(chainId, liquidity))
+    wallet = getWalletClient({ chainId })
   })
 
   describe('v2', () => {

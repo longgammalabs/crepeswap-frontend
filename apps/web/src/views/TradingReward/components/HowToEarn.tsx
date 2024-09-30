@@ -1,8 +1,8 @@
-import { useTranslation } from '@iguanadex/localization'
-import { Box, Card, Flex, LinkExternal, Text } from '@iguanadex/uikit'
-import Trans from 'components/Trans'
-import Image from 'next/image'
 import { styled } from 'styled-components'
+import { Box, Flex, Text, Card, LinkExternal } from '@pancakeswap/uikit'
+import { useTranslation } from '@pancakeswap/localization'
+import Image from 'next/image'
+import Trans from 'components/Trans'
 
 const stepList = [
   {

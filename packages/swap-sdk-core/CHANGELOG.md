@@ -1,4 +1,4 @@
-# @iguanadex/swap-sdk-core
+# @pancakeswap/swap-sdk-core
 
 ## 1.1.0
 

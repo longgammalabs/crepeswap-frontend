@@ -1,4 +1,4 @@
-import { CAKE, USDC } from '@iguanadex/tokens'
+import { CAKE, USDC } from '@pancakeswap/tokens'
 import { useActiveChainId } from 'hooks/useActiveChainId'
 import useNativeCurrency from 'hooks/useNativeCurrency'
 import { GetStaticPaths, GetStaticProps } from 'next'

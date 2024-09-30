@@ -1,10 +1,10 @@
-import { useTranslation } from '@iguanadex/localization'
-import { Box, Flex, Skeleton, Text } from '@iguanadex/uikit'
+import { useTranslation } from '@pancakeswap/localization'
 import { styled } from 'styled-components'
-import { localiseTradingVolume } from '../../../helpers'
-import { PodiumBase } from '../../../svgs'
-import { PodiumProps } from './styles'
+import { Flex, Box, Text, Skeleton } from '@pancakeswap/uikit'
 import TeamPodiumIcon from './TeamPodiumIcon'
+import { PodiumBase } from '../../../svgs'
+import { localiseTradingVolume } from '../../../helpers'
+import { PodiumProps } from './styles'
 
 const Wrapper = styled(Flex)`
   width: 260px;

@@ -1,5 +1,5 @@
-import { ContextApi, useTranslation } from '@iguanadex/localization'
-import { InjectedModalProps, Modal } from '@iguanadex/uikit'
+import { ContextApi, useTranslation } from '@pancakeswap/localization'
+import { InjectedModalProps, Modal } from '@pancakeswap/uikit'
 import ApproveCakeView from './ApproveCakeView'
 import ChangeProfilePicView from './ChangeProfilePicView'
 import PauseProfileView from './PauseProfileView'

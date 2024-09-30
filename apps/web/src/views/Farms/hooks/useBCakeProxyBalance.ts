@@ -1,5 +1,5 @@
-import { CAKE } from '@iguanadex/tokens'
-import { getBalanceAmount, getFullDisplayBalance } from '@iguanadex/utils/formatBalance'
+import { CAKE } from '@pancakeswap/tokens'
+import { getBalanceAmount, getFullDisplayBalance } from '@pancakeswap/utils/formatBalance'
 import { useQuery } from '@tanstack/react-query'
 import BigNumber from 'bignumber.js'
 import useAccountActiveChain from 'hooks/useAccountActiveChain'

@@ -1,5 +1,5 @@
-import { useTranslation } from '@iguanadex/localization'
-import { Box, Flex, Text } from '@iguanadex/uikit'
+import { useTranslation } from '@pancakeswap/localization'
+import { Box, Flex, Text } from '@pancakeswap/uikit'
 import { styled } from 'styled-components'
 import { AllHooks } from 'views/LandingV4/components/ExploreHooks/AllHooks'
 import { Contribute } from 'views/LandingV4/components/ExploreHooks/Contribute'

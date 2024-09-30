@@ -1,5 +1,5 @@
-import { Trans } from '@iguanadex/localization'
-import { Box, ChevronLeftIcon, ChevronRightIcon, Flex, Heading, Text, useMatchBreakpoints } from '@iguanadex/uikit'
+import { Trans } from '@pancakeswap/localization'
+import { Box, ChevronLeftIcon, ChevronRightIcon, Flex, Heading, Text, useMatchBreakpoints } from '@pancakeswap/uikit'
 import useTheme from 'hooks/useTheme'
 import Image from 'next/image'
 import { useCallback, useState } from 'react'

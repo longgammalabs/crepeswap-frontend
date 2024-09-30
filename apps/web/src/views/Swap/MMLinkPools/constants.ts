@@ -1,4 +1,4 @@
-import { ChainId } from '@iguanadex/chains'
+import { ChainId } from '@pancakeswap/chains'
 import contract from 'config/constants/contracts'
 import { getAddress } from 'viem'
 

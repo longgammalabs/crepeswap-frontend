@@ -1,6 +1,6 @@
-import { useTranslation } from '@iguanadex/localization'
-import { Flex, Text, Toggle, useMatchBreakpoints } from '@iguanadex/uikit'
 import { styled } from 'styled-components'
+import { Text, Flex, Toggle, useMatchBreakpoints } from '@pancakeswap/uikit'
+import { useTranslation } from '@pancakeswap/localization'
 
 import { useStakeOnly } from '../hooks'
 

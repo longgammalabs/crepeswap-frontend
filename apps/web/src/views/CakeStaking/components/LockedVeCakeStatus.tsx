@@ -1,4 +1,4 @@
-import { useTranslation } from '@iguanadex/localization'
+import { useTranslation } from '@pancakeswap/localization'
 import {
   AutoColumn,
   Balance,
@@ -14,8 +14,8 @@ import {
   Message,
   RowBetween,
   Text,
-} from '@iguanadex/uikit'
-import { formatBigInt, formatNumber, getBalanceAmount, getBalanceNumber } from '@iguanadex/utils/formatBalance'
+} from '@pancakeswap/uikit'
+import { formatBigInt, formatNumber, getBalanceAmount, getBalanceNumber } from '@pancakeswap/utils/formatBalance'
 import dayjs from 'dayjs'
 import relativeTime from 'dayjs/plugin/relativeTime'
 import { useCakePrice } from 'hooks/useCakePrice'

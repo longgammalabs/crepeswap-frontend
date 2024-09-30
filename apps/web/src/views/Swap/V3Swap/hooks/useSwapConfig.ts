@@ -1,4 +1,4 @@
-import { useExpertMode } from '@iguanadex/utils/user'
+import { useExpertMode } from '@pancakeswap/utils/user'
 import { useTransactionDeadline } from 'hooks/useTransactionDeadline'
 
 export type SwapConfig = {

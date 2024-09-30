@@ -1,13 +1,13 @@
-import { useTranslation } from '@iguanadex/localization'
-import { AutoRenewIcon, Button, Checkbox, Flex, InjectedModalProps, Text, useToast } from '@iguanadex/uikit'
-import { formatBigInt } from '@iguanadex/utils/formatBalance'
-import { ToastDescriptionWithTx } from 'components/Toast'
+import { useState } from 'react'
+import { AutoRenewIcon, Button, Checkbox, Flex, InjectedModalProps, Text, useToast } from '@pancakeswap/uikit'
+import { useTranslation } from '@pancakeswap/localization'
+import useGetProfileCosts from 'views/Profile/hooks/useGetProfileCosts'
+import { useProfile } from 'state/profile/hooks'
+import { formatBigInt } from '@pancakeswap/utils/formatBalance'
+import { useProfileContract } from 'hooks/useContract'
 import { useCallWithGasPrice } from 'hooks/useCallWithGasPrice'
 import useCatchTxError from 'hooks/useCatchTxError'
-import { useProfileContract } from 'hooks/useContract'
-import { useState } from 'react'
-import { useProfile } from 'state/profile/hooks'
-import useGetProfileCosts from 'views/Profile/hooks/useGetProfileCosts'
+import { ToastDescriptionWithTx } from 'components/Toast'
 
 interface PauseProfilePageProps extends InjectedModalProps {
   onSuccess?: () => void

@@ -1,5 +1,5 @@
-import { ChainId } from '@iguanadex/chains'
-import { ModalV2 } from '@iguanadex/uikit'
+import { ChainId } from '@pancakeswap/chains'
+import { ModalV2 } from '@pancakeswap/uikit'
 import { SUPPORT_ONLY_BSC } from 'config/constants/supportChains'
 import useActiveWeb3React from 'hooks/useActiveWeb3React'
 import { atom, useAtom } from 'jotai'

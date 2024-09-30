@@ -1,4 +1,4 @@
-import { useTranslation } from '@iguanadex/localization'
+import { useTranslation } from '@pancakeswap/localization'
 import {
   Box,
   BunnyPlaceholderIcon,
@@ -11,7 +11,7 @@ import {
   Text,
   useMatchBreakpoints,
   useModal,
-} from '@iguanadex/uikit'
+} from '@pancakeswap/uikit'
 import { LotteryStatus } from 'config/constants/types'
 import { useGetUserLotteriesGraphData, useLottery } from 'state/lottery/hooks'
 import { LotteryRound } from 'state/types'

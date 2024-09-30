@@ -1,4 +1,4 @@
-import { Text } from '@iguanadex/uikit'
+import { Text } from '@pancakeswap/uikit'
 
 const TextComponent = ({ text }: { text: string }) => {
   return (

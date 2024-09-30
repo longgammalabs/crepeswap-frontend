@@ -1,14 +1,14 @@
-import { Price, Token } from '@iguanadex/swap-sdk-core'
 import { useRouter } from 'next/router'
+import { Price, Token } from '@pancakeswap/swap-sdk-core'
 import { useCallback } from 'react'
 import { batch } from 'react-redux'
 import {
   Field,
-  setFullRange,
   typeInput,
   typeLeftRangeInput,
   typeRightRangeInput,
   typeStartPriceInput,
+  setFullRange,
 } from '../actions'
 import { useV3FormDispatch } from '../reducer'
 

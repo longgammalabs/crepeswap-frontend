@@ -1,4 +1,4 @@
-import { useTranslation } from '@iguanadex/localization'
+import { useTranslation } from '@pancakeswap/localization'
 import {
   AutoRenewIcon,
   Button,
@@ -10,7 +10,7 @@ import {
   ModalHeader,
   ModalTitle,
   Text,
-} from '@iguanadex/uikit'
+} from '@pancakeswap/uikit'
 import { useEffect, useState } from 'react'
 import { styled } from 'styled-components'
 import { useAccount } from 'wagmi'

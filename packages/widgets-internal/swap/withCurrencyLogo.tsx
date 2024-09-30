@@ -1,8 +1,8 @@
-import { useTranslation } from "@iguanadex/localization";
-import { BaseCurrency } from "@iguanadex/swap-sdk-core";
-import { AutoColumn, AutoRow, Button, Flex, RowFixed, Text, useMatchBreakpoints } from "@iguanadex/uikit";
 import { CSSProperties, ReactElement } from "react";
+import { BaseCurrency } from "@pancakeswap/swap-sdk-core";
+import { useTranslation } from "@pancakeswap/localization";
 import { styled } from "styled-components";
+import { AutoColumn, AutoRow, Button, Flex, RowFixed, Text, useMatchBreakpoints } from "@pancakeswap/uikit";
 import { ListLogo } from "./ListLogo";
 
 const TokenSection = styled.div<{ dim?: boolean }>`

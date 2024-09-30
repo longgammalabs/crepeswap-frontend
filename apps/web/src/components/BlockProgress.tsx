@@ -1,4 +1,4 @@
-import { Progress, ProgressProps } from '@iguanadex/uikit'
+import { Progress, ProgressProps } from '@pancakeswap/uikit'
 import { useCurrentBlock } from 'state/block/hooks'
 
 interface BlockProgressProps extends ProgressProps {

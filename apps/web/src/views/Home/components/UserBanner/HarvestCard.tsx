@@ -1,4 +1,4 @@
-import { useTranslation } from '@iguanadex/localization'
+import { useTranslation } from '@pancakeswap/localization'
 import {
   ArrowForwardIcon,
   AutoRenewIcon,
@@ -12,8 +12,8 @@ import {
   TextProps,
   useMatchBreakpoints,
   useToast,
-} from '@iguanadex/uikit'
-import { NextLinkFromReactRouter } from '@iguanadex/widgets-internal'
+} from '@pancakeswap/uikit'
+import { NextLinkFromReactRouter } from '@pancakeswap/widgets-internal'
 
 import BigNumber from 'bignumber.js'
 import { ToastDescriptionWithTx } from 'components/Toast'

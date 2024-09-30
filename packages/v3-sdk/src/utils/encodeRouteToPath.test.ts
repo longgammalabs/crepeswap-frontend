@@ -1,5 +1,5 @@
-import { Native, Token, WETH9 } from '@iguanadex/sdk'
-import { describe, expect, it } from 'vitest'
+import { Native, Token, WETH9 } from '@pancakeswap/sdk'
+import { describe, it, expect } from 'vitest'
 import { FeeAmount } from '../constants'
 import { Pool } from '../entities/pool'
 import { Route } from '../entities/route'

@@ -1,19 +1,19 @@
-import { useTranslation } from '@iguanadex/localization'
-import { Flex, Text } from '@iguanadex/uikit'
-import truncateHash from '@iguanadex/utils/truncateHash'
 import { useMemo } from 'react'
-import PodiumAvatar from 'views/AffiliatesProgram/components/LeaderBoard/PodiumAvatar'
-import PodiumText from 'views/AffiliatesProgram/components/LeaderBoard/PodiumText'
-import { ListType } from 'views/AffiliatesProgram/hooks/useLeaderboard'
+import { useTranslation } from '@pancakeswap/localization'
+import { Flex, Text } from '@pancakeswap/uikit'
+import truncateHash from '@pancakeswap/utils/truncateHash'
 import {
-  Inner,
-  LeftBox,
-  MiddleBox,
   RightBox,
-  StyledVolumeFlex,
+  MiddleBox,
+  LeftBox,
   Wrapper,
+  Inner,
+  StyledVolumeFlex,
 } from 'views/TradingCompetition/components/TeamRanks/Podium/styles'
 import { PodiumBase } from 'views/TradingCompetition/svgs'
+import PodiumAvatar from 'views/AffiliatesProgram/components/LeaderBoard/PodiumAvatar'
+import { ListType } from 'views/AffiliatesProgram/hooks/useLeaderboard'
+import PodiumText from 'views/AffiliatesProgram/components/LeaderBoard/PodiumText'
 
 interface PodiumProps {
   list: ListType[]

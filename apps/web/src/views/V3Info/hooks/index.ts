@@ -1,4 +1,4 @@
-import { ChainId } from '@iguanadex/chains'
+import { ChainId } from '@pancakeswap/chains'
 import dayjs, { ManipulateType } from 'dayjs'
 import { GraphQLClient } from 'graphql-request'
 import { useMemo } from 'react'

@@ -1,5 +1,5 @@
-import { useTranslation } from '@iguanadex/localization'
-import { Box, Flex, Image, Link, Text, TooltipText, useTooltip } from '@iguanadex/uikit'
+import { useTranslation } from '@pancakeswap/localization'
+import { Box, Flex, Image, Link, Text, TooltipText, useTooltip } from '@pancakeswap/uikit'
 import { PANCAKE_ASSET_CDN } from 'config/constants/endpoints'
 
 export const Header = () => {

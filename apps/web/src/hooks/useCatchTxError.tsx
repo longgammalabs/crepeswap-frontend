@@ -1,5 +1,5 @@
-import { useTranslation } from '@iguanadex/localization'
-import { useToast } from '@iguanadex/uikit'
+import { useTranslation } from '@pancakeswap/localization'
+import { useToast } from '@pancakeswap/uikit'
 import { ToastDescriptionWithTx } from 'components/Toast'
 import { useCallback, useState } from 'react'
 import { getViemErrorMessage, parseViemError } from 'utils/errors'

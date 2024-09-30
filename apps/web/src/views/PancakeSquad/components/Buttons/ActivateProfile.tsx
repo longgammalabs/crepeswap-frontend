@@ -1,7 +1,7 @@
-import { Button } from '@iguanadex/uikit'
-import { NextLinkFromReactRouter } from '@iguanadex/widgets-internal'
+import { Button } from '@pancakeswap/uikit'
+import { NextLinkFromReactRouter } from '@pancakeswap/widgets-internal'
 
-import { ContextApi } from '@iguanadex/localization'
+import { ContextApi } from '@pancakeswap/localization'
 import { UserStatusEnum } from 'views/PancakeSquad/types'
 
 type ActivateProfileButtonProps = {

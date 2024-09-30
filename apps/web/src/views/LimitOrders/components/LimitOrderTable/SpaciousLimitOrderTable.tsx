@@ -1,6 +1,6 @@
-import { useTranslation } from '@iguanadex/localization'
-import { Table, Text, Th } from '@iguanadex/uikit'
 import { memo } from 'react'
+import { Table, Th, Text } from '@pancakeswap/uikit'
+import { useTranslation } from '@pancakeswap/localization'
 import FullRow from './FullRow'
 
 const SpaciousLimitOrderTable = ({ orders }) => {

@@ -1,7 +1,7 @@
-import { useTranslation } from "@iguanadex/localization";
-import { getFullDisplayBalance } from "@iguanadex/utils/formatBalance";
-import BigNumber from "bignumber.js";
 import { useMemo } from "react";
+import BigNumber from "bignumber.js";
+import { useTranslation } from "@pancakeswap/localization";
+import { getFullDisplayBalance } from "@pancakeswap/utils/formatBalance";
 import { Text } from "../../components/Text";
 
 interface IfoVestingAvailableToClaimProps {

@@ -1,8 +1,8 @@
-import { useTranslation } from '@iguanadex/localization'
-import { Flex, Radio, Text } from '@iguanadex/uikit'
 import { ChangeEvent } from 'react'
-import { ProposalState } from 'state/types'
+import { Flex, Radio, Text } from '@pancakeswap/uikit'
 import { styled } from 'styled-components'
+import { useTranslation } from '@pancakeswap/localization'
+import { ProposalState } from 'state/types'
 
 interface FiltersProps {
   filterState: ProposalState

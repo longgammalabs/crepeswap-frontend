@@ -1,21 +1,21 @@
-import { useTranslation } from '@iguanadex/localization'
-import { Currency, CurrencyAmount, Price, Token, ZERO } from '@iguanadex/sdk'
-import { CalculateIcon, Flex, IconButton, QuestionHelper, RocketIcon, Text, TooltipText } from '@iguanadex/uikit'
-import { BIG_ZERO } from '@iguanadex/utils/bigNumber'
-import { formatPrice } from '@iguanadex/utils/formatFractions'
-import { FeeCalculator, Pool, encodeSqrtRatioX96, isPoolTickInRange, parseProtocolFees } from '@iguanadex/v3-sdk'
+import { useTranslation } from '@pancakeswap/localization'
+import { Currency, CurrencyAmount, Price, Token, ZERO } from '@pancakeswap/sdk'
+import { CalculateIcon, Flex, IconButton, QuestionHelper, RocketIcon, Text, TooltipText } from '@pancakeswap/uikit'
+import { BIG_ZERO } from '@pancakeswap/utils/bigNumber'
+import { formatPrice } from '@pancakeswap/utils/formatFractions'
+import { FeeCalculator, Pool, encodeSqrtRatioX96, isPoolTickInRange, parseProtocolFees } from '@pancakeswap/v3-sdk'
 import {
   RoiCalculatorModalV2,
   RoiCalculatorPositionInfo,
   useAmountsByUsdValue,
   useRoi,
-} from '@iguanadex/widgets-internal/roi'
+} from '@pancakeswap/widgets-internal/roi'
 import { useCakePrice } from 'hooks/useCakePrice'
 import { useRouter } from 'next/router'
 import { useCallback, useMemo, useState } from 'react'
 import { styled } from 'styled-components'
 
-import { PositionDetails, getPositionFarmApr, getPositionFarmAprFactor } from '@iguanadex/farms'
+import { PositionDetails, getPositionFarmApr, getPositionFarmAprFactor } from '@pancakeswap/farms'
 import { Bound } from 'config/constants/types'
 import { useFarm } from 'hooks/useFarm'
 import { usePoolAvgTradingVolume } from 'hooks/usePoolTradingVolume'

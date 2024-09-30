@@ -1,6 +1,6 @@
-import { useTranslation } from '@iguanadex/localization'
-import { Token } from '@iguanadex/sdk'
-import { Box, Card, Text } from '@iguanadex/uikit'
+import { useTranslation } from '@pancakeswap/localization'
+import { Token } from '@pancakeswap/sdk'
+import { Box, Card, Text } from '@pancakeswap/uikit'
 import PreviousBetsTable from '../PreviousBetsTable'
 
 interface DesktopBetsTableProps {

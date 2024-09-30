@@ -1,6 +1,6 @@
-import { ChainId } from '@iguanadex/chains'
-import { useTranslation } from '@iguanadex/localization'
-import { Flex, Link, Text } from '@iguanadex/uikit'
+import { ChainId } from '@pancakeswap/chains'
+import { useTranslation } from '@pancakeswap/localization'
+import { Flex, Link, Text } from '@pancakeswap/uikit'
 import { TOKEN_RISK } from 'components/AccessRisk'
 import { useActiveChainId } from 'hooks/useActiveChainId'
 

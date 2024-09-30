@@ -1,6 +1,6 @@
-import { Box, Skeleton, Text } from '@iguanadex/uikit'
+import { Box, Text, Skeleton } from '@pancakeswap/uikit'
 import dayjs from 'dayjs'
-import { memo, useEffect, useMemo, useState } from 'react'
+import { useState, useMemo, memo, useEffect } from 'react'
 import { ChartEntry, ProtocolData } from 'state/info/types'
 import { formatAmount } from 'utils/formatInfoNumbers'
 import BarChart from './BarChart'

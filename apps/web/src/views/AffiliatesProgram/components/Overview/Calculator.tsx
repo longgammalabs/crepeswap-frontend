@@ -1,8 +1,8 @@
-import { useTranslation } from '@iguanadex/localization'
-import { ArrowDownIcon, Balance, Box, Button, Flex, Input, Text } from '@iguanadex/uikit'
-import BigNumber from 'bignumber.js'
 import { useMemo, useState } from 'react'
 import { styled } from 'styled-components'
+import { Flex, Text, Box, Button, ArrowDownIcon, Input, Balance } from '@pancakeswap/uikit'
+import BigNumber from 'bignumber.js'
+import { useTranslation } from '@pancakeswap/localization'
 
 const CalculatorWrapper = styled(Flex)`
   padding: 24px;

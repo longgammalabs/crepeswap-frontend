@@ -1,9 +1,9 @@
-import { Token } from '@iguanadex/sdk'
-import { useModal } from '@iguanadex/uikit'
+import { Token } from '@pancakeswap/sdk'
+import { useModal } from '@pancakeswap/uikit'
 import { useCallback, useEffect, useMemo, useState } from 'react'
 
-import { useQuery } from '@tanstack/react-query'
 import { useRouter } from 'next/router'
+import { useQuery } from '@tanstack/react-query'
 import shouldShowSwapWarning from 'utils/shouldShowSwapWarning'
 
 import ImportTokenWarningModal from 'components/ImportTokenWarningModal'

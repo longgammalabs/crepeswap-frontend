@@ -1,6 +1,6 @@
-import { useTranslation } from "@iguanadex/localization";
-import { Skeleton, Text } from "@iguanadex/uikit";
-import { ActionContent, ActionTitles, StyledActionContainer } from "./styles";
+import { useTranslation } from "@pancakeswap/localization";
+import { Text, Skeleton } from "@pancakeswap/uikit";
+import { StyledActionContainer, ActionContent, ActionTitles } from "./styles";
 
 const StakeActionDataNotReady = () => {
   const { t } = useTranslation();

@@ -1,4 +1,4 @@
-import { useTranslation } from "@iguanadex/localization";
+import { useTranslation } from "@pancakeswap/localization";
 import {
   AlpIcon,
   ArbitrumIcon,
@@ -24,8 +24,8 @@ import {
   ZkEVMIcon,
   ZkSyncIcon,
   useTooltip,
-} from "@iguanadex/uikit";
-import type { FeeAmount } from "@iguanadex/v3-sdk";
+} from "@pancakeswap/uikit";
+import type { FeeAmount } from "@pancakeswap/v3-sdk";
 import React, { memo } from "react";
 
 const CoreTag: React.FC<React.PropsWithChildren<TagProps>> = (props) => {

@@ -1,9 +1,9 @@
-import { ChainId } from '@iguanadex/chains'
-import { SerializedFarm } from '@iguanadex/farms'
+import { ChainId } from '@pancakeswap/chains'
+import { erc20ABI } from 'wagmi'
 import chunk from 'lodash/chunk'
 import { getMasterChefV2Address } from 'utils/addressHelpers'
 import { publicClient } from 'utils/wagmi'
-import { erc20ABI } from 'wagmi'
+import { SerializedFarm } from '@pancakeswap/farms'
 import { SerializedFarmConfig } from '../../config/constants/types'
 
 const fetchFarmCalls = (farm: SerializedFarm, chainId: number) => {

@@ -1,7 +1,7 @@
-import { useTranslation } from "@iguanadex/localization";
-import { ButtonMenu, ButtonMenuItem, NotificationDot, Text, Toggle, ToggleView, ViewMode } from "@iguanadex/uikit";
 import { useRouter } from "next/router";
 import { styled } from "styled-components";
+import { useTranslation } from "@pancakeswap/localization";
+import { ToggleView, ViewMode, ButtonMenu, ButtonMenuItem, Toggle, Text, NotificationDot } from "@pancakeswap/uikit";
 import { NextLinkFromReactRouter } from "../components/NextLink";
 
 const ToggleWrapper = styled.div`

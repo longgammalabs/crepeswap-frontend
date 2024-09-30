@@ -1,5 +1,5 @@
 /* eslint-disable react/no-unescaped-entities */
-import { Flex, Link, Text } from '@iguanadex/uikit'
+import { Flex, Link, Text } from '@pancakeswap/uikit'
 import { styled } from 'styled-components'
 
 export const Container = styled(Flex)`

@@ -1,6 +1,6 @@
-import { useTranslation } from "@iguanadex/localization";
-import { AutoColumn, Card, CardBody, RowBetween, Text } from "@iguanadex/uikit";
-import { formatUnixTimestamp } from "@iguanadex/utils/formatTimestamp";
+import { useTranslation } from "@pancakeswap/localization";
+import { RowBetween, AutoColumn, Text, Card, CardBody } from "@pancakeswap/uikit";
+import { formatUnixTimestamp } from "@pancakeswap/utils/formatTimestamp";
 import BigNumber from "bignumber.js";
 import dayjs from "dayjs";
 import { useMemo } from "react";

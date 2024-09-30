@@ -1,4 +1,4 @@
-import { AutoColumn, Box, ColumnCenter, Spinner, Text } from '@iguanadex/uikit'
+import { Spinner, Text, Box, AutoColumn, ColumnCenter } from '@pancakeswap/uikit'
 
 interface ApproveModalContentProps {
   title: string

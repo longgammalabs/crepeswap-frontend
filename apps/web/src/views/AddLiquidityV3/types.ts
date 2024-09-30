@@ -1,5 +1,5 @@
-import { FeeAmount } from '@iguanadex/v3-sdk'
-import { ZOOM_LEVELS, ZoomLevels } from '@iguanadex/widgets-internal'
+import { FeeAmount } from '@pancakeswap/v3-sdk'
+import { ZOOM_LEVELS, ZoomLevels } from '@pancakeswap/widgets-internal'
 
 export enum SELECTOR_TYPE {
   V3,

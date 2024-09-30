@@ -1,5 +1,5 @@
-import { TranslateFunction, useTranslation } from '@iguanadex/localization'
-import { AutoColumn, CircleLoader, Flex, Text, useToast } from '@iguanadex/uikit'
+import { TranslateFunction, useTranslation } from '@pancakeswap/localization'
+import { AutoColumn, CircleLoader, Flex, Text, useToast } from '@pancakeswap/uikit'
 import {
   usePrepareRegistration,
   useRegister,
@@ -30,7 +30,7 @@ const getOnBoardingButtonText = (
 
   if (isStep1) return t('Enable Notifications')
   if (isStep2) return t('Sign In With Wallet')
-  if (isStep3) return t('Subscribe To IguanaDEX')
+  if (isStep3) return t('Subscribe To PancakeSwap')
 
   return t('Enable Notifications')
 }

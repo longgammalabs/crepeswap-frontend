@@ -1,5 +1,5 @@
-import { Token } from '@iguanadex/sdk'
-import { TokenLogo } from '@iguanadex/uikit'
+import { Token } from '@pancakeswap/sdk'
+import { TokenLogo } from '@pancakeswap/uikit'
 import { ASSET_CDN } from 'config/constants/endpoints'
 import { MultiChainName } from 'state/info/constant'
 import { styled } from 'styled-components'

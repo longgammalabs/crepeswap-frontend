@@ -1,4 +1,4 @@
-import { Percent } from '@iguanadex/sdk'
+import { Percent } from '@pancakeswap/sdk'
 
 export const BIG_INT_TEN = 10n
 // one basis point

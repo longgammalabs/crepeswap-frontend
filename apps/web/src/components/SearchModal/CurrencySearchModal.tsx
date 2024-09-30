@@ -1,8 +1,8 @@
-import { usePreviousValue } from '@iguanadex/hooks'
-import { useTranslation } from '@iguanadex/localization'
-import { Currency, Token } from '@iguanadex/sdk'
-import { TokenList } from '@iguanadex/token-lists'
-import { enableList, removeList, useFetchListCallback } from '@iguanadex/token-lists/react'
+import { usePreviousValue } from '@pancakeswap/hooks'
+import { useTranslation } from '@pancakeswap/localization'
+import { Currency, Token } from '@pancakeswap/sdk'
+import { TokenList } from '@pancakeswap/token-lists'
+import { enableList, removeList, useFetchListCallback } from '@pancakeswap/token-lists/react'
 import {
   Button,
   Heading,
@@ -15,8 +15,8 @@ import {
   ModalHeader,
   ModalTitle,
   useMatchBreakpoints,
-} from '@iguanadex/uikit'
-import { ImportList } from '@iguanadex/widgets-internal'
+} from '@pancakeswap/uikit'
+import { ImportList } from '@pancakeswap/widgets-internal'
 import { useCallback, useEffect, useRef, useState } from 'react'
 import { useAllLists } from 'state/lists/hooks'
 import { useListState } from 'state/lists/lists'

@@ -1,5 +1,5 @@
-import { TranslateFunction } from '@iguanadex/localization'
-import { Percent } from '@iguanadex/sdk'
+import { TranslateFunction } from '@pancakeswap/localization'
+import { Percent } from '@pancakeswap/sdk'
 
 export enum PercentageDirection {
   ABOVE = 'above',

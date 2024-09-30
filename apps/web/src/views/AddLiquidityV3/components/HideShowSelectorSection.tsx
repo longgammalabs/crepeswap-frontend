@@ -1,4 +1,4 @@
-import { AutoRow, Button, ChevronDownIcon } from '@iguanadex/uikit'
+import { AutoRow, Button, ChevronDownIcon } from '@pancakeswap/uikit'
 import { LightGreyCard } from 'components/Card'
 import { Dispatch, ReactNode, SetStateAction } from 'react'
 

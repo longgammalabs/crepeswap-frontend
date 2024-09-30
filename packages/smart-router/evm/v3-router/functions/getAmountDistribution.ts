@@ -1,4 +1,4 @@
-import { Currency, CurrencyAmount, Fraction } from '@iguanadex/sdk'
+import { Currency, CurrencyAmount, Fraction } from '@pancakeswap/sdk'
 
 /**
  * The minimum percentage of the input token to use for each route in a split route.

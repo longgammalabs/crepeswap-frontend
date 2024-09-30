@@ -1,7 +1,7 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
-import { useTranslation } from '@iguanadex/localization'
-import { Box, Breadcrumbs, Link, Text } from '@iguanadex/uikit'
 import NextLink from 'next/link'
+import { Box, Breadcrumbs, Text, Link } from '@pancakeswap/uikit'
+import { useTranslation } from '@pancakeswap/localization'
 
 const Crumbs = () => {
   const { t } = useTranslation()

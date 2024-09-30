@@ -1,23 +1,23 @@
-import { ChainId } from '@iguanadex/chains'
-import { Currency, CurrencyAmount, Token, TradeType } from '@iguanadex/sdk'
+import { ChainId } from '@pancakeswap/chains'
+import { Currency, CurrencyAmount, Token, TradeType } from '@pancakeswap/sdk'
 import { memo, useCallback, useMemo } from 'react'
 
-import { useTranslation } from '@iguanadex/localization'
-import { SmartRouterTrade, V4Router } from '@iguanadex/smart-router'
-import { WrappedTokenInfo } from '@iguanadex/token-lists'
-import { Box, BscScanIcon, Flex, InjectedModalProps, Link } from '@iguanadex/uikit'
-import { formatAmount } from '@iguanadex/utils/formatFractions'
-import truncateHash from '@iguanadex/utils/truncateHash'
+import { useTranslation } from '@pancakeswap/localization'
+import { SmartRouterTrade, V4Router } from '@pancakeswap/smart-router'
+import { WrappedTokenInfo } from '@pancakeswap/token-lists'
+import { Box, BscScanIcon, Flex, InjectedModalProps, Link } from '@pancakeswap/uikit'
+import { formatAmount } from '@pancakeswap/utils/formatFractions'
+import truncateHash from '@pancakeswap/utils/truncateHash'
 import {
   ApproveModalContentV1,
   SwapPendingModalContentV1,
   SwapTransactionReceiptModalContentV1,
-} from '@iguanadex/widgets-internal'
+} from '@pancakeswap/widgets-internal'
 import { getBlockExploreLink, getBlockExploreName } from 'utils'
 import { wrappedCurrency } from 'utils/wrappedCurrency'
 
-import { useDebounce } from '@iguanadex/hooks'
-import { useUserSlippage } from '@iguanadex/utils/user'
+import { useDebounce } from '@pancakeswap/hooks'
+import { useUserSlippage } from '@pancakeswap/utils/user'
 import AddToWalletButton, { AddToWalletTextOptions } from 'components/AddToWallet/AddToWalletButton'
 import { useActiveChainId } from 'hooks/useActiveChainId'
 import { ApprovalState } from 'hooks/useApproveCallback'

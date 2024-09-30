@@ -1,5 +1,5 @@
-import { useTranslation } from '@iguanadex/localization'
-import { Card, CardBody, CardHeader, Flex, Heading, Link, PageSection, Text } from '@iguanadex/uikit'
+import { useTranslation } from '@pancakeswap/localization'
+import { Card, CardBody, CardHeader, Flex, Heading, Link, PageSection, Text } from '@pancakeswap/uikit'
 import FoldableText from 'components/FoldableSection/FoldableText'
 import useTheme from 'hooks/useTheme'
 import { styled } from 'styled-components'

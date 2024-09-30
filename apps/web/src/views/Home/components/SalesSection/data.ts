@@ -1,4 +1,4 @@
-import { TranslateFunction } from '@iguanadex/localization'
+import { TranslateFunction } from '@pancakeswap/localization'
 import { SalesSectionProps } from '.'
 
 export const swapSectionData = (t: TranslateFunction): SalesSectionProps => ({

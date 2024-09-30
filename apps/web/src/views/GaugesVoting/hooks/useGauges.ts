@@ -1,5 +1,5 @@
-import { ChainId } from '@iguanadex/chains'
-import { Gauge } from '@iguanadex/gauges'
+import { ChainId } from '@pancakeswap/chains'
+import { Gauge } from '@pancakeswap/gauges'
 import { useQuery } from '@tanstack/react-query'
 import { useActiveChainId } from 'hooks/useActiveChainId'
 

@@ -1,5 +1,5 @@
-import { Flex, Heading, Skeleton } from '@iguanadex/uikit'
-import getTimePeriods from '@iguanadex/utils/getTimePeriods'
+import { Flex, Heading, Skeleton } from '@pancakeswap/uikit'
+import getTimePeriods from '@pancakeswap/utils/getTimePeriods'
 import useNextEventCountdown from '../../hooks/useNextEventCountdown'
 import Timer from './Timer'
 

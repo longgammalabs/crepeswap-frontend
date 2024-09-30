@@ -1,5 +1,5 @@
-import { useTranslation } from '@iguanadex/localization'
-import { Box, Modal, useToast } from '@iguanadex/uikit'
+import { useTranslation } from '@pancakeswap/localization'
+import { Box, Modal, useToast } from '@pancakeswap/uikit'
 import snapshot from '@snapshot-labs/snapshot.js'
 import useTheme from 'hooks/useTheme'
 import { useState } from 'react'

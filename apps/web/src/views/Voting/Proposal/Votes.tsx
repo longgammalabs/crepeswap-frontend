@@ -1,4 +1,4 @@
-import { useTranslation } from '@iguanadex/localization'
+import { useTranslation } from '@pancakeswap/localization'
 import {
   AutoRenewIcon,
   Button,
@@ -9,7 +9,7 @@ import {
   Flex,
   Heading,
   useMatchBreakpoints,
-} from '@iguanadex/uikit'
+} from '@pancakeswap/uikit'
 import { FetchStatus, TFetchStatus } from 'config/constants/types'
 import orderBy from 'lodash/orderBy'
 import { useState } from 'react'

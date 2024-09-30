@@ -1,7 +1,7 @@
-import { useTranslation } from '@iguanadex/localization'
-import { Flex, Heading, Skeleton, useMatchBreakpoints } from '@iguanadex/uikit'
-import { Achievement } from 'state/types'
 import { styled } from 'styled-components'
+import { Flex, Heading, Skeleton, useMatchBreakpoints } from '@pancakeswap/uikit'
+import { useTranslation } from '@pancakeswap/localization'
+import { Achievement } from 'state/types'
 import AchievementCard from './AchievementCard'
 
 const Grid = styled.div`

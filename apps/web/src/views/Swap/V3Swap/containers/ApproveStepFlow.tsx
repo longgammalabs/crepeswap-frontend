@@ -1,5 +1,5 @@
-import { useTranslation } from '@iguanadex/localization'
-import { Box, Flex, LinkExternal, Text, useTooltip } from '@iguanadex/uikit'
+import { useTranslation } from '@pancakeswap/localization'
+import { Box, Flex, LinkExternal, Text, useTooltip } from '@pancakeswap/uikit'
 import { useMemo } from 'react'
 import { styled } from 'styled-components'
 import { ConfirmModalStateV1, PendingConfirmModalStateV1 } from '../types'

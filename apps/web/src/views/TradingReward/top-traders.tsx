@@ -1,5 +1,5 @@
-import { ChainId } from '@iguanadex/chains'
-import { Box, useMatchBreakpoints } from '@iguanadex/uikit'
+import { ChainId } from '@pancakeswap/chains'
+import { Box, useMatchBreakpoints } from '@pancakeswap/uikit'
 import { useActiveChainId } from 'hooks/useActiveChainId'
 import useScrollToHash from 'hooks/useScrollToHash'
 import { useMemo } from 'react'

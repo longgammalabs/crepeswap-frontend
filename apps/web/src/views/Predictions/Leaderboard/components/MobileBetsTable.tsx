@@ -1,6 +1,6 @@
-import { useTranslation } from '@iguanadex/localization'
-import { Token } from '@iguanadex/sdk'
-import { ChevronDownIcon, ChevronUpIcon, Flex, Text } from '@iguanadex/uikit'
+import { useTranslation } from '@pancakeswap/localization'
+import { Token } from '@pancakeswap/sdk'
+import { ChevronDownIcon, ChevronUpIcon, Flex, Text } from '@pancakeswap/uikit'
 import { useState } from 'react'
 import PreviousBetsTable from './PreviousBetsTable'
 

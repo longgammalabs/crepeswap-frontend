@@ -1,4 +1,4 @@
-import { PositionDetails } from '@iguanadex/farms'
+import { PositionDetails } from '@pancakeswap/farms'
 import { useMemo } from 'react'
 
 export const useIsSomePositionBoosted = (stakedPositions: PositionDetails[], tokenIds: number[]) => {

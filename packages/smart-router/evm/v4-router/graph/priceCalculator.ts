@@ -1,9 +1,9 @@
-import { Currency, CurrencyAmount, Native, Price } from '@iguanadex/sdk'
+import { Currency, CurrencyAmount, Price, Native } from '@pancakeswap/sdk'
 import invariant from 'tiny-invariant'
 
-import { getTokenPrice } from '../../v3-router/utils'
-import { getReserve } from '../pool'
 import { Edge, Graph, Vertice } from '../types'
+import { getReserve } from '../pool'
+import { getTokenPrice } from '../../v3-router/utils'
 import { getNeighbour } from './edge'
 
 type Params = {

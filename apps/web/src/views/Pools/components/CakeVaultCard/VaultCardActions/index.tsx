@@ -1,12 +1,12 @@
 import BigNumber from 'bignumber.js'
 
-import { Box, Flex, Text } from '@iguanadex/uikit'
-import { Pool } from '@iguanadex/widgets-internal'
+import { Box, Flex, Text } from '@pancakeswap/uikit'
+import { Pool } from '@pancakeswap/widgets-internal'
 import { styled } from 'styled-components'
 
-import { useTranslation } from '@iguanadex/localization'
-import { Token } from '@iguanadex/sdk'
-import { BIG_ZERO } from '@iguanadex/utils/bigNumber'
+import { useTranslation } from '@pancakeswap/localization'
+import { Token } from '@pancakeswap/sdk'
+import { BIG_ZERO } from '@pancakeswap/utils/bigNumber'
 
 import { VaultKey } from 'state/types'
 import { useCheckVaultApprovalStatus } from '../../../hooks/useApprove'

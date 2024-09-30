@@ -1,25 +1,25 @@
 import { useCallback, useMemo } from "react";
-import { css, styled } from "styled-components";
+import { styled, css } from "styled-components";
 
-import { useTranslation } from "@iguanadex/localization";
+import { useTranslation } from "@pancakeswap/localization";
+import BigNumber from "bignumber.js";
+import { BIG_ZERO } from "@pancakeswap/utils/bigNumber";
 import {
-  AlpIcon,
+  Box,
+  Text,
+  CalculateIcon,
+  Skeleton,
+  FlexProps,
+  Button,
+  RoiCalculatorModal,
   Balance,
   BalanceWithLoading,
-  Box,
-  Button,
-  CalculateIcon,
-  Flex,
-  FlexProps,
-  RoiCalculatorModal,
-  Skeleton,
-  Text,
-  useMatchBreakpoints,
   useModal,
+  Flex,
+  AlpIcon,
+  useMatchBreakpoints,
   useTooltip,
-} from "@iguanadex/uikit";
-import { BIG_ZERO } from "@iguanadex/utils/bigNumber";
-import BigNumber from "bignumber.js";
+} from "@pancakeswap/uikit";
 
 import { DeserializedPool } from "./types";
 

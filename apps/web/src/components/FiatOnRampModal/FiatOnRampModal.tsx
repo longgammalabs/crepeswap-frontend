@@ -1,4 +1,4 @@
-import { Trans, useTranslation } from '@iguanadex/localization'
+import { Trans, useTranslation } from '@pancakeswap/localization'
 import {
   AutoColumn,
   CircleLoader,
@@ -11,7 +11,7 @@ import {
   ModalWrapper,
   Text,
   useModal,
-} from '@iguanadex/uikit'
+} from '@pancakeswap/uikit'
 
 import { CommitButton } from 'components/CommitButton'
 import ConnectWalletButton from 'components/ConnectWalletButton'

@@ -1,6 +1,6 @@
-import { Spinner, Text } from '@iguanadex/uikit'
+import { Spinner, Text } from '@pancakeswap/uikit'
 
-import { keyframes, styled } from 'styled-components'
+import { styled, keyframes } from 'styled-components'
 
 const countdownAnimation = keyframes`
   from {

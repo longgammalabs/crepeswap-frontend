@@ -1,4 +1,4 @@
-import { CurrencyAmount, Percent, TradeType } from '@iguanadex/sdk'
+import { CurrencyAmount, Percent, TradeType } from '@pancakeswap/sdk'
 
 import { Route, SmartRouterTrade } from '../types'
 import { getMidPrice } from './route'

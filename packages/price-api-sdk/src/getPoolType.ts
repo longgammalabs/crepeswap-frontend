@@ -1,4 +1,4 @@
-import { PoolType } from '@iguanadex/smart-router'
+import { PoolType } from '@pancakeswap/smart-router'
 
 import type { PoolTypeKey } from './types'
 

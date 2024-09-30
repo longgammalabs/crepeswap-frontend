@@ -1,5 +1,5 @@
-import { arbitrumTokens } from '@iguanadex/tokens'
-import { FeeAmount } from '@iguanadex/v3-sdk'
+import { arbitrumTokens } from '@pancakeswap/tokens'
+import { FeeAmount } from '@pancakeswap/v3-sdk'
 import { FarmConfigV3 } from '../src'
 import { defineFarmV3Configs } from '../src/defineFarmV3Configs'
 

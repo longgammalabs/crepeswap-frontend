@@ -1,5 +1,5 @@
-import { useTranslation } from '@iguanadex/localization'
-import { Box, Card, Table, Td, Th, useMatchBreakpoints } from '@iguanadex/uikit'
+import { useTranslation } from '@pancakeswap/localization'
+import { Box, Card, Table, Td, Th, useMatchBreakpoints } from '@pancakeswap/uikit'
 import { useMemo } from 'react'
 import DesktopResult from 'views/TradingReward/components/Leaderboard/DesktopResult'
 import MobileResult from 'views/TradingReward/components/Leaderboard/MobileResult'

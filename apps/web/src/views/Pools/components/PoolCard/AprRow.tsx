@@ -1,5 +1,5 @@
-import { Token } from '@iguanadex/sdk'
-import { Pool } from '@iguanadex/widgets-internal'
+import { Token } from '@pancakeswap/sdk'
+import { Pool } from '@pancakeswap/widgets-internal'
 import BigNumber from 'bignumber.js'
 import Apr from 'views/Pools/components/Apr'
 

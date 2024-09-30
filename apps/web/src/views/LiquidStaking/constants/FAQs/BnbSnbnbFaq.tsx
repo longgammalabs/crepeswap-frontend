@@ -1,5 +1,5 @@
-import { Trans } from '@iguanadex/localization'
-import { Box, Link } from '@iguanadex/uikit'
+import { Trans } from '@pancakeswap/localization'
+import { Box, Link } from '@pancakeswap/uikit'
 
 export const BnbSnbnbFaq = () => [
   {

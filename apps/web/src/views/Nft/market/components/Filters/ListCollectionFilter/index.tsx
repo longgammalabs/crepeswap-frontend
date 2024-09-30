@@ -1,4 +1,4 @@
-import { useTranslation } from '@iguanadex/localization'
+import { useTranslation } from '@pancakeswap/localization'
 import {
   ArrowDownIcon,
   ArrowUpIcon,
@@ -10,7 +10,7 @@ import {
   InputGroup,
   SearchIcon,
   Text,
-} from '@iguanadex/uikit'
+} from '@pancakeswap/uikit'
 import orderBy from 'lodash/orderBy'
 import { ChangeEvent, useEffect, useRef, useState } from 'react'
 import { useGetCollections } from 'state/nftMarket/hooks'

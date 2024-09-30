@@ -1,5 +1,5 @@
-import { Trans, useTranslation } from '@iguanadex/localization'
-import { CurrencyAmount, ERC20Token, Fraction, NATIVE, Pair, Price, WNATIVE, ZERO } from '@iguanadex/sdk'
+import { Trans, useTranslation } from '@pancakeswap/localization'
+import { CurrencyAmount, ERC20Token, Fraction, NATIVE, Pair, Price, WNATIVE, ZERO } from '@pancakeswap/sdk'
 import {
   AtomBox,
   AutoColumn,
@@ -14,10 +14,10 @@ import {
   RowBetween,
   Spinner,
   Text,
-} from '@iguanadex/uikit'
-import { useUserSlippagePercent } from '@iguanadex/utils/user'
-import { FeeAmount, Pool, Position, priceToClosestTick, TickMath } from '@iguanadex/v3-sdk'
-import { LiquidityChartRangeInput } from '@iguanadex/widgets-internal'
+} from '@pancakeswap/uikit'
+import { useUserSlippagePercent } from '@pancakeswap/utils/user'
+import { FeeAmount, Pool, Position, priceToClosestTick, TickMath } from '@pancakeswap/v3-sdk'
+import { LiquidityChartRangeInput } from '@pancakeswap/widgets-internal'
 import { GreyCard } from 'components/Card'
 import { CommitButton } from 'components/CommitButton'
 import { CurrencyLogo } from 'components/Logo'

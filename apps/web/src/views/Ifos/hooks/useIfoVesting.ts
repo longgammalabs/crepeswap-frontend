@@ -1,8 +1,8 @@
-import { PoolIds } from '@iguanadex/ifos'
-import { BIG_ZERO } from '@iguanadex/utils/bigNumber'
-import BigNumber from 'bignumber.js'
 import { useMemo } from 'react'
+import BigNumber from 'bignumber.js'
+import { PoolIds } from '@pancakeswap/ifos'
 import { PublicIfoData, WalletIfoData } from 'views/Ifos/types'
+import { BIG_ZERO } from '@pancakeswap/utils/bigNumber'
 
 interface UseIfoVestingProps {
   poolId: PoolIds

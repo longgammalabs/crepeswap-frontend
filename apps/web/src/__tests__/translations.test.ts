@@ -5,7 +5,7 @@ import { NftLocation } from 'state/nftMarket/types'
 import { describe, expect, it } from 'vitest'
 
 // FIXME: should move this test file inside localization pkg
-import { translations } from '@iguanadex/localization'
+import { translations } from '@pancakeswap/localization'
 
 const allTranslationKeys = Object.keys(translations)
 

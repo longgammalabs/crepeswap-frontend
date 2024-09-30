@@ -1,5 +1,5 @@
-import { ChainId } from '@iguanadex/chains'
-import { CurrencyAmount, Percent, Token } from '@iguanadex/swap-sdk-core'
+import { ChainId } from '@pancakeswap/chains'
+import { CurrencyAmount, Percent, Token } from '@pancakeswap/swap-sdk-core'
 import invariant from 'tiny-invariant'
 import { describe, expect, it } from 'vitest'
 import { WNATIVE } from '../src/constants'

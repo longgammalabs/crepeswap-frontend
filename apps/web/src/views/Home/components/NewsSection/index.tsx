@@ -1,8 +1,8 @@
-import { useTranslation } from '@iguanadex/localization'
-import { ChevronLeftIcon, ChevronRightIcon, Flex, Text } from '@iguanadex/uikit'
+import { useTranslation } from '@pancakeswap/localization'
+import { ChevronLeftIcon, ChevronRightIcon, Flex, Text } from '@pancakeswap/uikit'
 import useTheme from 'hooks/useTheme'
-import { useCallback, useRef } from 'react'
 import { styled } from 'styled-components'
+import { useRef, useCallback } from 'react'
 import { useAllNewsArticle } from '../../hooks/useAllArticle'
 
 const NewsCard = styled.div`

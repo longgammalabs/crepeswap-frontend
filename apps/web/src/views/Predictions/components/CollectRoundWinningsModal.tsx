@@ -1,6 +1,6 @@
-import { useTranslation } from '@iguanadex/localization'
-import { REWARD_RATE } from '@iguanadex/prediction'
-import { Token } from '@iguanadex/sdk'
+import { useTranslation } from '@pancakeswap/localization'
+import { REWARD_RATE } from '@pancakeswap/prediction'
+import { Token } from '@pancakeswap/sdk'
 import {
   AutoRenewIcon,
   Box,
@@ -17,8 +17,8 @@ import {
   Text,
   TrophyGoldIcon,
   useToast,
-} from '@iguanadex/uikit'
-import { formatNumber } from '@iguanadex/utils/formatBalance'
+} from '@pancakeswap/uikit'
+import { formatNumber } from '@pancakeswap/utils/formatBalance'
 import { AnyAction, AsyncThunkAction } from '@reduxjs/toolkit'
 import { ToastDescriptionWithTx } from 'components/Toast'
 import { useActiveChainId } from 'hooks/useActiveChainId'

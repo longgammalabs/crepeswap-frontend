@@ -1,6 +1,6 @@
-import { defineFarmV3Configs } from '@iguanadex/farms/src/defineFarmV3Configs'
-import { lineaTokens } from '@iguanadex/tokens'
-import { FeeAmount } from '@iguanadex/v3-sdk'
+import { defineFarmV3Configs } from '@pancakeswap/farms/src/defineFarmV3Configs'
+import { lineaTokens } from '@pancakeswap/tokens'
+import { FeeAmount } from '@pancakeswap/v3-sdk'
 
 export const tradingRewardLineaV3Pair = defineFarmV3Configs([
   {

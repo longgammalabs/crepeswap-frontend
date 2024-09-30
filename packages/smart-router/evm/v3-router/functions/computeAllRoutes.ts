@@ -1,4 +1,4 @@
-import { Currency } from '@iguanadex/sdk'
+import { Currency } from '@pancakeswap/sdk'
 import { logger } from '../utils/logger'
 
 import { BaseRoute, Pool } from '../types'

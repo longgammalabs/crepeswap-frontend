@@ -1,8 +1,8 @@
-import { ChainId } from '@iguanadex/chains'
-import { isCakeVaultSupported } from '@iguanadex/pools'
-import { Flex } from '@iguanadex/uikit'
 import { useMemo } from 'react'
+import { Flex } from '@pancakeswap/uikit'
+import { isCakeVaultSupported } from '@pancakeswap/pools'
 import { Address } from 'viem'
+import { ChainId } from '@pancakeswap/chains'
 
 import { useActiveChainId } from 'hooks/useActiveChainId'
 

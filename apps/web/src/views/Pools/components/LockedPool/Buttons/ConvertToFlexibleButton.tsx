@@ -1,18 +1,18 @@
-import { useTranslation } from '@iguanadex/localization'
-import { Button, ButtonProps, useToast } from '@iguanadex/uikit'
+import { useTranslation } from '@pancakeswap/localization'
+import { Button, ButtonProps, useToast } from '@pancakeswap/uikit'
 import { memo, useCallback } from 'react'
 
-import { useQueryClient } from '@tanstack/react-query'
+import { useAccount } from 'wagmi'
 import { ToastDescriptionWithTx } from 'components/Toast'
 import { vaultPoolConfig } from 'config/constants/pools'
-import { useActiveChainId } from 'hooks/useActiveChainId'
 import { useCallWithGasPrice } from 'hooks/useCallWithGasPrice'
 import useCatchTxError from 'hooks/useCatchTxError'
 import { useVaultPoolContract } from 'hooks/useContract'
 import { useAppDispatch } from 'state'
 import { fetchCakeVaultUserData } from 'state/pools'
 import { VaultKey } from 'state/types'
-import { useAccount } from 'wagmi'
+import { useActiveChainId } from 'hooks/useActiveChainId'
+import { useQueryClient } from '@tanstack/react-query'
 
 const ConvertToFlexibleButton: React.FC<React.PropsWithChildren<ButtonProps>> = (props) => {
   const dispatch = useAppDispatch()

@@ -1,5 +1,5 @@
-import { DeserializedFarmsState, DeserializedFarmUserData, supportedChainIdV2 } from '@iguanadex/farms'
-import { getFarmConfig } from '@iguanadex/farms/constants'
+import { DeserializedFarmsState, DeserializedFarmUserData, supportedChainIdV2 } from '@pancakeswap/farms'
+import { getFarmConfig } from '@pancakeswap/farms/constants'
 import { useQuery } from '@tanstack/react-query'
 import { SLOW_INTERVAL } from 'config/constants'
 import { useActiveChainId } from 'hooks/useActiveChainId'

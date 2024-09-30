@@ -1,5 +1,5 @@
-import { useTranslation } from '@iguanadex/localization'
-import { PredictionStatus, REWARD_RATE } from '@iguanadex/prediction'
+import { useTranslation } from '@pancakeswap/localization'
+import { PredictionStatus, REWARD_RATE } from '@pancakeswap/prediction'
 import {
   Box,
   ChevronDownIcon,
@@ -11,7 +11,7 @@ import {
   Text,
   useTooltip,
   WaitIcon,
-} from '@iguanadex/uikit'
+} from '@pancakeswap/uikit'
 import useLocalDispatch from 'contexts/LocalRedux/useLocalDispatch'
 import { useActiveChainId } from 'hooks/useActiveChainId'
 import { useState } from 'react'

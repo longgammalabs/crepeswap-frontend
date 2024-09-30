@@ -1,6 +1,6 @@
-import { Radio, Text } from '@iguanadex/uikit'
-import { formatNumber } from '@iguanadex/utils/formatBalance'
+import { Radio, Text } from '@pancakeswap/uikit'
 import noop from 'lodash/noop'
+import { formatNumber } from '@pancakeswap/utils/formatBalance'
 import { ItemImage, StyledItemRow } from '../ListFilter/styles'
 import { Item } from './types'
 

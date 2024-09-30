@@ -1,5 +1,5 @@
-import { ContextApi } from '@iguanadex/localization'
-import { LinkExternal } from '@iguanadex/uikit'
+import { ContextApi } from '@pancakeswap/localization'
+import { LinkExternal } from '@pancakeswap/uikit'
 
 const config = (t: ContextApi['t']) => {
   return [

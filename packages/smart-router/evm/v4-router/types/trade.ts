@@ -1,7 +1,7 @@
-import { Currency, CurrencyAmount, TradeType } from '@iguanadex/sdk'
-import { AbortControl } from '@iguanadex/utils/abortControl'
+import { Currency, CurrencyAmount, TradeType } from '@pancakeswap/sdk'
+import { AbortControl } from '@pancakeswap/utils/abortControl'
 
-import { BaseTradeConfig, Pool, Route, SmartRouterTrade } from '../../v3-router/types'
+import { BaseTradeConfig, Pool, SmartRouterTrade, Route } from '../../v3-router/types'
 import { Graph } from './graph'
 
 export type GasUseInfo = {

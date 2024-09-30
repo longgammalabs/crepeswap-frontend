@@ -1,4 +1,4 @@
-import { BigintIsh } from '@iguanadex/sdk'
+import { BigintIsh } from '@pancakeswap/sdk'
 import invariant from 'tiny-invariant'
 import { Address, Hex, hashTypedData } from 'viem'
 import { MaxSigDeadline, MaxSignatureTransferAmount, MaxUnorderedNonce } from './constants'

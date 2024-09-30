@@ -1,9 +1,9 @@
-import { Trans, useTranslation } from '@iguanadex/localization'
-import { Button, Text, useMatchBreakpoints } from '@iguanadex/uikit'
-import ConnectWalletButton from 'components/ConnectWalletButton'
 import React from 'react'
 import { styled } from 'styled-components'
 import { useAccount } from 'wagmi'
+import { Trans, useTranslation } from '@pancakeswap/localization'
+import { Text, Button, useMatchBreakpoints } from '@pancakeswap/uikit'
+import ConnectWalletButton from 'components/ConnectWalletButton'
 
 const Container = styled.div`
   position: sticky;

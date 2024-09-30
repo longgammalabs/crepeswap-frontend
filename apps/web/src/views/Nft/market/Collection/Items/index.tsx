@@ -1,13 +1,13 @@
-import { useTranslation } from '@iguanadex/localization'
-import { Box, Flex, OptionProps, Select, Text } from '@iguanadex/uikit'
-import Container from 'components/Layout/Container'
-import { useRouter } from 'next/router'
 import { useState } from 'react'
+import { useRouter } from 'next/router'
+import { Box, Flex, Text, Select, OptionProps } from '@pancakeswap/uikit'
 import { useGetCollection } from 'state/nftMarket/hooks'
+import { useTranslation } from '@pancakeswap/localization'
+import Container from 'components/Layout/Container'
 import { safeGetAddress } from 'utils'
 import { pancakeBunniesAddress } from '../../constants'
-import CollectionWrapper from './CollectionWrapper'
 import PancakeBunniesCollectionNfts from './PancakeBunniesCollectionNfts'
+import CollectionWrapper from './CollectionWrapper'
 
 const Items = () => {
   const collectionAddress = useRouter().query.collectionAddress as string

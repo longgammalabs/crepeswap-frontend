@@ -1,6 +1,6 @@
-import { ChainId } from '@iguanadex/chains'
-import { NATIVE, WETH9 } from '@iguanadex/sdk'
-import { ethereumTokens } from '@iguanadex/tokens'
+import { ChainId } from '@pancakeswap/chains'
+import { NATIVE, WETH9 } from '@pancakeswap/sdk'
+import { ethereumTokens } from '@pancakeswap/tokens'
 import { WBETH } from 'config/constants/liquidStaking'
 import { FunctionName, LiquidStakingList } from 'views/LiquidStaking/constants/types'
 // FAQs

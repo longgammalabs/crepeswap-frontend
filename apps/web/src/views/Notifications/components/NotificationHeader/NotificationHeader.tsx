@@ -1,4 +1,4 @@
-import { Heading } from '@iguanadex/uikit'
+import { Heading } from '@pancakeswap/uikit'
 import { ReactNode } from 'react'
 import { ModalHeader, ModalTitle } from 'views/Notifications/styles'
 

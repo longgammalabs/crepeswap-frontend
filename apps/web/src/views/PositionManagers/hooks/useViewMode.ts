@@ -1,7 +1,7 @@
-import { ViewMode } from '@iguanadex/uikit'
-import { updateQuery } from '@iguanadex/utils/clientRouter'
+import { ViewMode } from '@pancakeswap/uikit'
 import { useRouter } from 'next/router'
 import { useCallback, useMemo } from 'react'
+import { updateQuery } from '@pancakeswap/utils/clientRouter'
 
 export function useViewMode() {
   const router = useRouter()

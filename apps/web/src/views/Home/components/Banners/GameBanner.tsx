@@ -1,11 +1,11 @@
-import { useTranslation } from '@iguanadex/localization'
-import { Box, Button, Flex, Link, OpenNewIcon, Text, useMatchBreakpoints } from '@iguanadex/uikit'
+import { useTranslation } from '@pancakeswap/localization'
+import { Box, Flex, Link, OpenNewIcon, Text, useMatchBreakpoints, Button } from '@pancakeswap/uikit'
 import { ASSET_CDN } from 'config/constants/endpoints'
 import Image from 'next/legacy/image'
 import { memo } from 'react'
-import { keyframes, styled } from 'styled-components'
+import { styled, keyframes } from 'styled-components'
 import * as S from './Styled'
-import { gameCube, gameDesktopBg, gameDesktopBunny, gameMobileBunny, gameMobileText, gameText } from './images'
+import { gameDesktopBg, gameMobileBunny, gameDesktopBunny, gameCube, gameText, gameMobileText } from './images'
 
 const flyingAnim = keyframes`
   from {

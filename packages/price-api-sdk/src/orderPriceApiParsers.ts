@@ -1,7 +1,7 @@
-import { ChainId } from '@iguanadex/chains'
-import { ExclusiveDutchOrder, createExclusiveDutchOrderTrade } from '@iguanadex/pcsx-sdk'
-import { PoolType, V4Router } from '@iguanadex/smart-router'
-import { Currency, CurrencyAmount, Percent, TradeType, type BigintIsh } from '@iguanadex/swap-sdk-core'
+import { ChainId } from '@pancakeswap/chains'
+import { ExclusiveDutchOrder, createExclusiveDutchOrderTrade } from '@pancakeswap/pcsx-sdk'
+import { PoolType, V4Router } from '@pancakeswap/smart-router'
+import { Currency, CurrencyAmount, Percent, TradeType, type BigintIsh } from '@pancakeswap/swap-sdk-core'
 import { getPoolTypeKey } from './getPoolType'
 import { getTradeTypeKey } from './getTradeType'
 import {

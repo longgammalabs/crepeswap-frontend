@@ -1,4 +1,4 @@
-import { BigintIsh, Currency, CurrencyAmount, Percent, ZERO } from '@iguanadex/swap-sdk-core'
+import { BigintIsh, CurrencyAmount, Currency, ZERO, Percent } from '@pancakeswap/swap-sdk-core'
 import invariant from 'tiny-invariant'
 
 import { getD } from './amm'

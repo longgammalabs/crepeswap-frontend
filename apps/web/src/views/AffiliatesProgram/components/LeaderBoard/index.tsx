@@ -1,15 +1,15 @@
-import { useTranslation } from '@iguanadex/localization'
-import { useRouter } from 'next/router'
 import { useEffect, useState } from 'react'
+import { useRouter } from 'next/router'
+import { useAccount } from 'wagmi'
+import { useTranslation } from '@pancakeswap/localization'
 import AffiliatesProgramLayout from 'views/AffiliatesProgram/components/AffiliatesProgramLayout'
 import Banner from 'views/AffiliatesProgram/components/Dashboard/Banner'
-import LoginButton from 'views/AffiliatesProgram/components/Dashboard/LoginButton'
-import LeaderBoardList from 'views/AffiliatesProgram/components/LeaderBoard/LeaderBoardList'
 import Podium from 'views/AffiliatesProgram/components/LeaderBoard/Podium'
+import LeaderBoardList from 'views/AffiliatesProgram/components/LeaderBoard/LeaderBoardList'
+import useLeaderboard from 'views/AffiliatesProgram/hooks/useLeaderboard'
 import useAuthAffiliate from 'views/AffiliatesProgram/hooks/useAuthAffiliate'
 import useAuthAffiliateExist from 'views/AffiliatesProgram/hooks/useAuthAffiliateExist'
-import useLeaderboard from 'views/AffiliatesProgram/hooks/useLeaderboard'
-import { useAccount } from 'wagmi'
+import LoginButton from 'views/AffiliatesProgram/components/Dashboard/LoginButton'
 
 const LeaderBoard = () => {
   const router = useRouter()

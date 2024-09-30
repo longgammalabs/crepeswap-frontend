@@ -1,6 +1,6 @@
-import { ChainId } from '@iguanadex/chains'
-import { Currency, CurrencyAmount, Percent, Price, TradeType, ZERO_PERCENT } from '@iguanadex/sdk'
-import { Route, SmartRouterTrade } from '@iguanadex/smart-router'
+import { ChainId } from '@pancakeswap/chains'
+import { Currency, CurrencyAmount, Percent, Price, TradeType, ZERO_PERCENT } from '@pancakeswap/sdk'
+import { Route, SmartRouterTrade } from '@pancakeswap/smart-router'
 import { useMemo } from 'react'
 import { Field } from 'state/swap/actions'
 

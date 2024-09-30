@@ -1,11 +1,11 @@
-import { ChainId } from '@iguanadex/chains'
-import { Currency, Pair, Token } from '@iguanadex/sdk'
+import { Currency, Pair, Token } from '@pancakeswap/sdk'
+import { ChainId } from '@pancakeswap/chains'
 import flatMap from 'lodash/flatMap.js'
 
 import { ADDITIONAL_BASES, BASES_TO_CHECK_TRADES_AGAINST, CUSTOM_BASES } from '../evm/constants'
-import { wrappedCurrency } from '../evm/utils/currency'
 import { getPairs } from './onchain'
 import { Provider } from './types'
+import { wrappedCurrency } from '../evm/utils/currency'
 
 export enum PairState {
   LOADING,

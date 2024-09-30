@@ -1,6 +1,6 @@
 import { CommonBasesType } from 'components/SearchModal/types'
 
-import { AutoColumn, AutoRow, Box, Button, Dots, Flex, QuestionHelper, RowBetween, Text } from '@iguanadex/uikit'
+import { AutoColumn, AutoRow, Box, Button, Dots, Flex, QuestionHelper, RowBetween, Text } from '@pancakeswap/uikit'
 
 import { CommitButton } from 'components/CommitButton'
 import CurrencyInputPanel from 'components/CurrencyInputPanel'
@@ -9,14 +9,14 @@ import { ApprovalState } from 'hooks/useApproveCallback'
 import { Field } from 'state/mint/actions'
 import { logGTMClickAddLiquidityEvent } from 'utils/customGTMEventTracking'
 
-import { useTranslation } from '@iguanadex/localization'
-import { useIsExpertMode } from '@iguanadex/utils/user'
+import { useTranslation } from '@pancakeswap/localization'
+import { useIsExpertMode } from '@pancakeswap/utils/user'
 import { LightGreyCard } from 'components/Card'
 import ConnectWalletButton from 'components/ConnectWalletButton'
 import useActiveWeb3React from 'hooks/useActiveWeb3React'
 
-import { CurrencyAmount, Percent } from '@iguanadex/sdk'
-import { BIG_ONE_HUNDRED } from '@iguanadex/utils/bigNumber'
+import { CurrencyAmount, Percent } from '@pancakeswap/sdk'
+import { BIG_ONE_HUNDRED } from '@pancakeswap/utils/bigNumber'
 import FormattedCurrencyAmount from 'components/FormattedCurrencyAmount/FormattedCurrencyAmount'
 import { CurrencyLogo } from 'components/Logo'
 import { useTotalUSDValue } from 'components/PositionCard'

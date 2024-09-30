@@ -1,4 +1,4 @@
-import { ChainId, getChainName } from '@iguanadex/chains'
+import { ChainId, getChainName } from '@pancakeswap/chains'
 import { isStableFarm, SerializedFarmConfig, supportedChainIdV2 } from '..'
 
 let logged = false

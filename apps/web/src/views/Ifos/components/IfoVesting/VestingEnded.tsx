@@ -1,5 +1,5 @@
-import { useTranslation } from '@iguanadex/localization'
-import { Text } from '@iguanadex/uikit'
+import { useTranslation } from '@pancakeswap/localization'
+import { Text } from '@pancakeswap/uikit'
 
 const VestingEnded: React.FC<React.PropsWithChildren> = () => {
   const { t } = useTranslation()

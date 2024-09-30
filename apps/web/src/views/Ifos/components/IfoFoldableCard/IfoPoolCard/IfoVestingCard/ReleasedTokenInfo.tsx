@@ -1,11 +1,11 @@
-import { Ifo } from '@iguanadex/ifos'
-import { useTranslation } from '@iguanadex/localization'
-import { Box, Flex, ReleasedChart, Text } from '@iguanadex/uikit'
-import { formatNumber, getBalanceNumber } from '@iguanadex/utils/formatBalance'
-import isUndefinedOrNull from '@iguanadex/utils/isUndefinedOrNull'
-import BigNumber from 'bignumber.js'
 import { useMemo } from 'react'
 import { styled } from 'styled-components'
+import { Flex, Box, Text, ReleasedChart } from '@pancakeswap/uikit'
+import { useTranslation } from '@pancakeswap/localization'
+import BigNumber from 'bignumber.js'
+import { Ifo } from '@pancakeswap/ifos'
+import { getBalanceNumber, formatNumber } from '@pancakeswap/utils/formatBalance'
+import isUndefinedOrNull from '@pancakeswap/utils/isUndefinedOrNull'
 
 const Dot = styled.div<{ isActive?: boolean }>`
   width: 8px;

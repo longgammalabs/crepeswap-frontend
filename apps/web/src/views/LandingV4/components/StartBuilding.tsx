@@ -1,5 +1,5 @@
-import { Trans, useTranslation } from '@iguanadex/localization'
-import { Box, Flex, LinkExternal, PageSection, Text } from '@iguanadex/uikit'
+import { Trans, useTranslation } from '@pancakeswap/localization'
+import { Box, Flex, LinkExternal, PageSection, Text } from '@pancakeswap/uikit'
 import { ASSET_CDN } from 'config/constants/endpoints'
 import useTheme from 'hooks/useTheme'
 import { styled } from 'styled-components'

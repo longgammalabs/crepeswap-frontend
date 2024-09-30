@@ -1,8 +1,8 @@
-import { Flex, NoProfileAvatarIcon, ProfileAvatar, Skeleton } from '@iguanadex/uikit'
-import { useDomainNameForAddress } from 'hooks/useDomain'
 import React from 'react'
-import { useProfileForAddress } from 'state/profile/hooks'
 import { styled } from 'styled-components'
+import { useProfileForAddress } from 'state/profile/hooks'
+import { Flex, Skeleton, ProfileAvatar, NoProfileAvatarIcon } from '@pancakeswap/uikit'
+import { useDomainNameForAddress } from 'hooks/useDomain'
 
 const StyledNoProfileAvatarIcon = styled(NoProfileAvatarIcon)`
   width: 100%;

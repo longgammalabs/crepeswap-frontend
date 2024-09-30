@@ -1,7 +1,7 @@
 {
   "name": "iguanadex-frontend",
-  "version": "0.1.4",
-  "private": false,
+  "version": "0.1.0",
+  "private": true,
   "workspaces": [
     "apps/*",
     "packages/*",
@@ -31,7 +31,7 @@
     "format:write": "prettier --write \"**/*.{js,jsx,ts,tsx,json}\"",
     "format:check:staged": "lint-staged",
     "e2e:ci": "turbo run build --filter=web...[HEAD^1] && turbo run integration-test --filter=e2e...[HEAD^1]",
-    "updateLPsAPR": "pnpm turbo run build --filter=@iguanadex/farms && NODE_PATH=./apps/web/src tsx --tsconfig ./apps/web/tsconfig.json scripts/updateLPsAPR.ts",
+    "updateLPsAPR": "pnpm turbo run build --filter=@pancakeswap/farms && NODE_PATH=./apps/web/src tsx --tsconfig ./apps/web/tsconfig.json scripts/updateLPsAPR.ts",
     "updateMerkl": "NODE_PATH=./apps/web/src tsx --tsconfig ./apps/web/tsconfig.json scripts/updateMerkl/index.ts",
     "clean": "turbo run clean && rm -rf node_modules",
     "changeset": "changeset",
@@ -44,8 +44,8 @@
   },
   "devDependencies": {
     "@changesets/cli": "^2.27.1",
-    "@iguanadex/eslint-config-pancake": "workspace:*",
-    "@iguanadex/tsconfig": "workspace:*",
+    "@pancakeswap/eslint-config-pancake": "workspace:*",
+    "@pancakeswap/tsconfig": "workspace:*",
     "@stylelint/postcss-css-in-js": "^0.37.2",
     "@types/node": "^18.16.2",
     "eslint-plugin-address": "^0.0.2",
@@ -72,6 +72,7 @@
     "pnpm": "8.15.4"
   },
   "dependencies": {
+    "encoding": "^0.1.13",
     "ws": "^8.13.0",
     "zod": "^3.22.3"
   }

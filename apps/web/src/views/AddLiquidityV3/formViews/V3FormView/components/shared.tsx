@@ -1,7 +1,7 @@
-import { ChainId } from '@iguanadex/chains'
-import { FeeAmount } from '@iguanadex/v3-sdk'
-import type { ReactNode } from 'react'
+import { ChainId } from '@pancakeswap/chains'
+import { FeeAmount } from '@pancakeswap/v3-sdk'
 import { styled } from 'styled-components'
+import type { ReactNode } from 'react'
 import { CHAIN_IDS } from 'utils/wagmi'
 
 export const FEE_AMOUNT_DETAIL: Record<

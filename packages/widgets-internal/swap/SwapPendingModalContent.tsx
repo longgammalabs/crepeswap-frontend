@@ -1,5 +1,5 @@
-import { Currency } from "@iguanadex/sdk";
-import { ArrowUpIcon, AutoColumn, Box, ColumnCenter, Text } from "@iguanadex/uikit";
+import { Currency } from "@pancakeswap/sdk";
+import { ArrowUpIcon, AutoColumn, Box, ColumnCenter, Text } from "@pancakeswap/uikit";
 import { ReactNode, useRef } from "react";
 import { ConfirmModalState, StepTitleAnimationContainer } from "./ApproveModalContent";
 import { FadePresence, PendingSwapConfirmationIcon } from "./Logos";

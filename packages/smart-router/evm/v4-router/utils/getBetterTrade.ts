@@ -1,4 +1,4 @@
-import { TradeType } from '@iguanadex/sdk'
+import { TradeType } from '@pancakeswap/sdk'
 
 import { V4Trade } from '../types'
 

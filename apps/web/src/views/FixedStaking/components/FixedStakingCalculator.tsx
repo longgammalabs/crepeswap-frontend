@@ -1,5 +1,5 @@
-import { useTranslation } from '@iguanadex/localization'
-import { Currency, CurrencyAmount, Percent } from '@iguanadex/sdk'
+import { useTranslation } from '@pancakeswap/localization'
+import { Currency, CurrencyAmount, Percent } from '@pancakeswap/sdk'
 import {
   Box,
   Button,
@@ -11,7 +11,7 @@ import {
   PreTitle,
   RoiCard,
   useModalV2,
-} from '@iguanadex/uikit'
+} from '@pancakeswap/uikit'
 import { useStablecoinPriceAmount } from 'hooks/useStablecoinPrice'
 import toNumber from 'lodash/toNumber'
 import { useMemo } from 'react'

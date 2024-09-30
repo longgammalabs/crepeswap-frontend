@@ -1,4 +1,4 @@
-import { ChainId } from '@iguanadex/sdk'
+import { ChainId } from '@pancakeswap/sdk'
 import { useMemo } from 'react'
 import { chains } from 'utils/wagmi'
 

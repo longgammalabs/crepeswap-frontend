@@ -1,5 +1,5 @@
-import { ChainId } from '@iguanadex/chains'
-import { getDefaultGasLimit, getGasLimitOnChain } from '@iguanadex/multicall'
+import { ChainId } from '@pancakeswap/chains'
+import { getDefaultGasLimit, getGasLimitOnChain } from '@pancakeswap/multicall'
 import { useQuery } from '@tanstack/react-query'
 import { useMemo } from 'react'
 

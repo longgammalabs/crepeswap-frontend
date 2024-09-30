@@ -1,5 +1,5 @@
-import { ChainId } from '@iguanadex/chains'
-import { Percent } from '@iguanadex/swap-sdk-core'
+import { ChainId } from '@pancakeswap/chains'
+import { Percent } from '@pancakeswap/swap-sdk-core'
 import { Address, Hash } from 'viem'
 import { ERC20Token } from './entities/token'
 

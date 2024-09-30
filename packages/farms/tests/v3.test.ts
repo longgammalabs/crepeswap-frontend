@@ -1,5 +1,5 @@
-import { ChainId, chainNames, isTestnetChainId } from '@iguanadex/chains'
-import { Pool } from '@iguanadex/v3-sdk'
+import { ChainId, chainNames, isTestnetChainId } from '@pancakeswap/chains'
+import { Pool } from '@pancakeswap/v3-sdk'
 import groupBy from 'lodash/groupBy'
 import { isAddressEqual } from 'viem'
 import { describe, expect, it } from 'vitest'

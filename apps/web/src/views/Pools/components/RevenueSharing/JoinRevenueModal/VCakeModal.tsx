@@ -1,12 +1,12 @@
-import { ChainId } from '@iguanadex/chains'
-import { ModalV2 } from '@iguanadex/uikit'
-import useCakeBenefits from 'components/Menu/UserMenu/hooks/useCakeBenefits'
-import useAccountActiveChain from 'hooks/useAccountActiveChain'
 import { useEffect, useState } from 'react'
-import { VaultPosition } from 'utils/cakePool'
-import JoinRevenueModal from 'views/Pools/components/RevenueSharing/JoinRevenueModal'
-import useVCake from 'views/Pools/hooks/useVCake'
+import { ModalV2 } from '@pancakeswap/uikit'
+import { ChainId } from '@pancakeswap/chains'
 import { useAccount } from 'wagmi'
+import useAccountActiveChain from 'hooks/useAccountActiveChain'
+import useVCake from 'views/Pools/hooks/useVCake'
+import JoinRevenueModal from 'views/Pools/components/RevenueSharing/JoinRevenueModal'
+import useCakeBenefits from 'components/Menu/UserMenu/hooks/useCakeBenefits'
+import { VaultPosition } from 'utils/cakePool'
 
 const VCakeModal = () => {
   const { account, chainId } = useAccountActiveChain()

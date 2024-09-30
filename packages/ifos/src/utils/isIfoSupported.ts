@@ -1,4 +1,4 @@
-import { ChainId } from '@iguanadex/sdk'
+import { ChainId } from '@pancakeswap/sdk'
 
 import {
   PROFILE_SUPPORTED_CHAIN_IDS,

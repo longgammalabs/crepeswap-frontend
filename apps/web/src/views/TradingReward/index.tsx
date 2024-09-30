@@ -1,5 +1,5 @@
-import { ChainId } from '@iguanadex/chains'
-import { Box } from '@iguanadex/uikit'
+import { ChainId } from '@pancakeswap/chains'
+import { Box } from '@pancakeswap/uikit'
 import { useActiveChainId } from 'hooks/useActiveChainId'
 import { useMemo } from 'react'
 import Banner from 'views/TradingReward/components/Banner'

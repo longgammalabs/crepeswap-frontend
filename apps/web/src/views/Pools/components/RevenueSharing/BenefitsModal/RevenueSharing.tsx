@@ -1,10 +1,10 @@
-import { useTranslation } from '@iguanadex/localization'
-import { Balance, Box, Card, Flex, LinkExternal, Message, MessageText, Text, WarningIcon } from '@iguanadex/uikit'
+import { useTranslation } from '@pancakeswap/localization'
+import { Balance, Box, Card, Flex, LinkExternal, Message, MessageText, Text, WarningIcon } from '@pancakeswap/uikit'
 import BigNumber from 'bignumber.js'
 import { useCakePrice } from 'hooks/useCakePrice'
 import { useMemo } from 'react'
 
-import { getBalanceAmount } from '@iguanadex/utils/formatBalance'
+import { getBalanceAmount } from '@pancakeswap/utils/formatBalance'
 import { useVaultPoolByKey } from 'state/pools/hooks'
 import { DeserializedLockedCakeVault, VaultKey } from 'state/types'
 import BenefitsTooltipsText from 'views/Pools/components/RevenueSharing/BenefitsModal/BenefitsTooltipsText'

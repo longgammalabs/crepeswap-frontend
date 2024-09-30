@@ -1,6 +1,6 @@
-import { useTranslation } from '@iguanadex/localization'
-import { Box, Card, Flex, Text } from '@iguanadex/uikit'
-import { NextLinkFromReactRouter } from '@iguanadex/widgets-internal'
+import { useTranslation } from '@pancakeswap/localization'
+import { Box, Card, Flex, Text } from '@pancakeswap/uikit'
+import { NextLinkFromReactRouter } from '@pancakeswap/widgets-internal'
 
 import { useEffect, useMemo, useRef } from 'react'
 import { useAllTokenDataQuery, useChainNameByQuery, useMultiChainPath } from 'state/info/hooks'

@@ -1,5 +1,5 @@
-import { VaultKey } from '@iguanadex/pools'
-import { getBalanceAmount } from '@iguanadex/utils/formatBalance'
+import { VaultKey } from '@pancakeswap/pools'
+import { getBalanceAmount } from '@pancakeswap/utils/formatBalance'
 import BigNumber from 'bignumber.js'
 import { useOfficialsAndUserAddedTokens } from 'hooks/Tokens'
 import useActiveWeb3React from 'hooks/useActiveWeb3React'

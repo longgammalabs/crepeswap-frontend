@@ -1,8 +1,8 @@
-import { ChainId } from '@iguanadex/chains'
-import { Address, GetContractReturnType, PublicClient, getContract } from 'viem'
+import { ChainId } from '@pancakeswap/chains'
+import { GetContractReturnType, PublicClient, getContract, Address } from 'viem'
 
+import { MULTICALL_ADDRESS, MULTICALL3_ADDRESSES, MULTICALL3_ADDRESS } from './constants/contracts'
 import { iMulticallABI } from './abis/IMulticall'
-import { MULTICALL3_ADDRESS, MULTICALL3_ADDRESSES, MULTICALL_ADDRESS } from './constants/contracts'
 
 type Params = {
   chainId: ChainId

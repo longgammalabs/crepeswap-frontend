@@ -1,8 +1,8 @@
-import { Box, Flex, ProfileAvatar, SkeletonV2, Text } from '@iguanadex/uikit'
-import truncateHash from '@iguanadex/utils/truncateHash'
-import { useDomainNameForAddress } from 'hooks/useDomain'
+import { Box, Flex, SkeletonV2, Text, ProfileAvatar } from '@pancakeswap/uikit'
 import { useProfileForAddress } from 'state/profile/hooks'
 import { styled } from 'styled-components'
+import truncateHash from '@pancakeswap/utils/truncateHash'
+import { useDomainNameForAddress } from 'hooks/useDomain'
 import { localiseTradingVolume } from '../../../helpers'
 import { LeaderboardDataItem } from '../../../types'
 

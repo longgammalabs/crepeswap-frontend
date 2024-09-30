@@ -1,4 +1,4 @@
-import { useTranslation } from '@iguanadex/localization'
+import { useTranslation } from '@pancakeswap/localization'
 import {
   ArrowBackIcon,
   Box,
@@ -12,7 +12,7 @@ import {
   PageHeader,
   Text,
   useMatchBreakpoints,
-} from '@iguanadex/uikit'
+} from '@pancakeswap/uikit'
 import Page from 'components/Layout/Page'
 import { PropsWithChildren } from 'react'
 import styled from 'styled-components'

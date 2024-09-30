@@ -1,4 +1,4 @@
-import { useTranslation } from '@iguanadex/localization'
+import { useTranslation } from '@pancakeswap/localization'
 import {
   ArrowBackIcon,
   Box,
@@ -10,7 +10,7 @@ import {
   Heading,
   Skeleton,
   Text,
-} from '@iguanadex/uikit'
+} from '@pancakeswap/uikit'
 import ConnectWalletButton from 'components/ConnectWalletButton'
 import { LotteryStatus } from 'config/constants/types'
 import { useCallback, useState } from 'react'

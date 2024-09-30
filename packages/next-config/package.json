@@ -1,8 +1,8 @@
 {
-  "name": "@iguanadex/next-config",
+  "name": "@pancakeswap/next-config",
   "version": "0.0.1",
   "sideEffects": false,
-  "private": false,
+  "private": true,
   "type": "module",
   "scripts": {
     "build": "npx tsc"

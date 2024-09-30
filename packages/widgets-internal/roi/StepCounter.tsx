@@ -1,7 +1,7 @@
-import { useTranslation } from "@iguanadex/localization";
-import { AddCircleIcon, AutoColumn, AutoRow, IconButton, RemoveIcon } from "@iguanadex/uikit";
-import { FeeAmount } from "@iguanadex/v3-sdk";
-import { memo, ReactNode, useCallback, useEffect, useState } from "react";
+import { useTranslation } from "@pancakeswap/localization";
+import { FeeAmount } from "@pancakeswap/v3-sdk";
+import { ReactNode, useCallback, useEffect, useState, memo } from "react";
+import { AddCircleIcon, AutoColumn, AutoRow, IconButton, RemoveIcon } from "@pancakeswap/uikit";
 
 import { NumericalInput } from "../swap/NumericalInput";
 import { LightGreyCard } from "./Card";

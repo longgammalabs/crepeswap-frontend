@@ -1,26 +1,26 @@
-import { useTranslation } from "@iguanadex/localization";
-import { Currency, CurrencyAmount, ONE_HUNDRED_PERCENT, ZERO_PERCENT } from "@iguanadex/sdk";
-import { CAKE } from "@iguanadex/tokens";
-import { AutoColumn, Box, Message, Row, RowBetween, Toggle } from "@iguanadex/uikit";
-import { FeeCalculator, encodeSqrtRatioX96 } from "@iguanadex/v3-sdk";
-import { memo, useCallback, useEffect, useMemo, useState } from "react";
+import { useTranslation } from "@pancakeswap/localization";
+import { useCallback, useEffect, useState, useMemo, memo } from "react";
+import { Currency, CurrencyAmount, ONE_HUNDRED_PERCENT, ZERO_PERCENT } from "@pancakeswap/sdk";
+import { FeeCalculator, encodeSqrtRatioX96 } from "@pancakeswap/v3-sdk";
 import { styled } from "styled-components";
+import { CAKE } from "@pancakeswap/tokens";
+import { Box, Row, AutoColumn, Toggle, RowBetween, Message } from "@pancakeswap/uikit";
 import { DoubleCurrencyLogo } from "../components/CurrencyLogo";
 
-import {
-  Asset,
-  AssetCard,
-  AssetRow,
-  CardSection,
-  CardTag,
-  CurrencyLogoDisplay,
-  InterestDisplay,
-  SectionTitle,
-} from "./AssetCard";
-import { EditableAssets } from "./EditableAssets";
 import { Section } from "./Section";
-import { TwoColumns } from "./TwoColumns";
+import {
+  AssetCard,
+  Asset,
+  CardSection,
+  SectionTitle,
+  InterestDisplay,
+  AssetRow,
+  CurrencyLogoDisplay,
+  CardTag,
+} from "./AssetCard";
 import { floatToPercent, toToken0Price } from "./utils";
+import { TwoColumns } from "./TwoColumns";
+import { EditableAssets } from "./EditableAssets";
 
 const Container = styled(Box)`
   background: ${({ theme }) => theme.colors.background};

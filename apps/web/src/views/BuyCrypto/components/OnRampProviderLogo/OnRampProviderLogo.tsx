@@ -1,7 +1,7 @@
 /* eslint-disable import/no-absolute-path */
 /* eslint-disable global-require */
-import { Token } from '@iguanadex/swap-sdk-core'
-import { Box, Skeleton, TokenPairImage } from '@iguanadex/uikit'
+import { Token } from '@pancakeswap/swap-sdk-core'
+import { Box, Skeleton, TokenPairImage } from '@pancakeswap/uikit'
 import { FiatLogo } from 'components/Logo/CurrencyLogo'
 import { getImageUrlFromToken } from 'components/TokenImage'
 import { ASSET_CDN, PANCAKE_ASSET_CDN } from 'config/constants/endpoints'

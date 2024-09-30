@@ -1,24 +1,24 @@
-import { PoolIds } from '@iguanadex/ifos'
-import { useTranslation } from '@iguanadex/localization'
-import { bscTokens } from '@iguanadex/tokens'
+import { bscTokens } from '@pancakeswap/tokens'
+import { useMemo } from 'react'
 import {
-  Box,
   Card,
-  IfoGenericIfoCard,
+  IfoSkeletonCardTokens,
   IfoSkeletonCardActions,
   IfoSkeletonCardDetails,
-  IfoSkeletonCardTokens,
-} from '@iguanadex/uikit'
-import { useMemo } from 'react'
+  Box,
+  IfoGenericIfoCard,
+} from '@pancakeswap/uikit'
+import { useTranslation } from '@pancakeswap/localization'
 import styled from 'styled-components'
+import { PoolIds } from '@pancakeswap/ifos'
 
 import { useFetchIfo } from 'state/pools/hooks'
 
 import { CardsWrapper } from './components/IfoCardStyles'
-import IfoContainer from './components/IfoContainer'
-import { cardConfig } from './components/IfoFoldableCard/IfoPoolCard'
 import { StyledCardBody } from './components/IfoFoldableCard/index'
+import IfoContainer from './components/IfoContainer'
 import IfoSteps from './components/IfoSteps'
+import { cardConfig } from './components/IfoFoldableCard/IfoPoolCard'
 
 const CurveBox = styled(Box)`
   border-bottom-left-radius: 100% 40px;

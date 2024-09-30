@@ -1,7 +1,7 @@
-import { ChainId } from '@iguanadex/chains'
-import { useTranslation } from '@iguanadex/localization'
-import { Currency, Token } from '@iguanadex/sdk'
-import { WrappedTokenInfo } from '@iguanadex/token-lists'
+import { ChainId } from '@pancakeswap/chains'
+import { useTranslation } from '@pancakeswap/localization'
+import { Currency, Token } from '@pancakeswap/sdk'
+import { WrappedTokenInfo } from '@pancakeswap/token-lists'
 import {
   AutoColumn,
   BscScanIcon,
@@ -16,9 +16,9 @@ import {
   Tag,
   Text,
   useTooltip,
-} from '@iguanadex/uikit'
-import truncateHash from '@iguanadex/utils/truncateHash'
-import { ListLogo } from '@iguanadex/widgets-internal'
+} from '@pancakeswap/uikit'
+import truncateHash from '@pancakeswap/utils/truncateHash'
+import { ListLogo } from '@pancakeswap/widgets-internal'
 import { useQuery } from '@tanstack/react-query'
 import AccessRisk, { TOKEN_RISK } from 'components/AccessRisk'
 import { ACCESS_TOKEN_SUPPORT_CHAIN_IDS } from 'components/AccessRisk/config/supportedChains'

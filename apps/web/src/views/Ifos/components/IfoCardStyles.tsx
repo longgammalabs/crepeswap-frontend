@@ -1,6 +1,6 @@
-import { Card, Link } from '@iguanadex/uikit'
-import NextLink from 'next/link'
+import { Card, Link } from '@pancakeswap/uikit'
 import { styled } from 'styled-components'
+import NextLink from 'next/link'
 import { TypographyProps, typography } from 'styled-system'
 
 export const StyledCard = styled(Card)`

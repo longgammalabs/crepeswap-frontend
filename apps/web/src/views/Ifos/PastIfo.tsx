@@ -1,4 +1,4 @@
-import { Container } from '@iguanadex/uikit'
+import { Container } from '@pancakeswap/uikit'
 
 import { useInActiveIfoConfigs } from 'hooks/useIfoConfig'
 

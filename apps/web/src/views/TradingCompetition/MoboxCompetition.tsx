@@ -1,42 +1,42 @@
-import { ChainId } from '@iguanadex/chains'
-import { useTranslation } from '@iguanadex/localization'
-import { Box, PageSection, useMatchBreakpoints } from '@iguanadex/uikit'
-import { API_PROFILE, TC_MOBOX_SUBGRAPH } from 'config/constants/endpoints'
-import {
-  CLAIM,
-  CompetitionPhases,
-  FINISHED,
-  LIVE,
-  OVER,
-  REGISTRATION,
-  SmartContractPhases,
-} from 'config/constants/trading-competition/phases'
-import useAccountActiveChain from 'hooks/useAccountActiveChain'
+import { useState, useEffect } from 'react'
+import { useTranslation } from '@pancakeswap/localization'
+import { useProfile } from 'state/profile/hooks'
+import { Box, useMatchBreakpoints, PageSection } from '@pancakeswap/uikit'
 import { useTradingCompetitionContractMobox } from 'hooks/useContract'
 import useTheme from 'hooks/useTheme'
+import { TC_MOBOX_SUBGRAPH, API_PROFILE } from 'config/constants/endpoints'
 import orderBy from 'lodash/orderBy'
-import { useEffect, useState } from 'react'
-import { useProfile } from 'state/profile/hooks'
-import Footer from './Footer'
-import BattleCta from './components/BattleCta'
+import {
+  SmartContractPhases,
+  CompetitionPhases,
+  LIVE,
+  FINISHED,
+  CLAIM,
+  OVER,
+  REGISTRATION,
+} from 'config/constants/trading-competition/phases'
+import { ChainId } from '@pancakeswap/chains'
+import useAccountActiveChain from 'hooks/useAccountActiveChain'
+import { MIDBLUEBG, MIDBLUEBG_DARK, TRADINGCOMPETITIONBANNER } from './pageSectionStyles'
+import { RulesIcon } from './svgs'
 import Countdown from './components/Countdown'
-import HowToJoin from './components/HowToJoin'
-import PrizesInfoSection from './components/PrizesInfoSection'
+import StormBunny from './pngs/mobox-storm-bunny.png'
 import RibbonWithImage from './components/RibbonWithImage'
+import HowToJoin from './components/HowToJoin'
+import BattleCta from './components/BattleCta'
 import Rules from './components/Rules'
-import TeamRanksWithParticipants from './components/TeamRanks/TeamRanksWithParticipants'
+import { UserTradingInformation, initialUserTradingInformation, initialUserLeaderboardInformation } from './types'
+import { CompetitionPage, BannerFlex } from './styles'
+import RanksIcon from './svgs/RanksIcon'
+import MoboxYourScore from './mobox/components/YourScore/MoboxYourScore'
 import MoboxBattleBanner from './mobox/components/BattleBanner/MoboxBattleBanner'
 import MoboxPrizesInfo from './mobox/components/PrizesInfo/MoboxPrizesInfo'
-import MoboxYourScore from './mobox/components/YourScore/MoboxYourScore'
-import { MIDBLUEBG, MIDBLUEBG_DARK, TRADINGCOMPETITIONBANNER } from './pageSectionStyles'
-import MoboxCakerBunny from './pngs/mobox-cakers.png'
-import StormBunny from './pngs/mobox-storm-bunny.png'
-import { BannerFlex, CompetitionPage } from './styles'
-import { RulesIcon } from './svgs'
-import RanksIcon from './svgs/RanksIcon'
-import { UserTradingInformation, initialUserLeaderboardInformation, initialUserTradingInformation } from './types'
-import { useRegistrationClaimStatus } from './useRegistrationClaimStatus'
 import { useTeamInformation } from './useTeamInformation'
+import { useRegistrationClaimStatus } from './useRegistrationClaimStatus'
+import Footer from './Footer'
+import PrizesInfoSection from './components/PrizesInfoSection'
+import TeamRanksWithParticipants from './components/TeamRanks/TeamRanksWithParticipants'
+import MoboxCakerBunny from './pngs/mobox-cakers.png'
 
 const MoboxCompetition = () => {
   const { account, chainId } = useAccountActiveChain()

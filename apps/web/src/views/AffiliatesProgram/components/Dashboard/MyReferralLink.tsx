@@ -1,14 +1,14 @@
-import { useTranslation } from '@iguanadex/localization'
-import { ArrowForwardIcon, Box, Button, Flex, Input, Text, useMatchBreakpoints, useToast } from '@iguanadex/uikit'
-import { BIG_ONE_HUNDRED } from '@iguanadex/utils/bigNumber'
-import { useSignMessage } from '@iguanadex/wagmi'
 import { useMemo, useState } from 'react'
+import { Flex, Text, Input, Box, Button, ArrowForwardIcon, useMatchBreakpoints, useToast } from '@pancakeswap/uikit'
 import { styled } from 'styled-components'
-import { encodePacked, keccak256 } from 'viem'
-import { InfoDetail } from 'views/AffiliatesProgram/hooks/useAuthAffiliate'
+import { BIG_ONE_HUNDRED } from '@pancakeswap/utils/bigNumber'
+import { keccak256, encodePacked } from 'viem'
+import { useAccount } from 'wagmi'
+import { useSignMessage } from '@pancakeswap/wagmi'
+import { useTranslation } from '@pancakeswap/localization'
 import useDefaultLinkId from 'views/AffiliatesProgram/hooks/useDefaultLinkId'
 import commissionList from 'views/AffiliatesProgram/utils/commisionList'
-import { useAccount } from 'wagmi'
+import { InfoDetail } from 'views/AffiliatesProgram/hooks/useAuthAffiliate'
 
 const Wrapper = styled(Flex)`
   padding: 1px;

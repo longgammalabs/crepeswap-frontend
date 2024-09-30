@@ -1,4 +1,4 @@
-import { useTranslation } from '@iguanadex/localization'
+import { useTranslation } from '@pancakeswap/localization'
 import {
   AutoColumn,
   Balance,
@@ -14,8 +14,8 @@ import {
   Tag,
   Text,
   WarningIcon,
-} from '@iguanadex/uikit'
-import { formatBigInt } from '@iguanadex/utils/formatBalance'
+} from '@pancakeswap/uikit'
+import { formatBigInt } from '@pancakeswap/utils/formatBalance'
 import { WEEK } from 'config/constants/veCake'
 import dayjs from 'dayjs'
 import { useCakePrice } from 'hooks/useCakePrice'

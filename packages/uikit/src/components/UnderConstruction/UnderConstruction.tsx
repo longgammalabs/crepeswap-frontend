@@ -1,4 +1,4 @@
-import { useTranslation } from "@iguanadex/localization";
+import { useTranslation } from "@pancakeswap/localization";
 import { JSXElementConstructor, ReactNode, createElement } from "react";
 import { styled } from "styled-components";
 import { Button } from "../Button";

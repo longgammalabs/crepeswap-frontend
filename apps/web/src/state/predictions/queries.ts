@@ -1,4 +1,4 @@
-import { PredictionSupportedSymbol } from '@iguanadex/prediction'
+import { PredictionSupportedSymbol } from '@pancakeswap/prediction'
 import { betBaseFields as betBaseFieldsBNB, userBaseFields as userBaseFieldsBNB } from './bnbQueries'
 import { betBaseFields as betBaseFieldsCAKE, userBaseFields as userBaseFieldsCAKE } from './cakeQueries'
 import {

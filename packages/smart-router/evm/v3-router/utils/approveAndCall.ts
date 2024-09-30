@@ -1,7 +1,7 @@
-import { Currency, Percent, Token } from '@iguanadex/sdk'
-import { IncreaseSpecificOptions, MintSpecificOptions, NonfungiblePositionManager, Position } from '@iguanadex/v3-sdk'
+import { Hex, encodeFunctionData, Address } from 'viem'
 import invariant from 'tiny-invariant'
-import { Address, Hex, encodeFunctionData } from 'viem'
+import { Currency, Percent, Token } from '@pancakeswap/sdk'
+import { MintSpecificOptions, IncreaseSpecificOptions, NonfungiblePositionManager, Position } from '@pancakeswap/v3-sdk'
 
 import { approveAndCallAbi } from '../../abis/IApproveAndCall'
 

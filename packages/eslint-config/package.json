@@ -1,19 +1,19 @@
 {
-  "name": "@iguanadex/eslint-config-pancake",
-  "version": "1.2.1",
-  "description": "Eslint config for IguanaDEX",
+  "name": "@pancakeswap/eslint-config-pancake",
+  "version": "1.2.0",
+  "description": "Eslint config for PancakeSwap",
   "main": "lib/index.js",
   "files": [
     "lib"
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/iguanadex/frontend.git",
+    "url": "https://github.com/pancakeswap/pancake-frontend.git",
     "directory": "packages/eslint-config"
   },
   "license": "MIT",
   "author": "RabbitDoge",
-  "private": false,
+  "private": true,
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^6.7.0",
     "@typescript-eslint/parser": "^6.7.0",

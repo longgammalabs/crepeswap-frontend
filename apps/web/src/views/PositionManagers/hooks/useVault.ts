@@ -1,4 +1,4 @@
-import { PCSDuoTokenVault, PCSDuoTokenVaultConfig, createPCSVaultManager } from '@iguanadex/position-managers'
+import { PCSDuoTokenVault, PCSDuoTokenVaultConfig, createPCSVaultManager } from '@pancakeswap/position-managers'
 import { useMemo } from 'react'
 
 interface Params {

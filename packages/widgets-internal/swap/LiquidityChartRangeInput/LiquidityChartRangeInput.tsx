@@ -1,7 +1,7 @@
-import { useTranslation } from "@iguanadex/localization";
-import { Currency, Price } from "@iguanadex/swap-sdk-core";
-import { AutoColumn, BunnyKnownPlaceholder, ChartDisableIcon, LineGraphIcon } from "@iguanadex/uikit";
-import { FeeAmount } from "@iguanadex/v3-sdk";
+import { useTranslation } from "@pancakeswap/localization";
+import { Currency, Price } from "@pancakeswap/swap-sdk-core";
+import { AutoColumn, BunnyKnownPlaceholder, ChartDisableIcon, LineGraphIcon } from "@pancakeswap/uikit";
+import { FeeAmount } from "@pancakeswap/v3-sdk";
 import * as Sentry from "@sentry/nextjs";
 import { format } from "d3";
 import { saturate } from "polished";

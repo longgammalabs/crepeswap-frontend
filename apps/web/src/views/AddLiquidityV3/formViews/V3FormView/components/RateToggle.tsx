@@ -1,6 +1,6 @@
-import { useTranslation } from '@iguanadex/localization'
-import { Currency } from '@iguanadex/sdk'
-import { Button, Flex, SyncAltIcon, Text } from '@iguanadex/uikit'
+import { useTranslation } from '@pancakeswap/localization'
+import { Currency } from '@pancakeswap/sdk'
+import { Button, Flex, SyncAltIcon, Text } from '@pancakeswap/uikit'
 import { styled } from 'styled-components'
 
 const RateToggleButton = styled(Button)`

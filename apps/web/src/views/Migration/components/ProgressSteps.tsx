@@ -1,4 +1,4 @@
-import { Box, BoxProps, Text } from '@iguanadex/uikit'
+import { Box, BoxProps, Text } from '@pancakeswap/uikit'
 import React, { ReactNode } from 'react'
 import { styled } from 'styled-components'
 

@@ -1,12 +1,12 @@
-import { useTranslation } from '@iguanadex/localization'
-import { TokenList, Version } from '@iguanadex/token-lists'
+import { useTranslation } from '@pancakeswap/localization'
+import { TokenList, Version } from '@pancakeswap/token-lists'
 import {
   acceptListUpdate,
   disableList,
   enableList,
   removeList,
   useFetchListCallback,
-} from '@iguanadex/token-lists/react'
+} from '@pancakeswap/token-lists/react'
 import {
   AutoColumn,
   Button,
@@ -18,10 +18,10 @@ import {
   Text,
   Toggle,
   useTooltip,
-} from '@iguanadex/uikit'
-import { ListLogo } from '@iguanadex/widgets-internal'
+} from '@pancakeswap/uikit'
+import { ListLogo } from '@pancakeswap/widgets-internal'
 
-import uriToHttp from '@iguanadex/utils/uriToHttp'
+import uriToHttp from '@pancakeswap/utils/uriToHttp'
 import Card from 'components/Card'
 import { MULTI_CHAIN_LIST_URLS, UNSUPPORTED_LIST_URLS } from 'config/constants/lists'
 import { useAtomValue } from 'jotai'

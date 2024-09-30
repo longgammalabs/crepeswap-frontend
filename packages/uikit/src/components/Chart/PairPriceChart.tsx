@@ -1,13 +1,11 @@
-import { useTranslation } from "@iguanadex/localization";
+import { useTranslation } from "@pancakeswap/localization";
 import dayjs from "dayjs";
-import { createChart, IChartApi, ISeriesApi, LineStyle, MouseEventParams, UTCTimestamp } from "lightweight-charts";
-import { Dispatch, RefObject, SetStateAction, useCallback, useEffect, useMemo, useRef, useState } from "react";
+import { createChart, IChartApi, LineStyle, UTCTimestamp } from "lightweight-charts";
+import { Dispatch, SetStateAction, useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { useTheme } from "styled-components";
-import { useMatchBreakpoints } from "../../contexts";
 import LineChartLoader from "./LineChartLoaderSVG";
 
 export enum PairDataTimeWindowEnum {
-  HOUR,
   DAY,
   WEEK,
   MONTH,
@@ -31,51 +29,10 @@ const getChartColors = ({ isChangePositive }: { isChangePositive: boolean }) => 
 };
 
 const dateFormattingByTimewindow: Record<PairDataTimeWindowEnum, string> = {
-  [PairDataTimeWindowEnum.HOUR]: "h:mm a",
   [PairDataTimeWindowEnum.DAY]: "h:mm a",
   [PairDataTimeWindowEnum.WEEK]: "MMM dd",
   [PairDataTimeWindowEnum.MONTH]: "MMM dd",
   [PairDataTimeWindowEnum.YEAR]: "MMM dd",
-};
-
-const getHandler = (
-  chart: IChartApi,
-  newSeries: ISeriesApi<"Area">,
-  locale: string,
-  setHoverValue: Dispatch<SetStateAction<number | undefined>> | undefined,
-  setHoverDate: Dispatch<SetStateAction<string | undefined>> | undefined,
-  isMobile: boolean,
-  legendRef: RefObject<HTMLDivElement>
-) => {
-  return (param: MouseEventParams) => {
-    if (newSeries && param) {
-      const timestamp = param.time as number;
-      if (!timestamp) return;
-      const now = new Date(timestamp * 1000);
-      const time = `${now.toLocaleString(locale, {
-        year: "numeric",
-        month: "short",
-        day: "numeric",
-        hour: "numeric",
-        minute: "2-digit",
-      })}`;
-      const parsedData = param.seriesData.get(newSeries);
-      // @ts-ignore
-      const parsedValue = (parsedData?.value ?? parsedData?.close ?? 0) as number | undefined;
-      if (parsedValue && param.time && isMobile) {
-        chart.setCrosshairPosition(parsedValue, param.time, newSeries);
-      }
-      if (setHoverValue) setHoverValue(parsedValue);
-      if (setHoverDate) setHoverDate(time);
-    } else {
-      if (setHoverValue) setHoverValue(undefined);
-      if (setHoverDate) setHoverDate(undefined);
-      if (legendRef.current) {
-        // eslint-disable-next-line no-param-reassign
-        legendRef.current.innerHTML = ``;
-      }
-    }
-  };
 };
 
 export const SwapLineChart: React.FC<SwapLineChartNewProps> = ({
@@ -89,7 +46,6 @@ export const SwapLineChart: React.FC<SwapLineChartNewProps> = ({
   ...rest
 }) => {
   const { isDark } = useTheme();
-  const { isMobile } = useMatchBreakpoints();
   const transformedData = useMemo(() => {
     return (
       data?.map(({ time, value }) => {
@@ -101,19 +57,10 @@ export const SwapLineChart: React.FC<SwapLineChartNewProps> = ({
     currentLanguage: { locale },
   } = useTranslation();
   const chartRef = useRef<HTMLDivElement>(null);
-  const legendRef = useRef<HTMLDivElement>(null);
   const colors = useMemo(() => {
     return getChartColors({ isChangePositive });
   }, [isChangePositive]);
   const [chartCreated, setChart] = useState<IChartApi | undefined>();
-
-  const handleResetValue = useCallback(() => {
-    if (setHoverValue) setHoverValue(undefined);
-    if (setHoverDate) setHoverDate(undefined);
-    if (legendRef.current) {
-      legendRef.current.innerHTML = ``;
-    }
-  }, [setHoverValue, setHoverDate, legendRef]);
 
   useEffect(() => {
     if (!chartRef?.current) return;
@@ -201,55 +148,55 @@ export const SwapLineChart: React.FC<SwapLineChartNewProps> = ({
 
     chart.timeScale().fitContent();
 
-    if (isMobile) {
-      chart.subscribeClick(getHandler(chart, newSeries, locale, setHoverValue, setHoverDate, isMobile, legendRef));
-    }
-    chart.subscribeCrosshairMove(
-      getHandler(chart, newSeries, locale, setHoverValue, setHoverDate, isMobile, legendRef)
-    );
+    chart.subscribeCrosshairMove((param) => {
+      if (newSeries && param) {
+        const timestamp = param.time as number;
+        if (!timestamp) return;
+        const now = new Date(timestamp * 1000);
+        const time = `${now.toLocaleString(locale, {
+          year: "numeric",
+          month: "short",
+          day: "numeric",
+          hour: "numeric",
+          minute: "2-digit",
+          timeZone: "UTC",
+        })} (UTC)`;
+        // @ts-ignore
+        const parsed = (param.seriesData.get(newSeries)?.value ?? 0) as number | undefined;
+        if (setHoverValue) setHoverValue(parsed);
+        if (setHoverDate) setHoverDate(time);
+      } else {
+        if (setHoverValue) setHoverValue(undefined);
+        if (setHoverDate) setHoverDate(undefined);
+      }
+    });
 
     // eslint-disable-next-line consistent-return
     return () => {
-      handleResetValue();
       chart.remove();
     };
   }, [
     transformedData,
     isDark,
     colors,
-    isMobile,
     isChartExpanded,
     locale,
     timeWindow,
     setHoverDate,
     setHoverValue,
     priceLineData,
-    handleResetValue,
-    legendRef,
   ]);
+
+  const handleMouseLeave = useCallback(() => {
+    if (setHoverValue) setHoverValue(undefined);
+    if (setHoverDate) setHoverDate(undefined);
+  }, [setHoverValue, setHoverDate]);
 
   return (
     <>
       {!chartCreated && <LineChartLoader />}
-      <div
-        onPointerDownCapture={(event) => event.stopPropagation()}
-        style={{ display: "flex", flex: 1, height: "100%" }}
-        onMouseLeave={handleResetValue}
-      >
-        <div style={{ flex: 1, maxWidth: "100%", position: "relative" }} ref={chartRef} id="pair-price-chart" {...rest}>
-          <div
-            ref={legendRef}
-            style={{
-              fontSize: isMobile ? "12px" : undefined,
-              position: "absolute",
-              left: "0px",
-              top: "0px",
-              marginLeft: isMobile ? "24px" : "8px",
-              marginTop: isMobile ? "4px" : undefined,
-              zIndex: 1,
-            }}
-          />
-        </div>
+      <div style={{ display: "flex", flex: 1, height: "100%" }} onMouseLeave={handleMouseLeave}>
+        <div style={{ flex: 1, maxWidth: "100%" }} ref={chartRef} id="swap-line-chart" {...rest} />
       </div>
     </>
   );

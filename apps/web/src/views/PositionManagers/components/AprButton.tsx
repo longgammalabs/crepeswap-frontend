@@ -1,5 +1,5 @@
-import { useTranslation } from '@iguanadex/localization'
-import { Currency } from '@iguanadex/sdk'
+import { useTranslation } from '@pancakeswap/localization'
+import { Currency } from '@pancakeswap/sdk'
 import {
   CalculateIcon,
   Flex,
@@ -9,7 +9,7 @@ import {
   Text,
   useModal,
   useTooltip,
-} from '@iguanadex/uikit'
+} from '@pancakeswap/uikit'
 import BigNumber from 'bignumber.js'
 import { useCurrencyUsdPrice } from 'hooks/useCurrencyUsdPrice'
 import { memo, useMemo } from 'react'

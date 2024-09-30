@@ -1,5 +1,5 @@
 {
-  "extends": "@iguanadex/tsconfig/base",
+  "extends": "@pancakeswap/tsconfig/base",
   "include": ["./**/*.ts"],
   "exclude": ["**/*.test.ts", "dist"],
   "compilerOptions": {

@@ -1,5 +1,5 @@
-import { useTranslation } from '@iguanadex/localization'
-import { InfoIcon, Text, useTooltip } from '@iguanadex/uikit'
+import { useTooltip, Text, InfoIcon } from '@pancakeswap/uikit'
+import { useTranslation } from '@pancakeswap/localization'
 import { memo } from 'react'
 
 export const MMSlippageTolerance = memo(() => {

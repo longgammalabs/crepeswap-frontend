@@ -1,9 +1,9 @@
-import { Flex, Text, useMatchBreakpoints } from '@iguanadex/uikit'
-import { Pool } from '@iguanadex/widgets-internal'
 import React from 'react'
 import { styled } from 'styled-components'
+import { Flex, Text, useMatchBreakpoints } from '@pancakeswap/uikit'
+import { Pool } from '@pancakeswap/widgets-internal'
 
-import { useTranslation } from '@iguanadex/localization'
+import { useTranslation } from '@pancakeswap/localization'
 
 const StyledCell = styled(Pool.BaseCell)`
   display: none;

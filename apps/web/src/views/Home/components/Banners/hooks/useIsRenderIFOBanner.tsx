@@ -1,6 +1,6 @@
-import { ChainId } from '@iguanadex/chains'
-import { useActiveIfoWithBlocks } from 'hooks/useActiveIfoWithBlocks'
 import { useChainCurrentBlock } from 'state/block/hooks'
+import { useActiveIfoWithBlocks } from 'hooks/useActiveIfoWithBlocks'
+import { ChainId } from '@pancakeswap/chains'
 
 const useIsRenderIfoBanner = () => {
   const currentBlock = useChainCurrentBlock(ChainId.BSC)

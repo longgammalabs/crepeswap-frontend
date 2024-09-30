@@ -1,4 +1,4 @@
-import { useTranslation } from '@iguanadex/localization'
+import { useTranslation } from '@pancakeswap/localization'
 import {
   ArrowForwardIcon,
   Button,
@@ -7,10 +7,10 @@ import {
   useIsomorphicEffect,
   useMatchBreakpoints,
   useModal,
-} from '@iguanadex/uikit'
+} from '@pancakeswap/uikit'
 import USCitizenConfirmModal from 'components/Modal/USCitizenConfirmModal'
 import { useActiveChainId } from 'hooks/useActiveChainId'
-import { IdType, useUserNotUsCitizenAcknowledgement } from 'hooks/useUserIsUsCitizenAcknowledgement'
+import { useUserNotUsCitizenAcknowledgement, IdType } from 'hooks/useUserIsUsCitizenAcknowledgement'
 import Image from 'next/legacy/image'
 import { memo, useMemo, useRef } from 'react'
 import { styled, useTheme } from 'styled-components'

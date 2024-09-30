@@ -1,4 +1,4 @@
-import { useTranslation } from '@iguanadex/localization'
+import { useTranslation } from '@pancakeswap/localization'
 import {
   BulbIcon,
   EarnIcon,
@@ -12,7 +12,7 @@ import {
   SwapIcon,
   Text,
   TrophyIcon,
-} from '@iguanadex/uikit'
+} from '@pancakeswap/uikit'
 import useTheme from 'hooks/useTheme'
 import { cloneElement, useLayoutEffect, useMemo, useRef, useState } from 'react'
 import Marquee from 'react-fast-marquee'

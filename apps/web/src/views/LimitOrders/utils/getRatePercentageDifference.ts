@@ -1,4 +1,4 @@
-import { Currency, Percent, Price } from '@iguanadex/sdk'
+import { Currency, Percent, Price } from '@pancakeswap/sdk'
 
 const getRatePercentageDifference = (
   currentMarketRate?: Price<Currency, Currency>,

@@ -1,11 +1,11 @@
 // eslint-disable-next-line no-restricted-imports
-import { useTranslation } from '@iguanadex/localization'
-import { TradeType } from '@iguanadex/sdk'
-import { SmartRouterTrade } from '@iguanadex/smart-router'
-import { FeeOptions } from '@iguanadex/v3-sdk'
+import { useTranslation } from '@pancakeswap/localization'
+import { TradeType } from '@pancakeswap/sdk'
+import { SmartRouterTrade } from '@pancakeswap/smart-router'
+import { FeeOptions } from '@pancakeswap/v3-sdk'
 import { ReactNode, useMemo } from 'react'
 
-import { useUserSlippage } from '@iguanadex/utils/user'
+import { useUserSlippage } from '@pancakeswap/utils/user'
 import { INITIAL_ALLOWED_SLIPPAGE } from 'config/constants'
 import { useSwapState } from 'state/swap/hooks'
 import { basisPointsToPercent } from 'utils/exchange'

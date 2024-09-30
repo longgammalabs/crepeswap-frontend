@@ -1,8 +1,8 @@
-import { useTranslation } from '@iguanadex/localization'
-import { Flex, HelpIcon, Link, Text, useTooltip } from '@iguanadex/uikit'
-import { Pool } from '@iguanadex/widgets-internal'
 import React from 'react'
 import { styled } from 'styled-components'
+import { useTranslation } from '@pancakeswap/localization'
+import { Flex, Text, HelpIcon, useTooltip, Link } from '@pancakeswap/uikit'
+import { Pool } from '@pancakeswap/widgets-internal'
 
 const StyledCell = styled(Pool.BaseCell)`
   display: none;

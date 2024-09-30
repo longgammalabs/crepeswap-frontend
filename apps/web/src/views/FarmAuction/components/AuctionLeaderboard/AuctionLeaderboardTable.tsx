@@ -1,29 +1,29 @@
-import { useTranslation } from '@iguanadex/localization'
-import {
-  Box,
-  BunnyPlaceholderIcon,
-  Button,
-  EllipsisIcon,
-  Flex,
-  LinkExternal,
-  ScanLink,
-  Skeleton,
-  SubMenu,
-  SubMenuItem,
-  Text,
-  useMatchBreakpoints,
-  useModal,
-} from '@iguanadex/uikit'
-import { getBalanceNumber } from '@iguanadex/utils/formatBalance'
-import BigNumber from 'bignumber.js'
-import { Bidder } from 'config/constants/types'
-import { useCakePrice } from 'hooks/useCakePrice'
 import { useState } from 'react'
 import { styled } from 'styled-components'
+import BigNumber from 'bignumber.js'
+import {
+  Text,
+  Flex,
+  Box,
+  BunnyPlaceholderIcon,
+  Skeleton,
+  Button,
+  useModal,
+  SubMenu,
+  SubMenuItem,
+  EllipsisIcon,
+  LinkExternal,
+  useMatchBreakpoints,
+  ScanLink,
+} from '@pancakeswap/uikit'
 import { getBlockExploreLink } from 'utils'
+import { getBalanceNumber } from '@pancakeswap/utils/formatBalance'
+import { useTranslation } from '@pancakeswap/localization'
+import { useCakePrice } from 'hooks/useCakePrice'
+import { Bidder } from 'config/constants/types'
+import WhitelistedBiddersModal from '../WhitelistedBiddersModal'
 import { HARD_CODED_START_AUCTION_ID } from '../../constants'
 import { useV3FarmAuctionConfig } from '../../hooks/useV3FarmAuctionConfig'
-import WhitelistedBiddersModal from '../WhitelistedBiddersModal'
 
 const LeaderboardContainer = styled.div`
   display: grid;

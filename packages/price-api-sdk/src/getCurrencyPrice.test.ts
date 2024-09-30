@@ -1,4 +1,4 @@
-import { Native } from '@iguanadex/sdk'
+import { Native } from '@pancakeswap/sdk'
 import { describe, expect, it } from 'vitest'
 
 import { getCurrencyKey, zeroAddress } from './getCurrencyPrice'

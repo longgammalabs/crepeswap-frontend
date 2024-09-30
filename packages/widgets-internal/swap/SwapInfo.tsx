@@ -1,7 +1,7 @@
-import { useIsMounted } from "@iguanadex/hooks";
-import { useTranslation } from "@iguanadex/localization";
-import { AutoColumn, IconButton, PencilIcon, RowBetween, Text, TextProps } from "@iguanadex/uikit";
+import { useTranslation } from "@pancakeswap/localization";
+import { useIsMounted } from "@pancakeswap/hooks";
 import { PropsWithChildren, ReactNode } from "react";
+import { AutoColumn, RowBetween, Text, TextProps, IconButton, PencilIcon } from "@pancakeswap/uikit";
 
 type SwapInfoType = {
   price: ReactNode;

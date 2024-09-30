@@ -1,4 +1,4 @@
-import { Text, TextProps } from '@iguanadex/uikit'
+import { Text, TextProps } from '@pancakeswap/uikit'
 
 export interface PercentProps extends TextProps {
   value: number | undefined

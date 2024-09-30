@@ -1,10 +1,10 @@
 import { styled } from "styled-components";
 
-import { ArrowDownIcon, ArrowUpDownIcon, ButtonProps, IconButton } from "@iguanadex/uikit";
-import { CurrencyInputHeader, CurrencyInputHeaderSubTitle, CurrencyInputHeaderTitle } from "./CurrencyInputHeader";
+import { ButtonProps, IconButton, ArrowUpDownIcon, ArrowDownIcon } from "@pancakeswap/uikit";
 import { CurrencyInputPanel } from "./CurrencyInputPanel";
-import { SwapFooter as Footer } from "./Footer";
+import { CurrencyInputHeader, CurrencyInputHeaderSubTitle, CurrencyInputHeaderTitle } from "./CurrencyInputHeader";
 import { SwapPage as Page } from "./Page";
+import { SwapFooter as Footer } from "./Footer";
 import { SwapInfo as Info, SwapInfoLabel as InfoLabel } from "./SwapInfo";
 import { TradePrice } from "./TradePrice";
 
@@ -34,14 +34,14 @@ const SwitchButton = (props: ButtonProps) => (
 );
 
 export {
-  CurrencyInputHeader,
-  CurrencyInputHeaderSubTitle,
+  SwitchButton,
   CurrencyInputHeaderTitle,
+  CurrencyInputHeaderSubTitle,
+  CurrencyInputHeader,
   CurrencyInputPanel,
+  Page,
   Footer,
   Info,
   InfoLabel,
-  Page,
-  SwitchButton,
   TradePrice,
 };

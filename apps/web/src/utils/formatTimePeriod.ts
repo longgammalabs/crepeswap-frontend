@@ -1,4 +1,4 @@
-import getTimePeriods from '@iguanadex/utils/getTimePeriods'
+import getTimePeriods from '@pancakeswap/utils/getTimePeriods'
 
 /**
  * @param {Object} periods Return value from getTimePeriods

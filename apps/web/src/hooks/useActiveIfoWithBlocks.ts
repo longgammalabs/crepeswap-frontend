@@ -1,5 +1,5 @@
-import { ChainId } from '@iguanadex/chains'
-import { Ifo } from '@iguanadex/ifos'
+import { ChainId } from '@pancakeswap/chains'
+import { Ifo } from '@pancakeswap/ifos'
 
 import { publicClient } from 'utils/wagmi'
 

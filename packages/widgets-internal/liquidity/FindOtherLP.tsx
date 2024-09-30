@@ -1,6 +1,6 @@
-import { useTranslation } from "@iguanadex/localization";
-import { AtomBox, Button, Text } from "@iguanadex/uikit";
 import Link from "next/link";
+import { useTranslation } from "@pancakeswap/localization";
+import { Text, Button, AtomBox } from "@pancakeswap/uikit";
 
 export function FindOtherLP({ children }: { children: React.ReactNode }) {
   const { t } = useTranslation();

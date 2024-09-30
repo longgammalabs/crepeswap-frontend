@@ -1,5 +1,5 @@
-import { useTranslation } from '@iguanadex/localization'
-import { Heading, Skeleton, Text } from '@iguanadex/uikit'
+import { useTranslation } from '@pancakeswap/localization'
+import { Heading, Skeleton, Text } from '@pancakeswap/uikit'
 import { styled } from 'styled-components'
 import { LIVE } from '../../../../../config/constants/trading-competition/phases'
 import RibbonWithImage from '../../../components/RibbonWithImage'

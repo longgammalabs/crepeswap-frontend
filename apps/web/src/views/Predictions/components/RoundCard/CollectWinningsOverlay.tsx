@@ -1,7 +1,7 @@
-import { useTranslation } from '@iguanadex/localization'
-import { Flex, TrophyGoldIcon } from '@iguanadex/uikit'
-import { useGetIsClaimable } from 'state/predictions/hooks'
 import { styled } from 'styled-components'
+import { Flex, TrophyGoldIcon } from '@pancakeswap/uikit'
+import { useGetIsClaimable } from 'state/predictions/hooks'
+import { useTranslation } from '@pancakeswap/localization'
 import CollectWinningsButton from '../CollectWinningsButton'
 
 interface CollectWinningsOverlayProps {

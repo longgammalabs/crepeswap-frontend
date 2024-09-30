@@ -1,8 +1,8 @@
-import { useTranslation } from '@iguanadex/localization'
-import { Button, Card, CommunityIcon, Flex, Heading, PrizeIcon, Text } from '@iguanadex/uikit'
-import { Team } from 'config/constants/types'
+import { styled, DefaultTheme } from 'styled-components'
 import Link from 'next/link'
-import { DefaultTheme, styled } from 'styled-components'
+import { Button, Card, CommunityIcon, Flex, Heading, PrizeIcon, Text } from '@pancakeswap/uikit'
+import { useTranslation } from '@pancakeswap/localization'
+import { Team } from 'config/constants/types'
 
 interface TeamCardProps {
   rank: number

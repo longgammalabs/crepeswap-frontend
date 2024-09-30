@@ -1,8 +1,8 @@
-import { useTranslation } from '@iguanadex/localization'
-import { Box, Button, Flex, Heading, ProposalIcon } from '@iguanadex/uikit'
+import { Box, Button, Flex, Heading, ProposalIcon } from '@pancakeswap/uikit'
+import { styled } from 'styled-components'
+import { useTranslation } from '@pancakeswap/localization'
 import Container from 'components/Layout/Container'
 import Link from 'next/link'
-import { styled } from 'styled-components'
 import DesktopImage from './DesktopImage'
 
 const StyledHero = styled(Box)`

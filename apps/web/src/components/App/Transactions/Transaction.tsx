@@ -1,8 +1,8 @@
-import { CheckmarkIcon, CloseIcon, ScanLink } from '@iguanadex/uikit'
-import { ChainLinkSupportChains } from 'state/info/constant'
-import { TransactionDetails } from 'state/transactions/reducer'
 import { styled } from 'styled-components'
+import { CheckmarkIcon, CloseIcon, ScanLink } from '@pancakeswap/uikit'
 import { getBlockExploreLink } from 'utils'
+import { TransactionDetails } from 'state/transactions/reducer'
+import { ChainLinkSupportChains } from 'state/info/constant'
 
 import CircleLoader from '../../Loader/CircleLoader'
 

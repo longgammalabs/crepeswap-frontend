@@ -1,9 +1,9 @@
-import { useTheme } from '@iguanadex/hooks'
-import { useTranslation } from '@iguanadex/localization'
-import { Box, Button, Flex, Link, Text } from '@iguanadex/uikit'
-import Image from 'next/image'
+import { Box, Flex, Text, Button, Link } from '@pancakeswap/uikit'
+import { useTheme } from '@pancakeswap/hooks'
 import { styled } from 'styled-components'
+import { useTranslation } from '@pancakeswap/localization'
 import { floatingStarsLeft, floatingStarsRight } from 'views/Lottery/components/Hero'
+import Image from 'next/image'
 import bunnyImage from '../../../../../public/images/trading-reward/top-traders-banner.png'
 
 const Container = styled(Box)<{ backgroundColor: string }>`

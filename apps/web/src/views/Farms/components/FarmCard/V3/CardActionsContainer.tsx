@@ -1,5 +1,5 @@
-import { useModalV2 } from '@iguanadex/uikit'
-import { FarmWidget } from '@iguanadex/widgets-internal'
+import { useModalV2 } from '@pancakeswap/uikit'
+import { FarmWidget } from '@pancakeswap/widgets-internal'
 import ConnectWalletButton from 'components/ConnectWalletButton'
 import { useMemo } from 'react'
 import { styled } from 'styled-components'

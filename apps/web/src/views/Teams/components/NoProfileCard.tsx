@@ -1,5 +1,5 @@
-import { useTranslation } from '@iguanadex/localization'
-import { Button, Card, CardBody, Flex, Heading, Text } from '@iguanadex/uikit'
+import { Button, Card, CardBody, Flex, Heading, Text } from '@pancakeswap/uikit'
+import { useTranslation } from '@pancakeswap/localization'
 import Link from 'next/link'
 
 const NoProfileCard = () => {

@@ -1,5 +1,5 @@
-import { useTranslation } from '@iguanadex/localization'
-import { CardFooter, ExpandableLabel, Flex } from '@iguanadex/uikit'
+import { useTranslation } from '@pancakeswap/localization'
+import { CardFooter, ExpandableLabel, Flex } from '@pancakeswap/uikit'
 import { useEffect, useState } from 'react'
 import { LotteryRound } from 'state/types'
 import FooterExpanded from './FooterExpanded'

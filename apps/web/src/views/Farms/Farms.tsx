@@ -1,7 +1,7 @@
-import { ChainId } from '@iguanadex/chains'
-import { DeserializedFarm, FarmWithStakedValue, filterFarmsByQuery } from '@iguanadex/farms'
-import { useIntersectionObserver } from '@iguanadex/hooks'
-import { useTranslation } from '@iguanadex/localization'
+import { ChainId } from '@pancakeswap/chains'
+import { DeserializedFarm, FarmWithStakedValue, filterFarmsByQuery } from '@pancakeswap/farms'
+import { useIntersectionObserver } from '@pancakeswap/hooks'
+import { useTranslation } from '@pancakeswap/localization'
 import {
   ArrowForwardIcon,
   Box,
@@ -19,9 +19,9 @@ import {
   Text,
   Toggle,
   ToggleView,
-} from '@iguanadex/uikit'
+} from '@pancakeswap/uikit'
 
-import { FarmWidget, NextLinkFromReactRouter } from '@iguanadex/widgets-internal'
+import { FarmWidget, NextLinkFromReactRouter } from '@pancakeswap/widgets-internal'
 import BigNumber from 'bignumber.js'
 import Page from 'components/Layout/Page'
 import { useActiveChainId } from 'hooks/useActiveChainId'

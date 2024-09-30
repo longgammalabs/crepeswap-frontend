@@ -1,7 +1,7 @@
-import { useTranslation } from '@iguanadex/localization'
-import { Card, PaginationButton, Table, Td, Th } from '@iguanadex/uikit'
-import DesktopResult from 'views/TradingReward/components/Leaderboard/DesktopResult'
+import { PaginationButton, Card, Table, Th, Td } from '@pancakeswap/uikit'
+import { useTranslation } from '@pancakeswap/localization'
 import { RankListDetail } from 'views/TradingReward/hooks/useRankList'
+import DesktopResult from 'views/TradingReward/components/Leaderboard/DesktopResult'
 
 interface LeaderBoardDesktopViewProps {
   data: RankListDetail[]

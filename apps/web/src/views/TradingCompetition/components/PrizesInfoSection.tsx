@@ -1,10 +1,10 @@
-import { useTranslation } from '@iguanadex/localization'
-import { Box, PageSection } from '@iguanadex/uikit'
-import useTheme from 'hooks/useTheme'
 import { ReactNode } from 'react'
-import { LIGHTBLUEBG, LIGHTBLUEBG_DARK } from '../pageSectionStyles'
-import PrizesIcon from '../svgs/PrizesIcon'
+import { Box, PageSection } from '@pancakeswap/uikit'
+import useTheme from 'hooks/useTheme'
+import { useTranslation } from '@pancakeswap/localization'
 import RibbonWithImage from './RibbonWithImage'
+import { LIGHTBLUEBG_DARK, LIGHTBLUEBG } from '../pageSectionStyles'
+import PrizesIcon from '../svgs/PrizesIcon'
 
 interface PrizesInfoSectionProps {
   prizesInfoComponent: ReactNode

@@ -1,8 +1,8 @@
-import { useTranslation } from "@iguanadex/localization";
-import { SwapCSS } from "@iguanadex/uikit";
-import { escapeRegExp } from "@iguanadex/utils/escapeRegExp";
 import clsx from "clsx";
 import { memo } from "react";
+import { useTranslation } from "@pancakeswap/localization";
+import { escapeRegExp } from "@pancakeswap/utils/escapeRegExp";
+import { SwapCSS } from "@pancakeswap/uikit";
 
 const inputRegex = RegExp(`^\\d*(?:\\\\[.])?\\d*$`); // match escaped "." characters via in a non-capturing group
 

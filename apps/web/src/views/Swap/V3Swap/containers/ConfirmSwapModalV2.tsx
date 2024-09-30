@@ -1,17 +1,17 @@
-import { useTranslation } from '@iguanadex/localization'
-import { ChainId, Currency, CurrencyAmount, Token, TradeType } from '@iguanadex/sdk'
-import { SmartRouterTrade, V4Router } from '@iguanadex/smart-router'
-import { WrappedTokenInfo } from '@iguanadex/token-lists'
-import { Box, BscScanIcon, Column, Flex, InjectedModalProps, Link, Text } from '@iguanadex/uikit'
-import { formatAmount } from '@iguanadex/utils/formatFractions'
-import truncateHash from '@iguanadex/utils/truncateHash'
-import { useUserSlippage } from '@iguanadex/utils/user'
+import { useTranslation } from '@pancakeswap/localization'
+import { ChainId, Currency, CurrencyAmount, Token, TradeType } from '@pancakeswap/sdk'
+import { SmartRouterTrade, V4Router } from '@pancakeswap/smart-router'
+import { WrappedTokenInfo } from '@pancakeswap/token-lists'
+import { Box, BscScanIcon, Column, Flex, InjectedModalProps, Link, Text } from '@pancakeswap/uikit'
+import { formatAmount } from '@pancakeswap/utils/formatFractions'
+import truncateHash from '@pancakeswap/utils/truncateHash'
+import { useUserSlippage } from '@pancakeswap/utils/user'
 import {
   ApproveModalContent,
   ConfirmModalState,
   SwapPendingModalContent,
   SwapTransactionReceiptModalContent,
-} from '@iguanadex/widgets-internal'
+} from '@pancakeswap/widgets-internal'
 import AddToWalletButton, { AddToWalletTextOptions } from 'components/AddToWallet/AddToWalletButton'
 import DescriptionWithTx from 'components/Toast/DescriptionWithTx'
 import { useActiveChainId } from 'hooks/useActiveChainId'

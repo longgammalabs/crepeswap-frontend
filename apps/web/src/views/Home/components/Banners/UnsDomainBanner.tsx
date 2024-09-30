@@ -1,9 +1,9 @@
-import { useTranslation } from '@iguanadex/localization'
-import { ArrowForwardIcon, Box, Button, Flex, Link, useMatchBreakpoints } from '@iguanadex/uikit'
+import { useTranslation } from '@pancakeswap/localization'
+import { ArrowForwardIcon, Box, Button, Flex, Link, useMatchBreakpoints } from '@pancakeswap/uikit'
 import { ASSET_CDN } from 'config/constants/endpoints'
 import Image from 'next/legacy/image'
 import { memo } from 'react'
-import { css, keyframes, styled } from 'styled-components'
+import { styled, css, keyframes } from 'styled-components'
 import * as S from './Styled'
 
 const fading = keyframes`

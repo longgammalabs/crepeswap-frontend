@@ -1,8 +1,8 @@
-import { useTheme } from '@iguanadex/hooks'
-import { useTranslation } from '@iguanadex/localization'
-import { Button, ButtonProps, useModal, WaitIcon } from '@iguanadex/uikit'
-import { LotteryStatus } from 'config/constants/types'
+import { Button, useModal, WaitIcon, ButtonProps } from '@pancakeswap/uikit'
+import { useTranslation } from '@pancakeswap/localization'
 import { useLottery } from 'state/lottery/hooks'
+import { useTheme } from '@pancakeswap/hooks'
+import { LotteryStatus } from 'config/constants/types'
 import BuyTicketsModal from './BuyTicketsModal/BuyTicketsModal'
 
 interface BuyTicketsButtonProps extends ButtonProps {

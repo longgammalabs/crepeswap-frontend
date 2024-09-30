@@ -1,5 +1,5 @@
 {
-  "extends": "@iguanadex/tsconfig/nextjs.json",
+  "extends": "@pancakeswap/tsconfig/nextjs.json",
   "compilerOptions": {
     "baseUrl": "./",
     "skipLibCheck": true,

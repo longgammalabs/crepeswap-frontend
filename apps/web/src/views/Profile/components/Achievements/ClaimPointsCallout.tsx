@@ -1,5 +1,5 @@
-import { useTranslation } from '@iguanadex/localization'
-import { Card, CardBody, CardHeader, Flex, Heading, PrizeIcon } from '@iguanadex/uikit'
+import { useTranslation } from '@pancakeswap/localization'
+import { Card, CardBody, CardHeader, Flex, Heading, PrizeIcon } from '@pancakeswap/uikit'
 import sumBy from 'lodash/sumBy'
 import { useEffect, useState } from 'react'
 import { useAppDispatch } from 'state'

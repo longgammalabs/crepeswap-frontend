@@ -1,5 +1,5 @@
-import { Currency, CurrencyAmount } from '@iguanadex/sdk'
-import { Pool } from '@iguanadex/v3-sdk'
+import { Currency, CurrencyAmount } from '@pancakeswap/sdk'
+import { Pool } from '@pancakeswap/v3-sdk'
 import { useV3NFTPositionManagerContract } from 'hooks/useContract'
 import { useEffect, useMemo, useState } from 'react'
 import { useCurrentBlock } from 'state/block/hooks'

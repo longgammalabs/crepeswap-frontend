@@ -1,10 +1,10 @@
 /* eslint-disable camelcase, @typescript-eslint/no-non-null-assertion */
-import { ChainId } from '@iguanadex/chains'
-import { multicallByGasLimit } from '@iguanadex/multicall'
-import { BigintIsh } from '@iguanadex/sdk'
-import { AbortControl } from '@iguanadex/utils/abortControl'
+import { ChainId } from '@pancakeswap/chains'
+import { multicallByGasLimit } from '@pancakeswap/multicall'
+import { BigintIsh } from '@pancakeswap/sdk'
 import stats from 'stats-lite'
 import { PublicClient, decodeFunctionResult, encodeFunctionData } from 'viem'
+import { AbortControl } from '@pancakeswap/utils/abortControl'
 
 import IMulticallABI from '../../abis/InterfaceMulticall'
 import {

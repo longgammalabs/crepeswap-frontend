@@ -1,4 +1,3 @@
-import { useTranslation } from '@iguanadex/localization'
 import {
   BlockIcon,
   Box,
@@ -12,12 +11,13 @@ import {
   Tab,
   TabMenu,
   Text,
-} from '@iguanadex/uikit'
-import Trans from 'components/Trans'
-import { PrizesConfig, Tiers } from 'config/constants/trading-competition/prizes'
+} from '@pancakeswap/uikit'
 import Image from 'next/image'
+import Trans from 'components/Trans'
+import { Tiers, PrizesConfig } from 'config/constants/trading-competition/prizes'
+import { useTranslation } from '@pancakeswap/localization'
 import { useState } from 'react'
-import { BoldTd, StyledPrizeTable, Td } from '../../StyledPrizeTable'
+import { BoldTd, Td, StyledPrizeTable } from '../../StyledPrizeTable'
 
 const COLOR_GOLD = '#FFBF33'
 const COLOR_SILVER = '#C1C1C1'

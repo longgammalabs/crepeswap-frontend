@@ -1,10 +1,10 @@
-import { useTranslation } from '@iguanadex/localization'
-import { Balance, Box, Skeleton, Text } from '@iguanadex/uikit'
-import { getBalanceAmount } from '@iguanadex/utils/formatBalance'
+import { Box, Text, Skeleton, Balance } from '@pancakeswap/uikit'
 import BigNumber from 'bignumber.js'
+import { useAccount } from 'wagmi'
+import { useTranslation } from '@pancakeswap/localization'
 import { useCakePrice } from 'hooks/useCakePrice'
 import { usePotteryData } from 'state/pottery/hook'
-import { useAccount } from 'wagmi'
+import { getBalanceAmount } from '@pancakeswap/utils/formatBalance'
 
 interface YourDepositProps {
   depositBalance?: any

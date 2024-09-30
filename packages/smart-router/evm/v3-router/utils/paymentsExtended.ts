@@ -1,6 +1,6 @@
-import { Percent, Token, validateAndParseAddress } from '@iguanadex/sdk'
-import { FeeOptions, Payments } from '@iguanadex/v3-sdk'
-import { Address, encodeFunctionData, Hex } from 'viem'
+import { Hex, Address, encodeFunctionData } from 'viem'
+import { Percent, Token, validateAndParseAddress } from '@pancakeswap/sdk'
+import { FeeOptions, Payments } from '@pancakeswap/v3-sdk'
 
 import { peripheryPaymentsWithFeeExtendedAbi } from '../../abis/IPeripheryPaymentsWithFeeExtended'
 

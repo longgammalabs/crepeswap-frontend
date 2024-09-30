@@ -1,19 +1,19 @@
-import { useTranslation } from "@iguanadex/localization";
-import { memo, useMemo } from "react";
+import { useTranslation } from "@pancakeswap/localization";
+import { useMemo, memo } from "react";
 import { styled } from "styled-components";
 import { SpaceProps } from "styled-system";
 
 import {
-  Box,
-  BunnyKnownPlaceholder,
-  ButtonMenuItem,
   Flex,
-  PairDataTimeWindowEnum,
+  ButtonMenuItem,
   SwapLineChart,
+  PairDataTimeWindowEnum,
+  Box,
   Text,
-} from "@iguanadex/uikit";
-import { FullWidthButtonMenu } from "./FullWidthButtonMenu";
+  BunnyKnownPlaceholder,
+} from "@pancakeswap/uikit";
 import { PriceData } from "./types";
+import { FullWidthButtonMenu } from "./FullWidthButtonMenu";
 
 const PriceDisplayContainer = styled(Flex)`
   padding: 0.25em 0.5em;

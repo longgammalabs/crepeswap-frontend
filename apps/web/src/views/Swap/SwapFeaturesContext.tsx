@@ -1,5 +1,5 @@
-import { ChainId } from '@iguanadex/chains'
-import { useMatchBreakpoints } from '@iguanadex/uikit'
+import { ChainId } from '@pancakeswap/chains'
+import { useMatchBreakpoints } from '@pancakeswap/uikit'
 import { ACCESS_TOKEN_SUPPORT_CHAIN_IDS } from 'components/AccessRisk/config/supportedChains'
 import { useActiveChainId } from 'hooks/useActiveChainId'
 import React, { createContext, useMemo, useState } from 'react'

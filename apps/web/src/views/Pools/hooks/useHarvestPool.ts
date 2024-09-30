@@ -1,6 +1,6 @@
-import { BIG_ZERO } from '@iguanadex/utils/bigNumber'
-import { useSousChef } from 'hooks/useContract'
 import { useCallback } from 'react'
+import { BIG_ZERO } from '@pancakeswap/utils/bigNumber'
+import { useSousChef } from 'hooks/useContract'
 
 const options = {}
 

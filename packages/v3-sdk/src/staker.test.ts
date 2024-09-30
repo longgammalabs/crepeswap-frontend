@@ -1,9 +1,9 @@
-import { Token } from '@iguanadex/sdk'
-import { describe, expect, it } from 'vitest'
+import { describe, it, expect } from 'vitest'
+import { Token } from '@pancakeswap/sdk'
 import { FeeAmount } from './constants'
 import { Pool } from './entities/pool'
-import { NonfungiblePositionManager } from './nonfungiblePositionManager'
 import { Staker } from './staker'
+import { NonfungiblePositionManager } from './nonfungiblePositionManager'
 import { encodeSqrtRatioX96 } from './utils/encodeSqrtRatioX96'
 
 describe.skip('Staker', () => {

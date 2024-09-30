@@ -1,15 +1,15 @@
+import invariant from 'tiny-invariant'
 import {
   Currency,
+  TradeType,
+  Percent,
+  ZERO,
   CurrencyAmount,
   Fraction,
   ONE,
-  Percent,
   Price,
-  TradeType,
-  ZERO,
   computePriceImpact,
-} from '@iguanadex/sdk'
-import invariant from 'tiny-invariant'
+} from '@pancakeswap/sdk'
 
 import { TradeWithStableSwap } from './types'
 import { getMidPrice } from './utils/route'

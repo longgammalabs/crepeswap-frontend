@@ -1,6 +1,6 @@
-import { useHttpLocations } from "@iguanadex/hooks";
-import { TokenLogo } from "@iguanadex/uikit";
 import { styled } from "styled-components";
+import { useHttpLocations } from "@pancakeswap/hooks";
+import { TokenLogo } from "@pancakeswap/uikit";
 
 const StyledListLogo = styled(TokenLogo)<{ size: string }>`
   width: ${({ size }) => size};

@@ -1,5 +1,5 @@
-import { useTranslation } from '@iguanadex/localization'
-import { Flex, Grid, Text, useModal } from '@iguanadex/uikit'
+import { useTranslation } from '@pancakeswap/localization'
+import { Flex, Grid, Text, useModal } from '@pancakeswap/uikit'
 import { useEffect, useState } from 'react'
 import { NftLocation, NftToken } from 'state/nftMarket/types'
 import NoNftsImage from '../../Nft/market/components/Activity/NoNftsImage'

@@ -1,5 +1,5 @@
-import { Trans, useTranslation } from '@iguanadex/localization'
-import { Button, Card, Flex, FlexGap, Heading, Link, Text } from '@iguanadex/uikit'
+import { Trans, useTranslation } from '@pancakeswap/localization'
+import { Button, Card, Flex, FlexGap, Heading, Link, Text } from '@pancakeswap/uikit'
 import styled from 'styled-components'
 
 type BenefitCardType = 'earnCake' | 'gaugesVoting' | 'farmBoost' | 'snapshotVoting' | 'ifo' | 'more'

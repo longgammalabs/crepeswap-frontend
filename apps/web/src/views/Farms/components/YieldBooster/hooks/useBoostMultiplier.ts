@@ -1,5 +1,5 @@
-import { ChainId } from '@iguanadex/chains'
-import { ZERO } from '@iguanadex/swap-sdk-core'
+import { ChainId } from '@pancakeswap/chains'
+import { ZERO } from '@pancakeswap/swap-sdk-core'
 import { useQuery } from '@tanstack/react-query'
 import BN from 'bignumber.js'
 import { bCakeFarmBoosterABI } from 'config/abi/bCakeFarmBooster'

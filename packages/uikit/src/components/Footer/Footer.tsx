@@ -1,4 +1,4 @@
-import { useIsMounted } from "@iguanadex/hooks";
+import { useIsMounted } from "@pancakeswap/hooks";
 import React from "react";
 import { useMatchBreakpoints } from "../../contexts";
 import { Box, Flex } from "../Box";

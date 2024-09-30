@@ -1,13 +1,13 @@
-import { useTranslation } from '@iguanadex/localization'
-import { BaseAssets } from '@iguanadex/position-managers'
-import { Currency, Percent, Price } from '@iguanadex/sdk'
-import { Box, RowBetween, Text } from '@iguanadex/uikit'
-import { getBalanceAmount } from '@iguanadex/utils/formatBalance'
-import BigNumber from 'bignumber.js'
+import { useTranslation } from '@pancakeswap/localization'
+import { BaseAssets } from '@pancakeswap/position-managers'
+import { Currency, Price, Percent } from '@pancakeswap/sdk'
+import { getBalanceAmount } from '@pancakeswap/utils/formatBalance'
+import { Box, RowBetween, Text } from '@pancakeswap/uikit'
 import { memo, useMemo } from 'react'
 import { styled } from 'styled-components'
 import { SpaceProps } from 'styled-system'
 import { useTotalStakedInUsd } from 'views/PositionManagers/hooks/useTotalStakedInUsd'
+import BigNumber from 'bignumber.js'
 
 const InfoText = styled(Text).attrs({
   fontSize: '0.875em',

@@ -1,5 +1,5 @@
-import { ContextApi } from '@iguanadex/localization'
-import { Text } from '@iguanadex/uikit'
+import { ContextApi } from '@pancakeswap/localization'
+import { Text } from '@pancakeswap/uikit'
 import { SaleStatusEnum, UserStatusEnum } from '../../types'
 
 type PreEventProps = {

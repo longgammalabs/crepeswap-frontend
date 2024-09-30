@@ -1,9 +1,9 @@
 /* eslint-disable no-param-reassign */
-import { Currency, CurrencyAmount, isTradeBetter, Pair, Token, Trade, TradeType } from '@iguanadex/sdk'
+import { Currency, CurrencyAmount, isTradeBetter, Pair, Token, Trade, TradeType } from '@pancakeswap/sdk'
 import flatMap from 'lodash/flatMap'
 import { useMemo } from 'react'
 
-import { useUserSingleHopOnly } from '@iguanadex/utils/user'
+import { useUserSingleHopOnly } from '@pancakeswap/utils/user'
 import {
   ADDITIONAL_BASES,
   BASES_TO_CHECK_TRADES_AGAINST,

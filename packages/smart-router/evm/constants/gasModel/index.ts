@@ -1,5 +1,5 @@
-import { ChainId } from '@iguanadex/chains'
-import { Token } from '@iguanadex/sdk'
+import { ChainId } from '@pancakeswap/chains'
+import { Token } from '@pancakeswap/sdk'
 import {
   arbSepoliaTokens,
   arbitrumGoerliTokens,
@@ -22,7 +22,7 @@ import {
   scrollSepoliaTokens,
   zkSyncTestnetTokens,
   zksyncTokens,
-} from '@iguanadex/tokens'
+} from '@pancakeswap/tokens'
 
 export const usdGasTokensByChain = {
   [ChainId.ETHEREUM]: [ethereumTokens.usdt],

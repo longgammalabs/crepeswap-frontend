@@ -1,6 +1,6 @@
-import { ChainId } from '@iguanadex/chains'
-import { ERC20Token } from '@iguanadex/sdk'
-import { goerliTestnetTokens } from '@iguanadex/tokens'
+import { ChainId } from '@pancakeswap/chains'
+import { ERC20Token } from '@pancakeswap/sdk'
+import { goerliTestnetTokens } from '@pancakeswap/tokens'
 
 import { BaseIfoConfig } from '../../types'
 

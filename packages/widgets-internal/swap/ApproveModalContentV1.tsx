@@ -1,5 +1,5 @@
-import { useTranslation } from "@iguanadex/localization";
-import { AutoColumn, Box, ColumnCenter, Flex, Spinner, Text, TooltipText, useTooltip } from "@iguanadex/uikit";
+import { useTranslation } from "@pancakeswap/localization";
+import { AutoColumn, Box, ColumnCenter, Flex, Spinner, Text, TooltipText, useTooltip } from "@pancakeswap/uikit";
 
 interface ApproveModalContentProps {
   title: string;

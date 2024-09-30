@@ -1,10 +1,10 @@
 {
-  "name": "@iguanadex/price-api-sdk",
-  "version": "1.1.4",
-  "description": "SDK for IguanaDEX price api",
+  "name": "@pancakeswap/price-api-sdk",
+  "version": "1.1.1",
+  "description": "SDK for pancakeswap price api",
   "repository": {
     "type": "git",
-    "url": "https://github.com/iguanadex/frontend.git",
+    "url": "https://github.com/pancakeswap/pancake-frontend.git",
     "directory": "packages/price-api-sdk"
   },
   "type": "module",
@@ -23,35 +23,35 @@
     "dist"
   ],
   "peerDependencies": {
-    "@iguanadex/permit2-sdk": "workspace:*",
-    "@iguanadex/smart-router": "workspace:*",
-    "@iguanadex/swap-sdk-core": "workspace:*",
-    "@iguanadex/pcsx-sdk": "workspace:*"
+    "@pancakeswap/permit2-sdk": "workspace:*",
+    "@pancakeswap/smart-router": "workspace:*",
+    "@pancakeswap/swap-sdk-core": "workspace:*",
+    "@pancakeswap/pcsx-sdk": "workspace:*"
   },
   "peerDependenciesMeta": {
-    "@iguanadex/permit2-sdk": {
+    "@pancakeswap/permit2-sdk": {
       "optional": true
     },
-    "@iguanadex/swap-sdk-core": {
+    "@pancakeswap/swap-sdk-core": {
       "optional": true
     },
-    "@iguanadex/smart-router": {
+    "@pancakeswap/smart-router": {
       "optional": true
     },
-    "@iguanadex/pcsx-sdk": {
+    "@pancakeswap/pcsx-sdk": {
       "optional": true
     }
   },
   "dependencies": {
-    "@iguanadex/chains": "workspace:*"
+    "@pancakeswap/chains": "workspace:*"
   },
   "devDependencies": {
-    "@iguanadex/permit2-sdk": "workspace:*",
-    "@iguanadex/sdk": "workspace:*",
-    "@iguanadex/smart-router": "workspace:*",
-    "@iguanadex/swap-sdk-core": "workspace:*",
-    "@iguanadex/pcsx-sdk": "workspace:*",
-    "@iguanadex/tsconfig": "workspace:*",
+    "@pancakeswap/permit2-sdk": "workspace:*",
+    "@pancakeswap/sdk": "workspace:*",
+    "@pancakeswap/smart-router": "workspace:*",
+    "@pancakeswap/swap-sdk-core": "workspace:*",
+    "@pancakeswap/pcsx-sdk": "workspace:*",
+    "@pancakeswap/tsconfig": "workspace:*",
     "tsup": "^6.7.0"
   },
   "exports": {

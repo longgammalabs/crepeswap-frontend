@@ -1,5 +1,5 @@
-import { useTranslation } from '@iguanadex/localization'
-import { Button, Flex, Link, OpenNewIcon, Text, useMatchBreakpoints } from '@iguanadex/uikit'
+import { useTranslation } from '@pancakeswap/localization'
+import { Button, Flex, Link, OpenNewIcon, Text, useMatchBreakpoints } from '@pancakeswap/uikit'
 import { PANCAKE_ASSET_CDN } from 'config/constants/endpoints'
 import useTheme from 'hooks/useTheme'
 import React, { memo, useCallback, useLayoutEffect, useRef } from 'react'

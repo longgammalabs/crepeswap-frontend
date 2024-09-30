@@ -1,7 +1,7 @@
-import { ChainId } from '@iguanadex/chains'
-import { useDebounce, usePropsChanged } from '@iguanadex/hooks'
-import { getRequestBody, parseAMMPriceResponse, parseQuoteResponse } from '@iguanadex/price-api-sdk'
-import { Currency, CurrencyAmount, TradeType } from '@iguanadex/sdk'
+import { ChainId } from '@pancakeswap/chains'
+import { useDebounce, usePropsChanged } from '@pancakeswap/hooks'
+import { getRequestBody, parseAMMPriceResponse, parseQuoteResponse } from '@pancakeswap/price-api-sdk'
+import { Currency, CurrencyAmount, TradeType } from '@pancakeswap/sdk'
 import {
   BATCH_MULTICALL_CONFIGS,
   PoolType,
@@ -10,9 +10,9 @@ import {
   SmartRouter,
   SmartRouterTrade,
   V4Router,
-} from '@iguanadex/smart-router'
-import { BigintIsh } from '@iguanadex/swap-sdk-core'
-import { AbortControl } from '@iguanadex/utils/abortControl'
+} from '@pancakeswap/smart-router'
+import { BigintIsh } from '@pancakeswap/swap-sdk-core'
+import { AbortControl } from '@pancakeswap/utils/abortControl'
 import { keepPreviousData, useQuery, useQueryClient } from '@tanstack/react-query'
 import { useCallback, useDeferredValue, useEffect, useMemo, useRef } from 'react'
 

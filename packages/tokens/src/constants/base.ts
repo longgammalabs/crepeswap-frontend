@@ -1,5 +1,5 @@
-import { ChainId } from '@iguanadex/chains'
-import { ERC20Token, WETH9 } from '@iguanadex/sdk'
+import { ChainId } from '@pancakeswap/chains'
+import { ERC20Token, WETH9 } from '@pancakeswap/sdk'
 import { CAKE, USDC } from './common'
 
 export const baseTokens = {

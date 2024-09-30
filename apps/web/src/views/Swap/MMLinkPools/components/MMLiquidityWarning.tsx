@@ -1,5 +1,5 @@
-import { useTranslation } from '@iguanadex/localization'
-import { Alert } from '@iguanadex/uikit'
+import { Alert } from '@pancakeswap/uikit'
+import { useTranslation } from '@pancakeswap/localization'
 
 export const MMLiquidityWarning: React.FC = () => {
   const { t } = useTranslation()

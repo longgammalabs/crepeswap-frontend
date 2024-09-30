@@ -1,5 +1,5 @@
-import { ChainId } from '@iguanadex/chains'
-import { Native, NativeCurrency } from '@iguanadex/sdk'
+import { ChainId } from '@pancakeswap/chains'
+import { Native, NativeCurrency } from '@pancakeswap/sdk'
 import { useMemo } from 'react'
 import { useActiveChainId } from './useActiveChainId'
 

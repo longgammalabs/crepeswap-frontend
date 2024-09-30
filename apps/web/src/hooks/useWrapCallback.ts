@@ -1,12 +1,12 @@
-import { useTranslation } from '@iguanadex/localization'
-import { Currency, WNATIVE } from '@iguanadex/sdk'
-import tryParseAmount from '@iguanadex/utils/tryParseAmount'
-import useAccountActiveChain from 'hooks/useAccountActiveChain'
+import { Currency, WNATIVE } from '@pancakeswap/sdk'
 import { useMemo } from 'react'
+import { useTranslation } from '@pancakeswap/localization'
+import tryParseAmount from '@pancakeswap/utils/tryParseAmount'
 import { useTransactionAdder } from 'state/transactions/hooks'
 import { useCurrencyBalance } from 'state/wallet/hooks'
-import { useCallWithGasPrice } from './useCallWithGasPrice'
+import useAccountActiveChain from 'hooks/useAccountActiveChain'
 import { useWNativeContract } from './useContract'
+import { useCallWithGasPrice } from './useCallWithGasPrice'
 
 export enum WrapType {
   NOT_APPLICABLE,

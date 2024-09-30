@@ -1,4 +1,4 @@
-import { Text } from '@iguanadex/uikit'
+import { Text } from '@pancakeswap/uikit'
 
 const TimeText = ({ text }: { text: string }) => {
   return (

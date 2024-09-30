@@ -1,4 +1,4 @@
-# @iguanadex/multicall
+# @pancakeswap/multicall
 
 ## 3.5.0
 
@@ -9,21 +9,21 @@
 ### Patch Changes
 
 - Updated dependencies [610a24a]
-  - @iguanadex/sdk@5.8.0
+  - @pancakeswap/sdk@5.8.0
 
 ## 3.4.2
 
 ### Patch Changes
 
-- @iguanadex/sdk@5.7.7
+- @pancakeswap/sdk@5.7.7
 
 ## 3.4.1
 
 ### Patch Changes
 
 - Updated dependencies [91969f80f]
-  - @iguanadex/sdk@5.7.6
-  - @iguanadex/chains@0.4.1
+  - @pancakeswap/sdk@5.7.6
+  - @pancakeswap/chains@0.4.1
 
 ## 3.4.0
 
@@ -36,16 +36,16 @@
 ### Patch Changes
 
 - Updated dependencies [8fcd67c85]
-  - @iguanadex/chains@0.4.0
-  - @iguanadex/sdk@5.7.5
+  - @pancakeswap/chains@0.4.0
+  - @pancakeswap/sdk@5.7.5
 
 ## 3.3.3
 
 ### Patch Changes
 
 - Updated dependencies [49730e609]
-  - @iguanadex/chains@0.3.1
-  - @iguanadex/sdk@5.7.4
+  - @pancakeswap/chains@0.3.1
+  - @pancakeswap/sdk@5.7.4
 
 ## 3.3.2
 
@@ -53,7 +53,7 @@
 
 - 2ec03f1b2: chore: Bump up gauges
 - Updated dependencies [2ec03f1b2]
-  - @iguanadex/sdk@5.7.3
+  - @pancakeswap/sdk@5.7.3
 
 ## 3.3.1
 
@@ -72,23 +72,23 @@
 ### Patch Changes
 
 - Updated dependencies [c236a3ee4]
-  - @iguanadex/chains@0.3.0
-  - @iguanadex/sdk@5.7.2
+  - @pancakeswap/chains@0.3.0
+  - @pancakeswap/sdk@5.7.2
 
 ## 3.2.2
 
 ### Patch Changes
 
 - Updated dependencies [ed3146c93]
-  - @iguanadex/chains@0.2.0
-  - @iguanadex/sdk@5.7.1
+  - @pancakeswap/chains@0.2.0
+  - @pancakeswap/sdk@5.7.1
 
 ## 3.2.1
 
 ### Patch Changes
 
 - Updated dependencies [8e3ac5427]
-  - @iguanadex/sdk@5.7.0
+  - @pancakeswap/sdk@5.7.0
 
 ## 3.2.0
 
@@ -99,8 +99,8 @@
 ### Patch Changes
 
 - Updated dependencies [435a90ac2]
-  - @iguanadex/sdk@5.6.0
-  - @iguanadex/chains@0.1.0
+  - @pancakeswap/sdk@5.6.0
+  - @pancakeswap/chains@0.1.0
 
 ## 3.1.2
 
@@ -108,7 +108,7 @@
 
 - 1831356d9: refactor: Move ChainsId usage from Sdk to Chains package
 - Updated dependencies [1831356d9]
-  - @iguanadex/sdk@5.5.0
+  - @pancakeswap/sdk@5.5.0
 
 ## 3.1.1
 
@@ -116,7 +116,7 @@
 
 - 2d7e1b3e2: Upgraded viem
 - Updated dependencies [2d7e1b3e2]
-  - @iguanadex/sdk@5.4.2
+  - @pancakeswap/sdk@5.4.2
 
 ## 3.1.0
 

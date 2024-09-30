@@ -1,4 +1,4 @@
-import { useTranslation } from '@iguanadex/localization'
+import { useTranslation } from '@pancakeswap/localization'
 import {
   Box,
   CircleLoader,
@@ -11,7 +11,7 @@ import {
   Text,
   Toggle,
   useMatchBreakpoints,
-} from '@iguanadex/uikit'
+} from '@pancakeswap/uikit'
 import { NotifyClientTypes } from '@walletconnect/notify-client'
 
 import React, { useCallback, useMemo, useState } from 'react'

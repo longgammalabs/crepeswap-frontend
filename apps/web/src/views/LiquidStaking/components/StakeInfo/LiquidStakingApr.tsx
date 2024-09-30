@@ -1,5 +1,5 @@
-import { useTranslation } from '@iguanadex/localization'
-import { Flex, QuestionHelper, RowBetween, Text } from '@iguanadex/uikit'
+import { useTranslation } from '@pancakeswap/localization'
+import { Flex, QuestionHelper, RowBetween, Text } from '@pancakeswap/uikit'
 import { useMemo } from 'react'
 import formatLocaleNumber from 'utils/formatLocaleNumber'
 import { useLiquidStakingApr } from 'views/LiquidStaking/hooks/useLiquidStakingApr'

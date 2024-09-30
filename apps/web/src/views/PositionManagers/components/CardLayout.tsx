@@ -1,5 +1,5 @@
-import { CardHeader as CardHeaderComp, FlexLayout } from '@iguanadex/uikit'
 import { styled } from 'styled-components'
+import { FlexLayout, CardHeader as CardHeaderComp } from '@pancakeswap/uikit'
 
 export const CardLayout = styled(FlexLayout)`
   justify-content: flex-start;

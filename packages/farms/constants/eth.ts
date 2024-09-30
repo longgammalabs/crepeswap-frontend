@@ -1,5 +1,5 @@
-import { ethereumTokens } from '@iguanadex/tokens'
-import { FeeAmount, Pool } from '@iguanadex/v3-sdk'
+import { ethereumTokens } from '@pancakeswap/tokens'
+import { FeeAmount, Pool } from '@pancakeswap/v3-sdk'
 import { getAddress } from 'viem'
 import { FarmConfigV3, SerializedFarmConfig } from '..'
 import { defineFarmV3Configs } from '../src/defineFarmV3Configs'

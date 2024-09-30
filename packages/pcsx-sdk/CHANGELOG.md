@@ -1,4 +1,4 @@
-# @iguanadex/pcsx-sdk
+# @pancakeswap/pcsx-sdk
 
 ## 0.0.2
 

@@ -1,5 +1,5 @@
-import { useTranslation } from "@iguanadex/localization";
-import { Box, InfoFilledIcon, LinkExternal, Placement, Text, TooltipText, useTooltip } from "@iguanadex/uikit";
+import { useTranslation } from "@pancakeswap/localization";
+import { Box, InfoFilledIcon, LinkExternal, Placement, Text, TooltipText, useTooltip } from "@pancakeswap/uikit";
 import { isMobile } from "react-device-detect";
 import styled from "styled-components";
 

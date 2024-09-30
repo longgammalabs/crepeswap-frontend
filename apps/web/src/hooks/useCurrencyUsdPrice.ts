@@ -1,4 +1,4 @@
-import { Currency } from '@iguanadex/sdk'
+import { Currency } from '@pancakeswap/sdk'
 import { useQuery } from '@tanstack/react-query'
 
 import { SLOW_INTERVAL } from 'config/constants'

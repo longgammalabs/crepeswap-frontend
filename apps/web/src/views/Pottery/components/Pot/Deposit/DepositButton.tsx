@@ -1,10 +1,10 @@
-import { useTranslation } from '@iguanadex/localization'
-import { AutoRenewIcon, Button } from '@iguanadex/uikit'
-import BigNumber from 'bignumber.js'
-import { DEFAULT_TOKEN_DECIMAL } from 'config'
 import { useCallback } from 'react'
-import { PotteryDepositStatus } from 'state/types'
+import { useTranslation } from '@pancakeswap/localization'
+import { Button, AutoRenewIcon } from '@pancakeswap/uikit'
+import BigNumber from 'bignumber.js'
 import { useDepositPottery } from 'views/Pottery/hooks/useDepositPottery'
+import { PotteryDepositStatus } from 'state/types'
+import { DEFAULT_TOKEN_DECIMAL } from 'config'
 import { Address } from 'wagmi'
 
 interface DepositButtonProps {

@@ -1,5 +1,5 @@
-import { useTranslation } from '@iguanadex/localization'
-import { Grid, Link, Modal, ModalV2, Text } from '@iguanadex/uikit'
+import { useTranslation } from '@pancakeswap/localization'
+import { Grid, Link, Modal, ModalV2, Text } from '@pancakeswap/uikit'
 import { useQuery } from '@tanstack/react-query'
 import { WALLET_API } from 'config/constants/endpoints'
 import { UpdatePositionsReminder } from 'views/Farms/components/UpdatePositionsReminder'

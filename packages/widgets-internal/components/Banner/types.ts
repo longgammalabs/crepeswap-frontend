@@ -1,4 +1,4 @@
-import { BreakpointChecks } from "@iguanadex/uikit";
+import { BreakpointChecks } from "@pancakeswap/uikit";
 
 export type WithBreakPoints = {
   $breakPoints: BreakpointChecks;

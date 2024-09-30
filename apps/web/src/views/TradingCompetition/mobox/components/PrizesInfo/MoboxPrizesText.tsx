@@ -1,7 +1,7 @@
-import { useTranslation } from '@iguanadex/localization'
-import { BunnyPlaceholderIcon, Flex, Heading, NftIcon, Text } from '@iguanadex/uikit'
-import Image from 'next/image'
 import { styled } from 'styled-components'
+import { Flex, Text, Heading, NftIcon, BunnyPlaceholderIcon } from '@pancakeswap/uikit'
+import Image from 'next/image'
+import { useTranslation } from '@pancakeswap/localization'
 import MoboxFlipperBunny from '../../../pngs/mobox-flipper.png'
 
 const StyledFlex = styled(Flex)`

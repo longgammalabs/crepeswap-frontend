@@ -1,5 +1,5 @@
-import { MaxUint256 } from '@iguanadex/sdk'
-import { describe, expect, it } from 'vitest'
+import { MaxUint256 } from '@pancakeswap/sdk'
+import { describe, it, expect } from 'vitest'
 import { encodeSqrtRatioX96 } from './encodeSqrtRatioX96'
 import { maxLiquidityForAmounts } from './maxLiquidityForAmounts'
 

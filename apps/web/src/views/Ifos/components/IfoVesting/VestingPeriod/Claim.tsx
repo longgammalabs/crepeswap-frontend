@@ -1,13 +1,13 @@
-import { PoolIds } from '@iguanadex/ifos'
-import { useTranslation } from '@iguanadex/localization'
-import { AutoRenewIcon, Button, useToast } from '@iguanadex/uikit'
-import { useWeb3React } from '@iguanadex/wagmi'
+import { useTranslation } from '@pancakeswap/localization'
+import { AutoRenewIcon, Button, useToast } from '@pancakeswap/uikit'
+import { useWeb3React } from '@pancakeswap/wagmi'
+import { Address } from 'wagmi'
 import { ToastDescriptionWithTx } from 'components/Toast'
+import { PoolIds } from '@pancakeswap/ifos'
 import useCatchTxError from 'hooks/useCatchTxError'
 import { useIfoV3Contract } from 'hooks/useContract'
 import { useCallback, useMemo } from 'react'
 import { VestingData } from 'views/Ifos/hooks/vesting/fetchUserWalletIfoData'
-import { Address } from 'wagmi'
 
 import { SwitchNetworkTips } from '../../IfoFoldableCard/IfoPoolCard/SwitchNetworkTips'
 

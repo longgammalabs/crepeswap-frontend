@@ -1,4 +1,4 @@
-import { useTranslation } from '@iguanadex/localization'
+import { useTranslation } from '@pancakeswap/localization'
 import {
   BlockIcon,
   Box,
@@ -15,7 +15,7 @@ import {
   TeamPlayerIcon,
   Text,
   TrophyGoldIcon,
-} from '@iguanadex/uikit'
+} from '@pancakeswap/uikit'
 import { Rank, Tiers, easterPrizes } from 'config/constants/trading-competition/prizes'
 import { useState } from 'react'
 import { BoldTd, StyledPrizeTable, Td } from '../../../../components/StyledPrizeTable'

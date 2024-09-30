@@ -1,5 +1,5 @@
-import { useTranslation } from '@iguanadex/localization'
-import { Heading, PageHeader } from '@iguanadex/uikit'
+import { Heading, PageHeader } from '@pancakeswap/uikit'
+import { useTranslation } from '@pancakeswap/localization'
 import Crumbs from './Crumbs'
 
 const Hero = () => {

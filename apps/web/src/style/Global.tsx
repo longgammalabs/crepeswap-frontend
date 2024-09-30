@@ -1,4 +1,4 @@
-import { PancakeTheme } from '@iguanadex/uikit'
+import { PancakeTheme } from '@pancakeswap/uikit'
 import { createGlobalStyle } from 'styled-components'
 
 declare module 'styled-components' {

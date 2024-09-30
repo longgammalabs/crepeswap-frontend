@@ -1,4 +1,4 @@
-import { Currency } from '@iguanadex/swap-sdk-core'
+import { Currency } from '@pancakeswap/swap-sdk-core'
 import { useCurrency } from 'hooks/Tokens'
 import { Field } from 'state/swap/actions'
 import { useSwapState } from 'state/swap/hooks'

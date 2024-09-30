@@ -1,5 +1,5 @@
-import { ChainId } from '@iguanadex/chains'
-import { supportedChainId } from '@iguanadex/farms'
+import { ChainId } from '@pancakeswap/chains'
+import { supportedChainId } from '@pancakeswap/farms'
 
 export const SUPPORT_ONLY_BSC = [ChainId.BSC]
 export const SUPPORT_FARMS = supportedChainId

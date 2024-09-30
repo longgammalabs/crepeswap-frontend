@@ -1,5 +1,5 @@
-import { Currency, ERC20Token, Price, Token } from "@iguanadex/sdk";
-import { formatPrice } from "@iguanadex/utils/formatFractions";
+import { Currency, ERC20Token, Price, Token } from "@pancakeswap/sdk";
+import { formatPrice } from "@pancakeswap/utils/formatFractions";
 import {
   FeeAmount,
   TICK_SPACINGS,
@@ -7,7 +7,7 @@ import {
   nearestUsableTick,
   priceToClosestTick,
   tickToPrice,
-} from "@iguanadex/v3-sdk";
+} from "@pancakeswap/v3-sdk";
 import { useCallback, useEffect, useMemo, useState } from "react";
 
 import { Bound } from "../../swap/LiquidityChartRangeInput";

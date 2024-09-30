@@ -1,15 +1,15 @@
 {
-  "name": "@iguanadex/ui-wallets",
+  "name": "@pancakeswap/ui-wallets",
   "version": "0.0.2",
   "main": "src/index.ts",
   "sideEffects": [
     "*.css.ts"
   ],
-  "private": false,
+  "private": true,
   "dependencies": {
-    "@iguanadex/hooks": "workspace:*",
-    "@iguanadex/localization": "workspace:*",
-    "@iguanadex/uikit": "workspace:*",
+    "@pancakeswap/hooks": "workspace:*",
+    "@pancakeswap/localization": "workspace:*",
+    "@pancakeswap/uikit": "workspace:*",
     "qrcode.react": "^3.1.0"
   },
   "peerDependencies": {

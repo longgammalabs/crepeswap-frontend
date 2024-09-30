@@ -1,5 +1,5 @@
-import { useTranslation } from '@iguanadex/localization'
-import { Grid, Heading, useMatchBreakpoints } from '@iguanadex/uikit'
+import { useTranslation } from '@pancakeswap/localization'
+import { Grid, Heading, useMatchBreakpoints } from '@pancakeswap/uikit'
 import { LockCakeForm } from '../LockCakeForm'
 import { LockWeeksForm } from '../LockWeeksForm'
 import { StyledCard } from './styled'

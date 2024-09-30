@@ -1,4 +1,4 @@
-import { useTranslation } from '@iguanadex/localization'
+import { useTranslation } from '@pancakeswap/localization'
 import {
   Flex,
   LinkExternal,
@@ -10,8 +10,8 @@ import {
   VerifiedIcon,
   useMatchBreakpoints,
   useModalV2,
-} from '@iguanadex/uikit'
-import { FarmWidget } from '@iguanadex/widgets-internal'
+} from '@pancakeswap/uikit'
+import { FarmWidget } from '@pancakeswap/widgets-internal'
 import ConnectWalletButton from 'components/ConnectWalletButton'
 import { CHAIN_QUERY_NAME } from 'config/chains'
 import { useActiveChainId } from 'hooks/useActiveChainId'

@@ -1,9 +1,9 @@
-import { Flex, PrizeIcon, Text } from '@iguanadex/uikit'
-import { Achievement } from 'state/types'
 import { styled } from 'styled-components'
+import { Flex, PrizeIcon, Text } from '@pancakeswap/uikit'
+import { Achievement } from 'state/types'
 import AchievementAvatar from './AchievementAvatar'
-import AchievementDescription from './AchievementDescription'
 import AchievementTitle from './AchievementTitle'
+import AchievementDescription from './AchievementDescription'
 
 interface AchievementCardProps {
   achievement: Achievement

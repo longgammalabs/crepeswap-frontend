@@ -1,6 +1,6 @@
-import { ChainId } from '@iguanadex/chains'
-import { Token } from '@iguanadex/sdk'
-import { bscTokens, ethereumTokens } from '@iguanadex/tokens'
+import { ChainId } from '@pancakeswap/chains'
+import { Token } from '@pancakeswap/sdk'
+import { bscTokens, ethereumTokens } from '@pancakeswap/tokens'
 import { bscWarningTokens } from 'config/constants/warningTokens'
 
 const { alETH } = ethereumTokens

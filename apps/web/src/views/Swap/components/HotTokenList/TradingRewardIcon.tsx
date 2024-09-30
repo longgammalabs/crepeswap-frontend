@@ -1,8 +1,8 @@
-import { ComputedFarmConfigV3 } from '@iguanadex/farms'
-import { useTranslation } from '@iguanadex/localization'
-import { Box, Flex, Text, useTooltip } from '@iguanadex/uikit'
+import { Flex, Box, Text, useTooltip } from '@pancakeswap/uikit'
+import { useTranslation } from '@pancakeswap/localization'
 import Image from 'next/image'
 import { useRouter } from 'next/router'
+import { ComputedFarmConfigV3 } from '@pancakeswap/farms'
 
 interface TradingRewardIconProps {
   pairs: ComputedFarmConfigV3[]

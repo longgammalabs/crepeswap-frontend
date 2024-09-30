@@ -1,12 +1,12 @@
-import { useTranslation } from '@iguanadex/localization'
 import { styled } from 'styled-components'
-import RibbonWithImage from '../../../components/RibbonWithImage'
-import ScoreCard from '../../../components/YourScore/ScoreCard'
+import { useTranslation } from '@pancakeswap/localization'
 import ScoreHeader from '../../../components/YourScore/ScoreHeader'
-import CakersShare from '../../../pngs/easter-cakers-share.png'
+import RibbonWithImage from '../../../components/RibbonWithImage'
+import { YourScoreProps } from '../../../types'
 import FlippersShare from '../../../pngs/easter-flippers-share.png'
 import StormShare from '../../../pngs/easter-storm-share.png'
-import { YourScoreProps } from '../../../types'
+import CakersShare from '../../../pngs/easter-cakers-share.png'
+import ScoreCard from '../../../components/YourScore/ScoreCard'
 import EasterUserPrizeGrid from './EasterUserPrizeGrid'
 
 const Wrapper = styled.div`

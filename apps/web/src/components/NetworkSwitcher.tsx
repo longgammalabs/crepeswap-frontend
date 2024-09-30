@@ -1,6 +1,6 @@
-import { ChainId } from '@iguanadex/chains'
-import { useTranslation } from '@iguanadex/localization'
-import { NATIVE } from '@iguanadex/sdk'
+import { ChainId } from '@pancakeswap/chains'
+import { useTranslation } from '@pancakeswap/localization'
+import { NATIVE } from '@pancakeswap/sdk'
 import {
   ArrowDownIcon,
   ArrowUpIcon,
@@ -13,7 +13,7 @@ import {
   UserMenuDivider,
   UserMenuItem,
   useTooltip,
-} from '@iguanadex/uikit'
+} from '@pancakeswap/uikit'
 import { useActiveChainId, useLocalNetworkChain } from 'hooks/useActiveChainId'
 import { useNetworkConnectorUpdater } from 'hooks/useActiveWeb3React'
 import { useHover } from 'hooks/useHover'

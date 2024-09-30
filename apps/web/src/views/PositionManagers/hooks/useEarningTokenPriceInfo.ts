@@ -1,5 +1,5 @@
-import { Currency } from '@iguanadex/sdk'
-import { getBalanceAmount } from '@iguanadex/utils/formatBalance'
+import { Currency } from '@pancakeswap/sdk'
+import { getBalanceAmount } from '@pancakeswap/utils/formatBalance'
 import BigNumber from 'bignumber.js'
 import { useCurrencyUsdPrice } from 'hooks/useCurrencyUsdPrice'
 import { useMemo } from 'react'

@@ -1,5 +1,5 @@
-import { ChainId } from '@iguanadex/chains'
-import { PredictionSupportedSymbol } from '@iguanadex/prediction'
+import { ChainId } from '@pancakeswap/chains'
+import { PredictionSupportedSymbol } from '@pancakeswap/prediction'
 import LocalReduxProvider from 'contexts/LocalRedux/Provider'
 import makeStore from 'contexts/LocalRedux/makeStore'
 import { useActiveChainId } from 'hooks/useActiveChainId'

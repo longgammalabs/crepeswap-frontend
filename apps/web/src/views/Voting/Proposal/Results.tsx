@@ -1,12 +1,12 @@
-import { useTranslation } from '@iguanadex/localization'
-import { Box, Card, CardBody, CardHeader, Flex, Heading, Progress, Skeleton, Text } from '@iguanadex/uikit'
-import { formatNumber } from '@iguanadex/utils/formatBalance'
-import { FarmWidget } from '@iguanadex/widgets-internal'
-import { FetchStatus, TFetchStatus } from 'config/constants/types'
-import { Vote } from 'state/types'
+import { Box, Text, Flex, Card, CardBody, CardHeader, Heading, Progress, Skeleton } from '@pancakeswap/uikit'
+import { FarmWidget } from '@pancakeswap/widgets-internal'
 import { useAccount } from 'wagmi'
-import TextEllipsis from '../components/TextEllipsis'
+import { Vote } from 'state/types'
+import { formatNumber } from '@pancakeswap/utils/formatBalance'
+import { useTranslation } from '@pancakeswap/localization'
+import { FetchStatus, TFetchStatus } from 'config/constants/types'
 import { calculateVoteResults, getTotalFromVotes } from '../helpers'
+import TextEllipsis from '../components/TextEllipsis'
 
 const { VotedTag } = FarmWidget.Tags
 

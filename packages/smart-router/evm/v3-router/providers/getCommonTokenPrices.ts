@@ -1,5 +1,5 @@
-import { ChainId, getLlamaChainName } from '@iguanadex/chains'
-import { Currency, Token } from '@iguanadex/sdk'
+import { ChainId, getLlamaChainName } from '@pancakeswap/chains'
+import { Currency, Token } from '@pancakeswap/sdk'
 import { gql } from 'graphql-request'
 import { Address, getAddress } from 'viem'
 
@@ -152,7 +152,7 @@ export const getCommonTokenPricesByLlma = createCommonTokenPriceProvider<BySubgr
 
 export const getCommonTokenPricesByWalletApi = createCommonTokenPriceProvider<BySubgraphEssentials>(
   createGetTokenPriceFromLlmaWithCache({
-    endpoint: 'https://wallet-api.iguanadex.com/v1/prices',
+    endpoint: 'https://wallet-api.pancakeswap.com/v1/prices',
   }),
 )
 

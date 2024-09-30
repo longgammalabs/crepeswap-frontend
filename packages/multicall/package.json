@@ -1,6 +1,6 @@
 {
-  "name": "@iguanadex/multicall",
-  "version": "3.5.2",
+  "name": "@pancakeswap/multicall",
+  "version": "3.5.0",
   "sideEffects": false,
   "scripts": {
     "build": "tsup",
@@ -16,13 +16,13 @@
   "types": "dist/index.d.ts",
   "module": "dist/index.mjs",
   "dependencies": {
-    "@iguanadex/sdk": "workspace:*",
-    "@iguanadex/chains": "workspace:*",
+    "@pancakeswap/sdk": "workspace:*",
+    "@pancakeswap/chains": "workspace:*",
     "viem": "1.19.11"
   },
   "devDependencies": {
-    "@iguanadex/tsconfig": "workspace:*",
-    "@iguanadex/utils": "workspace:*",
+    "@pancakeswap/tsconfig": "workspace:*",
+    "@pancakeswap/utils": "workspace:*",
     "tsup": "^6.7.0"
   },
   "exports": {

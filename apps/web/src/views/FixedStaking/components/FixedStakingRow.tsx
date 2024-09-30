@@ -1,4 +1,4 @@
-import { useTranslation } from '@iguanadex/localization'
+import { useTranslation } from '@pancakeswap/localization'
 import {
   Box,
   Button,
@@ -9,13 +9,13 @@ import {
   Text,
   UnlockIcon,
   useMatchBreakpoints,
-} from '@iguanadex/uikit'
-import { CurrencyLogo, Pool } from '@iguanadex/widgets-internal'
+} from '@pancakeswap/uikit'
+import { CurrencyLogo, Pool } from '@pancakeswap/widgets-internal'
 import Divider from 'components/Divider'
 import React from 'react'
 import { StyledCell } from 'views/Pools/components/PoolsTable/Cells/NameCell'
 
-import { CurrencyAmount } from '@iguanadex/swap-sdk-core'
+import { CurrencyAmount } from '@pancakeswap/swap-sdk-core'
 import { LightGreyCard } from 'components/Card'
 import {
   ActionContainer,
@@ -23,7 +23,7 @@ import {
   StyledActionPanel,
 } from 'views/Pools/components/PoolsTable/ActionPanel/ActionPanel'
 
-import { bscTokens } from '@iguanadex/tokens'
+import { bscTokens } from '@pancakeswap/tokens'
 import useSelectedPeriod from '../hooks/useSelectedPeriod'
 import { PoolGroup, StakedPosition } from '../type'
 import { AmountWithUSDSub } from './AmountWithUSDSub'

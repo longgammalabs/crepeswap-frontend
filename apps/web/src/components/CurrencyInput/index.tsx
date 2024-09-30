@@ -1,7 +1,7 @@
-import { Currency, CurrencyAmount } from '@iguanadex/sdk'
-import { BalanceInput, Button, Flex, Text } from '@iguanadex/uikit'
-import { CurrencyLogo } from '@iguanadex/widgets-internal'
-import { MouseEvent, ReactNode, useCallback, useMemo } from 'react'
+import { useMemo, useCallback, ReactNode, MouseEvent } from 'react'
+import { Currency, CurrencyAmount } from '@pancakeswap/sdk'
+import { CurrencyLogo } from '@pancakeswap/widgets-internal'
+import { BalanceInput, Text, Flex, Button } from '@pancakeswap/uikit'
 
 interface Props {
   value: string | number

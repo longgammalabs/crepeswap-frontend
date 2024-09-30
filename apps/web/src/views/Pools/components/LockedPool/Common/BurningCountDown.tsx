@@ -1,8 +1,8 @@
-import { useInterval } from '@iguanadex/hooks'
-import { memo, useCallback, useMemo, useState } from 'react'
+import { useState, useCallback, memo, useMemo } from 'react'
+import { useInterval } from '@pancakeswap/hooks'
 
-import { UNLOCK_FREE_DURATION } from '@iguanadex/pools'
-import getTimePeriods from '@iguanadex/utils/getTimePeriods'
+import getTimePeriods from '@pancakeswap/utils/getTimePeriods'
+import { UNLOCK_FREE_DURATION } from '@pancakeswap/pools'
 import dayjs from 'dayjs'
 import { convertTimeToMilliseconds } from 'utils/timeHelper'
 

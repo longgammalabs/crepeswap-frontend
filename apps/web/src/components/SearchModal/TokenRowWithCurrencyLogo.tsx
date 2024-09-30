@@ -1,5 +1,5 @@
-import { Currency } from '@iguanadex/sdk'
-import { withCurrencyLogo } from '@iguanadex/widgets-internal'
+import { withCurrencyLogo } from '@pancakeswap/widgets-internal'
+import { Currency } from '@pancakeswap/sdk'
 import { CurrencyLogo } from '../Logo'
 
 export default withCurrencyLogo<Currency>(CurrencyLogo)

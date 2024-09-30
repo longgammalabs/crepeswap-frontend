@@ -1,4 +1,4 @@
-import { useTranslation } from '@iguanadex/localization'
+import { useTranslation } from '@pancakeswap/localization'
 import {
   BarChartIcon,
   FavoriteBorderIcon,
@@ -9,7 +9,7 @@ import {
   Text,
   VerifiedIcon,
   useMatchBreakpoints,
-} from '@iguanadex/uikit'
+} from '@pancakeswap/uikit'
 import useTheme from 'hooks/useTheme'
 import { useMemo } from 'react'
 import { styled } from 'styled-components'
@@ -123,13 +123,13 @@ export const TwitterCards: React.FC = () => {
       </LogoBox>
       <Flex alignItems="center">
         <Text mt="10px" fontSize={14} bold>
-          IguanaDEX🦎Ev3ryone&#39;s Favourite D3X
+          PancakeSwap🥞Ev3ryone&#39;s Favourite D3X
         </Text>
         <VerifiedIcon ml="3px" mt="9px" color={theme.colors.secondary} />
       </Flex>
       <Flex style={{ gap: 0 }} alignItems="center" justifyContent="center">
         <StyledText fontSize={14} color={theme.colors.textSubtle}>
-          @IguanaDEX
+          @PancakeSwap
         </StyledText>
         <Divider />
         <Text fontSize={14} color={theme.colors.textSubtle}>

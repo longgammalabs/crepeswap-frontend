@@ -1,8 +1,8 @@
-import { ChainId } from '@iguanadex/chains'
+import { ChainId } from '@pancakeswap/chains'
 import {
   POSITION_MANAGER_API,
   SUPPORTED_CHAIN_IDS as POSITION_MANAGERS_SUPPORTED_CHAINS,
-} from '@iguanadex/position-managers'
+} from '@pancakeswap/position-managers'
 import { useQuery } from '@tanstack/react-query'
 import { useActiveChainId } from 'hooks/useActiveChainId'
 import { useMemo } from 'react'

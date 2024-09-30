@@ -1,9 +1,9 @@
-import { useTranslation } from '@iguanadex/localization'
-import { MAX_LOCK_DURATION, ONE_WEEK_DEFAULT } from '@iguanadex/pools'
-import { Box, Button, Flex, Input, Message, MessageText, Text } from '@iguanadex/uikit'
-import _toNumber from 'lodash/toNumber'
 import { useEffect, useMemo } from 'react'
+import { Text, Flex, Button, Input, Box, Message, MessageText } from '@pancakeswap/uikit'
 import { styled } from 'styled-components'
+import { useTranslation } from '@pancakeswap/localization'
+import _toNumber from 'lodash/toNumber'
+import { ONE_WEEK_DEFAULT, MAX_LOCK_DURATION } from '@pancakeswap/pools'
 import { secondsToWeeks, weeksToSeconds } from '../../utils/formatSecondsToWeeks'
 import { LockDurationFieldPropsType } from '../types'
 

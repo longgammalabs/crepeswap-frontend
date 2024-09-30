@@ -1,5 +1,5 @@
-import { Gauge } from '@iguanadex/gauges'
-import { Box, Flex, useMatchBreakpoints } from '@iguanadex/uikit'
+import { Gauge } from '@pancakeswap/gauges'
+import { Box, Flex, useMatchBreakpoints } from '@pancakeswap/uikit'
 import type { ChartData, ChartDataset, TooltipModel } from 'chart.js'
 import { ArcElement, Chart as ChartJS, Legend, Tooltip } from 'chart.js'
 import React, { useCallback, useMemo, useRef, useState } from 'react'

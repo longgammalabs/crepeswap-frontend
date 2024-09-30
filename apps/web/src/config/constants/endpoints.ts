@@ -1,4 +1,4 @@
-import { BLOCKS_SUBGRAPHS, ChainId, V2_SUBGRAPHS, V3_SUBGRAPHS } from '@iguanadex/chains'
+import { BLOCKS_SUBGRAPHS, ChainId, V2_SUBGRAPHS, V3_SUBGRAPHS } from '@pancakeswap/chains'
 
 export const GRAPH_API_PROFILE = 'https://api.thegraph.com/subgraphs/name/pancakeswap/profile'
 
@@ -73,4 +73,4 @@ export const MERCURYO_WIDGET_URL =
     ? 'https://sandbox-widget.mrcr.io/embed.2.0.js'
     : 'https://widget.mercuryo.io/embed.2.0.js'
 
-export const WALLET_API = 'https://wallet-api.iguanadex.com'
+export const WALLET_API = 'https://wallet-api.pancakeswap.com'

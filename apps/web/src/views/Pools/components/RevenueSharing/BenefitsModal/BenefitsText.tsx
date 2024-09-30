@@ -1,5 +1,5 @@
-import { Flex, Text } from '@iguanadex/uikit'
 import { ReactElement } from 'react'
+import { Flex, Text } from '@pancakeswap/uikit'
 import BenefitsTooltipsText from 'views/Pools/components/RevenueSharing/BenefitsModal/BenefitsTooltipsText'
 
 interface BenefitsTextProps {

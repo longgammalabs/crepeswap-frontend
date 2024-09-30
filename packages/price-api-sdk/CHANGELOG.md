@@ -1,11 +1,11 @@
-# @iguanadex/price-api-sdk
+# @pancakeswap/price-api-sdk
 
 ## 1.1.1
 
 ### Patch Changes
 
 - Updated dependencies [b4b38b9]
-  - @iguanadex/pcsx-sdk@0.0.2
+  - @pancakeswap/pcsx-sdk@0.0.2
 
 ## 1.1.0
 

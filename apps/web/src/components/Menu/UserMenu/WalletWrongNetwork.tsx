@@ -1,6 +1,6 @@
-import { ChainId } from '@iguanadex/chains'
-import { useTranslation } from '@iguanadex/localization'
-import { Button, HelpIcon, Link, Message, MessageText, Text } from '@iguanadex/uikit'
+import { ChainId } from '@pancakeswap/chains'
+import { useTranslation } from '@pancakeswap/localization'
+import { Button, HelpIcon, Link, Message, MessageText, Text } from '@pancakeswap/uikit'
 import { useSwitchNetwork } from 'hooks/useSwitchNetwork'
 import { styled } from 'styled-components'
 

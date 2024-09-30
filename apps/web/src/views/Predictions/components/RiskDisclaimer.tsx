@@ -1,7 +1,7 @@
-import { useTranslation } from '@iguanadex/localization'
-import { useModal } from '@iguanadex/uikit'
+import { useEffect, memo, useCallback } from 'react'
+import { useModal } from '@pancakeswap/uikit'
+import { useTranslation } from '@pancakeswap/localization'
 import DisclaimerModal from 'components/DisclaimerModal'
-import { memo, useCallback, useEffect } from 'react'
 import { useUserPredictionAcceptedRisk } from 'state/user/hooks'
 
 function RiskDisclaimer() {

@@ -1,13 +1,13 @@
-import { useTranslation } from '@iguanadex/localization'
-import { BetPosition } from '@iguanadex/prediction'
-import { BlockIcon, Card, CardBody, Flex, LinkExternal, Text } from '@iguanadex/uikit'
-import useTheme from 'hooks/useTheme'
+import { Card, CardBody, Text, Flex, BlockIcon, LinkExternal } from '@pancakeswap/uikit'
+import { useTranslation } from '@pancakeswap/localization'
 import { NodeRound } from 'state/types'
-import useIsRefundable from '../../hooks/useIsRefundable'
+import { BetPosition } from '@pancakeswap/prediction'
+import useTheme from 'hooks/useTheme'
 import ReclaimPositionButton from '../ReclaimPositionButton'
+import useIsRefundable from '../../hooks/useIsRefundable'
 import { RoundResultBox } from '../RoundResult'
-import CardHeader, { getBorderBackground } from './CardHeader'
 import MultiplierArrow from './MultiplierArrow'
+import CardHeader, { getBorderBackground } from './CardHeader'
 
 interface CanceledRoundCardProps {
   round: NodeRound

@@ -1,12 +1,12 @@
-import { useTranslation } from '@iguanadex/localization'
-import { darkColors, lightColors } from '@iguanadex/uikit'
-import { LineChartLoader } from 'components/ChartLoaders'
-import dayjs from 'dayjs'
-import useTheme from 'hooks/useTheme'
-import { createChart, IChartApi } from 'lightweight-charts'
-import { darken } from 'polished'
 import { Dispatch, SetStateAction, useEffect, useMemo, useRef, useState } from 'react'
+import useTheme from 'hooks/useTheme'
+import { LineChartLoader } from 'components/ChartLoaders'
+import { createChart, IChartApi } from 'lightweight-charts'
+import dayjs from 'dayjs'
+import { darken } from 'polished'
+import { useTranslation } from '@pancakeswap/localization'
 import { formatAmount } from 'utils/formatInfoNumbers'
+import { lightColors, darkColors } from '@pancakeswap/uikit'
 
 export type LineChartProps = {
   data: any[]

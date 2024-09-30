@@ -1,6 +1,5 @@
-import { ExpandIcon, Flex, IconButton, ShrinkIcon, SyncAltIcon, Text } from '@iguanadex/uikit'
+import { ExpandIcon, Flex, IconButton, ShrinkIcon, SyncAltIcon, Text } from '@pancakeswap/uikit'
 import { CurrencyLogo, DoubleCurrencyLogo } from 'components/Logo'
-import { useCallback } from 'react'
 import BasicChart from './BasicChart'
 import { StyledPriceChart } from './styles'
 
@@ -17,10 +16,7 @@ const PriceChart = ({
   token1Address,
   currentSwapPrice,
 }) => {
-  const toggleExpanded = useCallback(
-    () => setIsChartExpanded((currentIsExpanded) => !currentIsExpanded),
-    [setIsChartExpanded],
-  )
+  const toggleExpanded = () => setIsChartExpanded((currentIsExpanded) => !currentIsExpanded)
 
   return (
     <StyledPriceChart

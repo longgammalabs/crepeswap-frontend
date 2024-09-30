@@ -1,4 +1,4 @@
-// import { polygonZkEvmTokens } from '@iguanadex/tokens'
+// import { polygonZkEvmTokens } from '@pancakeswap/tokens'
 
 import { BaseIfoConfig } from '../../types'
 

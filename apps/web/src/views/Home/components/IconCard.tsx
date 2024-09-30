@@ -1,4 +1,4 @@
-import { Box, Card, CardBody, CardProps } from '@iguanadex/uikit'
+import { Box, Card, CardBody, CardProps } from '@pancakeswap/uikit'
 import { ReactNode } from 'react'
 import { styled } from 'styled-components'
 

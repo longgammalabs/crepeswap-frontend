@@ -1,12 +1,12 @@
 /* eslint-disable react/no-array-index-key */
-import { isIfoSupported } from '@iguanadex/ifos'
-import { useTranslation } from '@iguanadex/localization'
-import { ChainId } from '@iguanadex/sdk'
-import { Card, CardBody, CardHeader, Flex, Heading, Image, Text } from '@iguanadex/uikit'
-import FoldableText from 'components/FoldableSection/FoldableText'
-import { useActiveChainId } from 'hooks/useActiveChainId'
-import { useMemo } from 'react'
 import { styled } from 'styled-components'
+import { Text, Heading, Card, CardHeader, CardBody, Flex, Image } from '@pancakeswap/uikit'
+import { useTranslation } from '@pancakeswap/localization'
+import FoldableText from 'components/FoldableSection/FoldableText'
+import { useMemo } from 'react'
+import { useActiveChainId } from 'hooks/useActiveChainId'
+import { isIfoSupported } from '@pancakeswap/ifos'
+import { ChainId } from '@pancakeswap/sdk'
 
 import { getChainBasedImageUrl } from 'views/Ifos/helpers'
 

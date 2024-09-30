@@ -1,7 +1,7 @@
-import { DefaultTheme, css, styled } from "styled-components";
+import { styled, DefaultTheme, css } from "styled-components";
 
-import { Input } from "@iguanadex/uikit";
-import getThemeValue from "@iguanadex/uikit/util/getThemeValue";
+import { Input } from "@pancakeswap/uikit";
+import getThemeValue from "@pancakeswap/uikit/util/getThemeValue";
 
 interface ThemedProps {
   theme: DefaultTheme;

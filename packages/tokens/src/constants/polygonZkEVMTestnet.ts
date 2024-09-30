@@ -1,6 +1,6 @@
-import { ChainId } from '@iguanadex/chains'
-import { ERC20Token, WETH9 } from '@iguanadex/sdk'
-import { CAKE, USDT } from './common'
+import { ERC20Token, WETH9 } from '@pancakeswap/sdk'
+import { ChainId } from '@pancakeswap/chains'
+import { USDT, CAKE } from './common'
 
 export const polygonZkEvmTestnetTokens = {
   weth: WETH9[ChainId.POLYGON_ZKEVM_TESTNET],

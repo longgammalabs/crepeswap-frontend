@@ -1,4 +1,4 @@
-import { CheckmarkIcon, Flex, FlexProps, Text } from '@iguanadex/uikit'
+import { CheckmarkIcon, Flex, FlexProps, Text } from '@pancakeswap/uikit'
 
 type ReadyTextProps = {
   text: string

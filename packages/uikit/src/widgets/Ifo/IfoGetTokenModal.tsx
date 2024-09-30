@@ -1,11 +1,11 @@
-import { useTranslation } from "@iguanadex/localization";
-import { Button } from "../../components/Button";
-import { Image } from "../../components/Image";
-import { Link } from "../../components/Link";
-import { OpenNewIcon } from "../../components/Svg";
-import { Text } from "../../components/Text";
+import { useTranslation } from "@pancakeswap/localization";
 import { useMatchBreakpoints } from "../../contexts";
 import { Modal, ModalBody } from "../Modal";
+import { Text } from "../../components/Text";
+import { Link } from "../../components/Link";
+import { Button } from "../../components/Button";
+import { Image } from "../../components/Image";
+import { OpenNewIcon } from "../../components/Svg";
 
 interface Props {
   symbol: string;

@@ -1,6 +1,6 @@
-import { useTranslation } from '@iguanadex/localization'
-import { AutoColumn, AutoRow, Box, Text } from '@iguanadex/uikit'
-import { formatNumber, getBalanceNumber } from '@iguanadex/utils/formatBalance'
+import { useTranslation } from '@pancakeswap/localization'
+import { AutoColumn, AutoRow, Box, Text } from '@pancakeswap/uikit'
+import { formatNumber, getBalanceNumber } from '@pancakeswap/utils/formatBalance'
 import { useVeCakeBalance } from 'hooks/useTokenBalance'
 import styled from 'styled-components'
 

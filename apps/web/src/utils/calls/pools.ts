@@ -1,5 +1,5 @@
-import { ChainId } from '@iguanadex/chains'
-import { SerializedPool, getPoolsConfig } from '@iguanadex/pools'
+import { ChainId } from '@pancakeswap/chains'
+import { SerializedPool, getPoolsConfig } from '@pancakeswap/pools'
 
 import chunk from 'lodash/chunk'
 import { publicClient } from 'utils/wagmi'

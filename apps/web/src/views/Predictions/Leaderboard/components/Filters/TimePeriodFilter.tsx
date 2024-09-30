@@ -1,5 +1,5 @@
-import { useTranslation } from '@iguanadex/localization'
-import { ButtonMenu, ButtonMenuItem } from '@iguanadex/uikit'
+import { useTranslation } from '@pancakeswap/localization'
+import { ButtonMenu, ButtonMenuItem } from '@pancakeswap/uikit'
 import useLocalDispatch from 'contexts/LocalRedux/useLocalDispatch'
 import { setLeaderboardFilter } from 'state/predictions'
 import { useGetLeaderboardFilters } from 'state/predictions/hooks'

@@ -1,5 +1,5 @@
-import { ChainId } from '@iguanadex/chains'
-import { CAKE, bscTestnetTokens } from '@iguanadex/tokens'
+import { ChainId } from '@pancakeswap/chains'
+import { CAKE, bscTestnetTokens } from '@pancakeswap/tokens'
 import { useActiveChainId } from 'hooks/useActiveChainId'
 import useTokenBalance from 'hooks/useTokenBalance'
 import { useMemo } from 'react'

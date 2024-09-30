@@ -1,8 +1,8 @@
-import { ChainId } from '@iguanadex/chains'
-import { fetchPublicIfoData } from '@iguanadex/ifos'
+import { ChainId } from '@pancakeswap/chains'
+import { fetchPublicIfoData } from '@pancakeswap/ifos'
 import { useQuery } from '@tanstack/react-query'
-import BigNumber from 'bignumber.js'
 import { useMemo } from 'react'
+import BigNumber from 'bignumber.js'
 import { Address } from 'viem'
 
 import { getViemClients } from 'utils/viem'

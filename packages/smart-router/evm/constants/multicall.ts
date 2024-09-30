@@ -1,4 +1,4 @@
-import { ChainId } from '@iguanadex/chains'
+import { ChainId } from '@pancakeswap/chains'
 
 import { BatchMulticallConfigs, ChainMap } from '../types'
 

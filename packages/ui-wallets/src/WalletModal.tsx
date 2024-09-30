@@ -1,5 +1,5 @@
-import { usePreloadImages } from '@iguanadex/hooks'
-import { useTranslation } from '@iguanadex/localization'
+import { usePreloadImages } from '@pancakeswap/hooks'
+import { useTranslation } from '@pancakeswap/localization'
 import {
   AtomBox,
   Button,
@@ -15,7 +15,7 @@ import {
   TabMenu,
   Text,
   WarningIcon,
-} from '@iguanadex/uikit'
+} from '@pancakeswap/uikit'
 import { atom, useAtom } from 'jotai'
 import { PropsWithChildren, Suspense, lazy, useMemo, useState } from 'react'
 import { isMobile } from 'react-device-detect'

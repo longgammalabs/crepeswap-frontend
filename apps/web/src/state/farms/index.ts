@@ -1,6 +1,6 @@
-import { ChainId } from '@iguanadex/chains'
-import { createFarmFetcher, SerializedFarm, SerializedFarmsState } from '@iguanadex/farms'
-import { getFarmConfig } from '@iguanadex/farms/constants'
+import { ChainId } from '@pancakeswap/chains'
+import { createFarmFetcher, SerializedFarm, SerializedFarmsState } from '@pancakeswap/farms'
+import { getFarmConfig } from '@pancakeswap/farms/constants'
 import { createAsyncThunk, createSlice, isAnyOf } from '@reduxjs/toolkit'
 import type {
   UnknownAsyncThunkFulfilledAction,

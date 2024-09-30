@@ -1,5 +1,5 @@
 /* eslint-disable no-param-reassign */
-import { ChainId } from '@iguanadex/chains'
+import { ChainId } from '@pancakeswap/chains'
 import { createReducer } from '@reduxjs/toolkit'
 import { pickFarmTransactionTx, toggleFarmTransactionModal } from './actions'
 

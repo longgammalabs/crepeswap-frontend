@@ -1,6 +1,6 @@
-import { useTranslation } from "@iguanadex/localization";
-import { Balance, Skeleton, TooltipText, useTooltip } from "@iguanadex/uikit";
-import { getBalanceNumber } from "@iguanadex/utils/formatBalance";
+import { useTranslation } from "@pancakeswap/localization";
+import { Balance, Skeleton, TooltipText, useTooltip } from "@pancakeswap/uikit";
+import { getBalanceNumber } from "@pancakeswap/utils/formatBalance";
 import BigNumber from "bignumber.js";
 import { StatWrapper } from "./StatWrapper";
 

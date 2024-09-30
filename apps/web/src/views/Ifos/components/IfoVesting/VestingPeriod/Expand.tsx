@@ -1,11 +1,11 @@
-import { PoolIds } from '@iguanadex/ifos'
-import { useTranslation } from '@iguanadex/localization'
-import { Box, Text } from '@iguanadex/uikit'
-import { useIfoConfigAcrossChainsById } from 'hooks/useIfoConfig'
 import { useRouter } from 'next/router'
 import { useMemo } from 'react'
-import { css, keyframes, styled } from 'styled-components'
+import { styled, keyframes, css } from 'styled-components'
+import { useTranslation } from '@pancakeswap/localization'
+import { Box, Text } from '@pancakeswap/uikit'
 import { VestingData } from 'views/Ifos/hooks/vesting/fetchUserWalletIfoData'
+import { PoolIds } from '@pancakeswap/ifos'
+import { useIfoConfigAcrossChainsById } from 'hooks/useIfoConfig'
 
 import Info from './Info'
 

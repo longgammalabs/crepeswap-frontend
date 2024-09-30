@@ -1,4 +1,4 @@
-import { Percent, Token } from '@iguanadex/sdk'
+import { Percent, Token } from '@pancakeswap/sdk'
 import { describe, expect, it } from 'vitest'
 import { Payments } from './payments'
 

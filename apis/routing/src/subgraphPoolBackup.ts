@@ -1,9 +1,9 @@
-import { SmartRouter } from '@iguanadex/smart-router'
+import { SmartRouter } from '@pancakeswap/smart-router'
 import dayjs from 'dayjs'
 
+import { v3SubgraphProvider } from './provider'
 import { SUPPORTED_CHAINS } from './constants'
 import { getPoolsObjectName, getPoolsTvlObjectName, getPoolsTvlObjectNameByDate } from './pools'
-import { v3SubgraphProvider } from './provider'
 
 async function handleScheduled(event: ScheduledEvent) {
   switch (event.cron) {

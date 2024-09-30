@@ -1,5 +1,5 @@
-import { useTranslation } from '@iguanadex/localization'
-import { Pair, Percent } from '@iguanadex/sdk'
+import { useTranslation } from '@pancakeswap/localization'
+import { Pair, Percent } from '@pancakeswap/sdk'
 import {
   AutoColumn,
   Box,
@@ -12,8 +12,8 @@ import {
   MessageText,
   ScanLink,
   Text,
-} from '@iguanadex/uikit'
-import { useIsExpertMode } from '@iguanadex/utils/user'
+} from '@pancakeswap/uikit'
+import { useIsExpertMode } from '@pancakeswap/utils/user'
 import { ReactNode, useCallback, useMemo } from 'react'
 import { ChainLinkSupportChains } from 'state/info/constant'
 
@@ -29,7 +29,7 @@ import { getBlockExploreLink } from 'utils'
 import { logGTMClickAddLiquidityEvent } from 'utils/customGTMEventTracking'
 import { LP2ChildrenProps } from 'views/AddLiquidity'
 
-import { InfoBox } from '@iguanadex/widgets-internal'
+import { InfoBox } from '@pancakeswap/widgets-internal'
 import ApproveLiquidityTokens from 'views/AddLiquidityV3/components/ApproveLiquidityTokens'
 import { HideMedium, MediumOnly, RightContainer } from './V3FormView'
 import RangeSelector from './V3FormView/components/RangeSelector'

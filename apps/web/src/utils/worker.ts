@@ -1,4 +1,4 @@
-import { V4Router } from '@iguanadex/smart-router'
+import { V4Router } from '@pancakeswap/smart-router'
 
 import type { WorkerGetBestTradeEvent, WorkerGetBestTradeOffchainEvent, WorkerMultiChunkEvent } from 'quote-worker'
 import type { FetchChunkResult } from 'state/multicall/fetchChunk'

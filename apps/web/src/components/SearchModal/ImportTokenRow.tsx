@@ -1,6 +1,6 @@
-import { Currency, Token } from '@iguanadex/swap-sdk-core'
-import { TokenRowButton } from '@iguanadex/widgets-internal'
 import { CSSProperties } from 'react'
+import { Token, Currency } from '@pancakeswap/swap-sdk-core'
+import { TokenRowButton } from '@pancakeswap/widgets-internal'
 import TokenRowWithCurrencyLogo from './TokenRowWithCurrencyLogo'
 
 interface ImportTokenRowProps {

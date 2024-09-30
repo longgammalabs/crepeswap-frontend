@@ -1,4 +1,4 @@
-import { ContextApi } from '@iguanadex/localization'
+import { ContextApi } from '@pancakeswap/localization'
 import {
   DropdownMenuItemType,
   DropdownMenuItems,
@@ -8,7 +8,7 @@ import {
   MoreIcon,
   SwapFillIcon,
   SwapIcon,
-} from '@iguanadex/uikit'
+} from '@pancakeswap/uikit'
 
 export type ConfigMenuDropDownItemsType = DropdownMenuItems & { hideSubNav?: boolean }
 export type ConfigMenuItemsType = Omit<MenuItemsType, 'items'> & { hideSubNav?: boolean; image?: string } & {

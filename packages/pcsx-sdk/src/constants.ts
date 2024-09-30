@@ -1,6 +1,6 @@
-import { ChainId } from '@iguanadex/chains'
-import { getPermit2Address } from '@iguanadex/permit2-sdk'
+import { ChainId } from '@pancakeswap/chains'
 import type { Address } from 'viem'
+import { getPermit2Address } from '@pancakeswap/permit2-sdk'
 
 export const SupportedChainId = [ChainId.ETHEREUM, ChainId.BSC, ChainId.BSC_TESTNET] as const
 

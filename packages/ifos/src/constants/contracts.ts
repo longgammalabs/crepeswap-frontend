@@ -1,4 +1,4 @@
-import { ChainId } from '@iguanadex/sdk'
+import { ChainId } from '@pancakeswap/sdk'
 import { Address } from 'viem'
 
 import { ProfileSupportedChainId, SupportedChainId } from './supportedChains'

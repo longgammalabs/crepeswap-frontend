@@ -1,6 +1,6 @@
-import { useTranslation } from '@iguanadex/localization'
-import { Balance, Flex, Skeleton, Text } from '@iguanadex/uikit'
-import { getBalanceNumber, getFullDisplayBalance } from '@iguanadex/utils/formatBalance'
+import { useTranslation } from '@pancakeswap/localization'
+import { Balance, Flex, Skeleton, Text } from '@pancakeswap/uikit'
+import { getBalanceNumber, getFullDisplayBalance } from '@pancakeswap/utils/formatBalance'
 import BigNumber from 'bignumber.js'
 import { useCakePrice } from 'hooks/useCakePrice'
 

@@ -1,6 +1,6 @@
-import { PositionDetails } from '@iguanadex/farms'
-import { useTranslation } from '@iguanadex/localization'
-import { isStableSwapSupported } from '@iguanadex/stable-swap-sdk'
+import { PositionDetails } from '@pancakeswap/farms'
+import { useTranslation } from '@pancakeswap/localization'
+import { isStableSwapSupported } from '@pancakeswap/stable-swap-sdk'
 import {
   AddIcon,
   Button,
@@ -17,8 +17,8 @@ import {
   Tag,
   Text,
   useModal,
-} from '@iguanadex/uikit'
-import { Liquidity } from '@iguanadex/widgets-internal'
+} from '@pancakeswap/uikit'
+import { Liquidity } from '@pancakeswap/widgets-internal'
 import { AppBody, AppHeader } from 'components/App'
 import TransactionsModal from 'components/App/Transactions/TransactionsModal'
 import { RangeTag } from 'components/RangeTag'

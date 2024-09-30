@@ -1,13 +1,13 @@
-import { useTranslation } from '@iguanadex/localization'
-import { Flex, PocketWatchIcon, Skeleton, Text } from '@iguanadex/uikit'
-import getTimePeriods from '@iguanadex/utils/getTimePeriods'
+import { styled } from 'styled-components'
+import { Flex, Skeleton, PocketWatchIcon, Text } from '@pancakeswap/uikit'
+import { useTranslation } from '@pancakeswap/localization'
+import getTimePeriods from '@pancakeswap/utils/getTimePeriods'
 import { CompetitionSteps, LIVE } from 'config/constants/trading-competition/phases'
 import useTheme from 'hooks/useTheme'
-import { styled } from 'styled-components'
-import { CompetitionPhaseProps } from '../../types'
 import { Heading2Text } from '../CompetitionHeadingText'
-import ProgressStepper from './ProgressStepper'
+import { CompetitionPhaseProps } from '../../types'
 import Timer from './Timer'
+import ProgressStepper from './ProgressStepper'
 
 const Wrapper = styled(Flex)`
   width: fit-content;

@@ -1,6 +1,6 @@
-import { useTranslation } from '@iguanadex/localization'
-import { Box, Flex, Image, Text } from '@iguanadex/uikit'
 import { styled } from 'styled-components'
+import { Flex, Text, Box, Image } from '@pancakeswap/uikit'
+import { useTranslation } from '@pancakeswap/localization'
 import commissionList from 'views/AffiliatesProgram/utils/commisionList'
 
 const CardInner = styled(Flex)`

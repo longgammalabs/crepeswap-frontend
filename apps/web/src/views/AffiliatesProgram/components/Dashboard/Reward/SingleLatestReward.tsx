@@ -1,8 +1,8 @@
-import { ChainId } from '@iguanadex/chains'
-import { useTranslation } from '@iguanadex/localization'
-import { Button, Flex, Text } from '@iguanadex/uikit'
-import { formatNumber } from '@iguanadex/utils/formatBalance'
+import { Flex, Text, Button } from '@pancakeswap/uikit'
 import { LightGreyCard } from 'components/Card'
+import { useTranslation } from '@pancakeswap/localization'
+import { formatNumber } from '@pancakeswap/utils/formatBalance'
+import { ChainId } from '@pancakeswap/chains'
 import { useActiveChainId } from 'hooks/useActiveChainId'
 
 interface SingleLatestRewardProps {

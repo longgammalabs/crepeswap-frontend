@@ -1,4 +1,4 @@
-import { Box } from '@iguanadex/uikit'
+import { Box } from '@pancakeswap/uikit'
 import { ReactElement } from 'react'
 
 interface CellFormatProps {

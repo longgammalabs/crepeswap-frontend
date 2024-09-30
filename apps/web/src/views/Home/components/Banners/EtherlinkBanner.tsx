@@ -1,6 +1,6 @@
-import { useTranslation } from '@iguanadex/localization'
-import { Button, Flex, OpenNewIcon, Text, useMatchBreakpoints } from '@iguanadex/uikit'
-import { NextLinkFromReactRouter } from '@iguanadex/widgets-internal'
+import { useTranslation } from '@pancakeswap/localization'
+import { Button, Flex, OpenNewIcon, Text, useMatchBreakpoints } from '@pancakeswap/uikit'
+import { NextLinkFromReactRouter } from '@pancakeswap/widgets-internal'
 // eslint-disable-next-line import/no-named-default
 import { ASSET_CDN } from 'config/constants/endpoints'
 import Image from 'next/legacy/image'

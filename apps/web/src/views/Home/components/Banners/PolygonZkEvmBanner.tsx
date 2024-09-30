@@ -1,15 +1,15 @@
-import { Button, Flex, OpenNewIcon, Text, useMatchBreakpoints } from '@iguanadex/uikit'
-import { NextLinkFromReactRouter } from '@iguanadex/widgets-internal'
+import { Button, Flex, Text, useMatchBreakpoints, OpenNewIcon } from '@pancakeswap/uikit'
+import { NextLinkFromReactRouter } from '@pancakeswap/widgets-internal'
 
-import { useTranslation } from '@iguanadex/localization'
+import { useTranslation } from '@pancakeswap/localization'
 import Image from 'next/legacy/image'
-import { css, styled } from 'styled-components'
+import { styled, css } from 'styled-components'
 
 import { ASSET_CDN } from 'config/constants/endpoints'
 
-import { flyingAnim } from './animations'
-import { polygonZkBg, polygonZkBgMobile, polygonZkBunny } from './images'
+import { polygonZkBunny, polygonZkBgMobile, polygonZkBg } from './images'
 import * as S from './Styled'
+import { flyingAnim } from './animations'
 
 const pancakeSwapLogo = `${ASSET_CDN}/web/banners/ethXpancakeswap.png`
 

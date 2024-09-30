@@ -1,4 +1,4 @@
-import { Box, IconButton, RefreshIcon } from '@iguanadex/uikit'
+import { Box, IconButton, RefreshIcon } from '@pancakeswap/uikit'
 
 import { memo } from 'react'
 

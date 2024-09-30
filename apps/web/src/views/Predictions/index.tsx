@@ -1,5 +1,5 @@
-import { PredictionsChartView } from '@iguanadex/prediction'
-import { useMatchBreakpoints, useModal } from '@iguanadex/uikit'
+import { PredictionsChartView } from '@pancakeswap/prediction'
+import { useMatchBreakpoints, useModal } from '@pancakeswap/uikit'
 import { PredictionSubgraphHealthIndicator } from 'components/SubgraphHealthIndicator'
 import { useAccountLocalEventListener } from 'hooks/useAccountLocalEventListener'
 import { useEffect, useRef } from 'react'

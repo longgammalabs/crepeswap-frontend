@@ -1,5 +1,5 @@
-import { SmartRouterTrade, V4Router } from '@iguanadex/smart-router'
-import { TradeType } from '@iguanadex/swap-sdk-core'
+import { SmartRouterTrade, V4Router } from '@pancakeswap/smart-router'
+import { TradeType } from '@pancakeswap/swap-sdk-core'
 import { MMCommitTrade } from '../types'
 import { MMCommitButton } from './MMCommitButton'
 import { MMCommitButtonV2 } from './MMCommitButtonV2'

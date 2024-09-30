@@ -1,4 +1,4 @@
-import { BigintIsh } from '@iguanadex/sdk'
+import { BigintIsh } from '@pancakeswap/sdk'
 
 /**
  * Provides information about ticks

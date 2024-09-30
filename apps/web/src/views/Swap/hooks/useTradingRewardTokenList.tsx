@@ -1,5 +1,5 @@
-import { ChainId } from '@iguanadex/chains'
-import { farmsV3ConfigChainMap } from '@iguanadex/farms/constants/v3'
+import { ChainId } from '@pancakeswap/chains'
+import { farmsV3ConfigChainMap } from '@pancakeswap/farms/constants/v3'
 import { useActiveChainId } from 'hooks/useActiveChainId'
 import { useMemo } from 'react'
 import useAllTradingRewardPair, { RewardStatus, RewardType } from 'views/TradingReward/hooks/useAllTradingRewardPair'

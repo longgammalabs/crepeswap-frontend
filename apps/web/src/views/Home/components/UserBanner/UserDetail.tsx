@@ -1,23 +1,23 @@
-import { useTranslation } from '@iguanadex/localization'
 import {
-  Box,
+  NoProfileAvatarIcon,
   Flex,
   Heading,
-  NoProfileAvatarIcon,
-  ProfileAvatar,
   Skeleton,
   Text,
+  Box,
   useMatchBreakpoints,
   VisibilityOff,
   VisibilityOn,
-} from '@iguanadex/uikit'
-import truncateHash from '@iguanadex/utils/truncateHash'
-import ProfileAvatarWithTeam from 'components/ProfileAvatarWithTeam'
-import { useDomainNameForAddress } from 'hooks/useDomain'
-import useGetUsernameWithVisibility from 'hooks/useUsernameWithVisibility'
-import { useProfile } from 'state/profile/hooks'
-import { styled } from 'styled-components'
+  ProfileAvatar,
+} from '@pancakeswap/uikit'
 import { useAccount } from 'wagmi'
+import { styled } from 'styled-components'
+import { useProfile } from 'state/profile/hooks'
+import ProfileAvatarWithTeam from 'components/ProfileAvatarWithTeam'
+import { useTranslation } from '@pancakeswap/localization'
+import truncateHash from '@pancakeswap/utils/truncateHash'
+import useGetUsernameWithVisibility from 'hooks/useUsernameWithVisibility'
+import { useDomainNameForAddress } from 'hooks/useDomain'
 
 const Desktop = styled(Flex)`
   align-items: center;

@@ -1,5 +1,5 @@
-import { ChainId } from '@iguanadex/chains'
-import { CurrencyAmount, Pair, Route, Token, Trade, TradeType } from '@iguanadex/sdk'
+import { Pair, Route, Token, Trade, TradeType, CurrencyAmount } from '@pancakeswap/sdk'
+import { ChainId } from '@pancakeswap/chains'
 import { computeTradePriceBreakdown } from 'utils/exchange'
 
 describe('prices', () => {

@@ -1,9 +1,8 @@
-import { Currency, CurrencyAmount, Pair, ZERO } from '@iguanadex/sdk'
-import { getQuoteExactIn, getQuoteExactOut } from '@iguanadex/stable-swap-sdk'
-import { TickList, Pool as V3Pool } from '@iguanadex/v3-sdk'
+import { Currency, CurrencyAmount, Pair, ZERO } from '@pancakeswap/sdk'
+import { Pool as V3Pool, TickList } from '@pancakeswap/v3-sdk'
+import { getQuoteExactIn, getQuoteExactOut } from '@pancakeswap/stable-swap-sdk'
 import {
   Pool as IPool,
-  V3Pool as IV3Pool,
   Pool,
   QuoteProvider,
   QuoterOptions,
@@ -11,6 +10,7 @@ import {
   RouteWithQuote,
   StablePool,
   V2Pool,
+  V3Pool as IV3Pool,
 } from '../types'
 import { getOutputCurrency, isStablePool, isV2Pool, isV3Pool } from '../utils'
 

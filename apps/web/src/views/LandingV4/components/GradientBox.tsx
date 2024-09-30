@@ -1,4 +1,4 @@
-import { Box } from '@iguanadex/uikit'
+import { Box } from '@pancakeswap/uikit'
 import { styled } from 'styled-components'
 
 export const GradientBox = styled(Box)`

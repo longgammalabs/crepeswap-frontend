@@ -1,11 +1,11 @@
-import { ChainId } from '@iguanadex/chains'
+import { ChainId } from '@pancakeswap/chains'
 import {
   BetPosition,
   PredictionStatus,
   PredictionSupportedSymbol,
   predictionsV2ABI,
   ROUNDS_PER_PAGE,
-} from '@iguanadex/prediction'
+} from '@pancakeswap/prediction'
 import { gql, request } from 'graphql-request'
 import {
   Bet,

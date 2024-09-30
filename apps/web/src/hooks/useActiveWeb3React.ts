@@ -1,5 +1,5 @@
-import { ChainId } from '@iguanadex/chains'
-import { useWeb3React } from '@iguanadex/wagmi'
+import { ChainId } from '@pancakeswap/chains'
+import { useWeb3React } from '@pancakeswap/wagmi'
 import { CHAIN_QUERY_NAME, getChainId } from 'config/chains'
 import { EXCHANGE_PAGE_PATHS } from 'config/constants/exchange'
 import { useRouter } from 'next/router'

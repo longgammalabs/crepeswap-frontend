@@ -1,13 +1,13 @@
-import { Balance, Box, Flex, Skeleton, Text, useMatchBreakpoints, useModal } from '@iguanadex/uikit'
-import { Pool } from '@iguanadex/widgets-internal'
 import { styled } from 'styled-components'
+import { Skeleton, Text, Flex, Box, useModal, useMatchBreakpoints, Balance } from '@pancakeswap/uikit'
+import { Pool } from '@pancakeswap/widgets-internal'
 
-import { useTranslation } from '@iguanadex/localization'
-import { Token } from '@iguanadex/sdk'
-import { BIG_ZERO } from '@iguanadex/utils/bigNumber'
-import { formatNumber, getBalanceNumber, getFullDisplayBalance } from '@iguanadex/utils/formatBalance'
 import BigNumber from 'bignumber.js'
 import { PoolCategory } from 'config/constants/types'
+import { BIG_ZERO } from '@pancakeswap/utils/bigNumber'
+import { formatNumber, getBalanceNumber, getFullDisplayBalance } from '@pancakeswap/utils/formatBalance'
+import { useTranslation } from '@pancakeswap/localization'
+import { Token } from '@pancakeswap/sdk'
 import CollectModal from '../../Modals/CollectModal'
 
 interface EarningsCellProps {

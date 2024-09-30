@@ -1,8 +1,8 @@
-import { Gauge } from '@iguanadex/gauges'
-import { getLanguageCodeFromLS, useTranslation } from '@iguanadex/localization'
-import { Percent } from '@iguanadex/swap-sdk-core'
-import { AutoColumn, Text } from '@iguanadex/uikit'
-import { getBalanceNumber } from '@iguanadex/utils/formatBalance'
+import { Gauge } from '@pancakeswap/gauges'
+import { getLanguageCodeFromLS, useTranslation } from '@pancakeswap/localization'
+import { Percent } from '@pancakeswap/swap-sdk-core'
+import { AutoColumn, Text } from '@pancakeswap/uikit'
+import { getBalanceNumber } from '@pancakeswap/utils/formatBalance'
 import BN from 'bignumber.js'
 import { useMemo } from 'react'
 

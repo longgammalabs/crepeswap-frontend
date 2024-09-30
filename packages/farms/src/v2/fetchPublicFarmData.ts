@@ -1,8 +1,8 @@
-import { ChainId } from '@iguanadex/chains'
-import chunk from 'lodash/chunk'
+import { ChainId } from '@pancakeswap/chains'
 import { Address, PublicClient } from 'viem'
+import chunk from 'lodash/chunk'
+import { SerializedFarmPublicData, SerializedFarmConfig } from '../types'
 import { nonBSCVaultAddresses } from '../const'
-import { SerializedFarmConfig, SerializedFarmPublicData } from '../types'
 
 const abi = [
   {

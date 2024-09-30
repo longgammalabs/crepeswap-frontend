@@ -1,5 +1,5 @@
-import { useTranslation } from '@iguanadex/localization'
-import { Flex, FlexProps, PrizeIcon, Text } from '@iguanadex/uikit'
+import { Flex, FlexProps, PrizeIcon, Text } from '@pancakeswap/uikit'
+import { useTranslation } from '@pancakeswap/localization'
 
 interface PointsLabelProps extends FlexProps {
   points: number

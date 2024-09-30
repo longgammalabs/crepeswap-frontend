@@ -1,6 +1,16 @@
-import { useTranslation } from '@iguanadex/localization'
-import { ArrowForwardIcon, Box, Button, Flex, Grid, HelpIcon, Link, Text, useMatchBreakpoints } from '@iguanadex/uikit'
-import { NextLinkFromReactRouter } from '@iguanadex/widgets-internal'
+import { useTranslation } from '@pancakeswap/localization'
+import {
+  ArrowForwardIcon,
+  Box,
+  Button,
+  Flex,
+  Grid,
+  HelpIcon,
+  Link,
+  Text,
+  useMatchBreakpoints,
+} from '@pancakeswap/uikit'
+import { NextLinkFromReactRouter } from '@pancakeswap/widgets-internal'
 import { useMemo } from 'react'
 import styled, { css } from 'styled-components'
 import { useCakeLockStatus } from '../hooks/useVeCakeUserInfo'

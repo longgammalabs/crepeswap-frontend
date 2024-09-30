@@ -1,4 +1,4 @@
-import { Gauge } from '@iguanadex/gauges'
+import { Gauge } from '@pancakeswap/gauges'
 import { SpaceProps } from 'styled-system'
 import { Hex } from 'viem'
 

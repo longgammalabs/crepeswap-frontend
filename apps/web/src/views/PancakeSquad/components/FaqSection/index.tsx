@@ -1,9 +1,9 @@
-import { useTranslation } from '@iguanadex/localization'
-import { Card, CardBody, CardHeader, Heading, Text } from '@iguanadex/uikit'
-import FoldableText from 'components/FoldableSection/FoldableText'
+import { Text, Heading, Card, CardHeader, CardBody } from '@pancakeswap/uikit'
+import { useTranslation } from '@pancakeswap/localization'
 import { LandingBodyWrapper } from 'views/PancakeSquad/styles'
+import FoldableText from 'components/FoldableSection/FoldableText'
 import configBuilder from './config'
-import { StyledDetailsWrapper, StyledFaqSection } from './styles'
+import { StyledFaqSection, StyledDetailsWrapper } from './styles'
 
 const FaqSection = () => {
   const { t } = useTranslation()

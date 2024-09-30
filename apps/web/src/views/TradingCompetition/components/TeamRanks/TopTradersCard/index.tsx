@@ -1,7 +1,18 @@
-import { useTranslation } from '@iguanadex/localization'
-import { Box, Card, CardFooter, CardHeader, ExpandableLabel, Flex, Heading, Tab, TabMenu, Text } from '@iguanadex/uikit'
+import { useState, useEffect } from 'react'
+import {
+  Card,
+  CardFooter,
+  CardHeader,
+  Heading,
+  Text,
+  TabMenu,
+  Tab,
+  Box,
+  Flex,
+  ExpandableLabel,
+} from '@pancakeswap/uikit'
 import SubgraphHealthIndicator from 'components/SubgraphHealthIndicator'
-import { useEffect, useState } from 'react'
+import { useTranslation } from '@pancakeswap/localization'
 import { LeaderboardDataItem, TeamRanksProps } from '../../../types'
 import TopTradersGrid from './TopTradersGrid'
 

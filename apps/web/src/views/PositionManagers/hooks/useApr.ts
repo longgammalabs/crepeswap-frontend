@@ -1,8 +1,8 @@
-import { Currency } from '@iguanadex/sdk'
+import { Currency } from '@pancakeswap/sdk'
 
-import { BIG_ZERO } from '@iguanadex/utils/bigNumber'
-import { getBalanceAmount } from '@iguanadex/utils/formatBalance'
-import { YEAR_IN_SECONDS } from '@iguanadex/utils/getTimePeriods'
+import { BIG_ZERO } from '@pancakeswap/utils/bigNumber'
+import { getBalanceAmount } from '@pancakeswap/utils/formatBalance'
+import { YEAR_IN_SECONDS } from '@pancakeswap/utils/getTimePeriods'
 import BigNumber from 'bignumber.js'
 import { useCurrencyUsdPrice } from 'hooks/useCurrencyUsdPrice'
 import { useMemo } from 'react'

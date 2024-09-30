@@ -1,5 +1,5 @@
-import { Button, Flex, Link, OpenNewIcon, Text } from '@iguanadex/uikit'
-import { NextLinkFromReactRouter as RouterLink } from '@iguanadex/widgets-internal'
+import { Button, Flex, Link, OpenNewIcon, Text } from '@pancakeswap/uikit'
+import { NextLinkFromReactRouter as RouterLink } from '@pancakeswap/widgets-internal'
 
 import ColoredWordHeading from '../ColoredWordHeading'
 import CompositeImage, { CompositeImageProps } from '../CompositeImage'

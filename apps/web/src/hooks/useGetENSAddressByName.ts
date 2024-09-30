@@ -1,4 +1,4 @@
-import { ChainId } from '@iguanadex/chains'
+import { ChainId } from '@pancakeswap/chains'
 import { CHAINS } from 'config/chains'
 import { useActiveChainId } from 'hooks/useActiveChainId'
 import { useMemo } from 'react'
@@ -26,8 +26,6 @@ export const useGetENSAddressByName = (ensNameOrAddress?: string) => {
       (ENS_NAME_REGEX.test(ensNameOrAddress) || ADDRESS_REGEX.test(ensNameOrAddress)) &&
       chainId !== ChainId.BSC &&
       chainId !== ChainId.BSC_TESTNET &&
-      chainId !== ChainId.ETHERLINK &&
-      chainId !== ChainId.ETHERLINK_TESTNET &&
       ensSupported,
   })
   return recipientENSAddress

@@ -1,6 +1,6 @@
-import { BinanceIcon, Box, Flex, Input, Modal, Text } from '@iguanadex/uikit'
-import { useBNBPrice } from 'hooks/useBNBPrice'
 import { styled } from 'styled-components'
+import { Modal, Box, Flex, Text, BinanceIcon, Input } from '@pancakeswap/uikit'
+import { useBNBPrice } from 'hooks/useBNBPrice'
 import { SellingStage } from './types'
 
 export const stagesWithBackButton = [

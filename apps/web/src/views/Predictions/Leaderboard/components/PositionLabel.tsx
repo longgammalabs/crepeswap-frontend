@@ -1,7 +1,7 @@
-import { useTranslation } from '@iguanadex/localization'
-import { BetPosition } from '@iguanadex/prediction'
-import { ArrowDownIcon, ArrowUpIcon } from '@iguanadex/uikit'
 import { styled } from 'styled-components'
+import { ArrowDownIcon, ArrowUpIcon } from '@pancakeswap/uikit'
+import { BetPosition } from '@pancakeswap/prediction'
+import { useTranslation } from '@pancakeswap/localization'
 
 interface PositionLabelProps {
   position: BetPosition

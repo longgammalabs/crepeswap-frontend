@@ -1,5 +1,5 @@
-import { useTranslation } from "@iguanadex/localization";
-import { Balance, Button, Heading, Skeleton, Text, TooltipText, useTooltip } from "@iguanadex/uikit";
+import { useTranslation } from "@pancakeswap/localization";
+import { Balance, Button, Heading, Skeleton, Text, TooltipText, useTooltip } from "@pancakeswap/uikit";
 import BigNumber from "bignumber.js";
 
 import { FARMS_SMALL_AMOUNT_THRESHOLD } from "../../../constants";

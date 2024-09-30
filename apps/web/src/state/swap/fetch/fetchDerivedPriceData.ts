@@ -1,4 +1,4 @@
-import { ChainId, STABLESWAP_SUBGRAPHS } from '@iguanadex/chains'
+import { ChainId, STABLESWAP_SUBGRAPHS } from '@pancakeswap/chains'
 import { INFO_CLIENT, INFO_CLIENT_ETH, INFO_CLIENT_WITH_CHAIN, V3_SUBGRAPH_URLS } from 'config/constants/endpoints'
 import { ONE_DAY_UNIX, ONE_HOUR_SECONDS } from 'config/constants/info'
 import dayjs from 'dayjs'

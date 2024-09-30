@@ -1,10 +1,10 @@
-import { Skeleton } from '@iguanadex/uikit'
+import { styled } from 'styled-components'
+import ApyButton from 'views/Farms/components/FarmCard/ApyButton'
 import BigNumber from 'bignumber.js'
 import { BASE_ADD_LIQUIDITY_URL } from 'config'
-import { useActiveChainId } from 'hooks/useActiveChainId'
-import { styled } from 'styled-components'
 import getLiquidityUrlPathParts from 'utils/getLiquidityUrlPathParts'
-import ApyButton from 'views/Farms/components/FarmCard/ApyButton'
+import { Skeleton } from '@pancakeswap/uikit'
+import { useActiveChainId } from 'hooks/useActiveChainId'
 
 export interface AprProps {
   value: string

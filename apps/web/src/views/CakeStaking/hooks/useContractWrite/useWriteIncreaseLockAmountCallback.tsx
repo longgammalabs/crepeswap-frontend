@@ -1,4 +1,4 @@
-import { getDecimalAmount } from '@iguanadex/utils/formatBalance'
+import { getDecimalAmount } from '@pancakeswap/utils/formatBalance'
 import BN from 'bignumber.js'
 import { useActiveChainId } from 'hooks/useActiveChainId'
 import { useVeCakeContract } from 'hooks/useContract'

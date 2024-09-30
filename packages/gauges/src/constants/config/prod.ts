@@ -1,4 +1,4 @@
-import { ChainId } from '@iguanadex/chains'
+import { ChainId } from '@pancakeswap/chains'
 import {
   arbitrumTokens,
   baseTokens,
@@ -7,8 +7,8 @@ import {
   lineaTokens,
   polygonZkEvmTokens,
   zksyncTokens,
-} from '@iguanadex/tokens'
-import { FeeAmount } from '@iguanadex/v3-sdk'
+} from '@pancakeswap/tokens'
+import { FeeAmount } from '@pancakeswap/v3-sdk'
 import { GaugeConfig, GaugeType } from '../../types'
 
 export const CONFIG_PROD: GaugeConfig[] = [

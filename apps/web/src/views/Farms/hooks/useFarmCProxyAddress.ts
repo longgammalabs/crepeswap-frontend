@@ -1,4 +1,4 @@
-import { ChainId } from '@iguanadex/chains'
+import { ChainId } from '@pancakeswap/chains'
 import { useQuery } from '@tanstack/react-query'
 import { farmFetcher } from 'state/farms'
 import { fetchCProxyAddress } from 'state/farms/fetchFarmUser'

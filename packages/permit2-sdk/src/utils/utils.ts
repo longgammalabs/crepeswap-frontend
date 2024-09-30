@@ -1,4 +1,4 @@
-import { BigintIsh, Token } from '@iguanadex/sdk'
+import { BigintIsh, Token } from '@pancakeswap/sdk'
 import { PermitSingle } from '../allowanceTransfer'
 import { MaxAllowanceTransferAmount, PERMIT_EXPIRATION, PERMIT_SIG_EXPIRATION } from '../constants'
 

@@ -1,8 +1,8 @@
-import { useTranslation } from '@iguanadex/localization'
-import { Currency, CurrencyAmount, Percent, TradeType } from '@iguanadex/sdk'
-import { LegacyPair as Pair } from '@iguanadex/smart-router/legacy-router'
-import { AutoColumn, Flex, Link, Modal, ModalV2, QuestionHelper, SearchIcon, Text } from '@iguanadex/uikit'
-import { formatAmount } from '@iguanadex/utils/formatFractions'
+import { useTranslation } from '@pancakeswap/localization'
+import { Currency, CurrencyAmount, Percent, TradeType } from '@pancakeswap/sdk'
+import { LegacyPair as Pair } from '@pancakeswap/smart-router/legacy-router'
+import { AutoColumn, Flex, Link, Modal, ModalV2, QuestionHelper, SearchIcon, Text } from '@pancakeswap/uikit'
+import { formatAmount } from '@pancakeswap/utils/formatFractions'
 import { memo, useState } from 'react'
 
 import { RowBetween, RowFixed } from 'components/Layout/Row'

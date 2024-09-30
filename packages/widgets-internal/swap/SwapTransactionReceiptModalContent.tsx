@@ -1,5 +1,5 @@
-import { useTranslation } from "@iguanadex/localization";
-import { AutoColumn, Box, CheckmarkCircleIcon, Text } from "@iguanadex/uikit";
+import { useTranslation } from "@pancakeswap/localization";
+import { AutoColumn, Box, CheckmarkCircleIcon, Text } from "@pancakeswap/uikit";
 import { ReactNode } from "react";
 import { StepTitleAnimationContainer } from "./ApproveModalContent";
 import { FadePresence } from "./Logos";

@@ -1,5 +1,5 @@
-import { PredictionStatus } from '@iguanadex/prediction'
-import { Box, Flex, Link } from '@iguanadex/uikit'
+import { PredictionStatus } from '@pancakeswap/prediction'
+import { Box, Flex, Link } from '@pancakeswap/uikit'
 import { memo } from 'react'
 import { useGetPredictionsStatus, useIsChartPaneOpen, useIsHistoryPaneOpen } from 'state/predictions/hooks'
 import { styled } from 'styled-components'

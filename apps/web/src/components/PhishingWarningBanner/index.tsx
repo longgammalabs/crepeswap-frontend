@@ -1,5 +1,5 @@
-import { CloseIcon, Flex, IconButton, Text, useMatchBreakpoints } from '@iguanadex/uikit'
-import { usePhishingBanner } from '@iguanadex/utils/user'
+import { CloseIcon, Flex, IconButton, Text, useMatchBreakpoints } from '@pancakeswap/uikit'
+import { usePhishingBanner } from '@pancakeswap/utils/user'
 import { PANCAKE_ASSET_CDN } from 'config/constants/endpoints'
 import { useEffect, useMemo, useRef, useState } from 'react'
 import { styled } from 'styled-components'

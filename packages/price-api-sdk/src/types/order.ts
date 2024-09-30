@@ -1,4 +1,4 @@
-import type { ExclusiveDutchOrderInfoJSON } from '@iguanadex/pcsx-sdk'
+import type { ExclusiveDutchOrderInfoJSON } from '@pancakeswap/pcsx-sdk'
 import type { AMMOrder } from './amm'
 import type { OrderType } from './orderType'
 

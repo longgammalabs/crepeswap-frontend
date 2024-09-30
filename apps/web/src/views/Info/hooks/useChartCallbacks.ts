@@ -1,5 +1,5 @@
-import { useTranslation } from '@iguanadex/localization'
 import { useCallback, useMemo } from 'react'
+import { useTranslation } from '@pancakeswap/localization'
 
 export const useChartCallbacks = (setHoverValue, setHoverDate) => {
   const {

@@ -1,6 +1,6 @@
-import { GAUGE_TYPE_NAMES, Gauge, GaugeType } from '@iguanadex/gauges'
-import { useTranslation } from '@iguanadex/localization'
-import { Percent } from '@iguanadex/sdk'
+import { GAUGE_TYPE_NAMES, Gauge, GaugeType } from '@pancakeswap/gauges'
+import { useTranslation } from '@pancakeswap/localization'
+import { Percent } from '@pancakeswap/sdk'
 import {
   AutoColumn,
   Box,
@@ -14,8 +14,8 @@ import {
   Tag,
   Text,
   useMatchBreakpoints,
-} from '@iguanadex/uikit'
-import formatLocalisedCompactNumber, { getBalanceNumber } from '@iguanadex/utils/formatBalance'
+} from '@pancakeswap/uikit'
+import formatLocalisedCompactNumber, { getBalanceNumber } from '@pancakeswap/utils/formatBalance'
 import BN from 'bignumber.js'
 import { useCallback, useEffect, useMemo, useState } from 'react'
 import styled from 'styled-components'

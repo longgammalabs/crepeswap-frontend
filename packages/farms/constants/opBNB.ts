@@ -1,5 +1,5 @@
-import { opBnbTokens } from '@iguanadex/tokens'
-import { FeeAmount } from '@iguanadex/v3-sdk'
+import { opBnbTokens } from '@pancakeswap/tokens'
+import { FeeAmount } from '@pancakeswap/v3-sdk'
 
 import { defineFarmV3Configs } from '../src/defineFarmV3Configs'
 

@@ -1,5 +1,5 @@
-import { Token } from '@iguanadex/sdk'
-import { deserializeToken } from '@iguanadex/token-lists'
+import { Token } from '@pancakeswap/sdk'
+import { deserializeToken } from '@pancakeswap/token-lists'
 import { createSelector } from '@reduxjs/toolkit'
 import { useActiveChainId } from 'hooks/useActiveChainId'
 import { useMemo } from 'react'

@@ -1,8 +1,8 @@
-import { useTranslation } from '@iguanadex/localization'
-import { Token } from '@iguanadex/sdk'
-import { Flex, Message, MessageText, useMatchBreakpoints } from '@iguanadex/uikit'
-import { useVaultApy } from 'hooks/useVaultApy'
+import { Token } from '@pancakeswap/sdk'
+import { Flex, Message, MessageText, useMatchBreakpoints } from '@pancakeswap/uikit'
+import { useTranslation } from '@pancakeswap/localization'
 import { memo } from 'react'
+import { useVaultApy } from 'hooks/useVaultApy'
 
 import ExtendButton from '../Buttons/ExtendDurationButton'
 import useAvgLockDuration from '../hooks/useAvgLockDuration'

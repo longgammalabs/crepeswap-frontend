@@ -1,4 +1,4 @@
-import { ChainId, chainNames } from '@iguanadex/chains'
+import { ChainId, chainNames } from '@pancakeswap/chains'
 import memoize from 'lodash/memoize'
 import { Chain, bsc as bsc_ } from 'wagmi/chains'
 

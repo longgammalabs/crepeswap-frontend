@@ -1,7 +1,7 @@
-import { DeserializedPool } from '@iguanadex/pools'
-import { Token } from '@iguanadex/sdk'
-import { deserializeToken } from '@iguanadex/token-lists'
-import { BIG_ZERO } from '@iguanadex/utils/bigNumber'
+import { DeserializedPool } from '@pancakeswap/pools'
+import { Token } from '@pancakeswap/sdk'
+import { deserializeToken } from '@pancakeswap/token-lists'
+import { BIG_ZERO } from '@pancakeswap/utils/bigNumber'
 import BigNumber from 'bignumber.js'
 import {
   DeserializedCakeVault,

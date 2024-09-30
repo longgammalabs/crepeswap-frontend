@@ -1,5 +1,5 @@
-import { Currency } from '@iguanadex/sdk'
-import { FeeAmount, Pool, TICK_SPACINGS, tickToPrice } from '@iguanadex/v3-sdk'
+import { Currency } from '@pancakeswap/sdk'
+import { FeeAmount, Pool, TICK_SPACINGS, tickToPrice } from '@pancakeswap/v3-sdk'
 import { useMemo } from 'react'
 
 import { PoolState, TickProcessed } from './types'

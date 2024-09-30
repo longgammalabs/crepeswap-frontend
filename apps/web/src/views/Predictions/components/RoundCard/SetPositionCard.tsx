@@ -1,5 +1,5 @@
-import { useTranslation } from '@iguanadex/localization'
-import { BetPosition } from '@iguanadex/prediction'
+import { useTranslation } from '@pancakeswap/localization'
+import { BetPosition } from '@pancakeswap/prediction'
 import {
   ArrowBackIcon,
   AutoRenewIcon,
@@ -14,8 +14,8 @@ import {
   IconButton,
   Slider,
   Text,
-} from '@iguanadex/uikit'
-import { formatBigInt, getFullDisplayBalance } from '@iguanadex/utils/formatBalance'
+} from '@pancakeswap/uikit'
+import { formatBigInt, getFullDisplayBalance } from '@pancakeswap/utils/formatBalance'
 import BN from 'bignumber.js'
 import ConnectWalletButton from 'components/ConnectWalletButton'
 import { TokenImage } from 'components/TokenImage'

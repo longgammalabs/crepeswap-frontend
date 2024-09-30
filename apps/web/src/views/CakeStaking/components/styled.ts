@@ -1,4 +1,4 @@
-import { AutoColumn } from '@iguanadex/uikit'
+import { AutoColumn } from '@pancakeswap/uikit'
 import styled from 'styled-components'
 
 export const StyledLockedCard = styled(AutoColumn)`

@@ -1,4 +1,4 @@
-import { useTranslation } from '@iguanadex/localization'
+import { useTranslation } from '@pancakeswap/localization'
 import {
   Box,
   Flex,
@@ -8,13 +8,15 @@ import {
   UserMenuItem,
   UserMenuVariant,
   useModal,
-} from '@iguanadex/uikit'
+} from '@pancakeswap/uikit'
 import ConnectWalletButton from 'components/ConnectWalletButton'
+import useAirdropModalStatus from 'components/GlobalCheckClaimStatus/hooks/useAirdropModalStatus'
 import Trans from 'components/Trans'
 import { useActiveChainId } from 'hooks/useActiveChainId'
 import useAuth from 'hooks/useAuth'
 import { useDomainNameForAddress } from 'hooks/useDomain'
 import { useCallback, useEffect, useState } from 'react'
+import { useProfile } from 'state/profile/hooks'
 import { usePendingTransactions } from 'state/transactions/hooks'
 import { useAccount } from 'wagmi'
 import WalletModal, { WalletView } from './WalletModal'
@@ -22,14 +24,17 @@ import WalletUserMenuItem from './WalletUserMenuItem'
 
 const UserMenuItems = () => {
   const { t } = useTranslation()
-  const { isWrongNetwork } = useActiveChainId()
+  const { chainId, isWrongNetwork } = useActiveChainId()
   const { logout } = useAuth()
-  // const { address: account } = useAccount()
+  const { address: account } = useAccount()
   const { hasPendingTransactions } = usePendingTransactions()
+  const { isInitialized, isLoading, profile } = useProfile()
+  const { shouldShowModal } = useAirdropModalStatus()
 
   const [onPresentWalletModal] = useModal(<WalletModal initialView={WalletView.WALLET_INFO} />)
   const [onPresentTransactionModal] = useModal(<WalletModal initialView={WalletView.TRANSACTIONS} />)
   const [onPresentWrongNetworkModal] = useModal(<WalletModal initialView={WalletView.WRONG_NETWORK} />)
+  const hasProfile = isInitialized && !!profile
 
   const onClickWalletMenu = useCallback((): void => {
     if (isWrongNetwork) {
@@ -62,7 +67,8 @@ const UserMenu = () => {
   const { domainName, avatar } = useDomainNameForAddress(account)
   const { isWrongNetwork } = useActiveChainId()
   const { hasPendingTransactions, pendingNumber } = usePendingTransactions()
-  const avatarSrc = avatar
+  const { profile } = useProfile()
+  const avatarSrc = profile?.nft?.image?.thumbnail ?? avatar
   const [userMenuText, setUserMenuText] = useState<string>('')
   const [userMenuVariable, setUserMenuVariable] = useState<UserMenuVariant>('default')
 

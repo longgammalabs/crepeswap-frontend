@@ -1,7 +1,7 @@
-import { ChainId } from '@iguanadex/chains'
-import { Token } from '@iguanadex/swap-sdk-core'
-import { Flex, Skeleton, Text } from '@iguanadex/uikit'
-import { FarmWidget } from '@iguanadex/widgets-internal'
+import { ChainId } from '@pancakeswap/chains'
+import { Token } from '@pancakeswap/swap-sdk-core'
+import { Flex, Skeleton, Text } from '@pancakeswap/uikit'
+import { FarmWidget } from '@pancakeswap/widgets-internal'
 import { TokenPairImage } from 'components/TokenImage'
 import { styled } from 'styled-components'
 

@@ -1,8 +1,8 @@
-import { useTranslation } from '@iguanadex/localization'
-import { Box, Button, Flex, Link, PageSection, Text } from '@iguanadex/uikit'
-import Image from 'next/image'
 import { styled } from 'styled-components'
+import { Flex, Text, Button, Box, PageSection, Link } from '@pancakeswap/uikit'
 import { SlideSvgDark, SlideSvgLight } from 'views/Home/components/SlideSvg'
+import { useTranslation } from '@pancakeswap/localization'
+import Image from 'next/image'
 import { floatingStarsLeft, floatingStarsRight } from 'views/Lottery/components/Hero'
 import bunnyImage from '../../../../../public/images/affiliates-program/banner.png'
 

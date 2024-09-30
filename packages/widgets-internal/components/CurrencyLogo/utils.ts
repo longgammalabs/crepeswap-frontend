@@ -1,6 +1,6 @@
-import { ChainId } from "@iguanadex/chains";
-import { Currency, NATIVE, Token } from "@iguanadex/sdk";
-import { bscTokens, ethereumTokens } from "@iguanadex/tokens";
+import { ChainId } from "@pancakeswap/chains";
+import { Currency, NATIVE, Token } from "@pancakeswap/sdk";
+import { bscTokens, ethereumTokens } from "@pancakeswap/tokens";
 import memoize from "lodash/memoize";
 import { getAddress } from "viem";
 

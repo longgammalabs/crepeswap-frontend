@@ -1,11 +1,11 @@
-import { CurrencyAmount, Ether, Native, Percent, Token, TradeType, WETH9 } from '@iguanadex/sdk'
-import { describe, expect, it } from 'vitest'
+import { CurrencyAmount, Ether, Native, Percent, Token, TradeType, WETH9 } from '@pancakeswap/sdk'
+import { describe, it, expect } from 'vitest'
 import { FeeAmount, TICK_SPACINGS } from './constants'
-import { Route, Trade } from './entities'
 import { Pool } from './entities/pool'
 import { SwapRouter } from './swapRouter'
 import { nearestUsableTick, TickMath } from './utils'
 import { encodeSqrtRatioX96 } from './utils/encodeSqrtRatioX96'
+import { Route, Trade } from './entities'
 
 describe('SwapRouter', () => {
   const ETHER = Native.onChain(1)

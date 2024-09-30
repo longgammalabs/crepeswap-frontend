@@ -1,11 +1,11 @@
 /* eslint-disable no-await-in-loop, no-continue */
-import { Currency, CurrencyAmount, Price, TradeType } from '@iguanadex/sdk'
+import { Currency, CurrencyAmount, Price, TradeType } from '@pancakeswap/sdk'
 
+import { BestTradeOptions, Pair, RouteType, StableSwapPair, TradeWithStableSwap } from './types'
+import { getOutputToken, involvesToken } from './utils/pair'
 import { stableSwapPairsByChainId } from './getStableSwapPairs'
 import { getStableSwapFee, getStableSwapOutputAmount } from './onchain'
 import { createTradeWithStableSwap, getFeePercent } from './stableSwap'
-import { BestTradeOptions, Pair, RouteType, StableSwapPair, TradeWithStableSwap } from './types'
-import { getOutputToken, involvesToken } from './utils/pair'
 
 export async function getBestTradeFromStablePools(
   amount: CurrencyAmount<Currency>,

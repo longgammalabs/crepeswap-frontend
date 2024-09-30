@@ -1,5 +1,5 @@
-import { ErrorIcon } from "@iguanadex/uikit";
 import { styled } from "styled-components";
+import { ErrorIcon } from "@pancakeswap/uikit";
 
 const SwapCallbackErrorInner = styled.div`
   background-color: ${({ theme }) => `${theme.colors.failure33}`};

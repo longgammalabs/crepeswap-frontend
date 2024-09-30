@@ -1,6 +1,6 @@
-import { ChainId } from '@iguanadex/chains'
-import { Token } from '@iguanadex/swap-sdk-core'
-import { bscTestnetTokens } from '@iguanadex/tokens'
+import { Token } from '@pancakeswap/swap-sdk-core'
+import { ChainId } from '@pancakeswap/chains'
+import { bscTestnetTokens } from '@pancakeswap/tokens'
 
 import { StableSwapPool } from '../../types'
 

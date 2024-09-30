@@ -1,9 +1,9 @@
-import { Box, Message, MessageText } from '@iguanadex/uikit'
+import { Box, Message, MessageText } from '@pancakeswap/uikit'
 
-import { NextLinkFromReactRouter, Pool } from '@iguanadex/widgets-internal'
+import { Pool, NextLinkFromReactRouter } from '@pancakeswap/widgets-internal'
 
-import { useTranslation } from '@iguanadex/localization'
-import { Token } from '@iguanadex/sdk'
+import { useTranslation } from '@pancakeswap/localization'
+import { Token } from '@pancakeswap/sdk'
 import { useProfileRequirement } from '../hooks/useProfileRequirement'
 
 export function ProfileRequirementWarning({

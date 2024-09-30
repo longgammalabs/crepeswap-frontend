@@ -1,6 +1,6 @@
-import { GAUGE_TYPE_NAMES, Gauge, GaugeType } from '@iguanadex/gauges'
-import { useTranslation } from '@iguanadex/localization'
-import { Percent } from '@iguanadex/sdk'
+import { GAUGE_TYPE_NAMES, Gauge, GaugeType } from '@pancakeswap/gauges'
+import { useTranslation } from '@pancakeswap/localization'
+import { Percent } from '@pancakeswap/sdk'
 import {
   Button,
   CheckmarkCircleFillIcon,
@@ -13,8 +13,8 @@ import {
   Grid,
   Tag,
   Text,
-} from '@iguanadex/uikit'
-import formatLocalisedCompactNumber, { getBalanceNumber } from '@iguanadex/utils/formatBalance'
+} from '@pancakeswap/uikit'
+import formatLocalisedCompactNumber, { getBalanceNumber } from '@pancakeswap/utils/formatBalance'
 import BN from 'bignumber.js'
 import { useHover } from 'hooks/useHover'
 import { memo, useCallback, useMemo, useState } from 'react'

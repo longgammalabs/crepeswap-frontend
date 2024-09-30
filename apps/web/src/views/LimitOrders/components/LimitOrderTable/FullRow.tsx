@@ -1,13 +1,13 @@
-import { Order } from '@gelatonetwork/limit-orders-lib'
-import { IconButton, MoreHorizontalIcon, SyncAltIcon, Td, useModal } from '@iguanadex/uikit'
 import React from 'react'
+import { Order } from '@gelatonetwork/limit-orders-lib'
+import { Td, MoreHorizontalIcon, SyncAltIcon, useModal, IconButton } from '@pancakeswap/uikit'
 
 import useFormattedOrderData from 'views/LimitOrders/hooks/useFormattedOrderData'
-import CellFormat from './CellFormat'
 import CurrencyFormat from './CurrencyFormat'
+import CellFormat from './CellFormat'
+import TextIcon from './TextIcon'
 import { DetailLimitOrderModal } from './DetailLimitOrderModal'
 import OrderStatus, { StatusElementType } from './OrderStatus'
-import TextIcon from './TextIcon'
 
 const FullRow: React.FC<React.PropsWithChildren<{ order: Order }>> = ({ order }) => {
   const formattedOrder = useFormattedOrderData(order)

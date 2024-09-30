@@ -1,4 +1,4 @@
-import { Svg, SvgProps } from '@iguanadex/uikit'
+import { Svg, SvgProps } from '@pancakeswap/uikit'
 
 export const SvgToken = ({ color = '#FFFFF', ...props }: SvgProps & { color?: string }) => {
   return (

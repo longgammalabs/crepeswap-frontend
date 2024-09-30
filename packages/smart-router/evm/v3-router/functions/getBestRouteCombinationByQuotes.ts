@@ -1,6 +1,6 @@
 /* eslint-disable @typescript-eslint/no-non-null-assertion */
-import { ChainId } from '@iguanadex/chains'
-import { Currency, CurrencyAmount, TradeType } from '@iguanadex/sdk'
+import { ChainId } from '@pancakeswap/chains'
+import { Currency, CurrencyAmount, TradeType } from '@pancakeswap/sdk'
 import flatMap from 'lodash/flatMap.js'
 import mapValues from 'lodash/mapValues.js'
 import FixedReverseHeap from 'mnemonist/fixed-reverse-heap.js'

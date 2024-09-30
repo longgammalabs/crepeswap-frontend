@@ -1,5 +1,5 @@
-import { ChainId } from '@iguanadex/chains'
-import { getFarmsPriceHelperLpFiles } from '@iguanadex/farms/constants/priceHelperLps/getFarmsPriceHelperLpFiles'
+import { ChainId } from '@pancakeswap/chains'
+import { getFarmsPriceHelperLpFiles } from '@pancakeswap/farms/constants/priceHelperLps/getFarmsPriceHelperLpFiles'
 import PoolsEthereumPriceHelper from './pools/1'
 import PoolsPolygonZkEvmPriceHelper from './pools/1101'
 import PoolsEtherlinkTestnetPriceHelper from './pools/128123'

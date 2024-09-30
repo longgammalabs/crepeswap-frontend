@@ -1,4 +1,4 @@
-import { Flex } from '@iguanadex/uikit'
+import { Flex } from '@pancakeswap/uikit'
 import Page from 'components/Layout/Page'
 import PageLoader from 'components/Loader/PageLoader'
 import { useEffect, useState } from 'react'

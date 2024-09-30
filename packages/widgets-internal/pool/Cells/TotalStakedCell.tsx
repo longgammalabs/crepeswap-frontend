@@ -1,8 +1,8 @@
-import { useTranslation } from "@iguanadex/localization";
-import { Balance, Flex, Skeleton, Text } from "@iguanadex/uikit";
-import { getBalanceNumber } from "@iguanadex/utils/formatBalance";
-import BigNumber from "bignumber.js";
 import { styled } from "styled-components";
+import { useTranslation } from "@pancakeswap/localization";
+import BigNumber from "bignumber.js";
+import { getBalanceNumber } from "@pancakeswap/utils/formatBalance";
+import { Text, Skeleton, Flex, Balance } from "@pancakeswap/uikit";
 
 import { BaseCell, CellContent } from "./BaseCell";
 

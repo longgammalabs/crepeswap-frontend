@@ -1,5 +1,5 @@
-import { useTranslation } from '@iguanadex/localization'
-import { HooksIcon, OptionProps } from '@iguanadex/uikit'
+import { useTranslation } from '@pancakeswap/localization'
+import { HooksIcon, OptionProps } from '@pancakeswap/uikit'
 import { useMemo } from 'react'
 import { ClammIcon } from 'views/LandingV4/components/Icons/ClammIcon'
 import { LbammIcon } from 'views/LandingV4/components/Icons/LbammIcon'

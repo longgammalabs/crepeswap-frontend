@@ -1,5 +1,5 @@
-import { useTranslation } from '@iguanadex/localization'
-import { Message, MessageText } from '@iguanadex/uikit'
+import { Message, MessageText } from '@pancakeswap/uikit'
+import { useTranslation } from '@pancakeswap/localization'
 
 const LimitOrderDisclaimer = () => {
   const { t } = useTranslation()

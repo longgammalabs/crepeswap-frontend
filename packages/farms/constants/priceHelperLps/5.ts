@@ -1,4 +1,4 @@
-import { goerliTestnetTokens } from '@iguanadex/tokens'
+import { goerliTestnetTokens } from '@pancakeswap/tokens'
 import { getAddress } from 'viem'
 import { SerializedFarmConfig } from '../..'
 

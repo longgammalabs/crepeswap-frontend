@@ -1,12 +1,12 @@
-import { useTranslation } from '@iguanadex/localization'
-import { Button, Flex, Link, OpenNewIcon, Svg, Text, useMatchBreakpoints } from '@iguanadex/uikit'
+import { useTranslation } from '@pancakeswap/localization'
+import { Flex, Link, OpenNewIcon, Text, useMatchBreakpoints, Button, Svg } from '@pancakeswap/uikit'
 import { ASSET_CDN } from 'config/constants/endpoints'
 import Image from 'next/legacy/image'
 import { memo } from 'react'
 import { styled } from 'styled-components'
 import * as S from './Styled'
+import { lineaBunny, lineaBgMobile, lineaBunnyMobile, lineaBg, lineaLogo } from './images'
 import { flyingAnim } from './animations'
-import { lineaBg, lineaBgMobile, lineaBunny, lineaBunnyMobile, lineaLogo } from './images'
 
 const pancakeSwapLogo = `${ASSET_CDN}/web/banners/ethXpancakeswap.png`
 

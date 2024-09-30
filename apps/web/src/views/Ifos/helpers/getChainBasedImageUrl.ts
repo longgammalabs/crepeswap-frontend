@@ -1,4 +1,4 @@
-import { ChainId, getChainName } from '@iguanadex/chains'
+import { ChainId, getChainName } from '@pancakeswap/chains'
 
 type GetUrlOptions = {
   chainId?: ChainId

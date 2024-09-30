@@ -1,5 +1,5 @@
-import { useTranslation } from "@iguanadex/localization";
 import BigNumber from "bignumber.js";
+import { useTranslation } from "@pancakeswap/localization";
 import { Text, TextProps } from "../../components/Text";
 
 interface IfoPercentageOfTotalProps extends TextProps {

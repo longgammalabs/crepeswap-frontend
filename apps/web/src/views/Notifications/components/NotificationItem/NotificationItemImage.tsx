@@ -1,5 +1,5 @@
-import { useTranslation } from '@iguanadex/localization'
-import { ArrowDropDownIcon, ArrowDropUpIcon, Box, FlexGap, Text } from '@iguanadex/uikit'
+import { useTranslation } from '@pancakeswap/localization'
+import { ArrowDropDownIcon, ArrowDropUpIcon, Box, FlexGap, Text } from '@pancakeswap/uikit'
 import { ASSET_CDN } from 'config/constants/endpoints'
 import Image from 'next/image'
 import { CHAIN_NAME_TO_CHAIN_ID } from 'views/Notifications/constants'

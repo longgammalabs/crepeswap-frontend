@@ -1,5 +1,5 @@
-import { useTranslation } from '@iguanadex/localization'
-import { Box, Link, Text } from '@iguanadex/uikit'
+import { useTranslation } from '@pancakeswap/localization'
+import { Box, Text, Link } from '@pancakeswap/uikit'
 
 const XCADWarning = () => {
   const { t } = useTranslation()

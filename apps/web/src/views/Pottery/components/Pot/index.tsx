@@ -1,14 +1,14 @@
-import { useTranslation } from '@iguanadex/localization'
-import { Balance, Box, ButtonTabMenu, Card, Flex, Text, useMatchBreakpoints } from '@iguanadex/uikit'
-import { getBalanceNumber } from '@iguanadex/utils/formatBalance'
-import { useCakePrice } from 'hooks/useCakePrice'
-import { useCallback, useMemo, useState } from 'react'
-import { usePotteryData } from 'state/pottery/hook'
 import { styled } from 'styled-components'
-import { POT_CATEGORY } from '../../types'
-import CardHeader from './CardHeader'
-import Claim from './Claim/index'
+import { useState, useCallback, useMemo } from 'react'
+import { Flex, Box, Card, Text, useMatchBreakpoints, Balance, ButtonTabMenu } from '@pancakeswap/uikit'
+import { useTranslation } from '@pancakeswap/localization'
+import { useCakePrice } from 'hooks/useCakePrice'
+import { getBalanceNumber } from '@pancakeswap/utils/formatBalance'
+import { usePotteryData } from 'state/pottery/hook'
 import Deposit from './Deposit/index'
+import Claim from './Claim/index'
+import CardHeader from './CardHeader'
+import { POT_CATEGORY } from '../../types'
 
 const PotteryContainer = styled(Box)`
   position: relative;

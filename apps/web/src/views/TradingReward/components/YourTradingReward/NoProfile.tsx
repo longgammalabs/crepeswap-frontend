@@ -1,9 +1,9 @@
-import { ChainId } from '@iguanadex/chains'
-import { useTranslation } from '@iguanadex/localization'
-import { Box, Button, Link, Message, MessageText, Text } from '@iguanadex/uikit'
-import { CHAIN_QUERY_NAME } from 'config/chains'
-import useAccountActiveChain from 'hooks/useAccountActiveChain'
+import { Box, Text, Button, Link, Message, MessageText } from '@pancakeswap/uikit'
+import { useTranslation } from '@pancakeswap/localization'
 import Image from 'next/image'
+import useAccountActiveChain from 'hooks/useAccountActiveChain'
+import { ChainId } from '@pancakeswap/chains'
+import { CHAIN_QUERY_NAME } from 'config/chains'
 
 const NoProfile = () => {
   const { t } = useTranslation()

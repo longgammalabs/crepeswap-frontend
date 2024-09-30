@@ -1,9 +1,9 @@
 /* eslint-disable operator-assignment */
-import { ChainId } from '@iguanadex/chains'
-import { BigintIsh, CurrencyAmount, Price, Token } from '@iguanadex/sdk'
+import { BigintIsh, CurrencyAmount, Price, Token } from '@pancakeswap/sdk'
+import { ChainId } from '@pancakeswap/chains'
 import invariant from 'tiny-invariant'
 import { Address, Hash } from 'viem'
-import { DEPLOYER_ADDRESSES, FeeAmount, TICK_SPACINGS } from '../constants'
+import { FeeAmount, TICK_SPACINGS, DEPLOYER_ADDRESSES } from '../constants'
 import { NEGATIVE_ONE, ONE, Q192, ZERO } from '../internalConstants'
 import { computePoolAddress } from '../utils/computePoolAddress'
 import { LiquidityMath } from '../utils/liquidityMath'

@@ -1,15 +1,15 @@
-import { useTranslation } from "@iguanadex/localization";
-import { Currency, CurrencyAmount, Percent, Price, Token, ZERO } from "@iguanadex/sdk";
-import { BIG_ZERO } from "@iguanadex/utils/bigNumber";
-import { formatFraction, formatPercent, formatPrice } from "@iguanadex/utils/formatFractions";
-import { isPositionOutOfRange } from "@iguanadex/utils/isPositionOutOfRange";
-import { FeeAmount, FeeCalculator, TickMath, sqrtRatioX96ToPrice } from "@iguanadex/v3-sdk";
+import { useTranslation } from "@pancakeswap/localization";
+import { Currency, CurrencyAmount, Percent, Price, Token, ZERO } from "@pancakeswap/sdk";
+import { BIG_ZERO } from "@pancakeswap/utils/bigNumber";
+import { formatFraction, formatPercent, formatPrice } from "@pancakeswap/utils/formatFractions";
+import { isPositionOutOfRange } from "@pancakeswap/utils/isPositionOutOfRange";
+import { FeeAmount, FeeCalculator, TickMath, sqrtRatioX96ToPrice } from "@pancakeswap/v3-sdk";
 import BigNumber from "bignumber.js";
 import { useCallback, useMemo, useState } from "react";
 
-import { Button, DynamicSection, Flex, useMatchBreakpoints } from "@iguanadex/uikit";
+import { Button, DynamicSection, Flex, useMatchBreakpoints } from "@pancakeswap/uikit";
 
-import { ScrollableContainer } from "@iguanadex/uikit/components/RoiCalculatorModal/RoiCalculatorModal";
+import { ScrollableContainer } from "@pancakeswap/uikit/components/RoiCalculatorModal/RoiCalculatorModal";
 import { LiquidityChartRangeInput } from "../swap/LiquidityChartRangeInput";
 import { useDensityChartData } from "../swap/LiquidityChartRangeInput/hooks";
 import { AnimatedArrow } from "./AnimationArrow";

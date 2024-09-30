@@ -1,4 +1,4 @@
-import { useTranslation } from '@iguanadex/localization'
+import { useTranslation } from '@pancakeswap/localization'
 import { FC, useCallback } from 'react'
 
 import CurrencyInputHeader from '../../components/CurrencyInputHeader'

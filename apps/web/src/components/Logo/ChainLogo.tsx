@@ -1,4 +1,4 @@
-import { HelpIcon } from '@iguanadex/uikit'
+import { HelpIcon } from '@pancakeswap/uikit'
 import { ASSET_CDN } from 'config/constants/endpoints'
 import Image from 'next/image'
 import { memo } from 'react'

@@ -1,5 +1,5 @@
-import { Flex } from '@iguanadex/uikit'
-import { FarmWidget } from '@iguanadex/widgets-internal'
+import { Flex } from '@pancakeswap/uikit'
+import { FarmWidget } from '@pancakeswap/widgets-internal'
 import { TokenPairImage } from 'components/TokenImage'
 import { Address } from 'viem'
 

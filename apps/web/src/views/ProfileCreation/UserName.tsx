@@ -1,5 +1,5 @@
-import { useDebounce } from '@iguanadex/hooks'
-import { useTranslation } from '@iguanadex/localization'
+import { useDebounce } from '@pancakeswap/hooks'
+import { useTranslation } from '@pancakeswap/localization'
 import {
   AutoRenewIcon,
   Button,
@@ -15,8 +15,8 @@ import {
   WarningIcon,
   useModal,
   useToast,
-} from '@iguanadex/uikit'
-import { useSignMessage } from '@iguanadex/wagmi'
+} from '@pancakeswap/uikit'
+import { useSignMessage } from '@pancakeswap/wagmi'
 import { API_PROFILE } from 'config/constants/endpoints'
 import { FetchStatus } from 'config/constants/types'
 import dayjs from 'dayjs'

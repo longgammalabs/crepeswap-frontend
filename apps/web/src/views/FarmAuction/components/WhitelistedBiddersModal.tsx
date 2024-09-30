@@ -1,11 +1,11 @@
-import { useTranslation } from '@iguanadex/localization'
-import { Box, Flex, Input, Modal, OpenNewIcon, Spinner, Text, useMatchBreakpoints } from '@iguanadex/uikit'
-import truncateHash from '@iguanadex/utils/truncateHash'
-import { FarmAuctionBidderConfig } from 'config/constants/types'
-import { useDomainNameForAddress } from 'hooks/useDomain'
-import useTheme from 'hooks/useTheme'
 import { useState } from 'react'
 import { styled } from 'styled-components'
+import { Modal, Box, Text, Flex, Input, OpenNewIcon, Spinner, useMatchBreakpoints } from '@pancakeswap/uikit'
+import { useTranslation } from '@pancakeswap/localization'
+import useTheme from 'hooks/useTheme'
+import { FarmAuctionBidderConfig } from 'config/constants/types'
+import truncateHash from '@pancakeswap/utils/truncateHash'
+import { useDomainNameForAddress } from 'hooks/useDomain'
 import useWhitelistedAddresses from '../hooks/useWhitelistedAddresses'
 
 interface WhitelistedBiddersModalProps {

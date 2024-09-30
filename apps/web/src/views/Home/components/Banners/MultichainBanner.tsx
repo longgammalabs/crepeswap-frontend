@@ -1,5 +1,5 @@
-import { useTranslation } from '@iguanadex/localization'
-import { ArrowForwardIcon, Flex, useMatchBreakpoints } from '@iguanadex/uikit'
+import { useTranslation } from '@pancakeswap/localization'
+import { ArrowForwardIcon, Flex, useMatchBreakpoints } from '@pancakeswap/uikit'
 import {
   BackgroundGraphic,
   BannerActionContainer,
@@ -11,7 +11,7 @@ import {
   GraphicDetail,
   LinkExternalAction,
   PancakeSwapBadge,
-} from '@iguanadex/widgets-internal'
+} from '@pancakeswap/widgets-internal'
 import { PANCAKE_ASSET_CDN } from 'config/constants/endpoints'
 
 const bgMobile = `${PANCAKE_ASSET_CDN}/web/banners/multichain/bg-mobile.png`

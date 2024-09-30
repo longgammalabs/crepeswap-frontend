@@ -1,5 +1,5 @@
-import { ChainId } from '@iguanadex/chains'
-import { ERC20Token, WBNB } from '@iguanadex/sdk'
+import { ChainId } from '@pancakeswap/chains'
+import { ERC20Token, WBNB } from '@pancakeswap/sdk'
 
 import { BUSD_BSC, CAKE_MAINNET, USDT_BSC } from './common'
 

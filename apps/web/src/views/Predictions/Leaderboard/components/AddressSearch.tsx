@@ -1,5 +1,5 @@
-import { Token } from '@iguanadex/sdk'
-import { useModal } from '@iguanadex/uikit'
+import { Token } from '@pancakeswap/sdk'
+import { useModal } from '@pancakeswap/uikit'
 import AddressInputSelect from 'components/AddressInputSelect'
 import useLocalDispatch from 'contexts/LocalRedux/useLocalDispatch'
 import { useCallback } from 'react'

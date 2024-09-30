@@ -1,5 +1,5 @@
-import { useTranslation } from "@iguanadex/localization";
-import { Column, Message, Text } from "@iguanadex/uikit";
+import { useTranslation } from "@pancakeswap/localization";
+import { Message, Text, Column } from "@pancakeswap/uikit";
 
 export function FirstLP() {
   const { t } = useTranslation();

@@ -1,4 +1,4 @@
-import { ChainId } from '@iguanadex/chains'
+import { ChainId } from '@pancakeswap/chains'
 
 export const AVERAGE_CHAIN_BLOCK_TIMES = {
   [ChainId.BSC]: 3,

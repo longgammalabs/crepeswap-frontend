@@ -1,6 +1,6 @@
-import { Price, Token } from '@iguanadex/sdk'
-import { Bound } from 'config/constants/types'
+import { Price, Token } from '@pancakeswap/sdk'
 import { formatPrice } from 'utils/formatCurrencyAmount'
+import { Bound } from 'config/constants/types'
 
 export function formatTickPrice(
   price: Price<Token, Token> | undefined,

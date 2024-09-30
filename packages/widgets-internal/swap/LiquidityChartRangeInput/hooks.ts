@@ -1,5 +1,5 @@
-import { Currency } from "@iguanadex/sdk";
-import { FeeAmount, TICK_SPACINGS, tickToPrice } from "@iguanadex/v3-sdk";
+import { Currency } from "@pancakeswap/sdk";
+import { FeeAmount, TICK_SPACINGS, tickToPrice } from "@pancakeswap/v3-sdk";
 import { useMemo } from "react";
 
 import { ChartEntry, TickDataRaw, TickProcessed } from "./types";

@@ -1,11 +1,16 @@
-import { useTranslation } from '@iguanadex/localization'
-import { AutoRow, Balance, Box, ErrorIcon, FlexGap, Text, TooltipText, useMatchBreakpoints } from '@iguanadex/uikit'
-import { formatNumber, getBalanceNumber, getDecimalAmount, getFullDisplayBalance } from '@iguanadex/utils/formatBalance'
+import { useTranslation } from '@pancakeswap/localization'
+import { AutoRow, Balance, Box, ErrorIcon, FlexGap, Text, TooltipText, useMatchBreakpoints } from '@pancakeswap/uikit'
+import {
+  formatNumber,
+  getBalanceNumber,
+  getDecimalAmount,
+  getFullDisplayBalance,
+} from '@pancakeswap/utils/formatBalance'
 import BN from 'bignumber.js'
 import dayjs from 'dayjs'
-import relativeTime from 'dayjs/plugin/relativeTime'
 import { Tooltips } from 'views/CakeStaking/components/Tooltips'
 import { useCurrentBlockTimestamp } from 'views/CakeStaking/hooks/useCurrentBlockTimestamp'
+import relativeTime from 'dayjs/plugin/relativeTime'
 import { useCurrentEpochEnd, useEpochOnTally, useNextEpochStart } from '../hooks/useEpochTime'
 import { useGaugesTotalWeight } from '../hooks/useGaugesTotalWeight'
 

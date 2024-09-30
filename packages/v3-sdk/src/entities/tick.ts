@@ -1,5 +1,5 @@
-import { BigintIsh } from '@iguanadex/sdk'
 import invariant from 'tiny-invariant'
+import { BigintIsh } from '@pancakeswap/sdk'
 
 import { TickMath } from '../utils/tickMath'
 

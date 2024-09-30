@@ -1,9 +1,9 @@
-import { useTranslation } from "@iguanadex/localization";
-import { FlexGap, Text, useTooltip } from "@iguanadex/uikit";
-import { formatUnixTimestamp } from "@iguanadex/utils/formatTimestamp";
 import { ReactNode, useMemo } from "react";
-import styled from "styled-components";
+import { FlexGap, Text, useTooltip } from "@pancakeswap/uikit";
 import { SpaceProps } from "styled-system";
+import { useTranslation } from "@pancakeswap/localization";
+import { formatUnixTimestamp } from "@pancakeswap/utils/formatTimestamp";
+import styled from "styled-components";
 
 type Props = {
   // Unix timestamp of the snapshot

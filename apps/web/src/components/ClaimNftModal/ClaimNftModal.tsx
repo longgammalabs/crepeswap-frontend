@@ -1,7 +1,7 @@
-import { useTranslation } from '@iguanadex/localization'
-import { Button, Flex, InjectedModalProps, Modal, Text, useToast } from '@iguanadex/uikit'
+import { Flex, Text, Button, Modal, InjectedModalProps, useToast } from '@pancakeswap/uikit'
 import confetti from 'canvas-confetti'
 import delay from 'lodash/delay'
+import { useTranslation } from '@pancakeswap/localization'
 import { useEffect, useState } from 'react'
 
 const showConfetti = () => {

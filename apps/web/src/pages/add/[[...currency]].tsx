@@ -1,4 +1,4 @@
-import { isStableFarm } from '@iguanadex/farms'
+import { isStableFarm } from '@pancakeswap/farms'
 import { V3SubgraphHealthIndicator } from 'components/SubgraphHealthIndicator'
 import { useCurrency } from 'hooks/Tokens'
 import { useRouter } from 'next/router'

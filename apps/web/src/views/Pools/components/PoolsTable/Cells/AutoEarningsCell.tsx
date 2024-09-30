@@ -1,9 +1,9 @@
-import { Balance, Box, Flex, HelpIcon, Skeleton, Text, useMatchBreakpoints, useTooltip } from '@iguanadex/uikit'
-import { Pool } from '@iguanadex/widgets-internal'
+import { Balance, Box, Flex, HelpIcon, Skeleton, Text, useMatchBreakpoints, useTooltip } from '@pancakeswap/uikit'
+import { Pool } from '@pancakeswap/widgets-internal'
 import { styled } from 'styled-components'
 
-import { useTranslation } from '@iguanadex/localization'
-import { Token } from '@iguanadex/sdk'
+import { useTranslation } from '@pancakeswap/localization'
+import { Token } from '@pancakeswap/sdk'
 import BigNumber from 'bignumber.js'
 import { useVaultPoolByKey } from 'state/pools/hooks'
 import { VaultKey } from 'state/types'

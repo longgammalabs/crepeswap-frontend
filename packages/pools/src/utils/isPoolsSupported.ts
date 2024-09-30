@@ -1,10 +1,10 @@
-import { ChainId } from '@iguanadex/chains'
+import { ChainId } from '@pancakeswap/chains'
 
 import {
-  CAKE_VAULT_SUPPORTED_CHAINS,
-  CakeVaultSupportedChainId,
-  SUPPORTED_CHAIN_IDS,
   SupportedChainId,
+  SUPPORTED_CHAIN_IDS,
+  CakeVaultSupportedChainId,
+  CAKE_VAULT_SUPPORTED_CHAINS,
 } from '../constants/supportedChains'
 
 export function isPoolsSupported(chainId: number): chainId is SupportedChainId {

@@ -1,6 +1,4 @@
-import { useIsWindowVisible } from '@iguanadex/hooks'
-import { Ifo, PoolIds } from '@iguanadex/ifos'
-import { useTranslation } from '@iguanadex/localization'
+import { useTranslation } from '@pancakeswap/localization'
 import {
   Box,
   Card,
@@ -11,26 +9,28 @@ import {
   ExpandableLabel,
   useMatchBreakpoints,
   useToast,
-} from '@iguanadex/uikit'
-import { useQuery } from '@tanstack/react-query'
+} from '@pancakeswap/uikit'
+import { useAccount } from 'wagmi'
 import { ToastDescriptionWithTx } from 'components/Toast'
-import { FAST_INTERVAL } from 'config/constants'
+import { Ifo, PoolIds } from '@pancakeswap/ifos'
 import useCatchTxError from 'hooks/useCatchTxError'
 import { useERC20 } from 'hooks/useContract'
+import { useIsWindowVisible } from '@pancakeswap/hooks'
+import { FAST_INTERVAL } from 'config/constants'
 import { useRouter } from 'next/router'
-import { useEffect, useMemo, useRef, useState } from 'react'
+import { useEffect, useRef, useState, useMemo } from 'react'
 import { useCurrentBlock } from 'state/block/hooks'
 import { styled } from 'styled-components'
 import { requiresApproval } from 'utils/requiresApproval'
 import { PublicIfoData, WalletIfoData } from 'views/Ifos/types'
-import { useAccount } from 'wagmi'
-import { getBannerUrl } from '../../helpers'
+import { useQuery } from '@tanstack/react-query'
 import useIfoApprove from '../../hooks/useIfoApprove'
 import { CardsWrapper } from '../IfoCardStyles'
 import IfoAchievement from './Achievement'
 import IfoPoolCard from './IfoPoolCard'
 import { IfoRibbon } from './IfoRibbon'
 import { EnableStatus } from './types'
+import { getBannerUrl } from '../../helpers'
 
 interface IfoFoldableCardProps {
   ifo: Ifo

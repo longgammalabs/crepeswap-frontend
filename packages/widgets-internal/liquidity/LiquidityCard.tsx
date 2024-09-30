@@ -1,6 +1,6 @@
 import { styled } from "styled-components";
 
-import { AtomBox, AtomBoxProps, Card, CardBody, CardFooter } from "@iguanadex/uikit";
+import { Card, CardBody, CardFooter, AtomBox, AtomBoxProps } from "@pancakeswap/uikit";
 import LiquidityCardHeader from "./LiquidityCardHeader";
 
 type LiquidityCardProps = AtomBoxProps;

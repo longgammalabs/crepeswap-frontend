@@ -1,5 +1,5 @@
-import { useTranslation } from '@iguanadex/localization'
-import { ArrowUpDownIcon, Box, Flex, InjectedModalProps, Modal, Text, useMatchBreakpoints } from '@iguanadex/uikit'
+import { useTranslation } from '@pancakeswap/localization'
+import { ArrowUpDownIcon, Box, Flex, InjectedModalProps, Modal, Text, useMatchBreakpoints } from '@pancakeswap/uikit'
 import React, { useEffect, useState } from 'react'
 import { styled } from 'styled-components'
 import { LockCakeForm } from 'views/CakeStaking/components/LockCakeForm'

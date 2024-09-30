@@ -1,9 +1,9 @@
-import { ChainId } from '@iguanadex/chains'
-import { Currency, CurrencyAmount, Pair, Token } from '@iguanadex/sdk'
+import { Currency, CurrencyAmount, Pair, Token } from '@pancakeswap/sdk'
+import { ChainId } from '@pancakeswap/chains'
 import { Address } from 'viem'
 
-import { pancakePairABI } from '../../evm/abis/IPancakePair'
 import { wrappedCurrency } from '../../evm/utils/currency'
+import { pancakePairABI } from '../../evm/abis/IPancakePair'
 
 import { Provider } from '../types'
 

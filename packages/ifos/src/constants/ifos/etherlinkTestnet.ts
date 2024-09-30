@@ -1,5 +1,5 @@
-import { ChainId } from '@iguanadex/chains'
-import { ERC20Token } from '@iguanadex/sdk'
+import { ChainId } from '@pancakeswap/chains'
+import { ERC20Token } from '@pancakeswap/sdk'
 
 import { BaseIfoConfig } from '../../types'
 

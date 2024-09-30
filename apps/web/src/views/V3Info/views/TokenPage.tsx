@@ -1,4 +1,4 @@
-import { useTranslation } from '@iguanadex/localization'
+import { useTranslation } from '@pancakeswap/localization'
 import {
   AutoColumn,
   Box,
@@ -15,8 +15,8 @@ import {
   Spinner,
   Text,
   useMatchBreakpoints,
-} from '@iguanadex/uikit'
-import { NextLinkFromReactRouter } from '@iguanadex/widgets-internal'
+} from '@pancakeswap/uikit'
+import { NextLinkFromReactRouter } from '@pancakeswap/widgets-internal'
 
 import Page from 'components/Layout/Page'
 import { TabToggle, TabToggleGroup } from 'components/TabToggle'
@@ -29,8 +29,8 @@ import React, { useEffect, useMemo, useState } from 'react'
 import { getBlockExploreLink } from 'utils'
 import { formatAmount } from 'utils/formatInfoNumbers'
 
-import isUndefinedOrNull from '@iguanadex/utils/isUndefinedOrNull'
-import truncateHash from '@iguanadex/utils/truncateHash'
+import isUndefinedOrNull from '@pancakeswap/utils/isUndefinedOrNull'
+import truncateHash from '@pancakeswap/utils/truncateHash'
 import { ChainLinkSupportChains, multiChainId, multiChainScan } from 'state/info/constant'
 import { useChainNameByQuery, useMultiChainPath, useStableSwapPath } from 'state/info/hooks'
 import { styled } from 'styled-components'

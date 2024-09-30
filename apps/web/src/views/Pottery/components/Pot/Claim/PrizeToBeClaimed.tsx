@@ -1,9 +1,9 @@
-import { useTranslation } from '@iguanadex/localization'
-import { Balance, Box, Flex, Text } from '@iguanadex/uikit'
-import { getBalanceNumber } from '@iguanadex/utils/formatBalance'
-import BigNumber from 'bignumber.js'
-import { useCakePrice } from 'hooks/useCakePrice'
+import { useTranslation } from '@pancakeswap/localization'
+import { Flex, Box, Text, Balance } from '@pancakeswap/uikit'
 import { DeserializedPotteryUserData } from 'state/types'
+import { useCakePrice } from 'hooks/useCakePrice'
+import { getBalanceNumber } from '@pancakeswap/utils/formatBalance'
+import BigNumber from 'bignumber.js'
 import ClaimButton from './ClaimButton'
 
 interface PrizeToBeClaimedProps {

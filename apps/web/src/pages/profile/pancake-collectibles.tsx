@@ -1,14 +1,14 @@
 import { GetStaticProps } from 'next'
 // eslint-disable-next-line camelcase
-import { ChainId } from '@iguanadex/chains'
-import { dehydrate, QueryClient } from '@tanstack/react-query'
-import { pancakeProfileABI } from 'config/abi/pancakeProfile'
 import { getCollections } from 'state/nftMarket/helpers'
-import { getPancakeProfileAddress } from 'utils/addressHelpers'
+import PancakeCollectiblesPageRouter from 'views/Profile/components/PancakeCollectiblesPageRouter'
+import { pancakeProfileABI } from 'config/abi/pancakeProfile'
 import { getProfileContract } from 'utils/contractHelpers'
 import { viemServerClients } from 'utils/viem.server'
+import { ChainId } from '@pancakeswap/chains'
 import { ContractFunctionResult } from 'viem'
-import PancakeCollectiblesPageRouter from 'views/Profile/components/PancakeCollectiblesPageRouter'
+import { getPancakeProfileAddress } from 'utils/addressHelpers'
+import { dehydrate, QueryClient } from '@tanstack/react-query'
 
 const PancakeCollectiblesPage = () => {
   return <PancakeCollectiblesPageRouter />

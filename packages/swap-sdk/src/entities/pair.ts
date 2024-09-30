@@ -1,33 +1,33 @@
-import { ChainId } from '@iguanadex/chains'
 import {
+  InsufficientInputAmountError,
+  InsufficientReservesError,
+  sqrt,
+  CurrencyAmount,
+  Price,
+  FIVE,
+  ONE,
+  ZERO,
   _10000,
   _9975,
   BigintIsh,
-  CurrencyAmount,
-  FIVE,
-  InsufficientInputAmountError,
-  InsufficientReservesError,
   MINIMUM_LIQUIDITY,
-  ONE,
-  Price,
-  sqrt,
-  ZERO,
-} from '@iguanadex/swap-sdk-core'
-import invariant from 'tiny-invariant'
+} from '@pancakeswap/swap-sdk-core'
 import {
   Address,
-  ByteArray,
-  concat,
   encodePacked,
-  getAddress,
-  GetCreate2AddressOptions,
-  Hex,
-  isBytes,
   keccak256,
-  pad,
-  slice,
+  GetCreate2AddressOptions,
   toBytes,
+  Hex,
+  pad,
+  isBytes,
+  ByteArray,
+  getAddress,
+  slice,
+  concat,
 } from 'viem'
+import invariant from 'tiny-invariant'
+import { ChainId } from '@pancakeswap/chains'
 import { FACTORY_ADDRESS_MAP, INIT_CODE_HASH_MAP } from '../constants'
 import { ERC20Token } from './token'
 

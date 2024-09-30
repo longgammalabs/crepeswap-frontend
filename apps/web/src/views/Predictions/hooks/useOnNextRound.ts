@@ -1,5 +1,5 @@
-import { usePreviousValue } from '@iguanadex/hooks'
-import { useIsomorphicEffect } from '@iguanadex/uikit'
+import { usePreviousValue } from '@pancakeswap/hooks'
+import { useIsomorphicEffect } from '@pancakeswap/uikit'
 import useLocalDispatch from 'contexts/LocalRedux/useLocalDispatch'
 import { useGetSortedRoundsCurrentEpoch } from 'state/predictions/hooks'
 import { useAccount } from 'wagmi'

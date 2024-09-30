@@ -1,5 +1,5 @@
-import { ChainId } from '@iguanadex/chains'
-import { Chain, Client, PublicClient, WalletClient, createPublicClient, createWalletClient, http } from 'viem'
+import { ChainId } from '@pancakeswap/chains'
+import { PublicClient, createPublicClient, http, Chain, Client, WalletClient, createWalletClient } from 'viem'
 import { mnemonicToAccount } from 'viem/accounts'
 import { CHAINS } from './constants/chains'
 

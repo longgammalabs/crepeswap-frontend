@@ -1,5 +1,5 @@
-import { ChainId, chainNameToChainId } from '@iguanadex/chains'
-import { PredictionSupportedSymbol, SUPPORTED_CHAIN_IDS } from '@iguanadex/prediction'
+import { ChainId, chainNameToChainId } from '@pancakeswap/chains'
+import { PredictionSupportedSymbol, SUPPORTED_CHAIN_IDS } from '@pancakeswap/prediction'
 import PageLoader from 'components/Loader/PageLoader'
 import { FetchStatus } from 'config/constants/types'
 import useLocalDispatch from 'contexts/LocalRedux/useLocalDispatch'

@@ -1,4 +1,4 @@
-import { Currency, CurrencyAmount } from '@iguanadex/sdk'
+import { Currency, CurrencyAmount } from '@pancakeswap/sdk'
 
 import { GasCost } from './gasCost'
 import { RouteWithoutGasEstimate } from './route'

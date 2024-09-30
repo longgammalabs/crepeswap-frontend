@@ -1,6 +1,6 @@
-import { useTranslation } from '@iguanadex/localization'
-import { Box, Button, Flex, Input, QuestionHelper, Text } from '@iguanadex/uikit'
-import { useUserSlippage } from '@iguanadex/utils/user'
+import { useTranslation } from '@pancakeswap/localization'
+import { Box, Button, Flex, Input, QuestionHelper, Text } from '@pancakeswap/uikit'
+import { useUserSlippage } from '@pancakeswap/utils/user'
 import { useState } from 'react'
 import { escapeRegExp } from 'utils'
 

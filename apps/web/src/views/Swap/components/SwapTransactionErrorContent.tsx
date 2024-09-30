@@ -1,6 +1,6 @@
-import { useTranslation } from '@iguanadex/localization'
-import { LinkExternal, Text } from '@iguanadex/uikit'
-import { TransactionErrorContent } from '@iguanadex/widgets-internal'
+import { useTranslation } from '@pancakeswap/localization'
+import { LinkExternal, Text } from '@pancakeswap/uikit'
+import { TransactionErrorContent } from '@pancakeswap/widgets-internal'
 import { useCallback } from 'react'
 
 const PancakeRouterSlippageErrorMsg =

@@ -1,5 +1,5 @@
-import { ChainId } from '@iguanadex/chains'
-import { Trans, useTranslation } from '@iguanadex/localization'
+import { ChainId } from '@pancakeswap/chains'
+import { Trans, useTranslation } from '@pancakeswap/localization'
 import {
   AutoRow,
   Button,
@@ -12,8 +12,8 @@ import {
   Tag,
   Text,
   VoteIcon,
-} from '@iguanadex/uikit'
-import { FeeAmount } from '@iguanadex/v3-sdk'
+} from '@pancakeswap/uikit'
+import { FeeAmount } from '@pancakeswap/v3-sdk'
 import React from 'react'
 import styled from 'styled-components'
 import { v3FeeToPercent } from 'views/Swap/V3Swap/utils/exchange'

@@ -1,12 +1,12 @@
-import { useTranslation } from '@iguanadex/localization'
-import { Text } from '@iguanadex/uikit'
-import { EvenWidthAutoRow } from 'components/Layout/EvenWidthAutoRow'
-import { SelectButton } from 'components/SelectButton'
-import { TOTAL_FEE } from 'config/constants/info'
 import { useState } from 'react'
+import { Text } from '@pancakeswap/uikit'
+import { useTranslation } from '@pancakeswap/localization'
+import { SelectButton } from 'components/SelectButton'
+import { EvenWidthAutoRow } from 'components/Layout/EvenWidthAutoRow'
+import { TOTAL_FEE } from 'config/constants/info'
 
-import { HandleFeePoolSelectFn, SELECTOR_TYPE } from '../types'
 import HideShowSelectorSection from './HideShowSelectorSection'
+import { HandleFeePoolSelectFn, SELECTOR_TYPE } from '../types'
 
 export function V2Selector({
   isStable,

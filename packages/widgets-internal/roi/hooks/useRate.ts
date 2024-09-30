@@ -1,7 +1,7 @@
-import { ZERO_PERCENT } from "@iguanadex/sdk";
+import { ZERO_PERCENT } from "@pancakeswap/sdk";
 import { useMemo } from "react";
 
-import { formatFraction } from "@iguanadex/utils/formatFractions";
+import { formatFraction } from "@pancakeswap/utils/formatFractions";
 import { getAccrued } from "../aprHelper";
 import { floatToPercent as formatDecimalToPercent } from "../utils";
 

@@ -1,6 +1,6 @@
-import { Flex, LinkExternal, StarCircle, Text } from '@iguanadex/uikit'
+import { Flex, LinkExternal, StarCircle, Text } from '@pancakeswap/uikit'
 
-import { bscTokens } from '@iguanadex/tokens'
+import { bscTokens } from '@pancakeswap/tokens'
 import { FixedStakingPool, PoolGroup } from '../type'
 import { AprRange, calculateAPRPercent } from './AprRange'
 import { FixedStakingCalculator } from './FixedStakingCalculator'

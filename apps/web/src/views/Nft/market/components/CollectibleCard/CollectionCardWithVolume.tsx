@@ -1,7 +1,7 @@
-import { useTranslation } from '@iguanadex/localization'
-import { Flex, Text } from '@iguanadex/uikit'
-import { CollectionCard } from './index'
+import { Flex, Text } from '@pancakeswap/uikit'
+import { useTranslation } from '@pancakeswap/localization'
 import { BNBAmountLabel } from './styles'
+import { CollectionCard } from './index'
 
 interface CollectionCardWithVolumeProps {
   bgSrc: string

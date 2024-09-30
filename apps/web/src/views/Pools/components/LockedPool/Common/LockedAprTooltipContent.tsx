@@ -1,4 +1,4 @@
-import { useTranslation } from '@iguanadex/localization'
+import { useTranslation } from '@pancakeswap/localization'
 
 export default function LockedAprTooltipContent() {
   const { t } = useTranslation()

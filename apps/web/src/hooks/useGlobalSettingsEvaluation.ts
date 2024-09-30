@@ -1,10 +1,10 @@
 import {
   useAudioPlay,
   useExpertMode,
-  useSpeedQuote,
   useUserSingleHopOnly,
   useUserSlippage,
-} from '@iguanadex/utils/user'
+  useSpeedQuote,
+} from '@pancakeswap/utils/user'
 
 import { useFeatureFlagEvaluation } from 'hooks/useDataDogRUM'
 import useTheme from 'hooks/useTheme'

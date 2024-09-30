@@ -1,14 +1,14 @@
-import { ChainId } from '@iguanadex/chains'
-import { bscTokens } from '@iguanadex/tokens'
-import { BIG_ZERO } from '@iguanadex/utils/bigNumber'
 import BigNumber from 'bignumber.js'
-import { potteryVaultABI } from 'config/abi/potteryVaultAbi'
+import { bscTokens } from '@pancakeswap/tokens'
+import { BIG_ZERO } from '@pancakeswap/utils/bigNumber'
+import { getBep20Contract, getPotteryVaultContract, getPotteryDrawContract } from 'utils/contractHelpers'
+import { request, gql } from 'graphql-request'
 import { GRAPH_API_POTTERY } from 'config/constants/endpoints'
-import { gql, request } from 'graphql-request'
 import { PotteryDepositStatus } from 'state/types'
-import { getBep20Contract, getPotteryDrawContract, getPotteryVaultContract } from 'utils/contractHelpers'
-import { publicClient } from 'utils/wagmi'
 import { Address } from 'wagmi'
+import { ChainId } from '@pancakeswap/chains'
+import { potteryVaultABI } from 'config/abi/potteryVaultAbi'
+import { publicClient } from 'utils/wagmi'
 
 const potteryDrawContract = getPotteryDrawContract()
 

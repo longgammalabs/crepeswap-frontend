@@ -1,11 +1,11 @@
-import { Trans } from '@iguanadex/localization'
-import { AtomBox, Button, Heading, Image, LinkExternal, Text } from '@iguanadex/uikit'
-import { useCallback, useState } from 'react'
+import { Trans } from '@pancakeswap/localization'
+import { AtomBox, Button, Heading, Image, LinkExternal, Text } from '@pancakeswap/uikit'
+import { useState, useCallback } from 'react'
 import 'swiper/css'
 import 'swiper/css/autoplay'
-import { Autoplay } from 'swiper/modules'
 import { Swiper, SwiperSlide } from 'swiper/react'
 import type { Swiper as SwiperClass } from 'swiper/types'
+import { Autoplay } from 'swiper/modules'
 
 const IntroSteps = [
   {

@@ -1,5 +1,5 @@
-import { ChainId } from '@iguanadex/chains'
-import { getAllGauges } from '@iguanadex/gauges'
+import { ChainId } from '@pancakeswap/chains'
+import { getAllGauges } from '@pancakeswap/gauges'
 import { NextApiHandler } from 'next'
 import qs from 'qs'
 import { getViemClients } from 'utils/viem.server'

@@ -1,6 +1,6 @@
-import { PermitSingle } from '@iguanadex/permit2-sdk'
-import { BigintIsh } from '@iguanadex/sdk'
-import { SwapOptions } from '@iguanadex/smart-router'
+import { PermitSingle } from '@pancakeswap/permit2-sdk'
+import { BigintIsh } from '@pancakeswap/sdk'
+import { SwapOptions } from '@pancakeswap/smart-router'
 import { Address } from 'viem'
 
 export interface Permit2Signature extends PermitSingle {

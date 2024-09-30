@@ -1,4 +1,4 @@
-import { ChainId } from '@iguanadex/chains'
+import { ChainId } from '@pancakeswap/chains'
 
 // @see https://layerzero.gitbook.io/docs/technical-reference/mainnet/supported-chain-ids
 export const LZ_CHAIN_MAP = {

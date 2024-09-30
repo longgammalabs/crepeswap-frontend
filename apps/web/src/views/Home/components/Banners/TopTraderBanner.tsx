@@ -1,15 +1,15 @@
-import { useTranslation } from '@iguanadex/localization'
+import { useTranslation } from '@pancakeswap/localization'
 import {
-  BackgroundGraphic,
   BannerContainer,
   BannerGraphics,
   BannerMain,
   BannerTitle,
   FloatingGraphic,
-  GraphicDetail,
   LinkExternalAction,
   PancakeSwapBadge,
-} from '@iguanadex/widgets-internal'
+  BackgroundGraphic,
+  GraphicDetail,
+} from '@pancakeswap/widgets-internal'
 
 import { ASSET_CDN } from 'config/constants/endpoints'
 

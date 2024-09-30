@@ -1,4 +1,4 @@
-import { NATIVE, WNATIVE } from '@iguanadex/sdk'
+import { NATIVE, WNATIVE } from '@pancakeswap/sdk'
 
 const MIN_VALUE_DISPLAYED = 0.001
 
@@ -31,7 +31,7 @@ export const getTokenAddress = (chainId: number | undefined, tokenAddress: strin
   const nativeToken = NATIVE[chainId]
   const nativeSymbol = nativeToken?.symbol?.toLowerCase() || ''
   if (lowerCaseAddress === nativeSymbol) {
-    return WNATIVE[chainId].address.toLowerCase()
+    return WNATIVE[chainId].address
   }
 
   return lowerCaseAddress

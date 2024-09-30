@@ -1,5 +1,5 @@
-import { useTranslation } from '@iguanadex/localization'
-import { AutoRenewIcon, BunnyPlaceholderIcon, Button, Flex, Grid, Text } from '@iguanadex/uikit'
+import { useTranslation } from '@pancakeswap/localization'
+import { AutoRenewIcon, BunnyPlaceholderIcon, Button, Flex, Grid, Text } from '@pancakeswap/uikit'
 import { useCallback } from 'react'
 import { Collection } from 'state/nftMarket/types'
 import { CollectibleLinkCard } from '../../components/CollectibleCard'

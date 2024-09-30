@@ -1,7 +1,7 @@
-import { useTranslation } from '@iguanadex/localization'
-import { Card, CardBody, Flex, Link, Text } from '@iguanadex/uikit'
-import FoldableText from 'components/FoldableSection/FoldableText'
 import { styled } from 'styled-components'
+import { Card, CardBody, Text, Flex, Link } from '@pancakeswap/uikit'
+import { useTranslation } from '@pancakeswap/localization'
+import FoldableText from 'components/FoldableSection/FoldableText'
 
 const Container = styled(Flex)`
   padding: 48px 16px;

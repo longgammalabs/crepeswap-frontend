@@ -1,14 +1,14 @@
-import { Currency, CurrencyAmount, Pair, Percent, Token } from '@iguanadex/sdk'
-import { AddIcon, AutoColumn, Button, InjectedModalProps, Text } from '@iguanadex/uikit'
-import { ConfirmationModalContent } from '@iguanadex/widgets-internal'
 import React, { useCallback } from 'react'
+import { Currency, CurrencyAmount, Pair, Percent, Token } from '@pancakeswap/sdk'
+import { AddIcon, Button, InjectedModalProps, Text, AutoColumn } from '@pancakeswap/uikit'
+import { ConfirmationModalContent } from '@pancakeswap/widgets-internal'
 
-import { useTranslation } from '@iguanadex/localization'
-import { RowBetween, RowFixed } from 'components/Layout/Row'
-import { CurrencyLogo, DoubleCurrencyLogo } from 'components/Logo'
+import { useTranslation } from '@pancakeswap/localization'
 import TransactionConfirmationModal from 'components/TransactionConfirmationModal'
-import { ApprovalState } from 'hooks/useApproveCallback'
+import { RowBetween, RowFixed } from 'components/Layout/Row'
 import { Field } from 'state/burn/actions'
+import { CurrencyLogo, DoubleCurrencyLogo } from 'components/Logo'
+import { ApprovalState } from 'hooks/useApproveCallback'
 
 interface ConfirmRemoveLiquidityModalProps {
   title: string

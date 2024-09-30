@@ -1,12 +1,12 @@
-import { useTranslation } from '@iguanadex/localization'
-import { BlockIcon, CheckmarkCircleIcon, Flex, Text } from '@iguanadex/uikit'
+import { BlockIcon, CheckmarkCircleIcon, Flex, Text } from '@pancakeswap/uikit'
+import { useTranslation } from '@pancakeswap/localization'
 
 import { styled } from 'styled-components'
-import { fanTokenPrizes } from '../../../../../config/constants/trading-competition/prizes'
-import { BoldTd, StyledPrizeTable, Td } from '../../../components/StyledPrizeTable'
-import AchievementPoints from '../../../components/YourScore/AchievementPoints'
-import UserPrizeGridDollar from '../../../components/YourScore/UserPrizeGridDollar'
 import { getRewardGroupAchievements, useFanTokenCompetitionRewards } from '../../../helpers'
+import { BoldTd, StyledPrizeTable, Td } from '../../../components/StyledPrizeTable'
+import { fanTokenPrizes } from '../../../../../config/constants/trading-competition/prizes'
+import UserPrizeGridDollar from '../../../components/YourScore/UserPrizeGridDollar'
+import AchievementPoints from '../../../components/YourScore/AchievementPoints'
 
 const StyledThead = styled.thead`
   border-bottom: 2px solid ${({ theme }) => theme.colors.cardBorder};

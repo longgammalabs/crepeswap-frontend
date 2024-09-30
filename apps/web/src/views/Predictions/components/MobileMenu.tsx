@@ -1,4 +1,5 @@
-import { PredictionStatus } from '@iguanadex/prediction'
+import { styled } from 'styled-components'
+import { useAccount } from 'wagmi'
 import {
   ArrowBackIcon,
   ArrowForwardIcon,
@@ -8,12 +9,11 @@ import {
   ChartIcon,
   HistoryIcon,
   IconButton,
-} from '@iguanadex/uikit'
+} from '@pancakeswap/uikit'
 import useLocalDispatch from 'contexts/LocalRedux/useLocalDispatch'
-import { setChartPaneState, setHistoryPaneState } from 'state/predictions'
+import { PredictionStatus } from '@pancakeswap/prediction'
 import { useGetPredictionsStatus, useIsChartPaneOpen, useIsHistoryPaneOpen } from 'state/predictions/hooks'
-import { styled } from 'styled-components'
-import { useAccount } from 'wagmi'
+import { setChartPaneState, setHistoryPaneState } from 'state/predictions'
 import useSwiper from '../hooks/useSwiper'
 
 const ButtonNav = styled.div`

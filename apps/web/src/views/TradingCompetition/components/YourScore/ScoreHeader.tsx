@@ -1,6 +1,6 @@
-import { LaurelLeftIcon, LaurelRightIcon, NoProfileAvatarIcon, Skeleton } from '@iguanadex/uikit'
-import ProfileAvatarWithTeam from 'components/ProfileAvatarWithTeam'
 import { styled } from 'styled-components'
+import { NoProfileAvatarIcon, LaurelLeftIcon, LaurelRightIcon, Skeleton } from '@pancakeswap/uikit'
+import ProfileAvatarWithTeam from 'components/ProfileAvatarWithTeam'
 import { YourScoreProps } from '../../types'
 import Sticker from '../Sticker'
 

@@ -1,4 +1,4 @@
-import { ONE_WEEK_DEFAULT } from '@iguanadex/pools'
+import { ONE_WEEK_DEFAULT } from '@pancakeswap/pools'
 import { useQuery } from '@tanstack/react-query'
 import BigNumber from 'bignumber.js'
 import useAccountActiveChain from 'hooks/useAccountActiveChain'

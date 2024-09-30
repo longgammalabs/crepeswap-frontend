@@ -1,5 +1,5 @@
-import { useTranslation } from '@iguanadex/localization'
-import { BoxProps, Modal } from '@iguanadex/uikit'
+import { useTranslation } from '@pancakeswap/localization'
+import { BoxProps, Modal } from '@pancakeswap/uikit'
 
 interface ConfirmSwapModalContainerProps extends BoxProps {
   hideTitleAndBackground?: boolean

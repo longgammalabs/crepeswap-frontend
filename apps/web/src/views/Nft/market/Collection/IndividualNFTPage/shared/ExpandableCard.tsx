@@ -1,7 +1,7 @@
-import { Box, Card, ChevronDownIcon, ChevronUpIcon, Grid, IconButton, Text } from '@iguanadex/uikit'
-import useTheme from 'hooks/useTheme'
 import { useState } from 'react'
-import { css, keyframes, styled } from 'styled-components'
+import { styled, keyframes, css } from 'styled-components'
+import { Grid, Text, Card, Box, ChevronUpIcon, ChevronDownIcon, IconButton } from '@pancakeswap/uikit'
+import useTheme from 'hooks/useTheme'
 
 const expandAnimation = keyframes`
   from {

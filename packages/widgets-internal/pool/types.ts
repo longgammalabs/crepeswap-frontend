@@ -12,8 +12,8 @@ import type {
   PoolConfigBaseProps,
   SerializedPoolConfig,
   SerializedVaultFees,
-} from "@iguanadex/pools";
-import { VaultKey } from "@iguanadex/pools";
+} from "@pancakeswap/pools";
+import { VaultKey } from "@pancakeswap/pools";
 import BigNumber from "bignumber.js";
 
 export {

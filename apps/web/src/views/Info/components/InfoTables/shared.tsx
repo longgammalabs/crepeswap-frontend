@@ -1,5 +1,5 @@
-import { Flex, Text } from '@iguanadex/uikit'
 import { styled } from 'styled-components'
+import { Text, Flex } from '@pancakeswap/uikit'
 
 export const ClickableColumnHeader = styled(Text)`
   cursor: pointer;

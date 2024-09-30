@@ -1,5 +1,5 @@
-import { Token } from '@iguanadex/swap-sdk-core'
-import { describe, expect, it } from 'vitest'
+import { Token } from '@pancakeswap/swap-sdk-core'
+import { describe, it, expect } from 'vitest'
 import tryParseAmount from './tryParseAmount'
 
 describe('utils/tryParseAmount', () => {

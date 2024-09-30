@@ -1,6 +1,6 @@
-import { Box, Link } from '@iguanadex/uikit'
 import Trans from 'components/Trans'
 import { styled } from 'styled-components'
+import { Link, Box } from '@pancakeswap/uikit'
 
 const InlineLink = styled(Link)`
   display: inline;

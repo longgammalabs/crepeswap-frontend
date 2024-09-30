@@ -1,9 +1,9 @@
-import styles from '@/styles/Home.module.css'
-import { Button, UIKitProvider, light } from '@iguanadex/uikit'
-import { Inter } from 'next/font/google'
 import Head from 'next/head'
-import Image from 'next/image'
 import { useState } from 'react'
+import { UIKitProvider, light, Button } from '@pancakeswap/uikit'
+import Image from 'next/image'
+import { Inter } from 'next/font/google'
+import styles from '@/styles/Home.module.css'
 
 const inter = Inter({ subsets: ['latin'] })
 

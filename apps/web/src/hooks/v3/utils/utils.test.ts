@@ -1,4 +1,4 @@
-import { Token } from '@iguanadex/sdk'
+import { Token } from '@pancakeswap/sdk'
 
 import { tryParsePrice } from './index'
 

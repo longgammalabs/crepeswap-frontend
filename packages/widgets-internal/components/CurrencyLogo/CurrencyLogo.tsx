@@ -1,7 +1,7 @@
-import { ChainId } from "@iguanadex/chains";
-import { useHttpLocations } from "@iguanadex/hooks";
-import { Currency } from "@iguanadex/sdk";
-import { BinanceIcon, TokenLogo } from "@iguanadex/uikit";
+import { ChainId } from "@pancakeswap/chains";
+import { useHttpLocations } from "@pancakeswap/hooks";
+import { Currency } from "@pancakeswap/sdk";
+import { BinanceIcon, TokenLogo } from "@pancakeswap/uikit";
 import { useMemo } from "react";
 import { styled } from "styled-components";
 import { SpaceProps, space } from "styled-system";

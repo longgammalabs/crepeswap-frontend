@@ -1,5 +1,5 @@
-import { useTranslation } from '@iguanadex/localization'
-import { Box, Text } from '@iguanadex/uikit'
+import { useTranslation } from '@pancakeswap/localization'
+import { Box, Text } from '@pancakeswap/uikit'
 import { useMemo } from 'react'
 
 const domain = 'https://iguanadex.com'

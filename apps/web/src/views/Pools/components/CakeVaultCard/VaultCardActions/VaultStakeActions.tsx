@@ -1,7 +1,7 @@
-import { Flex, Skeleton, useModal } from '@iguanadex/uikit'
-import { Pool } from '@iguanadex/widgets-internal'
+import { Flex, Skeleton, useModal } from '@pancakeswap/uikit'
+import { Pool } from '@pancakeswap/widgets-internal'
 
-import { Token } from '@iguanadex/sdk'
+import { Token } from '@pancakeswap/sdk'
 import BigNumber from 'bignumber.js'
 import { VaultKey } from 'state/types'
 import LockedStakeModal from '../../LockedPool/Modals/LockedStakeModal'

@@ -1,5 +1,5 @@
-import { useTranslation } from '@iguanadex/localization'
-import { Box, Link, Text } from '@iguanadex/uikit'
+import { Box, Link, Text } from '@pancakeswap/uikit'
+import { useTranslation } from '@pancakeswap/localization'
 
 const METISWarning = () => {
   const { t } = useTranslation()

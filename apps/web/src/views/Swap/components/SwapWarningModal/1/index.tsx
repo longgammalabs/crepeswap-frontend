@@ -1,4 +1,4 @@
-import { ChainId } from '@iguanadex/chains'
+import { ChainId } from '@pancakeswap/chains'
 import SwapWarningTokensConfig from 'config/constants/swapWarningTokens'
 import ALETHWarning from './ALETHWarning'
 

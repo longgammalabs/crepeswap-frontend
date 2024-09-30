@@ -1,4 +1,4 @@
-import latinise from '@iguanadex/utils/latinise'
+import latinise from '@pancakeswap/utils/latinise'
 
 export const filterFarmsByQuery = <
   T extends {

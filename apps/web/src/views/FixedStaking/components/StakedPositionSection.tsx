@@ -1,12 +1,12 @@
-import { useTranslation } from '@iguanadex/localization'
-import { Currency, CurrencyAmount, Percent } from '@iguanadex/swap-sdk-core'
-import { AddIcon, Box, Button, ChevronRightIcon, Flex, IconButton, MinusIcon, Text } from '@iguanadex/uikit'
+import { useTranslation } from '@pancakeswap/localization'
+import { Currency, CurrencyAmount, Percent } from '@pancakeswap/swap-sdk-core'
+import { AddIcon, Box, Button, ChevronRightIcon, Flex, IconButton, MinusIcon, Text } from '@pancakeswap/uikit'
 import { useMemo } from 'react'
 
 import dayjs from 'dayjs'
 import { styled } from 'styled-components'
 
-import { bscTokens } from '@iguanadex/tokens'
+import { bscTokens } from '@pancakeswap/tokens'
 import { useCalculateProjectedReturnAmount } from '../hooks/useCalculateProjectedReturnAmount'
 import { useFixedStakeAPR } from '../hooks/useFixedStakeAPR'
 import { useCurrentDay } from '../hooks/useStakedPools'

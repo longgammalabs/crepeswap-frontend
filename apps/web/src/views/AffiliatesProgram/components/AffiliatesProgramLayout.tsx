@@ -1,7 +1,7 @@
-import { useTranslation } from '@iguanadex/localization'
-import { Box, DropdownMenuItemType, SubMenuItems } from '@iguanadex/uikit'
-import { useRouter } from 'next/router'
 import { useMemo } from 'react'
+import { Box, SubMenuItems, DropdownMenuItemType } from '@pancakeswap/uikit'
+import { useTranslation } from '@pancakeswap/localization'
+import { useRouter } from 'next/router'
 import useAuthAffiliateExist from 'views/AffiliatesProgram/hooks/useAuthAffiliateExist'
 
 const AffiliatesProgramLayout = ({ children }) => {

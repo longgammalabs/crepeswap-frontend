@@ -1,6 +1,6 @@
-import { Flex, TokenPairImage } from '@iguanadex/uikit'
-import { Pool } from '@iguanadex/widgets-internal'
 import { styled } from 'styled-components'
+import { Flex, TokenPairImage } from '@pancakeswap/uikit'
+import { Pool } from '@pancakeswap/widgets-internal'
 
 const Container = styled(Flex)`
   align-items: center;

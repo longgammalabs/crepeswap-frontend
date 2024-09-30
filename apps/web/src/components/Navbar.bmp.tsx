@@ -1,4 +1,4 @@
-import { Box, Flex, Image, Text, WalletIcon } from '@iguanadex/uikit'
+import { Box, Flex, Image, Text, WalletIcon } from '@pancakeswap/uikit'
 import useActiveWeb3React from 'hooks/useActiveWeb3React'
 import useAuth from 'hooks/useAuth'
 import { useActiveHandle } from 'hooks/useEagerConnect.bmp'

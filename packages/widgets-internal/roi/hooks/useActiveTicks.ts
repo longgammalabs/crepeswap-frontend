@@ -1,5 +1,5 @@
-import { Currency } from "@iguanadex/sdk";
-import { tickToPrice } from "@iguanadex/v3-sdk";
+import { Currency } from "@pancakeswap/sdk";
+import { tickToPrice } from "@pancakeswap/v3-sdk";
 import { useMemo } from "react";
 
 import { PRICE_FIXED_DIGITS } from "../constants";

@@ -1,7 +1,7 @@
-import { useTranslation } from '@iguanadex/localization'
-import { Flex, UserMenuItem } from '@iguanadex/uikit'
-import { useShowOnceAirdropModal } from 'hooks/useShowOnceAirdropModal'
+import { useTranslation } from '@pancakeswap/localization'
 import { styled } from 'styled-components'
+import { Flex, UserMenuItem } from '@pancakeswap/uikit'
+import { useShowOnceAirdropModal } from 'hooks/useShowOnceAirdropModal'
 
 const Dot = styled.div`
   background-color: ${({ theme }) => theme.colors.success};

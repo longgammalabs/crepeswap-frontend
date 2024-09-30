@@ -1,5 +1,5 @@
-import { TranslateFunction } from '@iguanadex/localization'
-import { ManagerFeeType } from '@iguanadex/position-managers'
+import { TranslateFunction } from '@pancakeswap/localization'
+import { ManagerFeeType } from '@pancakeswap/position-managers'
 
 export function getReadableManagerFeeType(t: TranslateFunction, feeType: ManagerFeeType) {
   switch (feeType) {

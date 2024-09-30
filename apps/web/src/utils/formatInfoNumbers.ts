@@ -1,6 +1,6 @@
 export {
   formatAmount,
-  getFirstThreeNonZeroDecimals,
   type formatAmountNotation,
+  getFirstThreeNonZeroDecimals,
   type tokenPrecisionStyle,
-} from '@iguanadex/utils/formatInfoNumbers'
+} from '@pancakeswap/utils/formatInfoNumbers'

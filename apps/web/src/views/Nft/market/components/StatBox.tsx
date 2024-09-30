@@ -1,6 +1,6 @@
-import { Box, BoxProps, Flex, Skeleton, Text } from '@iguanadex/uikit'
-import isUndefinedOrNull from '@iguanadex/utils/isUndefinedOrNull'
 import { styled } from 'styled-components'
+import { Box, BoxProps, Flex, Skeleton, Text } from '@pancakeswap/uikit'
+import isUndefinedOrNull from '@pancakeswap/utils/isUndefinedOrNull'
 
 export interface StatBoxItemProps extends BoxProps {
   title: string

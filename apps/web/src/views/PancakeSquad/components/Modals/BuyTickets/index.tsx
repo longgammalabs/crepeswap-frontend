@@ -1,5 +1,5 @@
 /* eslint-disable react/no-array-index-key */
-import { useTranslation } from '@iguanadex/localization'
+import { useTranslation } from '@pancakeswap/localization'
 import {
   Box,
   Button,
@@ -14,8 +14,8 @@ import {
   ModalTitle,
   ModalWrapper,
   Text,
-} from '@iguanadex/uikit'
-import { formatBigInt } from '@iguanadex/utils/formatBalance'
+} from '@pancakeswap/uikit'
+import { formatBigInt } from '@pancakeswap/utils/formatBalance'
 import useTheme from 'hooks/useTheme'
 import { useState } from 'react'
 import { SaleStatusEnum } from 'views/PancakeSquad/types'

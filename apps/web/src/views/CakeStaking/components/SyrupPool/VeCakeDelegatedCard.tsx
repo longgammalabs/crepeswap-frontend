@@ -1,5 +1,5 @@
-import { useTranslation } from '@iguanadex/localization'
-import { Box, Flex, Text } from '@iguanadex/uikit'
+import { useTranslation } from '@pancakeswap/localization'
+import { Box, Flex, Text } from '@pancakeswap/uikit'
 import { PANCAKE_ASSET_CDN } from 'config/constants/endpoints'
 import { memo } from 'react'
 import { VeCakeButton } from './VeCakeButton'

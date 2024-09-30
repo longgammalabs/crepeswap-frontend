@@ -11,10 +11,10 @@
  *  - https://reactjs.org/docs/error-boundaries.html
  */
 
-import { NotFound } from '@iguanadex/uikit'
 import { captureUnderscoreErrorException } from '@sentry/nextjs'
-import { NextSeo } from 'next-seo'
 import NextErrorComponent, { ErrorProps } from 'next/error'
+import { NotFound } from '@pancakeswap/uikit'
+import { NextSeo } from 'next-seo'
 import Link from 'next/link'
 
 const CustomErrorComponent = (props: ErrorProps) => (

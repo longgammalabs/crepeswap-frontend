@@ -1,7 +1,7 @@
-import { ChainId } from '@iguanadex/chains'
-import { WBNB } from '@iguanadex/sdk'
-import { BUSD } from '@iguanadex/tokens'
-import { equalsIgnoreCase } from '@iguanadex/utils/equalsIgnoreCase'
+import { WBNB } from '@pancakeswap/sdk'
+import { ChainId } from '@pancakeswap/chains'
+import { BUSD } from '@pancakeswap/tokens'
+import { equalsIgnoreCase } from '@pancakeswap/utils/equalsIgnoreCase'
 import { FarmData } from '../types'
 
 /**

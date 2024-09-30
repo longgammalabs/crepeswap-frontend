@@ -1,5 +1,5 @@
-import { ChainId } from '@iguanadex/chains'
-import { Percent, Token, WNATIVE } from '@iguanadex/sdk'
+import { ChainId } from '@pancakeswap/chains'
+import { Percent, Token, WNATIVE } from '@pancakeswap/sdk'
 import {
   BUSD,
   USDC,
@@ -24,7 +24,7 @@ import {
   scrollSepoliaTokens,
   zkSyncTestnetTokens,
   zksyncTokens,
-} from '@iguanadex/tokens'
+} from '@pancakeswap/tokens'
 import { ChainTokenList } from './types'
 
 export {
@@ -32,7 +32,7 @@ export {
   BASES_TO_CHECK_TRADES_AGAINST,
   CUSTOM_BASES,
   V2_ROUTER_ADDRESS,
-} from '@iguanadex/smart-router'
+} from '@pancakeswap/smart-router'
 
 export const CHAIN_REFRESH_TIME = {
   [ChainId.ETHEREUM]: 12_000,

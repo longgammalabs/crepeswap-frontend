@@ -1,4 +1,4 @@
-import { ChainId } from '@iguanadex/chains'
+import { ChainId } from '@pancakeswap/chains'
 import { ManipulateType } from 'dayjs'
 
 export const v3InfoPath = `info/v3`

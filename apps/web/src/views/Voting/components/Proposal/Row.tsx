@@ -1,5 +1,5 @@
-import { Box, Flex, Grid } from '@iguanadex/uikit'
 import { styled } from 'styled-components'
+import { Grid, Box, Flex } from '@pancakeswap/uikit'
 
 export const AddressColumn = styled(Flex).attrs({ alignItems: 'center' })`
   grid-area: address;

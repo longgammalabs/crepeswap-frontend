@@ -1,5 +1,5 @@
-import { useTranslation } from '@iguanadex/localization'
-import { BoxProps, Button, Card, Flex, FlexGap, Link, OpenNewIcon, Tag, Text } from '@iguanadex/uikit'
+import { useTranslation } from '@pancakeswap/localization'
+import { BoxProps, Button, Card, Flex, FlexGap, Link, OpenNewIcon, Tag, Text } from '@pancakeswap/uikit'
 import { useState } from 'react'
 import { styled } from 'styled-components'
 import { useSelectorConfig } from 'views/LandingV4/config/filterOptions'

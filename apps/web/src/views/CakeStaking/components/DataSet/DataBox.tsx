@@ -1,5 +1,5 @@
-import { useTranslation } from '@iguanadex/localization'
-import { AutoRow, Flex, FlexGap, Text } from '@iguanadex/uikit'
+import { useTranslation } from '@pancakeswap/localization'
+import { AutoRow, Flex, FlexGap, Text } from '@pancakeswap/uikit'
 import BigNumber from 'bignumber.js'
 import styled from 'styled-components'
 

@@ -1,7 +1,7 @@
-import { useTranslation } from '@iguanadex/localization'
-import _toString from 'lodash/toString'
-import React, { createContext, Dispatch, SetStateAction, useState } from 'react'
+import React, { useState, createContext, Dispatch, SetStateAction } from 'react'
+import { useTranslation } from '@pancakeswap/localization'
 import { usePool } from 'state/pools/hooks'
+import _toString from 'lodash/toString'
 
 import { VaultRoiCalculatorModal } from '../../Vault/VaultRoiCalculatorModal'
 

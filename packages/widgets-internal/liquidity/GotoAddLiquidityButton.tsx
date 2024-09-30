@@ -1,5 +1,5 @@
-import { useTranslation } from "@iguanadex/localization";
-import { AddIcon, Button } from "@iguanadex/uikit";
+import { useTranslation } from "@pancakeswap/localization";
+import { AddIcon, Button } from "@pancakeswap/uikit";
 import { NextLinkFromReactRouter } from "../components/NextLink";
 
 export function GotoAddLiquidityButton() {

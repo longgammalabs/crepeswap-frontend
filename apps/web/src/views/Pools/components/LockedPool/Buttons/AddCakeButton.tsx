@@ -1,5 +1,5 @@
-import { useTranslation } from '@iguanadex/localization'
-import { Button, ButtonProps, Skeleton, useModal } from '@iguanadex/uikit'
+import { useTranslation } from '@pancakeswap/localization'
+import { Button, ButtonProps, Skeleton, useModal } from '@pancakeswap/uikit'
 import { memo, useCallback } from 'react'
 import { usePool } from 'state/pools/hooks'
 import NotEnoughTokensModal from '../../Modals/NotEnoughTokensModal'

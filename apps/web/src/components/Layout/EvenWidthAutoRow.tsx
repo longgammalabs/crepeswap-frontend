@@ -1,4 +1,4 @@
-import { AutoRow } from '@iguanadex/uikit'
+import { AutoRow } from '@pancakeswap/uikit'
 import { styled } from 'styled-components'
 
 export const EvenWidthAutoRow = styled(AutoRow)`

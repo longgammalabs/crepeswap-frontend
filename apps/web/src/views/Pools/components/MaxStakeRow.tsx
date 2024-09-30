@@ -1,10 +1,10 @@
-import { Flex, Text } from '@iguanadex/uikit'
-import { Pool } from '@iguanadex/widgets-internal'
+import { Flex, Text } from '@pancakeswap/uikit'
+import { Pool } from '@pancakeswap/widgets-internal'
 import React from 'react'
 
-import { useTranslation } from '@iguanadex/localization'
-import { Token } from '@iguanadex/sdk'
-import { getFullDisplayBalance } from '@iguanadex/utils/formatBalance'
+import { useTranslation } from '@pancakeswap/localization'
+import { Token } from '@pancakeswap/sdk'
+import { getFullDisplayBalance } from '@pancakeswap/utils/formatBalance'
 import BigNumber from 'bignumber.js'
 
 interface MaxStakeRowProps {

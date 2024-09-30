@@ -1,9 +1,9 @@
-import { useTranslation } from "@iguanadex/localization";
-import { Currency, Price } from "@iguanadex/sdk";
-import { formatPrice } from "@iguanadex/utils/formatFractions";
+import { Currency, Price } from "@pancakeswap/sdk";
+import { useTranslation } from "@pancakeswap/localization";
+import { formatPrice } from "@pancakeswap/utils/formatFractions";
 import { memo } from "react";
 
-import { FlexGap } from "@iguanadex/uikit";
+import { FlexGap } from "@pancakeswap/uikit";
 import { Bound } from "../swap/LiquidityChartRangeInput";
 import { StepCounter } from "./StepCounter";
 

@@ -1,6 +1,6 @@
-import { Currency, CurrencyAmount, Fraction, Percent, Price, TradeType, ZERO_PERCENT } from '@iguanadex/sdk'
+import { Currency, CurrencyAmount, Fraction, Percent, Price, TradeType, ZERO_PERCENT } from '@pancakeswap/sdk'
 
-import { RouteType, SmartRouterTrade } from '@iguanadex/smart-router'
+import { RouteType, SmartRouterTrade } from '@pancakeswap/smart-router'
 import { mmLinkedPoolABI } from 'config/abi/mmLinkedPool'
 import { BIG_INT_ZERO, ONE_HUNDRED_PERCENT } from 'config/constants/exchange'
 import { UnsafeCurrency } from 'config/constants/types'

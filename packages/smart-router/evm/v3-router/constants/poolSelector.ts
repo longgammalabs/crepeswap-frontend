@@ -1,5 +1,5 @@
-import { ChainId } from '@iguanadex/chains'
-import { bscTokens } from '@iguanadex/tokens'
+import { ChainId } from '@pancakeswap/chains'
+import { bscTokens } from '@pancakeswap/tokens'
 
 import { PoolSelectorConfig, PoolSelectorConfigChainMap, TokenPoolSelectorConfigChainMap } from '../types'
 

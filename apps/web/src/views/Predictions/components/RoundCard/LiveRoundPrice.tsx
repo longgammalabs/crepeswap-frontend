@@ -1,6 +1,6 @@
-import { BetPosition } from '@iguanadex/prediction'
-import { Skeleton, TooltipText } from '@iguanadex/uikit'
-import { formatBigIntToFixed } from '@iguanadex/utils/formatBalance'
+import { BetPosition } from '@pancakeswap/prediction'
+import { Skeleton, TooltipText } from '@pancakeswap/uikit'
+import { formatBigIntToFixed } from '@pancakeswap/utils/formatBalance'
 import React, { memo, useMemo } from 'react'
 import CountUp from 'react-countup'
 

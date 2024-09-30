@@ -1,5 +1,5 @@
 import { useMemo } from 'react'
-import { Token } from '@iguanadex/swap-sdk-core'
+import { Token } from '@pancakeswap/swap-sdk-core'
 
 const useSortedTokensByQuery = (tokens: Token[] | undefined, searchQuery: string): Token[] => {
   return useMemo(() => {

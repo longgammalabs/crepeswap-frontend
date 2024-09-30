@@ -1,5 +1,5 @@
-import { ChainId, Token } from '@iguanadex/sdk'
-import { CAKE, bscTestnetTokens } from '@iguanadex/tokens'
+import { ChainId, Token } from '@pancakeswap/sdk'
+import { CAKE, bscTestnetTokens } from '@pancakeswap/tokens'
 import { useActiveChainId } from 'hooks/useActiveChainId'
 
 export const useBSCCakeToken = (): Token | undefined => {

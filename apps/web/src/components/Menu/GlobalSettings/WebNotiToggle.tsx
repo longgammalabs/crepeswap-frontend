@@ -1,5 +1,5 @@
-import { useTranslation } from '@iguanadex/localization'
-import { Toggle, useToast } from '@iguanadex/uikit'
+import { useTranslation } from '@pancakeswap/localization'
+import { Toggle, useToast } from '@pancakeswap/uikit'
 import { useSubscribe, useUnsubscribe } from '@web3inbox/react'
 import { useCallback } from 'react'
 import { useAllowNotifications } from 'state/notifications/hooks'

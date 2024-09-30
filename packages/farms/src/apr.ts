@@ -1,6 +1,6 @@
-import { BigintIsh, ZERO } from '@iguanadex/sdk'
-import { formatFraction, parseNumberToFraction } from '@iguanadex/utils/formatFractions'
 import BN from 'bignumber.js'
+import { parseNumberToFraction, formatFraction } from '@pancakeswap/utils/formatFractions'
+import { BigintIsh, ZERO } from '@pancakeswap/sdk'
 
 type BigNumberish = BN | number | string
 

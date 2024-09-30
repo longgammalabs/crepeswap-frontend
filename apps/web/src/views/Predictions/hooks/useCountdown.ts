@@ -1,4 +1,4 @@
-import { useIsWindowVisible } from '@iguanadex/hooks'
+import { useIsWindowVisible } from '@pancakeswap/hooks'
 import { useCallback, useEffect, useRef, useState } from 'react'
 import { accurateTimer } from 'utils/accurateTimer'
 import { getNowInSeconds } from 'utils/getNowInSeconds'

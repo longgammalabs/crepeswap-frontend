@@ -1,5 +1,5 @@
-import { useTranslation } from '@iguanadex/localization'
-import { Flex, InfoFilledIcon, Link, Text } from '@iguanadex/uikit'
+import { useTranslation } from '@pancakeswap/localization'
+import { Text, Link, Flex, InfoFilledIcon } from '@pancakeswap/uikit'
 import floor from 'lodash/floor'
 
 export default function WithdrawalMessage({ lockPeriod }: { lockPeriod: number }) {

@@ -1,4 +1,4 @@
-import { ChainId } from '@iguanadex/chains'
+import { ChainId } from '@pancakeswap/chains'
 import { PANCAKE_BSC_MM, PANCAKE_ETH_MM } from 'config/constants/lists'
 import { UnsafeCurrency } from 'config/constants/types'
 import { ConnectorNames } from 'config/wallet'

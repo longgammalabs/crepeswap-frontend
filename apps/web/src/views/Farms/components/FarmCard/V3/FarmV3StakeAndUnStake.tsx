@@ -1,6 +1,6 @@
-import { PositionDetails } from '@iguanadex/farms'
-import { useTranslation } from '@iguanadex/localization'
-import { Token } from '@iguanadex/swap-sdk-core'
+import { PositionDetails } from '@pancakeswap/farms'
+import { useTranslation } from '@pancakeswap/localization'
+import { Token } from '@pancakeswap/swap-sdk-core'
 import {
   AutoRow,
   Balance,
@@ -12,7 +12,7 @@ import {
   RowBetween,
   SyncAltIcon,
   Text,
-} from '@iguanadex/uikit'
+} from '@pancakeswap/uikit'
 import BigNumber from 'bignumber.js'
 import { RangeTag } from 'components/RangeTag'
 import { Bound } from 'config/constants/types'

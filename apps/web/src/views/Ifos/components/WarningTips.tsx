@@ -1,8 +1,8 @@
-import { Box, Flex, InfoFilledIcon, Message, Text } from '@iguanadex/uikit'
+import { Box, Message, Flex, Text, InfoFilledIcon } from '@pancakeswap/uikit'
+import { SpaceProps } from 'styled-system'
 import Link from 'next/link'
 import { ReactNode } from 'react'
 import styled from 'styled-components'
-import { SpaceProps } from 'styled-system'
 
 type Props = {
   action?: ReactNode

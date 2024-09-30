@@ -1,15 +1,15 @@
-import { useTranslation } from '@iguanadex/localization'
-import { CAKE_VAULT_SUPPORTED_CHAINS, isCakeVaultSupported } from '@iguanadex/pools'
-import { Button, Flex, Text, useModalV2 } from '@iguanadex/uikit'
+import { useMemo, useCallback } from 'react'
 import { useRouter } from 'next/router'
-import { useCallback, useMemo } from 'react'
+import { Button, useModalV2, Flex, Text } from '@pancakeswap/uikit'
+import { useTranslation } from '@pancakeswap/localization'
+import { isCakeVaultSupported, CAKE_VAULT_SUPPORTED_CHAINS } from '@pancakeswap/pools'
 
-import { useActiveChainId } from 'hooks/useActiveChainId'
 import { useConfig } from 'views/Ifos/contexts/IfoContext'
+import { useActiveChainId } from 'hooks/useActiveChainId'
 
+import { NetworkSwitcherModal } from './IfoPoolCard/NetworkSwitcherModal'
 import { useChainNames } from '../../hooks/useChainNames'
 import { ICakeLogo } from '../Icons'
-import { NetworkSwitcherModal } from './IfoPoolCard/NetworkSwitcherModal'
 
 const StakeVaultButton = (props) => {
   const { t } = useTranslation()

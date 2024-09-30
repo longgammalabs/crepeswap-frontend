@@ -1,7 +1,16 @@
-import { ChainId } from '@iguanadex/chains'
-import { useTranslation } from '@iguanadex/localization'
-import { Box, ButtonMenu, ButtonMenuItem, Flex, Text, UserMenu, UserMenuDivider, UserMenuItem } from '@iguanadex/uikit'
-import { NextLinkFromReactRouter } from '@iguanadex/widgets-internal'
+import { ChainId } from '@pancakeswap/chains'
+import { useTranslation } from '@pancakeswap/localization'
+import {
+  Box,
+  ButtonMenu,
+  ButtonMenuItem,
+  Flex,
+  Text,
+  UserMenu,
+  UserMenuDivider,
+  UserMenuItem,
+} from '@pancakeswap/uikit'
+import { NextLinkFromReactRouter } from '@pancakeswap/widgets-internal'
 
 import { ChainLogo } from 'components/Logo/ChainLogo'
 import { ASSET_CDN } from 'config/constants/endpoints'

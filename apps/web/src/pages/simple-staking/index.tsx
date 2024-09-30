@@ -1,4 +1,4 @@
-import { ChainId } from '@iguanadex/chains'
+import { ChainId } from '@pancakeswap/chains'
 import FixedStaking from 'views/FixedStaking'
 
 const FixedStakingPage = () => {

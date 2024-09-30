@@ -1,7 +1,7 @@
 /* eslint-disable no-console */
-import { ChainId } from '@iguanadex/chains'
-import { useQuery } from '@tanstack/react-query'
+import { ChainId } from '@pancakeswap/chains'
 import { gql } from 'graphql-request'
+import { useQuery } from '@tanstack/react-query'
 
 import { v3Clients } from 'utils/graphql'
 

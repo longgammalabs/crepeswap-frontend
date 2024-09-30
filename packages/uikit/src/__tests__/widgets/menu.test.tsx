@@ -1,4 +1,4 @@
-import type { Language } from "@iguanadex/localization";
+import type { Language } from "@pancakeswap/localization";
 import noop from "lodash/noop";
 import { BrowserRouter } from "react-router-dom";
 import { vi } from "vitest";

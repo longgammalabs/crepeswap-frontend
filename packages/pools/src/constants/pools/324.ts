@@ -1,4 +1,4 @@
-import { zksyncTokens } from '@iguanadex/tokens'
+import { zksyncTokens } from '@pancakeswap/tokens'
 import { getAddress } from 'viem'
 
 import { PoolCategory, SerializedPool } from '../../types'

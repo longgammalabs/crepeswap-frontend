@@ -1,9 +1,9 @@
-import { FallingBunniesProps, useKonamiCheatCode } from '@iguanadex/uikit'
+import { useState, useCallback, memo } from 'react'
+import { FallingBunniesProps, useKonamiCheatCode } from '@pancakeswap/uikit'
 import dynamic from 'next/dynamic'
-import { memo, useCallback, useState } from 'react'
 
 const FallingBunnies = dynamic<FallingBunniesProps>(
-  () => import('@iguanadex/uikit').then((mod) => mod.FallingBunnies),
+  () => import('@pancakeswap/uikit').then((mod) => mod.FallingBunnies),
   { ssr: false },
 )
 

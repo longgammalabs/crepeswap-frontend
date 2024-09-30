@@ -1,5 +1,5 @@
-import { ChainId } from '@iguanadex/chains'
-import { bCakeFarmBoosterV3Address, bCakeFarmBoosterVeCakeAddress } from '@iguanadex/farms/constants/v3'
+import { ChainId } from '@pancakeswap/chains'
+import { bCakeFarmBoosterV3Address, bCakeFarmBoosterVeCakeAddress } from '@pancakeswap/farms/constants/v3'
 import addresses from 'config/constants/contracts'
 import { VaultKey } from 'state/types'
 import { Address } from 'viem'

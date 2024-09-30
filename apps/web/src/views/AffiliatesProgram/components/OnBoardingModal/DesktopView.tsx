@@ -1,11 +1,11 @@
-import { useTranslation } from '@iguanadex/localization'
-import { Card, Flex, Message, MessageText } from '@iguanadex/uikit'
 import { styled } from 'styled-components'
+import { Flex, Card, Message, MessageText } from '@pancakeswap/uikit'
+import { useTranslation } from '@pancakeswap/localization'
 import { Views } from 'views/AffiliatesProgram/components/OnBoardingModal/index'
 import useShowWarningMessage from 'views/AffiliatesProgram/hooks/useShowWarningMessage'
+import WelcomePage from './WelcomePage'
 import Congratulations from './Congratulations'
 import StepIntro from './StepIntro'
-import WelcomePage from './WelcomePage'
 
 const Container = styled(Flex)`
   width: 792px;

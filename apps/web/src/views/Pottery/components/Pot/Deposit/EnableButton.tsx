@@ -1,5 +1,5 @@
-import { useTranslation } from '@iguanadex/localization'
-import { AutoRenewIcon, Button } from '@iguanadex/uikit'
+import { Button, AutoRenewIcon } from '@pancakeswap/uikit'
+import { useTranslation } from '@pancakeswap/localization'
 import { useApprovePottery } from 'views/Pottery/hooks/useApprovePottery'
 
 interface Props {

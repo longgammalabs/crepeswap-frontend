@@ -1,5 +1,5 @@
-import { Token } from '@iguanadex/sdk'
-import { Pool } from '@iguanadex/widgets-internal'
+import { Token } from '@pancakeswap/sdk'
+import { Pool } from '@pancakeswap/widgets-internal'
 import { useQuery } from '@tanstack/react-query'
 import orderBy from 'lodash/orderBy'
 import partition from 'lodash/partition'

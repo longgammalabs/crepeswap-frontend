@@ -1,5 +1,5 @@
-import { PoolType, SmartRouter, V4Router } from '@iguanadex/smart-router'
-import { TradeType } from '@iguanadex/swap-sdk-core'
+import { TradeType } from '@pancakeswap/swap-sdk-core'
+import { PoolType, V4Router, SmartRouter } from '@pancakeswap/smart-router'
 
 import { OrderType } from './orderType'
 

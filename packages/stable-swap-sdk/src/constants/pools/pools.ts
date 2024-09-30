@@ -1,8 +1,8 @@
-import { ChainId } from '@iguanadex/chains'
+import { ChainId } from '@pancakeswap/chains'
 
 import { StableSwapPool } from '../../types'
-import { pools as arbPools } from './arb'
 import { pools as bscPools } from './bsc'
+import { pools as arbPools } from './arb'
 import { pools as bscTestnetPools } from './bscTestnet'
 
 export type StableSwapPoolMap<TChainId extends number> = {

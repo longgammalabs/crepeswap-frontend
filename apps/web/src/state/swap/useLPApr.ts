@@ -1,5 +1,5 @@
-import { ChainId } from '@iguanadex/chains'
-import { Pair } from '@iguanadex/sdk'
+import { ChainId } from '@pancakeswap/chains'
+import { Pair } from '@pancakeswap/sdk'
 import { useQuery } from '@tanstack/react-query'
 import { SLOW_INTERVAL } from 'config/constants'
 import { LP_HOLDERS_FEE, WEEKS_IN_YEAR } from 'config/constants/info'

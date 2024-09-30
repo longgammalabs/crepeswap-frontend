@@ -1,11 +1,11 @@
 /* eslint-disable consistent-return */
-import { ChainId } from '@iguanadex/chains'
-import { useTranslation } from '@iguanadex/localization'
-import { useToast } from '@iguanadex/uikit'
-import replaceBrowserHistory from '@iguanadex/utils/replaceBrowserHistory'
-import { CHAIN_QUERY_NAME } from 'config/chains'
+import { useTranslation } from '@pancakeswap/localization'
+import { ChainId } from '@pancakeswap/chains'
+import { useToast } from '@pancakeswap/uikit'
 import { useCallback, useMemo } from 'react'
+import replaceBrowserHistory from '@pancakeswap/utils/replaceBrowserHistory'
 import { useAccount, useSwitchNetwork as useSwitchNetworkWallet } from 'wagmi'
+import { CHAIN_QUERY_NAME } from 'config/chains'
 import { useSessionChainId } from './useSessionChainId'
 import { useSwitchNetworkLoading } from './useSwitchNetworkLoading'
 

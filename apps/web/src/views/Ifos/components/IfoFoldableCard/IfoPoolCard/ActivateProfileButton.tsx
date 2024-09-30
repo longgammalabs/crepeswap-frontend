@@ -1,14 +1,14 @@
-import { isNativeIfoSupported, PROFILE_SUPPORTED_CHAIN_IDS } from '@iguanadex/ifos'
-import { useTranslation } from '@iguanadex/localization'
-import { Button, Flex, ProfileAvatar, Text, useModalV2 } from '@iguanadex/uikit'
-import { NextLinkFromReactRouter } from '@iguanadex/widgets-internal'
-import { useActiveChainId } from 'hooks/useActiveChainId'
-import { useRouter } from 'next/router'
+import { useTranslation } from '@pancakeswap/localization'
+import { isNativeIfoSupported, PROFILE_SUPPORTED_CHAIN_IDS } from '@pancakeswap/ifos'
 import { useCallback, useMemo } from 'react'
+import { useRouter } from 'next/router'
+import { useActiveChainId } from 'hooks/useActiveChainId'
+import { Flex, Button, useModalV2, ProfileAvatar, Text } from '@pancakeswap/uikit'
+import { NextLinkFromReactRouter } from '@pancakeswap/widgets-internal'
 
-import { useChainNames } from '../../../hooks/useChainNames'
-import { ContentText, LinkTitle, WarningTips } from '../../WarningTips'
 import { NetworkSwitcherModal } from './NetworkSwitcherModal'
+import { useChainNames } from '../../../hooks/useChainNames'
+import { WarningTips, LinkTitle, ContentText } from '../../WarningTips'
 
 type Props = {
   saleFinished?: boolean

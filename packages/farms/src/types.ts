@@ -1,6 +1,6 @@
-import { SerializedToken, Token } from '@iguanadex/swap-sdk-core'
-import { SerializedWrappedToken } from '@iguanadex/token-lists'
-import { FeeAmount } from '@iguanadex/v3-sdk'
+import { SerializedToken, Token } from '@pancakeswap/swap-sdk-core'
+import { SerializedWrappedToken } from '@pancakeswap/token-lists'
+import { FeeAmount } from '@pancakeswap/v3-sdk'
 import BigNumber from 'bignumber.js'
 import { Address } from 'viem'
 

@@ -1,4 +1,4 @@
-import { Image, Link } from '@iguanadex/uikit'
+import { Image, Link } from '@pancakeswap/uikit'
 import { PANCAKE_ASSET_CDN } from 'config/constants/endpoints'
 import throttle from 'lodash/throttle'
 import { useEffect, useState } from 'react'

@@ -1,5 +1,5 @@
-import { Card, CardProps } from '@iguanadex/uikit'
 import { styled } from 'styled-components'
+import { Card, CardProps } from '@pancakeswap/uikit'
 
 export const BodyWrapper = styled(Card)`
   border-radius: 24px;

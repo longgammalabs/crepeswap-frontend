@@ -1,6 +1,6 @@
-import { useTranslation } from "@iguanadex/localization";
-import { RowBetween, Text, TooltipText, useTooltip } from "@iguanadex/uikit";
-import { formatAmount } from "@iguanadex/utils/formatInfoNumbers";
+import { useTranslation } from "@pancakeswap/localization";
+import { formatAmount } from "@pancakeswap/utils/formatInfoNumbers";
+import { useTooltip, RowBetween, TooltipText, Text } from "@pancakeswap/uikit";
 
 export default function AprRow({ lpApr7d }: { lpApr7d: number }) {
   const { t } = useTranslation();

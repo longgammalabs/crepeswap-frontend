@@ -1,5 +1,5 @@
-import { Flex, Image, Text } from '@iguanadex/uikit'
 import { styled } from 'styled-components'
+import { Flex, Image, Text } from '@pancakeswap/uikit'
 
 export const StyledSortButton = styled.button`
   border: none;

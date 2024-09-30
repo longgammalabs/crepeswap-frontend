@@ -1,7 +1,7 @@
-import { useTranslation } from '@iguanadex/localization'
-import { Currency } from '@iguanadex/sdk'
-import { LegacyRouter, LegacyPair as Pair } from '@iguanadex/smart-router/legacy-router'
-import { AtomBox, Box, Flex, Text, useTooltip } from '@iguanadex/uikit'
+import { useTranslation } from '@pancakeswap/localization'
+import { Currency } from '@pancakeswap/sdk'
+import { LegacyRouter, LegacyPair as Pair } from '@pancakeswap/smart-router/legacy-router'
+import { AtomBox, Box, Flex, Text, useTooltip } from '@pancakeswap/uikit'
 import { CurrencyLogo } from 'components/Logo'
 import { styled } from 'styled-components'
 

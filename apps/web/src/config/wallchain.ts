@@ -1,6 +1,6 @@
-import { ChainId } from '@iguanadex/chains'
-import { ERC20Token } from '@iguanadex/sdk'
-import { bscTokens } from '@iguanadex/tokens'
+import { bscTokens } from '@pancakeswap/tokens'
+import { ERC20Token } from '@pancakeswap/sdk'
+import { ChainId } from '@pancakeswap/chains'
 
 export const WALLCHAIN_ENABLED = true
 

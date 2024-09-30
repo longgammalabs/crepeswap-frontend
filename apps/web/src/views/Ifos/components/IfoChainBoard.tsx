@@ -1,12 +1,12 @@
-import { ChainId } from '@iguanadex/chains'
-import { useTranslation } from '@iguanadex/localization'
-import { Box, Text, useMatchBreakpoints } from '@iguanadex/uikit'
+import { ChainId } from '@pancakeswap/chains'
 import Image from 'next/image'
 import { memo, useMemo } from 'react'
+import { Box, Text, useMatchBreakpoints } from '@pancakeswap/uikit'
 import styled from 'styled-components'
+import { useTranslation } from '@pancakeswap/localization'
 
-import { getChainBasedImageUrl } from '../helpers'
 import { useChainName } from '../hooks/useChainNames'
+import { getChainBasedImageUrl } from '../helpers'
 
 const BACKGROUND = {
   [ChainId.POLYGON_ZKEVM]: 'linear-gradient(180deg, #9132D2 0%, #803DE1 100%)',

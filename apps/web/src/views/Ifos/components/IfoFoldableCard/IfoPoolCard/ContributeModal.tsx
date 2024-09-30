@@ -1,6 +1,6 @@
-import { Ifo, PoolIds } from '@iguanadex/ifos'
-import { useTranslation } from '@iguanadex/localization'
-import { CAKE } from '@iguanadex/tokens'
+import { Ifo, PoolIds } from '@pancakeswap/ifos'
+import { useTranslation } from '@pancakeswap/localization'
+import { CAKE } from '@pancakeswap/tokens'
 import {
   BalanceInput,
   Box,
@@ -15,9 +15,9 @@ import {
   TooltipText,
   useToast,
   useTooltip,
-} from '@iguanadex/uikit'
-import { formatNumber, getBalanceAmount } from '@iguanadex/utils/formatBalance'
-import { getFullDecimalMultiplier } from '@iguanadex/utils/getFullDecimalMultiplier'
+} from '@pancakeswap/uikit'
+import { formatNumber, getBalanceAmount } from '@pancakeswap/utils/formatBalance'
+import { getFullDecimalMultiplier } from '@pancakeswap/utils/getFullDecimalMultiplier'
 import BigNumber from 'bignumber.js'
 import ApproveConfirmButtons from 'components/ApproveConfirmButtons'
 import { ToastDescriptionWithTx } from 'components/Toast'

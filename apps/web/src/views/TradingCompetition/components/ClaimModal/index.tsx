@@ -1,6 +1,6 @@
-import { useTranslation } from '@iguanadex/localization'
-import { AutoRenewIcon, Button, Flex, Heading, Modal, Text, useToast } from '@iguanadex/uikit'
+import { AutoRenewIcon, Button, Flex, Heading, Modal, Text, useToast } from '@pancakeswap/uikit'
 import { ToastDescriptionWithTx } from 'components/Toast'
+import { useTranslation } from '@pancakeswap/localization'
 import { useCallWithGasPrice } from 'hooks/useCallWithGasPrice'
 import useCatchTxError from 'hooks/useCatchTxError'
 import { useTradingCompetitionContractMoD } from 'hooks/useContract'

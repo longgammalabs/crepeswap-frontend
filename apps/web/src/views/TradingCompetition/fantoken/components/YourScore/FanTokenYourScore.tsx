@@ -1,13 +1,13 @@
-import { useTranslation } from '@iguanadex/localization'
 import { styled } from 'styled-components'
-import RibbonWithImage from '../../../components/RibbonWithImage'
-import ScoreCard from '../../../components/YourScore/ScoreCard'
+import { useTranslation } from '@pancakeswap/localization'
 import ScoreHeader from '../../../components/YourScore/ScoreHeader'
-import CakersShare from '../../../pngs/fan-token-cakers-share.png'
-import FlippersShare from '../../../pngs/fan-token-flippers-share.png'
-import StormShare from '../../../pngs/fan-token-storm-share.png'
+import RibbonWithImage from '../../../components/RibbonWithImage'
 import { YourScoreProps } from '../../../types'
 import FanTokenUserPrizeGrid from './FanTokenUserPrizeGrid'
+import FlippersShare from '../../../pngs/fan-token-flippers-share.png'
+import StormShare from '../../../pngs/fan-token-storm-share.png'
+import CakersShare from '../../../pngs/fan-token-cakers-share.png'
+import ScoreCard from '../../../components/YourScore/ScoreCard'
 
 const Wrapper = styled.div`
   position: relative;

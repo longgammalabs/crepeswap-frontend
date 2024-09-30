@@ -1,8 +1,8 @@
-import { Flex, Text, TooltipText, useTooltip } from '@iguanadex/uikit'
-import { Pool } from '@iguanadex/widgets-internal'
+import { Flex, Text, TooltipText, useTooltip } from '@pancakeswap/uikit'
+import { Pool } from '@pancakeswap/widgets-internal'
 
-import { useTranslation } from '@iguanadex/localization'
-import { Token } from '@iguanadex/sdk'
+import { useTranslation } from '@pancakeswap/localization'
+import { Token } from '@pancakeswap/sdk'
 import BigNumber from 'bignumber.js'
 import Apr from './Apr'
 import useAvgLockDuration from './LockedPool/hooks/useAvgLockDuration'

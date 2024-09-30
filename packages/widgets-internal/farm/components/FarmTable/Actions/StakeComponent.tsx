@@ -1,6 +1,6 @@
-import { useTranslation } from "@iguanadex/localization";
-import { Button, Text } from "@iguanadex/uikit";
-import { ActionContent, ActionTitles, StyledActionContainer } from "./styles";
+import { useTranslation } from "@pancakeswap/localization";
+import { Text, Button } from "@pancakeswap/uikit";
+import { StyledActionContainer, ActionContent, ActionTitles } from "./styles";
 
 export interface StakeComponentProps {
   lpSymbol: string;

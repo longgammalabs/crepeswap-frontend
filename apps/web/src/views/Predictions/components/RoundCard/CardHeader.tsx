@@ -1,6 +1,6 @@
-import { Flex, Text } from '@iguanadex/uikit'
 import { ReactElement } from 'react'
-import { DefaultTheme, styled } from 'styled-components'
+import { Flex, Text } from '@pancakeswap/uikit'
+import { styled, DefaultTheme } from 'styled-components'
 
 type Status = 'expired' | 'live' | 'next' | 'soon' | 'canceled' | 'calculating'
 

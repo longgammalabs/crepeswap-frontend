@@ -1,9 +1,9 @@
-import { ChainId } from '@iguanadex/chains'
-import { useTranslation } from '@iguanadex/localization'
-import { BscScanIcon, Link, Text } from '@iguanadex/uikit'
-import truncateHash from '@iguanadex/utils/truncateHash'
-import { useActiveChainId } from 'hooks/useActiveChainId'
+import { Link, Text, BscScanIcon } from '@pancakeswap/uikit'
+import { ChainId } from '@pancakeswap/chains'
 import { getBlockExploreLink, getBlockExploreName } from 'utils'
+import { useTranslation } from '@pancakeswap/localization'
+import truncateHash from '@pancakeswap/utils/truncateHash'
+import { useActiveChainId } from 'hooks/useActiveChainId'
 
 interface DescriptionWithTxProps {
   description?: string

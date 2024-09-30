@@ -1,6 +1,6 @@
-import { useTranslation } from '@iguanadex/localization'
-import { Text } from '@iguanadex/uikit'
+import { Text } from '@pancakeswap/uikit'
 import { Auction, AuctionStatus } from 'config/constants/types'
+import { useTranslation } from '@pancakeswap/localization'
 
 import { styled } from 'styled-components'
 

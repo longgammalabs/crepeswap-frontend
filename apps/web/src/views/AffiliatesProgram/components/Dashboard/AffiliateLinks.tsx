@@ -1,24 +1,24 @@
-import { useTranslation } from '@iguanadex/localization'
+import { styled } from 'styled-components'
+import { useEffect, useState } from 'react'
 import {
-  Box,
+  Flex,
+  Text,
   Card,
-  ChevronDownIcon,
-  ChevronUpIcon,
+  Box,
   CopyIcon,
   copyText,
-  Flex,
   PaginationButton,
+  ChevronDownIcon,
+  ChevronUpIcon,
   Table,
   Td,
-  Text,
   Th,
   useMatchBreakpoints,
   useToast,
-} from '@iguanadex/uikit'
+} from '@pancakeswap/uikit'
+import { useTranslation } from '@pancakeswap/localization'
+import { InfoDetail, FeeType } from 'views/AffiliatesProgram/hooks/useAuthAffiliate'
 import BigNumber from 'bignumber.js'
-import { useEffect, useState } from 'react'
-import { styled } from 'styled-components'
-import { FeeType, InfoDetail } from 'views/AffiliatesProgram/hooks/useAuthAffiliate'
 
 const MobileLinks = styled('div')`
   margin: 0 -24px;

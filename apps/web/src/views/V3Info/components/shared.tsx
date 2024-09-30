@@ -1,5 +1,5 @@
-import { Flex, Link } from '@iguanadex/uikit'
 import { styled } from 'styled-components'
+import { Flex, Link } from '@pancakeswap/uikit'
 
 export const PageButtons = styled.div`
   width: 100%;

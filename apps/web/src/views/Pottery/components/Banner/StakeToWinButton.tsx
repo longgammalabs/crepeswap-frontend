@@ -1,6 +1,6 @@
-import { useTranslation } from '@iguanadex/localization'
-import { Button, Flex, Link } from '@iguanadex/uikit'
-import { keyframes, styled } from 'styled-components'
+import { styled, keyframes } from 'styled-components'
+import { Flex, Button, Link } from '@pancakeswap/uikit'
+import { useTranslation } from '@pancakeswap/localization'
 import { TicketCard } from '../../svgs'
 
 const mainTicketAnimation = keyframes`

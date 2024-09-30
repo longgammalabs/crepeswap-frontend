@@ -1,9 +1,9 @@
-import { useTranslation } from "@iguanadex/localization";
-import { formatNumber } from "@iguanadex/utils/formatBalance";
+import { useTranslation } from "@pancakeswap/localization";
+import { formatNumber } from "@pancakeswap/utils/formatBalance";
 import { useTheme } from "styled-components";
 
-import { AutoRenewIcon, Button, Flex, Heading, Modal, Text } from "@iguanadex/uikit";
-import getThemeValue from "@iguanadex/uikit/util/getThemeValue";
+import { Flex, Heading, Button, Text, AutoRenewIcon, Modal } from "@pancakeswap/uikit";
+import getThemeValue from "@pancakeswap/uikit/util/getThemeValue";
 
 export interface CollectModalProps {
   formattedBalance: string;

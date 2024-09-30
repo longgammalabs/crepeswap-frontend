@@ -1,5 +1,5 @@
-import { useTranslation } from '@iguanadex/localization'
-import { Button, Checkbox, Flex, Text } from '@iguanadex/uikit'
+import { useTranslation } from '@pancakeswap/localization'
+import { Button, Checkbox, Flex, Text } from '@pancakeswap/uikit'
 import { useState } from 'react'
 
 interface AcknowledgementProps {

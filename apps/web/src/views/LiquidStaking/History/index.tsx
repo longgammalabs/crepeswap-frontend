@@ -1,6 +1,6 @@
-import { Box, CardBody, RowBetween, Text } from '@iguanadex/uikit'
+import { CardBody, Text, Box, RowBetween } from '@pancakeswap/uikit'
 // import { AppHeader } from 'components/App'
-// import { useTranslation } from '@iguanadex/localization'
+// import { useTranslation } from '@pancakeswap/localization'
 import { LightGreyCard } from 'components/Card'
 
 export function LiquidStakingPageHistory() {

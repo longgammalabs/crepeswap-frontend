@@ -1,4 +1,4 @@
-import { Trans } from '@iguanadex/localization'
+import { Trans } from '@pancakeswap/localization'
 import { HooksType, TagType, TagValue } from './types'
 
 export const HooksConfig: HooksType[] = [

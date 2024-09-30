@@ -1,5 +1,5 @@
-import { ChainId } from '@iguanadex/chains'
-import { BigintIsh, Currency } from '@iguanadex/sdk'
+import { ChainId } from '@pancakeswap/chains'
+import { BigintIsh, Currency } from '@pancakeswap/sdk'
 import memoize from 'lodash/memoize.js'
 import { Address } from 'viem'
 

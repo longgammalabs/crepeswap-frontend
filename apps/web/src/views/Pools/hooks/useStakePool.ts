@@ -1,8 +1,8 @@
-import { getFullDecimalMultiplier } from '@iguanadex/utils/getFullDecimalMultiplier'
+import { useCallback } from 'react'
 import BigNumber from 'bignumber.js'
 import { DEFAULT_TOKEN_DECIMAL } from 'config'
+import { getFullDecimalMultiplier } from '@pancakeswap/utils/getFullDecimalMultiplier'
 import { useSousChef } from 'hooks/useContract'
-import { useCallback } from 'react'
 
 const options = {}
 

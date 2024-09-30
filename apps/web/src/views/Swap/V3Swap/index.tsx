@@ -1,5 +1,5 @@
-import { SmartRouter } from '@iguanadex/smart-router/evm'
-import { Box } from '@iguanadex/uikit'
+import { SmartRouter } from '@pancakeswap/smart-router/evm'
+import { Box } from '@pancakeswap/uikit'
 import { EXPERIMENTAL_FEATURES } from 'config/experimentalFeatures'
 import { useExperimentalFeatureEnabled } from 'hooks/useExperimentalFeatureEnabled'
 import { useMemo } from 'react'

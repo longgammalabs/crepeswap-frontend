@@ -1,6 +1,6 @@
-import { Currency, CurrencyAmount, TradeType } from '@iguanadex/sdk'
-import { SmartRouterTrade } from '@iguanadex/smart-router'
-import tryParseAmount from '@iguanadex/utils/tryParseAmount'
+import { Currency, CurrencyAmount, TradeType } from '@pancakeswap/sdk'
+import { SmartRouterTrade } from '@pancakeswap/smart-router'
+import tryParseAmount from '@pancakeswap/utils/tryParseAmount'
 
 import { Field } from 'state/swap/actions'
 import { useSwapState } from 'state/swap/hooks'

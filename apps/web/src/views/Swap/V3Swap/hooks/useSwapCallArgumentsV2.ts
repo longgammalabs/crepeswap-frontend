@@ -1,12 +1,12 @@
 /* eslint-disable @typescript-eslint/no-unused-vars */
-import { Percent, TradeType } from '@iguanadex/sdk'
-import { SmartRouterTrade } from '@iguanadex/smart-router'
+import { Percent, TradeType } from '@pancakeswap/sdk'
+import { SmartRouterTrade } from '@pancakeswap/smart-router'
 import {
   PancakeSwapUniversalRouter,
   Permit2Signature,
   getUniversalRouterAddress,
-} from '@iguanadex/universal-router-sdk'
-import { FeeOptions } from '@iguanadex/v3-sdk'
+} from '@pancakeswap/universal-router-sdk'
+import { FeeOptions } from '@pancakeswap/v3-sdk'
 import useAccountActiveChain from 'hooks/useAccountActiveChain'
 import { useGetENSAddressByName } from 'hooks/useGetENSAddressByName'
 import { useMemo } from 'react'

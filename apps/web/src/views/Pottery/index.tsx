@@ -1,15 +1,15 @@
-import { useTranslation } from '@iguanadex/localization'
-import { Box, Link, Message, MessageText, Text } from '@iguanadex/uikit'
-import SubgraphHealthIndicator from 'components/SubgraphHealthIndicator'
 import { useRef } from 'react'
 import { createPortal } from 'react-dom'
+import { Box, Message, MessageText, Text, Link } from '@pancakeswap/uikit'
 import { usePotteryFetch } from 'state/pottery/hook'
 import Banner from 'views/Pottery/components/Banner/index'
 import Pot from 'views/Pottery/components/Pot/index'
-import FAQ from './components/FAQ'
+import { useTranslation } from '@pancakeswap/localization'
+import SubgraphHealthIndicator from 'components/SubgraphHealthIndicator'
 import FinishedRounds from './components/FinishedRounds'
 import HowToPlay from './components/HowToPlay'
 import PrizeFunds from './components/PrizeFunds'
+import FAQ from './components/FAQ'
 
 const Pottery: React.FC<React.PropsWithChildren> = () => {
   const { t } = useTranslation()

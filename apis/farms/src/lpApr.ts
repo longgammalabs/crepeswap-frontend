@@ -1,6 +1,6 @@
 /* eslint-disable no-restricted-syntax */
-import { ChainId, getBlocksSubgraphs, getV2Subgraphs } from '@iguanadex/chains'
-import { AprMap, FarmSupportedChainId } from '@iguanadex/farms'
+import { ChainId, getBlocksSubgraphs, getV2Subgraphs } from '@pancakeswap/chains'
+import { AprMap, FarmSupportedChainId } from '@pancakeswap/farms'
 import BigNumber from 'bignumber.js'
 import dayjs from 'dayjs'
 import { GraphQLClient, gql } from 'graphql-request'

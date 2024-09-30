@@ -1,4 +1,4 @@
-import { ERC20Token, Price } from '@iguanadex/sdk'
+import { ERC20Token, Price } from '@pancakeswap/sdk'
 import getRatePercentageDifference from './getRatePercentageDifference'
 import { PercentageDirection, getRatePercentageMessage } from './getRatePercentageMessage'
 

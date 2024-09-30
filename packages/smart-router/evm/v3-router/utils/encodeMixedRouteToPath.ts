@@ -1,9 +1,9 @@
-import { Token } from '@iguanadex/sdk'
 import { Hex, encodePacked } from 'viem'
+import { Token } from '@pancakeswap/sdk'
 
-import { V2_FEE_PATH_PLACEHOLDER } from '../../constants'
 import { BaseRoute, Pool } from '../types'
 import { getOutputCurrency, isV3Pool } from './pool'
+import { V2_FEE_PATH_PLACEHOLDER } from '../../constants'
 
 /**
  * Converts a route to a hex encoded path

@@ -1,5 +1,5 @@
 {
-  "extends": "@iguanadex/tsconfig/react-library",
+  "extends": "@pancakeswap/tsconfig/react-library",
   "compilerOptions": {
     "esModuleInterop": true,
     "resolveJsonModule": true,

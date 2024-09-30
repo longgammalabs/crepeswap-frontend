@@ -1,4 +1,4 @@
-import { BigintIsh } from "@iguanadex/sdk";
+import { BigintIsh } from "@pancakeswap/sdk";
 
 export interface PriceData {
   time: Date;

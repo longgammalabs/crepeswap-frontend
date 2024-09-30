@@ -1,8 +1,8 @@
-import { useTranslation } from "@iguanadex/localization";
-import { useCallback } from "react";
 import { styled } from "styled-components";
-import { ChevronDownIcon, ChevronUpIcon } from "../Svg";
+import { useTranslation } from "@pancakeswap/localization";
+import { useCallback } from "react";
 import { Text } from "../Text";
+import { ChevronDownIcon, ChevronUpIcon } from "../Svg";
 
 export interface ExpandableSectionButtonProps {
   onClick?: () => void;

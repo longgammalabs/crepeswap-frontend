@@ -1,11 +1,11 @@
 # Pancakeswap Smart Router
 
-`@iguanadex/smart-router` is a SDK for getting best trade routes from Pancakeswap AMM.
+`@pancakeswap/smart-router` is a SDK for getting best trade routes from Pancakeswap AMM.
 
 ## Install
 
 ```bash
-$ pnpm add @iguanadex/smart-router
+$ pnpm add @pancakeswap/smart-router
 
 ```
 
@@ -18,7 +18,7 @@ For working code example, please refer to [v4 router usage example](https://gith
 0. Install other dependencies
 
 ```bash
-$ pnpm add @iguanadex/smart-router@5 viem@1 @iguanadex/sdk@5 @iguanadex/tokens
+$ pnpm add @pancakeswap/smart-router@5 viem@1 @pancakeswap/sdk@5 @pancakeswap/tokens
 ```
 
 1. Prepare on-chain rpc provider
@@ -40,9 +40,9 @@ const client = createPublicClient({
 2. Get candidate pools
 
 ```typescript
-import { Native } from '@iguanadex/sdk'
-import { V4Router } from '@iguanadex/smart-router'
-import { bscTokens } from '@iguanadex/tokens'
+import { Native } from '@pancakeswap/sdk'
+import { V4Router } from '@pancakeswap/smart-router'
+import { bscTokens } from '@pancakeswap/tokens'
 
 const swapFrom = Native.onChain(chainId)
 const swapTo = bscTokens.cake
@@ -57,7 +57,7 @@ const v3Pools = await V4Router.getV3CandidatePools({
 3. Find the best swap trade route
 
 ```typescript
-import { CurrencyAmount, TradeType } from '@iguanadex/sdk'
+import { CurrencyAmount, TradeType } from '@pancakeswap/sdk'
 
 // 0.01 BNB in our example
 const amount = CurrencyAmount.fromRawAmount(swapFrom, 10 ** 16)
@@ -77,7 +77,7 @@ For working code example, please refer to [smart-router-example](https://github.
 0. Install other dependencies
 
 ```bash
-$ pnpm add viem@1 graphql-request@5.0.0 @iguanadex/sdk @iguanadex/tokens
+$ pnpm add viem@1 graphql-request@5.0.0 @pancakeswap/sdk @pancakeswap/tokens
 ```
 
 1. Prepare on-chain rpc provider and subgraph providers
@@ -85,7 +85,7 @@ $ pnpm add viem@1 graphql-request@5.0.0 @iguanadex/sdk @iguanadex/tokens
 ```typescript
 import { createPublicClient, http } from 'viem'
 import { GraphQLClient } from 'graphql-request'
-import { SmartRouter } from '@iguanadex/smart-router'
+import { SmartRouter } from '@pancakeswap/smart-router'
 
 const publicClient = createPublicClient({
   chain: mainnet,
@@ -106,9 +106,9 @@ const quoteProvider = SmartRouter.createQuoteProvider({ onChainProvider: () => p
 2. Get candidate pools
 
 ```typescript
-import { Native } from '@iguanadex/sdk'
-import { SmartRouter } from '@iguanadex/smart-router'
-import { bscTokens } from '@iguanadex/tokens'
+import { Native } from '@pancakeswap/sdk'
+import { SmartRouter } from '@pancakeswap/smart-router'
+import { bscTokens } from '@pancakeswap/tokens'
 
 const swapFrom = Native.onChain(chainId)
 const swapTo = bscTokens.cake
@@ -133,7 +133,7 @@ const [v2Pools, v3Pools] = await Promise.all([
 3. Find the best swap trade route
 
 ```typescript
-import { CurrencyAmount, TradeType } from '@iguanadex/sdk'
+import { CurrencyAmount, TradeType } from '@pancakeswap/sdk'
 
 // 0.01 BNB in our example
 const amount = CurrencyAmount.fromRawAmount(swapFrom, 10 ** 16)
@@ -151,8 +151,8 @@ const trade = await SmartRouter.getBestTrade(amount, swapTo, TradeType.EXACT_INP
 4. Build the swap transaction from trade
 
 ```typescript
-import { ChainId } from '@iguanadex/chains'
-import { SmartRouter, SMART_ROUTER_ADDRESSES, SwapRouter } from '@iguanadex/smart-router'
+import { ChainId } from '@pancakeswap/chains'
+import { SmartRouter, SMART_ROUTER_ADDRESSES, SwapRouter } from '@pancakeswap/smart-router'
 import { hexToBigInt } from 'viem'
 
 const routerAddress = SMART_ROUTER_ADDRESSES[ChainId.BSC]

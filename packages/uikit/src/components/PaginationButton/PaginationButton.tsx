@@ -1,7 +1,7 @@
-import { useTranslation } from "@iguanadex/localization";
 import { styled } from "styled-components";
-import { ArrowBackIcon, ArrowForwardIcon } from "../Svg";
+import { useTranslation } from "@pancakeswap/localization";
 import { Text } from "../Text";
+import { ArrowBackIcon, ArrowForwardIcon } from "../Svg";
 
 export const PageButtons = styled.div`
   width: 100%;

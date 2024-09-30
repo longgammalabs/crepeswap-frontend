@@ -1,5 +1,5 @@
-import { baseTestnetTokens } from '@iguanadex/tokens'
 import { getAddress } from 'viem'
+import { baseTestnetTokens } from '@pancakeswap/tokens'
 import { PoolCategory, SerializedPool } from '../../types'
 
 export const livePools: SerializedPool[] = [

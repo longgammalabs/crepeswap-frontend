@@ -1,9 +1,9 @@
 /* eslint-disable no-param-reassign */
-import { ChainId } from '@iguanadex/chains'
-import { ERC20Token } from '@iguanadex/sdk'
-import { Currency, NativeCurrency } from '@iguanadex/swap-sdk-core'
+import { ChainId } from '@pancakeswap/chains'
+import { ERC20Token } from '@pancakeswap/sdk'
+import { Currency, NativeCurrency } from '@pancakeswap/swap-sdk-core'
 
-import { TokenAddressMap } from '@iguanadex/token-lists'
+import { TokenAddressMap } from '@pancakeswap/token-lists'
 import { GELATO_NATIVE } from 'config/constants'
 import { UnsafeCurrency } from 'config/constants/types'
 import { useAtomValue } from 'jotai'

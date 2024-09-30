@@ -1,4 +1,4 @@
-import { useTranslation } from '@iguanadex/localization'
+import { useTranslation } from '@pancakeswap/localization'
 import {
   BlockIcon,
   Button,
@@ -12,7 +12,7 @@ import {
   Skeleton,
   Text,
   useModal,
-} from '@iguanadex/uikit'
+} from '@pancakeswap/uikit'
 import { LIVE, REGISTRATION } from 'config/constants/trading-competition/phases'
 import useGetUsernameWithVisibility from 'hooks/useUsernameWithVisibility'
 import { ReactNode } from 'react'

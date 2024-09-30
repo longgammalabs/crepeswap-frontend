@@ -1,5 +1,5 @@
-import { exec } from 'child_process'
 import { defineConfig } from 'tsup'
+import { exec } from 'child_process'
 
 export default defineConfig((options) => ({
   entry: {
@@ -8,7 +8,7 @@ export default defineConfig((options) => ({
   },
   format: ['esm', 'cjs'],
   skipNodeModulesBundle: true,
-  noExternal: ['@iguanadex/utils'],
+  noExternal: ['@pancakeswap/utils'],
   dts: false,
   treeshake: true,
   splitting: true,

@@ -1,4 +1,5 @@
 import { defineConfig } from 'tsup'
+import { exec } from 'child_process'
 
 export default defineConfig((options) => ({
   entry: {
@@ -7,7 +8,7 @@ export default defineConfig((options) => ({
   sourcemap: true,
   skipNodeModulesBundle: true,
   format: ['esm', 'cjs'],
-  noExternal: ['@iguanadex/utils'],
+  noExternal: ['@pancakeswap/utils'],
   dts: true,
   clean: !options.watch,
   treeshake: true,

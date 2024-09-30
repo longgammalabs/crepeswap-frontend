@@ -1,4 +1,4 @@
-import { useTranslation } from '@iguanadex/localization'
+import { useTranslation } from '@pancakeswap/localization'
 import {
   Button,
   Card,
@@ -12,8 +12,8 @@ import {
   Tag,
   Text,
   useModal,
-} from '@iguanadex/uikit'
-import { getBalanceNumber } from '@iguanadex/utils/formatBalance'
+} from '@pancakeswap/uikit'
+import { getBalanceNumber } from '@pancakeswap/utils/formatBalance'
 import { Auction, AuctionStatus, ConnectedBidder } from 'config/constants/types'
 import { styled } from 'styled-components'
 import PlaceBidModal from '../PlaceBidModal'

@@ -1,11 +1,11 @@
-import { useTranslation } from '@iguanadex/localization'
-import { CardFooter, ExpandableLabel, Flex, HelpIcon } from '@iguanadex/uikit'
-import { Pool } from '@iguanadex/widgets-internal'
-import BigNumber from 'bignumber.js'
 import { useState } from 'react'
+import BigNumber from 'bignumber.js'
 import { styled } from 'styled-components'
+import { useTranslation } from '@pancakeswap/localization'
+import { Flex, CardFooter, ExpandableLabel, HelpIcon } from '@pancakeswap/uikit'
+import { Pool } from '@pancakeswap/widgets-internal'
 
-import { Token } from '@iguanadex/sdk'
+import { Token } from '@pancakeswap/sdk'
 import PoolStatsInfo from '../../PoolStatsInfo'
 import PoolTypeTag from '../../PoolTypeTag'
 

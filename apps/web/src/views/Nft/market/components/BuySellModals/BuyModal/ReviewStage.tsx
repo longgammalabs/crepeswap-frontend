@@ -1,5 +1,5 @@
-import { useTranslation } from '@iguanadex/localization'
-import { Button, ButtonMenu, ButtonMenuItem, Flex, Link, Message, Text } from '@iguanadex/uikit'
+import { useTranslation } from '@pancakeswap/localization'
+import { Button, ButtonMenu, ButtonMenuItem, Flex, Link, Message, Text } from '@pancakeswap/uikit'
 import ConnectWalletButton from 'components/ConnectWalletButton'
 import { FetchStatusV1, TFetchStatusV1 } from 'config/constants/types'
 import { NftToken } from 'state/nftMarket/types'

@@ -1,17 +1,17 @@
+import { styled, css } from 'styled-components'
 import {
-  ArrowBackIcon,
-  AutoRow,
+  Text,
   Flex,
   Heading,
   IconButton,
+  ArrowBackIcon,
   NotificationDot,
   QuestionHelper,
-  Text,
-} from '@iguanadex/uikit'
-import { useExpertMode } from '@iguanadex/utils/user'
+  AutoRow,
+} from '@pancakeswap/uikit'
+import { useExpertMode } from '@pancakeswap/utils/user'
 import GlobalSettings from 'components/Menu/GlobalSettings'
 import Link from 'next/link'
-import { css, styled } from 'styled-components'
 import { SettingsMode } from '../Menu/GlobalSettings/types'
 
 interface Props {

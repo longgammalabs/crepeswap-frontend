@@ -1,5 +1,5 @@
-import { Flex, Text } from '@iguanadex/uikit'
-import isUndefinedOrNull from '@iguanadex/utils/isUndefinedOrNull'
+import { Text, Flex } from '@pancakeswap/uikit'
+import isUndefinedOrNull from '@pancakeswap/utils/isUndefinedOrNull'
 import CrossText from './CrossText'
 
 interface DiffTextPropsType {

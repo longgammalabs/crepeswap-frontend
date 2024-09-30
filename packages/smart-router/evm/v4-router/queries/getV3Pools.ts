@@ -1,14 +1,14 @@
-import { ChainId } from '@iguanadex/chains'
-import { multicallByGasLimit } from '@iguanadex/multicall'
-import { BigintIsh, Currency } from '@iguanadex/sdk'
-import { FeeAmount, TICK_SPACINGS, Tick } from '@iguanadex/v3-sdk'
-import { Address, decodeFunctionResult, encodeFunctionData } from 'viem'
+import { ChainId } from '@pancakeswap/chains'
+import { BigintIsh, Currency } from '@pancakeswap/sdk'
+import { FeeAmount, TICK_SPACINGS, Tick } from '@pancakeswap/v3-sdk'
+import { multicallByGasLimit } from '@pancakeswap/multicall'
+import { encodeFunctionData, decodeFunctionResult, Address } from 'viem'
 
+import { OnChainProvider, V3Pool } from '../../v3-router/types'
+import { getV3PoolsWithoutTicksOnChain } from '../../v3-router/providers'
 import { tickLensAbi } from '../../abis/ITickLens'
 import { V3_TICK_LENS_ADDRESSES } from '../../constants'
 import { getPairCombinations } from '../../v3-router/functions'
-import { getV3PoolsWithoutTicksOnChain } from '../../v3-router/providers'
-import { OnChainProvider, V3Pool } from '../../v3-router/types'
 import { getV3PoolFetchConfig } from '../constants'
 
 type WithMulticallGasLimit = {

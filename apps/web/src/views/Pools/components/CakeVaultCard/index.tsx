@@ -1,8 +1,8 @@
-import { Box, Button, CardBody, CardProps, Flex, FlexGap, Skeleton, TokenPairImage, useModal } from '@iguanadex/uikit'
-import { Pool } from '@iguanadex/widgets-internal'
+import { Box, Button, CardBody, CardProps, Flex, FlexGap, Skeleton, TokenPairImage, useModal } from '@pancakeswap/uikit'
+import { Pool } from '@pancakeswap/widgets-internal'
 
-import { useTranslation } from '@iguanadex/localization'
-import { Token } from '@iguanadex/sdk'
+import { useTranslation } from '@pancakeswap/localization'
+import { Token } from '@pancakeswap/sdk'
 import { vaultPoolConfig } from 'config/constants/pools'
 import { useVaultPoolByKey } from 'state/pools/hooks'
 import { DeserializedCakeVault, DeserializedLockedCakeVault, VaultKey } from 'state/types'

@@ -1,4 +1,4 @@
-# @iguanadex/sdk
+# @pancakeswap/sdk
 
 ## 5.8.0
 
@@ -9,14 +9,14 @@
 ### Patch Changes
 
 - Updated dependencies [610a24a]
-  - @iguanadex/swap-sdk-core@1.1.0
+  - @pancakeswap/swap-sdk-core@1.1.0
 
 ## 5.7.7
 
 ### Patch Changes
 
 - Updated dependencies [c269d43]
-  - @iguanadex/swap-sdk-core@1.0.1
+  - @pancakeswap/swap-sdk-core@1.0.1
 
 ## 5.7.6
 
@@ -24,21 +24,21 @@
 
 - 91969f80f: Add sepolia, base sepolia, arbitrum sepolia support
 - Updated dependencies [91969f80f]
-  - @iguanadex/chains@0.4.1
+  - @pancakeswap/chains@0.4.1
 
 ## 5.7.5
 
 ### Patch Changes
 
 - Updated dependencies [8fcd67c85]
-  - @iguanadex/chains@0.4.0
+  - @pancakeswap/chains@0.4.0
 
 ## 5.7.4
 
 ### Patch Changes
 
 - Updated dependencies [49730e609]
-  - @iguanadex/chains@0.3.1
+  - @pancakeswap/chains@0.3.1
 
 ## 5.7.3
 
@@ -51,14 +51,14 @@
 ### Patch Changes
 
 - Updated dependencies [c236a3ee4]
-  - @iguanadex/chains@0.3.0
+  - @pancakeswap/chains@0.3.0
 
 ## 5.7.1
 
 ### Patch Changes
 
 - Updated dependencies [ed3146c93]
-  - @iguanadex/chains@0.2.0
+  - @pancakeswap/chains@0.2.0
 
 ## 5.7.0
 
@@ -75,7 +75,7 @@
 ### Patch Changes
 
 - Updated dependencies [435a90ac2]
-  - @iguanadex/chains@0.1.0
+  - @pancakeswap/chains@0.1.0
 
 ## 5.5.0
 
@@ -89,7 +89,7 @@
 
 - 2d7e1b3e2: Upgraded viem
 - Updated dependencies [2d7e1b3e2]
-  - @iguanadex/chains@0.0.1
+  - @pancakeswap/chains@0.0.1
 
 ## 5.4.1
 
@@ -142,7 +142,7 @@
 ### Patch Changes
 
 - Updated dependencies [b5dbd2921]
-  - @iguanadex/swap-sdk-core@1.0.0
+  - @pancakeswap/swap-sdk-core@1.0.0
 
 ## 3.2.1
 
@@ -159,7 +159,7 @@
 ### Patch Changes
 
 - Updated dependencies [65fbb250a]
-  - @iguanadex/swap-sdk-core@0.1.0
+  - @pancakeswap/swap-sdk-core@0.1.0
 
 ## 3.1.5
 

@@ -1,5 +1,5 @@
-import { useTranslation } from '@iguanadex/localization'
-import { Text, useMatchBreakpoints } from '@iguanadex/uikit'
+import { useTranslation } from '@pancakeswap/localization'
+import { Text, useMatchBreakpoints } from '@pancakeswap/uikit'
 
 export const EmptyTable = () => {
   const { t } = useTranslation()

@@ -1,5 +1,5 @@
-import { ChainId } from '@iguanadex/chains'
-import { useTranslation } from '@iguanadex/localization'
+import { ChainId } from '@pancakeswap/chains'
+import { useTranslation } from '@pancakeswap/localization'
 import {
   Box,
   Button,
@@ -12,8 +12,8 @@ import {
   Text,
   Th,
   useMatchBreakpoints,
-} from '@iguanadex/uikit'
-import { formatNumber } from '@iguanadex/utils/formatBalance'
+} from '@pancakeswap/uikit'
+import { formatNumber } from '@pancakeswap/utils/formatBalance'
 import { useActiveChainId } from 'hooks/useActiveChainId'
 import { useEffect, useState } from 'react'
 import { styled } from 'styled-components'

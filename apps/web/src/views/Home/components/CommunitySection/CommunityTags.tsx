@@ -1,4 +1,4 @@
-import { DiscordIcon, GithubIcon, Link, TwitterIcon } from '@iguanadex/uikit'
+import { DiscordIcon, GithubIcon, Link, TwitterIcon } from '@pancakeswap/uikit'
 import { cloneElement } from 'react'
 import { styled } from 'styled-components'
 

@@ -1,5 +1,5 @@
-import { useTranslation } from "@iguanadex/localization";
 import { styled } from "styled-components";
+import { useTranslation } from "@pancakeswap/localization";
 import { Link } from "../Link";
 import { Text } from "../Text";
 

@@ -1,7 +1,7 @@
 /* eslint-disable @typescript-eslint/no-unused-vars */
-import { Percent, TradeType } from '@iguanadex/sdk'
-import { SMART_ROUTER_ADDRESSES, SmartRouterTrade, SwapRouter } from '@iguanadex/smart-router'
-import { FeeOptions } from '@iguanadex/v3-sdk'
+import { Percent, TradeType } from '@pancakeswap/sdk'
+import { SMART_ROUTER_ADDRESSES, SmartRouterTrade, SwapRouter } from '@pancakeswap/smart-router'
+import { FeeOptions } from '@pancakeswap/v3-sdk'
 import { useMemo } from 'react'
 
 import { useGetENSAddressByName } from 'hooks/useGetENSAddressByName'

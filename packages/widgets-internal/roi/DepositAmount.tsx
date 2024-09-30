@@ -1,9 +1,9 @@
-import { useTranslation } from "@iguanadex/localization";
-import { Currency, CurrencyAmount } from "@iguanadex/sdk";
+import { useTranslation } from "@pancakeswap/localization";
+import { Currency, CurrencyAmount } from "@pancakeswap/sdk";
 import { memo, useCallback } from "react";
 import { styled } from "styled-components";
 
-import { BalanceInput, Box, Button, Card, CardBody, Flex, QuestionHelper, RowBetween, Text } from "@iguanadex/uikit";
+import { BalanceInput, Box, Button, Card, CardBody, Flex, QuestionHelper, RowBetween, Text } from "@pancakeswap/uikit";
 import { CurrencyLogo } from "../components/CurrencyLogo";
 
 type Props = UsdAmountInputProps & TokenAmountsDisplayProps;

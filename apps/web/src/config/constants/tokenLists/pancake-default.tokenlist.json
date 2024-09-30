@@ -595,14 +595,6 @@
       "logoURI": "https://raw.githubusercontent.com/IguanaDEX/assets/main/assets/0xB1Ea698633d57705e93b0E40c1077d46CD6A51d8.png"
     },
     {
-      "name": "MOOD",
-      "symbol": "MOOD",
-      "address": "0xd08B30c1EdA1284cD70E73F29ba27B5315aCc3F9",
-      "chainId": 42793,
-      "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/IguanaDEX/assets/main/assets/0xd08B30c1EdA1284cD70E73F29ba27B5315aCc3F9.png"
-    },
-    {
       "name": "Tether USD",
       "symbol": "USDT",
       "address": "0x2C03058C8AFC06713be23e58D2febC8337dbfE6A",

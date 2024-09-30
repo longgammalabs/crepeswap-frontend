@@ -1,4 +1,4 @@
-import type { Currency, CurrencyAmount } from '@iguanadex/sdk'
+import type { CurrencyAmount, Currency } from '@pancakeswap/sdk'
 
 export interface BasePair {
   token0: Currency

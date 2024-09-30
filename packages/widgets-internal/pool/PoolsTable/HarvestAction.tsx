@@ -1,7 +1,7 @@
-import { useTranslation } from "@iguanadex/localization";
+import { useTranslation } from "@pancakeswap/localization";
 import { createElement } from "react";
 
-import { Balance, Button, Flex, Heading, Text } from "@iguanadex/uikit";
+import { Balance, Button, Flex, Heading, Text } from "@pancakeswap/uikit";
 
 import { ActionContainer, ActionContent, ActionTitles } from "./styles";
 

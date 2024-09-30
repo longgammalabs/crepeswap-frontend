@@ -1,20 +1,20 @@
-import { useTranslation } from "@iguanadex/localization";
-import {
-  AddIcon,
-  Balance,
-  Button,
-  Flex,
-  IconButton,
-  MinusIcon,
-  NotEnoughTokensModal,
-  Skeleton,
-  Text,
-  useModal,
-  useTooltip,
-} from "@iguanadex/uikit";
-import { getBalanceNumber } from "@iguanadex/utils/formatBalance";
 import BigNumber from "bignumber.js";
 import { ReactElement } from "react";
+import { useTranslation } from "@pancakeswap/localization";
+import { getBalanceNumber } from "@pancakeswap/utils/formatBalance";
+import {
+  Button,
+  IconButton,
+  NotEnoughTokensModal,
+  Text,
+  Flex,
+  Balance,
+  Skeleton,
+  useModal,
+  useTooltip,
+  MinusIcon,
+  AddIcon,
+} from "@pancakeswap/uikit";
 
 import { DeserializedPool } from "./types";
 

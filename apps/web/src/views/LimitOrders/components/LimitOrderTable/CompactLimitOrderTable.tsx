@@ -1,6 +1,6 @@
-import { Table, Td } from '@iguanadex/uikit'
 import { memo } from 'react'
 import { styled } from 'styled-components'
+import { Table, Td } from '@pancakeswap/uikit'
 import CompactRow from './CompactRow'
 
 const RowStyle = styled.tr`

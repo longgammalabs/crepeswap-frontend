@@ -1,6 +1,6 @@
-import { Native } from '@iguanadex/sdk'
-import { Currency } from '@iguanadex/swap-sdk-core'
-import { etherlinkTokens } from '@iguanadex/tokens'
+import { Native } from '@pancakeswap/sdk'
+import { Currency } from '@pancakeswap/swap-sdk-core'
+import { etherlinkTokens } from '@pancakeswap/tokens'
 import { NativeBtc } from './utils/NativeBtc'
 
 export const SUPPORTED_ONRAMP_TOKENS = ['ETH', 'DAI', 'USDT', 'USDC', 'BUSD', 'BNB', 'WBTC', 'XTZ']

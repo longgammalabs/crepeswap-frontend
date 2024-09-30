@@ -1,4 +1,4 @@
-import { Currency, CurrencyAmount } from '@iguanadex/sdk'
+import { Currency, CurrencyAmount } from '@pancakeswap/sdk'
 import { BIG_INT_ZERO, MIN_BNB } from 'config/constants/exchange'
 
 type NullableCurrencyAmount = CurrencyAmount<Currency> | undefined

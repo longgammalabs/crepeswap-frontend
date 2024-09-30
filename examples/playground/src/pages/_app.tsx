@@ -1,5 +1,5 @@
 import '@/styles/globals.css'
-import '@iguanadex/uikit/styles'
+import '@pancakeswap/uikit/styles'
 import type { AppProps } from 'next/app'
 
 export default function App({ Component, pageProps }: AppProps) {

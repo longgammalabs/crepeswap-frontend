@@ -1,9 +1,9 @@
-import { ChainId } from '@iguanadex/chains'
-import { nftSaleABI } from 'config/abi/nftSale'
 import { useEffect } from 'react'
 import { getNftSaleAddress } from 'utils/addressHelpers'
 import { getPancakeSquadContract } from 'utils/contractHelpers'
+import { nftSaleABI } from 'config/abi/nftSale'
 import { publicClient } from 'utils/wagmi'
+import { ChainId } from '@pancakeswap/chains'
 
 const useUserInfos = ({ account, refreshCounter, setCallback }) => {
   useEffect(() => {

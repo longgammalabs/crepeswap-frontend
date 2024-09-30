@@ -1,4 +1,4 @@
-import { Trans } from '@iguanadex/localization'
+import { Trans } from '@pancakeswap/localization'
 import { ReactNode } from 'react'
 
 interface CommissionType {

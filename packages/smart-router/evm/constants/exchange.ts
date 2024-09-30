@@ -1,5 +1,5 @@
-import { ChainId } from '@iguanadex/chains'
-import { ERC20Token, Token, WNATIVE } from '@iguanadex/sdk'
+import { ChainId } from '@pancakeswap/chains'
+import { ERC20Token, Token, WNATIVE } from '@pancakeswap/sdk'
 import {
   BUSD,
   USDC,
@@ -26,7 +26,7 @@ import {
   sepoliaTokens,
   zkSyncTestnetTokens,
   zksyncTokens,
-} from '@iguanadex/tokens'
+} from '@pancakeswap/tokens'
 
 import { ChainMap, ChainTokenList } from '../types'
 
@@ -136,7 +136,7 @@ export const BASES_TO_CHECK_TRADES_AGAINST: ChainTokenList = {
   [ChainId.ARBITRUM_SEPOLIA]: [arbSepoliaTokens.usdc, arbSepoliaTokens.weth],
   [ChainId.BASE_SEPOLIA]: [baseSepoliaTokens.usdc, baseSepoliaTokens.weth],
   [ChainId.ETHERLINK_TESTNET]: [etherlinkTestnetTokens.usdc, etherlinkTestnetTokens.usdt, etherlinkTestnetTokens.wxtz],
-  [ChainId.ETHERLINK]: [etherlinkTokens.usdc, etherlinkTokens.wxtz],
+  [ChainId.ETHERLINK]: [etherlinkTokens.usdc, etherlinkTokens.usdt, etherlinkTokens.wxtz],
 }
 
 const czusd = new ERC20Token(ChainId.BSC, '0xE68b79e51bf826534Ff37AA9CeE71a3842ee9c70', 18, 'CZUSD', 'CZUSD')

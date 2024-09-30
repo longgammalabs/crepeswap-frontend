@@ -1,12 +1,12 @@
 import React from "react";
 /* eslint-disable import/no-unresolved */
-import { CurrencyAmount, Price } from "@iguanadex/sdk";
-import { FeeAmount } from "@iguanadex/v3-sdk";
 import { Meta } from "@storybook/react/types-6-0";
+import { FeeAmount } from "@pancakeswap/v3-sdk";
+import { CurrencyAmount, Price } from "@pancakeswap/sdk";
 
-import { bscToken, cakeToken } from "../../mockData";
-import { LiquidityChartRangeInput } from "./LiquidityChartRangeInput";
 import mockData from "./mockData.json";
+import { LiquidityChartRangeInput } from "./LiquidityChartRangeInput";
+import { cakeToken, bscToken } from "../../mockData";
 import { TickDataRaw } from "./types";
 
 export default {

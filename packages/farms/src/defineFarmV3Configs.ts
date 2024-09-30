@@ -1,6 +1,6 @@
-import { WNATIVE } from '@iguanadex/sdk'
-import { Token } from '@iguanadex/swap-sdk-core'
-import { CAKE, unwrappedToken } from '@iguanadex/tokens'
+import { WNATIVE } from '@pancakeswap/sdk'
+import { Token } from '@pancakeswap/swap-sdk-core'
+import { CAKE, unwrappedToken } from '@pancakeswap/tokens'
 import { priceHelperTokens } from '../constants/common'
 import { ComputedFarmConfigV3, FarmConfigV3 } from './types'
 

@@ -1,20 +1,20 @@
-import { Ifo, PoolIds, ifoV7ABI } from '@iguanadex/ifos'
-import { BIG_ZERO } from '@iguanadex/utils/bigNumber'
-import BigNumber from 'bignumber.js'
-import { useERC20, useIfoV7Contract } from 'hooks/useContract'
-import { useCallback, useEffect, useMemo, useState } from 'react'
-import { useAppDispatch } from 'state'
-import { fetchCakeVaultUserData } from 'state/pools'
-import { publicClient } from 'utils/wagmi'
-import { Address } from 'viem'
+import { useState, useCallback, useEffect, useMemo } from 'react'
 import { useAccount } from 'wagmi'
+import { Address } from 'viem'
+import BigNumber from 'bignumber.js'
+import { Ifo, PoolIds, ifoV7ABI } from '@pancakeswap/ifos'
+import { useERC20, useIfoV7Contract } from 'hooks/useContract'
+import { fetchCakeVaultUserData } from 'state/pools'
+import { useAppDispatch } from 'state'
+import { BIG_ZERO } from '@pancakeswap/utils/bigNumber'
+import { publicClient } from 'utils/wagmi'
 
 import { useActiveChainId } from 'hooks/useActiveChainId'
 
-import { WalletIfoData, WalletIfoState } from '../../types'
 import useIfoAllowance from '../useIfoAllowance'
-import { useIfoCredit } from '../useIfoCredit'
+import { WalletIfoState, WalletIfoData } from '../../types'
 import { useIfoSourceChain } from '../useIfoSourceChain'
+import { useIfoCredit } from '../useIfoCredit'
 
 const initialState = {
   isInitialized: false,

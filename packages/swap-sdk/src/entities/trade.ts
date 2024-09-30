@@ -1,19 +1,19 @@
+import invariant from 'tiny-invariant'
 import {
-  Currency,
-  CurrencyAmount,
-  Fraction,
   InsufficientInputAmountError,
   InsufficientReservesError,
   ONE,
+  TradeType,
+  ZERO,
+  CurrencyAmount,
+  Currency,
+  Fraction,
   Percent,
   Price,
   Token,
-  TradeType,
-  ZERO,
-  computePriceImpact,
   sortedInsert,
-} from '@iguanadex/swap-sdk-core'
-import invariant from 'tiny-invariant'
+  computePriceImpact,
+} from '@pancakeswap/swap-sdk-core'
 
 import { Pair } from './pair'
 import { Route } from './route'

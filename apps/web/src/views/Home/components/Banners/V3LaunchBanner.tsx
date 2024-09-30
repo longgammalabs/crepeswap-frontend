@@ -1,10 +1,10 @@
-import { useTranslation } from '@iguanadex/localization'
-import { Button, Flex, LogoIcon, OpenNewIcon, Text, useMatchBreakpoints } from '@iguanadex/uikit'
-import { NextLinkFromReactRouter } from '@iguanadex/widgets-internal'
+import { useTranslation } from '@pancakeswap/localization'
+import { Button, Flex, LogoIcon, OpenNewIcon, Text, useMatchBreakpoints } from '@pancakeswap/uikit'
+import { NextLinkFromReactRouter } from '@pancakeswap/widgets-internal'
 
 import { ASSET_CDN } from 'config/constants/endpoints'
 import Image from 'next/legacy/image'
-import { css, keyframes, styled } from 'styled-components'
+import { styled, css, keyframes } from 'styled-components'
 import * as S from './Styled'
 
 const { v3LaunchBg, v3LaunchBgMobile, v3LaunchBunny, v3LaunchBunnyMobile, v3LaunchBnb, v3LaunchEth, v3LaunchFlag } = {

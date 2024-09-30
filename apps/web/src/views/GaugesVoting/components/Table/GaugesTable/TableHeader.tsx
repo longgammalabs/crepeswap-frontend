@@ -1,5 +1,5 @@
-import { useTranslation } from '@iguanadex/localization'
-import { Flex, SortArrowIcon, Text, Th } from '@iguanadex/uikit'
+import { useTranslation } from '@pancakeswap/localization'
+import { Flex, SortArrowIcon, Text, Th } from '@pancakeswap/uikit'
 import { useState } from 'react'
 import styled from 'styled-components'
 import { SortButton } from 'views/V3Info/components/SortButton'

@@ -1,10 +1,10 @@
-import { useTranslation } from '@iguanadex/localization'
-import { Box, PageSection } from '@iguanadex/uikit'
+import { Box, PageSection } from '@pancakeswap/uikit'
 import useTheme from 'hooks/useTheme'
-import RanksIcon from '../svgs/RanksIcon'
+import { useTranslation } from '@pancakeswap/localization'
 import { TeamRanksProps } from '../types'
 import RibbonWithImage from './RibbonWithImage'
 import TeamRanks from './TeamRanks/TeamRanks'
+import RanksIcon from '../svgs/RanksIcon'
 
 const TeamRanksSection: React.FC<React.PropsWithChildren<TeamRanksProps>> = ({
   image,

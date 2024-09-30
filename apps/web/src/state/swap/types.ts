@@ -20,7 +20,6 @@ export type PairPricesNormalized = {
 }[]
 
 export enum PairDataTimeWindowEnum {
-  HOUR,
   DAY,
   WEEK,
   MONTH,

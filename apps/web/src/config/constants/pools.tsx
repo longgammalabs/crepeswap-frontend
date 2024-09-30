@@ -1,4 +1,4 @@
-import { bscTokens } from '@iguanadex/tokens'
+import { bscTokens } from '@pancakeswap/tokens'
 import Trans from 'components/Trans'
 import { VaultKey } from 'state/types'
 

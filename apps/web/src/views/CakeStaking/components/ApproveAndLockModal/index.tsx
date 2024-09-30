@@ -1,5 +1,5 @@
-import { useTranslation } from '@iguanadex/localization'
-import { AutoColumn, BscScanIcon, Modal, ModalProps, ModalV2, ScanLink, UseModalV2Props } from '@iguanadex/uikit'
+import { useTranslation } from '@pancakeswap/localization'
+import { AutoColumn, BscScanIcon, Modal, ModalProps, ModalV2, ScanLink, UseModalV2Props } from '@pancakeswap/uikit'
 import { useActiveChainId } from 'hooks/useActiveChainId'
 import { ApproveAndLockStatus } from 'state/vecake/atoms'
 import { getBlockExploreLink } from 'utils'

@@ -11,20 +11,20 @@ import {
   Slider,
   Text,
   useToast,
-} from '@iguanadex/uikit'
-import { BIG_ZERO } from '@iguanadex/utils/bigNumber'
-import { Pool } from '@iguanadex/widgets-internal'
+} from '@pancakeswap/uikit'
+import { Pool } from '@pancakeswap/widgets-internal'
 import { useCallback, useMemo, useState } from 'react'
 import { styled } from 'styled-components'
+import { BIG_ZERO } from '@pancakeswap/utils/bigNumber'
 
-import { useTranslation } from '@iguanadex/localization'
+import { useTranslation } from '@pancakeswap/localization'
 import { useAppDispatch } from 'state'
 import { useAccount } from 'wagmi'
 
-import { Token } from '@iguanadex/sdk'
-import { getInterestBreakdown } from '@iguanadex/utils/compoundApyHelpers'
-import { formatNumber, getDecimalAmount, getFullDisplayBalance } from '@iguanadex/utils/formatBalance'
-import { getFullDecimalMultiplier } from '@iguanadex/utils/getFullDecimalMultiplier'
+import { Token } from '@pancakeswap/sdk'
+import { getInterestBreakdown } from '@pancakeswap/utils/compoundApyHelpers'
+import { formatNumber, getDecimalAmount, getFullDisplayBalance } from '@pancakeswap/utils/formatBalance'
+import { getFullDecimalMultiplier } from '@pancakeswap/utils/getFullDecimalMultiplier'
 import BigNumber from 'bignumber.js'
 import { ToastDescriptionWithTx } from 'components/Toast'
 import { vaultPoolConfig } from 'config/constants/pools'

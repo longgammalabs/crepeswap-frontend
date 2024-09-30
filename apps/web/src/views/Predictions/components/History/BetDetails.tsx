@@ -1,5 +1,5 @@
-import { useTranslation } from '@iguanadex/localization'
-import { Flex, Heading, Link, Text } from '@iguanadex/uikit'
+import { useTranslation } from '@pancakeswap/localization'
+import { Flex, Heading, Link, Text } from '@pancakeswap/uikit'
 import { Result } from 'state/predictions/helpers'
 import { Bet } from 'state/types'
 import { styled } from 'styled-components'

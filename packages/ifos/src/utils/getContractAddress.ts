@@ -1,4 +1,4 @@
-import { ChainId } from '@iguanadex/sdk'
+import { ChainId } from '@pancakeswap/sdk'
 
 import { ContractAddresses } from '../constants/contracts'
 import { isIfoSupported } from './isIfoSupported'

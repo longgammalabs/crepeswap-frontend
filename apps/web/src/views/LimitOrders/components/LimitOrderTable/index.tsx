@@ -1,6 +1,6 @@
-import { useTranslation } from '@iguanadex/localization'
-import { ButtonTabMenu, Card, Flex } from '@iguanadex/uikit'
-import { memo, useCallback, useMemo, useState } from 'react'
+import { useState, useCallback, memo, useMemo } from 'react'
+import { Flex, Card, ButtonTabMenu } from '@pancakeswap/uikit'
+import { useTranslation } from '@pancakeswap/localization'
 import useGelatoLimitOrdersHistory from '../../hooks/useGelatoLimitOrdersHistory'
 
 import { ORDER_CATEGORY } from '../../types'

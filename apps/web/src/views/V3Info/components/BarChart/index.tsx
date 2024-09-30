@@ -1,4 +1,4 @@
-import { RowBetween } from '@iguanadex/uikit'
+import { RowBetween } from '@pancakeswap/uikit'
 import dayjs from 'dayjs'
 import utc from 'dayjs/plugin/utc'
 import useTheme from 'hooks/useTheme'

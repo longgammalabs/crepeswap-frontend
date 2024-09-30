@@ -1,5 +1,5 @@
-import { useTranslation } from '@iguanadex/localization'
-import { Text } from '@iguanadex/uikit'
+import { useTranslation } from '@pancakeswap/localization'
+import { Text } from '@pancakeswap/uikit'
 
 const RugPullWarning = () => {
   const { t } = useTranslation()

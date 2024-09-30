@@ -1,10 +1,10 @@
-import { useTranslation } from '@iguanadex/localization'
-import { Flex } from '@iguanadex/uikit'
 import React from 'react'
-import FinishedCompetitionBanner from './components/FinishedCompetitionBanner'
-import SubMenu from './components/SubMenu'
+import { Flex } from '@pancakeswap/uikit'
+import { useTranslation } from '@pancakeswap/localization'
 import FanTokenAllBunnies from './pngs/fan-token-all-bunnies.png'
 import MoboxAllBunnies from './pngs/mobox-all-bunnies.png'
+import SubMenu from './components/SubMenu'
+import FinishedCompetitionBanner from './components/FinishedCompetitionBanner'
 
 const FinishedCompetitions: React.FC<React.PropsWithChildren> = () => {
   const { t } = useTranslation()

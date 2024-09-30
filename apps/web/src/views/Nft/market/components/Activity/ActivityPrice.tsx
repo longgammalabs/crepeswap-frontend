@@ -1,4 +1,4 @@
-import { BinanceIcon, Flex, Skeleton, Text } from '@iguanadex/uikit'
+import { Flex, BinanceIcon, Text, Skeleton } from '@pancakeswap/uikit'
 import BigNumber from 'bignumber.js'
 
 const ActivityPrice = ({ bnbBusdPrice, price }: { bnbBusdPrice: BigNumber; price: number }) => {

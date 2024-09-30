@@ -1,5 +1,5 @@
-import { ChainId } from '@iguanadex/chains'
-import { ICAKE, iCakeABI } from '@iguanadex/ifos'
+import { ChainId } from '@pancakeswap/chains'
+import { ICAKE, iCakeABI } from '@pancakeswap/ifos'
 import BigNumber from 'bignumber.js'
 import useAccountActiveChain from 'hooks/useAccountActiveChain'
 import { useMemo } from 'react'

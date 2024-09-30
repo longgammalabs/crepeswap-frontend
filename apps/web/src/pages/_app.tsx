@@ -1,7 +1,7 @@
-import { ResetCSS, ScrollToTopButtonV2, ToastListener } from '@iguanadex/uikit'
+import { ResetCSS, ScrollToTopButtonV2, ToastListener } from '@pancakeswap/uikit'
 import BigNumber from 'bignumber.js'
 import { SentryErrorBoundary } from 'components/ErrorBoundary'
-// import GlobalCheckClaimStatus from 'components/GlobalCheckClaimStatus'
+import GlobalCheckClaimStatus from 'components/GlobalCheckClaimStatus'
 import { PageMeta } from 'components/Layout/Page'
 import { NetworkModal } from 'components/NetworkModal'
 import { FixedSubgraphHealthIndicator } from 'components/SubgraphHealthIndicator/FixedSubgraphHealthIndicator'
@@ -97,7 +97,7 @@ function MyApp(props: AppProps<{ initialReduxState: any; dehydratedState: any }>
         {(Component as NextPageWithLayout).mp ? <MPGlobalHooks /> : <GlobalHooks />}
         <ResetCSS />
         <GlobalStyle />
-        {/* <GlobalCheckClaimStatus excludeLocations={[]} /> */}
+        <GlobalCheckClaimStatus excludeLocations={[]} />
         <PersistGate loading={null} persistor={persistor}>
           <Updaters />
           <App {...props} />

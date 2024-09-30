@@ -1,4 +1,4 @@
-import { Text } from '@iguanadex/uikit'
+import { Text } from '@pancakeswap/uikit'
 import { styled } from 'styled-components'
 
 export const InlineText = styled(Text)`

@@ -1,4 +1,4 @@
-import { DAY_IN_SECONDS } from '@iguanadex/utils/getTimePeriods'
+import { DAY_IN_SECONDS } from '@pancakeswap/utils/getTimePeriods'
 import { WEEK } from 'config/constants/veCake'
 import { useMemo } from 'react'
 import { useCurrentBlockTimestamp } from 'views/CakeStaking/hooks/useCurrentBlockTimestamp'

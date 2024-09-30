@@ -1,10 +1,10 @@
-import { Ifo, PoolIds } from '@iguanadex/ifos'
-import BigNumber from 'bignumber.js'
 import { useMemo } from 'react'
 import { useAccount } from 'wagmi'
+import { Ifo, PoolIds } from '@pancakeswap/ifos'
+import BigNumber from 'bignumber.js'
 
-import { FAST_INTERVAL } from 'config/constants'
 import { useIfoConfigsAcrossChains } from 'hooks/useIfoConfig'
+import { FAST_INTERVAL } from 'config/constants'
 
 import { useQuery } from '@tanstack/react-query'
 import { fetchUserWalletIfoData } from './fetchUserWalletIfoData'

@@ -1,6 +1,6 @@
-import { Box, PageSection, Text } from '@iguanadex/uikit'
-import useTheme from 'hooks/useTheme'
+import { Box, Text, PageSection } from '@pancakeswap/uikit'
 import { styled } from 'styled-components'
+import useTheme from 'hooks/useTheme'
 
 const Decorations = styled(Box)`
   position: absolute;

@@ -1,6 +1,6 @@
-import { useTranslation } from "@iguanadex/localization";
-import { Dots } from "../Loader/Dots";
+import { useTranslation } from "@pancakeswap/localization";
 import { Text } from "../Text";
+import { Dots } from "../Loader/Dots";
 
 export function LoadingDot() {
   const { t } = useTranslation();

@@ -1,4 +1,4 @@
-import { useMatchBreakpoints } from '@iguanadex/uikit'
+import { useMatchBreakpoints } from '@pancakeswap/uikit'
 import { useMemo } from 'react'
 
 interface UseTotalGradientBoxProps {

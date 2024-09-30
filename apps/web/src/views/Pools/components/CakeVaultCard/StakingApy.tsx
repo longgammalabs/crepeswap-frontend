@@ -1,13 +1,13 @@
-import { Balance, Button, CalculateIcon, Flex, FlexGap, Skeleton, Text, useModal } from '@iguanadex/uikit'
-import { Pool } from '@iguanadex/widgets-internal'
+import { Flex, Text, Skeleton, useModal, Button, CalculateIcon, FlexGap, Balance } from '@pancakeswap/uikit'
+import { Pool } from '@pancakeswap/widgets-internal'
 
-import { useTranslation } from '@iguanadex/localization'
-import { Token } from '@iguanadex/sdk'
 import { LightGreyCard } from 'components/Card'
+import { useTranslation } from '@pancakeswap/localization'
 import { useVaultApy } from 'hooks/useVaultApy'
 import { memo } from 'react'
 import { VaultKey } from 'state/types'
 import { styled } from 'styled-components'
+import { Token } from '@pancakeswap/sdk'
 import { VaultRoiCalculatorModal } from '../Vault/VaultRoiCalculatorModal'
 
 const AprLabelContainer = styled(Flex)`

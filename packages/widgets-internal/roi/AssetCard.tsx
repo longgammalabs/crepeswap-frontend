@@ -1,26 +1,26 @@
-import { useTranslation } from "@iguanadex/localization";
-import { Currency, Percent } from "@iguanadex/sdk";
-import { formatAmount } from "@iguanadex/utils/formatInfoNumbers";
-import { memo, MouseEvent, PropsWithChildren, ReactNode, Ref, useCallback } from "react";
+import { useTranslation } from "@pancakeswap/localization";
+import { Currency, Percent } from "@pancakeswap/sdk";
+import { memo, PropsWithChildren, ReactNode, useCallback, Ref, MouseEvent } from "react";
 import { styled } from "styled-components";
 import { SpaceProps } from "styled-system";
+import { formatAmount } from "@pancakeswap/utils/formatInfoNumbers";
 
 import {
+  Flex,
   Box,
   Card,
-  Flex,
-  PencilIcon,
   Row,
   RowBetween,
   RowFixed,
   Table,
-  Tag,
-  TagProps,
   Td,
   Text,
   Th,
+  PencilIcon,
   useMatchBreakpoints,
-} from "@iguanadex/uikit";
+  Tag,
+  TagProps,
+} from "@pancakeswap/uikit";
 import { CurrencyLogo } from "../components/CurrencyLogo";
 
 import { StyledInput } from "./StyledInput";

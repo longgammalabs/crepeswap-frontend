@@ -1,11 +1,11 @@
-import { ChainId, chainNames, getChainName } from '@iguanadex/chains'
-import { TranslateFunction, useTranslation } from '@iguanadex/localization'
-import { Box, Card, Flex, InfoIcon, Text, useTooltip } from '@iguanadex/uikit'
-import { AVERAGE_CHAIN_BLOCK_TIMES } from 'config/constants/averageChainBlockTimes'
-import useSubgraphHealth, { SubgraphStatus } from 'hooks/useSubgraphHealth'
-import { useMemo } from 'react'
-import { useSubgraphHealthIndicatorManager } from 'state/user/hooks'
+import { useTranslation, TranslateFunction } from '@pancakeswap/localization'
 import { styled } from 'styled-components'
+import { Card, Flex, Box, InfoIcon, Text, useTooltip } from '@pancakeswap/uikit'
+import { useSubgraphHealthIndicatorManager } from 'state/user/hooks'
+import useSubgraphHealth, { SubgraphStatus } from 'hooks/useSubgraphHealth'
+import { AVERAGE_CHAIN_BLOCK_TIMES } from 'config/constants/averageChainBlockTimes'
+import { ChainId, chainNames, getChainName } from '@pancakeswap/chains'
+import { useMemo } from 'react'
 
 const StyledCard = styled(Card)`
   border-radius: 8px;

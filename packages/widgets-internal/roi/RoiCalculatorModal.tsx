@@ -1,8 +1,8 @@
-import { useTranslation } from "@iguanadex/localization";
-import { Modal, ModalV2, ModalV2Props } from "@iguanadex/uikit";
+import { useTranslation } from "@pancakeswap/localization";
 import { styled } from "styled-components";
+import { Modal, ModalV2, ModalV2Props } from "@pancakeswap/uikit";
 
-import { RoiCalculator, RoiCalculatorProps } from "./RoiCalculator";
+import { RoiCalculatorProps, RoiCalculator } from "./RoiCalculator";
 
 export const StyledModal = styled(Modal)`
   & > :nth-child(2) {

@@ -1,4 +1,4 @@
-import { useTranslation } from '@iguanadex/localization'
+import { useTranslation } from '@pancakeswap/localization'
 import {
   BinanceIcon,
   Box,
@@ -11,7 +11,7 @@ import {
   Skeleton,
   Text,
   WalletFilledIcon,
-} from '@iguanadex/uikit'
+} from '@pancakeswap/uikit'
 import BigNumber from 'bignumber.js'
 import { ReactElement } from 'react'
 import { styled } from 'styled-components'

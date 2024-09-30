@@ -14,8 +14,8 @@
     "noEmit": true,
     "resolveJsonModule": true,
     "paths": {
-      "@iguanadex/uikit": ["../../packages/uikit/src/index.ts"],
-      "@iguanadex/uikit/*": ["../../packages/uikit/src/*"]
+      "@pancakeswap/uikit": ["../../packages/uikit/src/index.ts"],
+      "@pancakeswap/uikit/*": ["../../packages/uikit/src/*"]
     }
   }
 }

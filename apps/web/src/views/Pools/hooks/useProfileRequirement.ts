@@ -1,7 +1,7 @@
-import { Token } from '@iguanadex/sdk'
-import { Pool } from '@iguanadex/widgets-internal'
-import { useMemo } from 'react'
 import { useProfile } from 'state/profile/hooks'
+import { Pool } from '@pancakeswap/widgets-internal'
+import { useMemo } from 'react'
+import { Token } from '@pancakeswap/sdk'
 
 export function useProfileRequirement(profileRequirement: Pool.DeserializedPool<Token>['profileRequirement']) {
   const { profile, hasActiveProfile } = useProfile()

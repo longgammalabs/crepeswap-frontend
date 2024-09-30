@@ -1,5 +1,5 @@
-import { CardHeader, Flex, Heading, Text } from "@iguanadex/uikit";
-import getThemeValue from "@iguanadex/uikit/util/getThemeValue";
+import { CardHeader, Flex, Heading, Text } from "@pancakeswap/uikit";
+import getThemeValue from "@pancakeswap/uikit/util/getThemeValue";
 import { ReactNode } from "react";
 import { styled } from "styled-components";
 import Tags from "../farm/components/Tags";

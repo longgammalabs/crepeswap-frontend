@@ -1,5 +1,5 @@
-import { useTranslation } from '@iguanadex/localization'
-import { Box, Button, Flex } from '@iguanadex/uikit'
+import { useTranslation } from '@pancakeswap/localization'
+import { Box, Button, Flex } from '@pancakeswap/uikit'
 import useTheme from 'hooks/useTheme'
 import NextLink from 'next/link'
 import { useCallback, useMemo } from 'react'

@@ -1,6 +1,6 @@
-import { useTranslation } from '@iguanadex/localization'
-import { BunnyPlaceholderIcon, Flex, Text } from '@iguanadex/uikit'
+import { BunnyPlaceholderIcon, Flex, Text } from '@pancakeswap/uikit'
 import { useMemo } from 'react'
+import { useTranslation } from '@pancakeswap/localization'
 import { ORDER_CATEGORY } from '../../types'
 
 const NoOrdersMessage: React.FC<React.PropsWithChildren<{ orderCategory: ORDER_CATEGORY }>> = ({ orderCategory }) => {

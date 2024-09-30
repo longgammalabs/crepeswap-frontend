@@ -1,14 +1,14 @@
-import { useImageColor } from '@iguanadex/hooks'
-import { useTranslation } from '@iguanadex/localization'
-import { ChainId } from '@iguanadex/sdk'
-import { Box, Flex, Heading, Progress, ProgressBar } from '@iguanadex/uikit'
-import { ReactNode, useMemo } from 'react'
+import { Box, Flex, Heading, Progress, ProgressBar } from '@pancakeswap/uikit'
+import { useTranslation } from '@pancakeswap/localization'
 import { styled } from 'styled-components'
+import { ChainId } from '@pancakeswap/sdk'
+import { ReactNode, useMemo } from 'react'
+import { useImageColor } from '@pancakeswap/hooks'
 
-import { getBannerUrl } from '../../helpers'
 import { PublicIfoData } from '../../types'
-import { IfoChainBoard } from '../IfoChainBoard'
 import LiveTimer, { SoonTimer } from './Timer'
+import { IfoChainBoard } from '../IfoChainBoard'
+import { getBannerUrl } from '../../helpers'
 
 const StyledProgress = styled(Progress)`
   background-color: #281a5b;

@@ -1,5 +1,5 @@
-import { useTranslation } from '@iguanadex/localization'
-import { Flex, QuestionHelper, Tag, TagProps } from '@iguanadex/uikit'
+import { useTranslation } from '@pancakeswap/localization'
+import { QuestionHelper, Tag, TagProps, Flex } from '@pancakeswap/uikit'
 import { ReactNode } from 'react'
 
 export function RangeTag({

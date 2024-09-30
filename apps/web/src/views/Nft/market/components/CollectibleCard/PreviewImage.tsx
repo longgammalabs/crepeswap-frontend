@@ -1,4 +1,4 @@
-import { BackgroundImage, BoxProps } from '@iguanadex/uikit'
+import { BackgroundImage, BoxProps } from '@pancakeswap/uikit'
 import PlaceholderImage from './PlaceholderImage'
 
 interface PreviewImageProps extends BoxProps {

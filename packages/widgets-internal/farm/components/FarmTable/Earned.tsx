@@ -1,4 +1,4 @@
-import { Skeleton } from "@iguanadex/uikit";
+import { Skeleton } from "@pancakeswap/uikit";
 import { FarmTableEarnedProps } from "../../types";
 import { Amount } from "../styles";
 

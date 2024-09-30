@@ -1,6 +1,6 @@
-import { useTranslation } from '@iguanadex/localization'
-import { useTooltip } from '@iguanadex/uikit'
-import { FarmWidget } from '@iguanadex/widgets-internal'
+import { useTranslation } from '@pancakeswap/localization'
+import { useTooltip } from '@pancakeswap/uikit'
+import { FarmWidget } from '@pancakeswap/widgets-internal'
 
 const { CompoundingPoolTag, ManualPoolTag, LockedPoolTag, LockedOrAutoPoolTag } = FarmWidget.Tags
 

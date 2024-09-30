@@ -1,4 +1,4 @@
-// import { bscTokens } from '@iguanadex/tokens'
+// import { bscTokens } from '@pancakeswap/tokens'
 
 import { BaseIfoConfig } from '../../types'
 

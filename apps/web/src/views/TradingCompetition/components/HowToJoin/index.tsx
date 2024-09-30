@@ -1,8 +1,8 @@
-import { useTranslation } from '@iguanadex/localization'
-import { Flex, Heading, Text } from '@iguanadex/uikit'
-import Link from 'next/link'
-import { styled } from 'styled-components'
 import { useAccount } from 'wagmi'
+import { Flex, Text, Heading } from '@pancakeswap/uikit'
+import { styled } from 'styled-components'
+import { useTranslation } from '@pancakeswap/localization'
+import Link from 'next/link'
 import HowToCard from './HowToCard'
 
 const StyledLink = styled(Link)`

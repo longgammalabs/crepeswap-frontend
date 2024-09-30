@@ -1,5 +1,5 @@
-import { useTranslation } from '@iguanadex/localization'
-import { SubMenuItems } from '@iguanadex/uikit'
+import { useTranslation } from '@pancakeswap/localization'
+import { SubMenuItems } from '@pancakeswap/uikit'
 import { useRouter } from 'next/router'
 import React, { useMemo } from 'react'
 

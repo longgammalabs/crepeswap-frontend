@@ -1,4 +1,4 @@
-import { useTranslation } from "@iguanadex/localization";
+import { useTranslation } from "@pancakeswap/localization";
 import { useEffect, useRef, useState } from "react";
 import { styled } from "styled-components";
 import { Box, Flex } from "../Box";

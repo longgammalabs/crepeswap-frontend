@@ -1,8 +1,8 @@
-import { Box, Button, Flex, Heading, LinkExternal, PageHeader, PageSection } from '@iguanadex/uikit'
-import { NextLinkFromReactRouter } from '@iguanadex/widgets-internal'
+import { Box, Button, Flex, Heading, LinkExternal, PageHeader, PageSection } from '@pancakeswap/uikit'
+import { NextLinkFromReactRouter } from '@pancakeswap/widgets-internal'
 import { styled } from 'styled-components'
 
-import { useTranslation } from '@iguanadex/localization'
+import { useTranslation } from '@pancakeswap/localization'
 import SectionsWithFoldableText from 'components/FoldableSection/SectionsWithFoldableText'
 import PageLoader from 'components/Loader/PageLoader'
 import useTheme from 'hooks/useTheme'

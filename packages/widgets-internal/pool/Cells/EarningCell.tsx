@@ -1,10 +1,10 @@
-import { useTranslation } from "@iguanadex/localization";
-import { BIG_ZERO } from "@iguanadex/utils/bigNumber";
-import { getBalanceNumber } from "@iguanadex/utils/formatBalance";
+import { useTranslation } from "@pancakeswap/localization";
+import { BIG_ZERO } from "@pancakeswap/utils/bigNumber";
+import { getBalanceNumber } from "@pancakeswap/utils/formatBalance";
 import BigNumber from "bignumber.js";
 import { styled } from "styled-components";
 
-import { Balance, Box, Flex, Skeleton, Text, useMatchBreakpoints } from "@iguanadex/uikit";
+import { Balance, Box, Flex, Skeleton, Text, useMatchBreakpoints } from "@pancakeswap/uikit";
 import { DeserializedPool } from "../types";
 import { BaseCell, CellContent } from "./BaseCell";
 

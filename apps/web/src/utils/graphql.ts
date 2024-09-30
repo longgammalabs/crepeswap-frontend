@@ -1,4 +1,4 @@
-import { ChainId, STABLESWAP_SUBGRAPHS } from '@iguanadex/chains'
+import { ChainId, STABLESWAP_SUBGRAPHS } from '@pancakeswap/chains'
 import {
   BIT_QUERY,
   INFO_CLIENT,

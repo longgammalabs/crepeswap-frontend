@@ -1,5 +1,5 @@
 {
-  "extends": "@iguanadex/tsconfig/base",
+  "extends": "@pancakeswap/tsconfig/base",
   "compilerOptions": {
     "target": "es2020",
     "outDir": "./dist",

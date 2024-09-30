@@ -1,5 +1,5 @@
-import { Card } from "@iguanadex/uikit";
 import { styled } from "styled-components";
+import { Card } from "@pancakeswap/uikit";
 
 export const StyledCard = styled(Card)<{ isFinished?: boolean }>`
   min-width: 280px;

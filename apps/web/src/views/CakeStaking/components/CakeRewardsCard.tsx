@@ -1,5 +1,5 @@
-import { useTranslation } from '@iguanadex/localization'
-import { DeserializedLockedCakeVault, ONE_WEEK_DEFAULT, VaultKey } from '@iguanadex/pools'
+import { useTranslation } from '@pancakeswap/localization'
+import { DeserializedLockedCakeVault, ONE_WEEK_DEFAULT, VaultKey } from '@pancakeswap/pools'
 import {
   AtomBox,
   Balance,
@@ -21,9 +21,9 @@ import {
   WarningIcon,
   useMatchBreakpoints,
   useToast,
-} from '@iguanadex/uikit'
-import { getBalanceAmount } from '@iguanadex/utils/formatBalance'
-import getTimePeriods from '@iguanadex/utils/getTimePeriods'
+} from '@pancakeswap/uikit'
+import { getBalanceAmount } from '@pancakeswap/utils/formatBalance'
+import getTimePeriods from '@pancakeswap/utils/getTimePeriods'
 import BigNumber from 'bignumber.js'
 import { ToastDescriptionWithTx } from 'components/Toast'
 import useAccountActiveChain from 'hooks/useAccountActiveChain'

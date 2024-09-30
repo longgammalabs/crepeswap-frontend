@@ -1,10 +1,10 @@
-import { usePreviousValue } from '@iguanadex/hooks'
+import { useAccount } from 'wagmi'
 import { LotteryStatus } from 'config/constants/types'
+import { usePreviousValue } from '@pancakeswap/hooks'
 import { useEffect } from 'react'
 import { useAppDispatch } from 'state'
-import { fetchCurrentLotteryId, fetchPublicLotteries, fetchUserLotteries } from 'state/lottery'
 import { useLottery } from 'state/lottery/hooks'
-import { useAccount } from 'wagmi'
+import { fetchPublicLotteries, fetchCurrentLotteryId, fetchUserLotteries } from 'state/lottery'
 
 const useStatusTransitions = () => {
   const {

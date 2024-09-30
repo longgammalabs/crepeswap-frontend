@@ -1,4 +1,5 @@
-import { Image, Link, Text } from '@iguanadex/uikit'
+import { Image, Link, Text } from '@pancakeswap/uikit'
+import React from 'react'
 import { Container } from './terms-of-service'
 
 const Agreement = () => {

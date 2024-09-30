@@ -1,5 +1,5 @@
-import { useTranslation } from '@iguanadex/localization'
-import { Box, Flex, Text } from '@iguanadex/uikit'
+import { useTranslation } from '@pancakeswap/localization'
+import { Box, Flex, Text } from '@pancakeswap/uikit'
 import { memo } from 'react'
 import { CakeStakingPageLink, LearnMoreLink } from './LearnMoreLink'
 import { VeCakeButton } from './VeCakeButton'

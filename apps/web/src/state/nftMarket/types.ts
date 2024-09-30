@@ -1,4 +1,4 @@
-import { BigintIsh } from '@iguanadex/swap-sdk-core'
+import { BigintIsh } from '@pancakeswap/swap-sdk-core'
 import { Address } from 'wagmi'
 
 // Collections -> Nfts -> Transactions

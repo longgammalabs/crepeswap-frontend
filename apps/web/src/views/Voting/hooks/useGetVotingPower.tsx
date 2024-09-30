@@ -1,5 +1,5 @@
-import { ChainId } from '@iguanadex/chains'
-import { bscTokens } from '@iguanadex/tokens'
+import { ChainId } from '@pancakeswap/chains'
+import { bscTokens } from '@pancakeswap/tokens'
 import { useQuery } from '@tanstack/react-query'
 import { getActivePools } from 'utils/calls'
 import { publicClient } from 'utils/wagmi'

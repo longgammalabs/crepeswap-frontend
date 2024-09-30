@@ -1,7 +1,7 @@
-import { useTranslation } from '@iguanadex/localization'
-import { Currency } from '@iguanadex/sdk'
-import { Row, Text } from '@iguanadex/uikit'
+import { Currency } from '@pancakeswap/sdk'
 import { memo } from 'react'
+import { Row, Text } from '@pancakeswap/uikit'
+import { useTranslation } from '@pancakeswap/localization'
 
 import InternalLink from 'components/Links'
 import { useActiveChainId } from 'hooks/useActiveChainId'

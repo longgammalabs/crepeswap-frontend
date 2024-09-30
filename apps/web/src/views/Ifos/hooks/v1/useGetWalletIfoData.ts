@@ -1,14 +1,14 @@
-import { ChainId } from '@iguanadex/chains'
-import { Ifo, PoolIds } from '@iguanadex/ifos'
-import { BIG_ZERO } from '@iguanadex/utils/bigNumber'
-import BigNumber from 'bignumber.js'
-import { ifoV1ABI } from 'config/abi/ifoV1'
-import { useERC20, useIfoV1Contract } from 'hooks/useContract'
-import { useCallback, useState } from 'react'
-import { publicClient } from 'utils/wagmi'
+import { useState, useCallback } from 'react'
 import { useAccount } from 'wagmi'
-import { WalletIfoData, WalletIfoState } from '../../types'
+import BigNumber from 'bignumber.js'
+import { Ifo, PoolIds } from '@pancakeswap/ifos'
+import { useERC20, useIfoV1Contract } from 'hooks/useContract'
+import { BIG_ZERO } from '@pancakeswap/utils/bigNumber'
+import { publicClient } from 'utils/wagmi'
+import { ChainId } from '@pancakeswap/chains'
+import { ifoV1ABI } from 'config/abi/ifoV1'
 import useIfoAllowance from '../useIfoAllowance'
+import { WalletIfoState, WalletIfoData } from '../../types'
 
 interface UserInfo {
   amount: BigNumber

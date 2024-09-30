@@ -1,9 +1,9 @@
-import { useTranslation } from '@iguanadex/localization'
-import { Balance, Box, Button, Flex, Text } from '@iguanadex/uikit'
-import Trans from 'components/Trans'
-import { ReactNode } from 'react'
 import { styled } from 'styled-components'
+import Trans from 'components/Trans'
+import { useTranslation } from '@pancakeswap/localization'
+import { Text, Button, Flex, Box, Balance } from '@pancakeswap/uikit'
 import { WinRateCalculatorState } from 'views/Pottery/hooks/useWinRateCalculator'
+import { ReactNode } from 'react'
 
 const StyledBox = styled(Box)`
   background-color: ${({ theme }) => theme.colors.input};

@@ -1,15 +1,15 @@
-import { useTranslation } from "@iguanadex/localization";
+import { useTranslation } from "@pancakeswap/localization";
 import { memo } from "react";
 
-import { Flex, Text } from "@iguanadex/uikit";
+import { Flex, Text } from "@pancakeswap/uikit";
 import {
-  MILLION,
   RoiCardInner,
   RoiCardWrapper,
-  RoiDisplayContainer,
   RoiDollarAmount,
+  RoiDisplayContainer,
+  MILLION,
   TRILLION,
-} from "@iguanadex/uikit/components/RoiCalculatorModal/RoiCard";
+} from "@pancakeswap/uikit/components/RoiCalculatorModal/RoiCard";
 
 interface Props {
   usdAmount?: number;

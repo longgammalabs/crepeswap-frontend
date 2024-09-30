@@ -1,4 +1,4 @@
-import { ChainId } from '@iguanadex/chains'
+import { ChainId } from '@pancakeswap/chains'
 import { getChainlinkOracleContract } from 'utils/contractHelpers'
 import { Address, useContractRead } from 'wagmi'
 

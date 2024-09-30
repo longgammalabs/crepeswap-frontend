@@ -1,11 +1,13 @@
-import { useTranslation } from '@iguanadex/localization'
-import { Flex, Spinner, Text } from '@iguanadex/uikit'
-import ConnectWalletButton from 'components/ConnectWalletButton'
-import useLocalDispatch from 'contexts/LocalRedux/useLocalDispatch'
-import { useActiveChainId } from 'hooks/useActiveChainId'
 import { ReactNode, useEffect, useState } from 'react'
+import { Flex, Spinner, Text } from '@pancakeswap/uikit'
+import { useAccount } from 'wagmi'
+import { styled } from 'styled-components'
+import ConnectWalletButton from 'components/ConnectWalletButton'
+import { useTranslation } from '@pancakeswap/localization'
 import { fetchNodeHistory } from 'state/predictions'
 import { getFilteredBets } from 'state/predictions/helpers'
+import { useActiveChainId } from 'hooks/useActiveChainId'
+import useLocalDispatch from 'contexts/LocalRedux/useLocalDispatch'
 import {
   useGetCurrentEpoch,
   useGetCurrentHistoryPage,
@@ -14,11 +16,9 @@ import {
   useGetIsFetchingHistory,
   useIsHistoryPaneOpen,
 } from 'state/predictions/hooks'
-import { styled } from 'styled-components'
-import { useAccount } from 'wagmi'
 import { Header, HistoryTabs } from './components/History'
-import PnlTab from './components/History/PnlTab/PnlTab'
 import RoundsTab from './components/History/RoundsTab'
+import PnlTab from './components/History/PnlTab/PnlTab'
 
 const StyledHistory = styled.div`
   background-color: ${({ theme }) => theme.card.background};

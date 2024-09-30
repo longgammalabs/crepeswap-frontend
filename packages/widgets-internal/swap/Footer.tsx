@@ -1,5 +1,5 @@
-import { useTranslation } from "@iguanadex/localization";
-import { Button, Flex, Image, LinkExternal, Svg } from "@iguanadex/uikit";
+import { useTranslation } from "@pancakeswap/localization";
+import { Button, Flex, Image, LinkExternal, Svg } from "@pancakeswap/uikit";
 import { ReactNode, memo } from "react";
 import { styled } from "styled-components";
 

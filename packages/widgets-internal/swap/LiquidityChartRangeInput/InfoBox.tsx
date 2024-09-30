@@ -1,6 +1,6 @@
 import { ReactNode } from "react";
 
-import { ColumnCenter, Text } from "@iguanadex/uikit";
+import { ColumnCenter, Text } from "@pancakeswap/uikit";
 
 export function InfoBox({ message, icon }: { message?: ReactNode; icon: ReactNode }) {
   return (
