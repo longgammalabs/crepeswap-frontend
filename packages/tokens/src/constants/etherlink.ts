@@ -28,7 +28,7 @@ export const etherlinkTokens = {
   shib: new ERC20Token(ChainId.ETHERLINK, '0xBBD1F50A212357067318a84179892684e1Ac5181', 18, 'SHIB', 'SHIBA INU'),
   mood: new ERC20Token(
     ChainId.ETHERLINK,
-    '0xd08b30c1eda1284cd70e73f29ba27b5315acc3f9',
+    '0xd08B30c1EdA1284cD70E73F29ba27B5315aCc3F9',
     18,
     'MOOD',
     'MOOD',
