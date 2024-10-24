@@ -4,8 +4,6 @@ import { farmsV3 as baseFarm } from '@pancakeswap/farms/constants/base'
 import { farmsV3 as bscFarm } from '@pancakeswap/farms/constants/bsc'
 import { farmsV3 as farm97 } from '@pancakeswap/farms/constants/bscTestnet'
 import { farmsV3 as ethFarm } from '@pancakeswap/farms/constants/eth'
-import { farmsV3 as etherlinkFarm } from '@pancakeswap/farms/constants/etherlink'
-import { farmsV3 as etherlinkTestnetFarm } from '@pancakeswap/farms/constants/etherlinkTestnet'
 import { farmsV3 as farm5 } from '@pancakeswap/farms/constants/goerli'
 import { farmsV3 as lineaFarm } from '@pancakeswap/farms/constants/linea'
 import { farmsV3 as opBNBFarms } from '@pancakeswap/farms/constants/opBNB'
@@ -35,6 +33,6 @@ export const tradingRewardPairConfigChainMap: Record<FarmV3SupportedChainId, Com
   [ChainId.BASE]: [...baseFarm, ...tradingRewardBaseV3Pair],
   [ChainId.OPBNB_TESTNET]: opBNBTestnetFarms,
   [ChainId.OPBNB]: opBNBFarms,
-  [ChainId.ETHERLINK_TESTNET]: etherlinkTestnetFarm,
-  [ChainId.ETHERLINK]: etherlinkFarm,
+  // [ChainId.ETHERLINK_TESTNET]: etherlinkTestnetFarm,
+  // [ChainId.ETHERLINK]: etherlinkFarm,
 }
