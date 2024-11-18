@@ -34,4 +34,5 @@ export const etherlinkTokens = {
     'MOOD',
     'https://www.degeneratives.art/',
   ),
+  tzpepe: new ERC20Token(ChainId.ETHERLINK, '0x9121B153bbCF8C23F20eE43b494F08760B91aD64', 2, 'tzPEPE', 'TEZOS PEPE'),
 }

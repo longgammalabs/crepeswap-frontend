@@ -603,6 +603,14 @@
       "logoURI": "https://raw.githubusercontent.com/IguanaDEX/assets/main/assets/0xd08B30c1EdA1284cD70E73F29ba27B5315aCc3F9.png"
     },
     {
+      "name": "TEZOS PEPE",
+      "symbol": "tzPEPE",
+      "address": "0x9121B153bbCF8C23F20eE43b494F08760B91aD64",
+      "chainId": 42793,
+      "decimals": 2,
+      "logoURI": "https://raw.githubusercontent.com/IguanaDEX/assets/main/assets/0x9121B153bbCF8C23F20eE43b494F08760B91aD64.jpg"
+    },
+    {
       "name": "Tether USD",
       "symbol": "USDT",
       "address": "0x2C03058C8AFC06713be23e58D2febC8337dbfE6A",
