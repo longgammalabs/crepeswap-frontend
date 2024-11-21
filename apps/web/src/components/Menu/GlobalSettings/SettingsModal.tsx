@@ -1,5 +1,5 @@
-import { ChainId } from '@IguanaDEX/chains'
-import { useTranslation } from '@IguanaDEX/localization'
+import { ChainId } from '@pancakeswap/chains'
+import { useTranslation } from '@pancakeswap/localization'
 import {
   AtomBox,
   AutoColumn,
@@ -21,14 +21,14 @@ import {
   Text,
   ThemeSwitcher,
   Toggle,
-} from '@IguanaDEX/uikit'
+} from '@pancakeswap/uikit'
 import {
   useAudioPlay,
   useExpertMode,
   useUserExpertModeAcknowledgement,
   useUserSingleHopOnly,
-} from '@IguanaDEX/utils/user'
-import { ExpertModal } from '@IguanaDEX/widgets-internal'
+} from '@pancakeswap/utils/user'
+import { ExpertModal } from '@pancakeswap/widgets-internal'
 import { TOKEN_RISK } from 'components/AccessRisk'
 import AccessRiskTooltips from 'components/AccessRisk/AccessRiskTooltips'
 import { useActiveChainId } from 'hooks/useActiveChainId'
