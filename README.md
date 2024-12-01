@@ -50,3 +50,35 @@ pnpm start
 | [sdk](/packages/swap-sdk)                | An SDK for building applications on top of Pancakeswap                                                      |
 | [swap-sdk-core](/packages/swap-sdk-core) | Swap SDK Shared code                                                                                        |
 | [wagmi](/packages/wagmi)                 | Extension for [wagmi](https://github.com/wagmi-dev/wagmi), including bsc chain and binance wallet connector |
+
+## Vercel deployment
+
+Install dependecies
+
+```sh
+pnpm i
+```
+
+Build all necessary packages
+
+```sh
+pnpm build
+```
+
+Link to vercel
+
+```sh
+vercel link
+```
+
+Build with vercel locally
+
+```sh
+vercel build --prod
+```
+
+Deploy prebuilded version
+
+```sh
+vercel --deploy --prod --pre-build
+```
